@@ -1,0 +1,37 @@
+{
+  "name": "wow-macro-tokenizer",
+  "version": "1.0.0",
+  "description": "World of Warcraft macro parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=min src/**/*.spec.js & exit 0",
+    "test:watch": "mocha --reporter=min --watch src/**/*.spec.js & exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autioch/wow-macro-tokenizer.git"
+  },
+  "keywords": [
+    "wow",
+    "warcraft",
+    "macro",
+    "tokenizer",
+    "lua"
+  ],
+  "author": "github.com/autioch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autioch/wow-macro-tokenizer/issues"
+  },
+  "homepage": "https://github.com/autioch/wow-macro-tokenizer#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-qb": "^1.0.0",
+    "lodash": "^4.17.4",
+    "lodash.flatten": "^4.4.0",
+    "mocha": "^4.0.1",
+    "nearley": "^2.11.0"
+  }
+}

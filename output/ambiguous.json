@@ -1,0 +1,476 @@
+[
+  {
+    "line": "#showtooltip  Demonic Soulstone",
+    "results": [
+      [
+        "#showtooltip",
+        "  ",
+        "Demonic Soulstone"
+      ],
+      [
+        "#showtooltip",
+        " ",
+        " Demonic Soulstone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Chains of Ice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Chains of Ice"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Chains of Ice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Charge",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Charge"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Charge"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Counterspell",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Counterspell"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Counterspell"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Cyclone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Cyclone"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Cyclone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Entangling Roots",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Entangling Roots"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Entangling Roots"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Fear",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Fear"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Fear"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Hammer of Justice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hammer of Justice"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hammer of Justice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Hex",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hex"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hex"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Hibernate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hibernate"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Hibernate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Intercept",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Intercept"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Intercept"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Polymorph",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Polymorph"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Polymorph"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Repentance",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Repentance"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Repentance"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Scatter Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Scatter Shot"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Scatter Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Silence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Silence"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Silence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Silencing Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Silencing Shot"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Silencing Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Turn Evil",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Turn Evil"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Turn Evil"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Wind Shear",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Wind Shear"
+      ],
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "focus",
+        "]",
+        " ",
+        "Wind Shear"
+      ]
+    ]
+  }
+]

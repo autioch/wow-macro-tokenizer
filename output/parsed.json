@@ -1,0 +1,3256 @@
+[
+  {
+    "line": "#showtooltip",
+    "results": [
+      [
+        "#showtooltip"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Aegis of the Coliseum",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Aegis of the Coliseum"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Arcane Blast",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Arcane Blast"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Berserk",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Berserk"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Black War Tiger",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Black War Tiger"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Bladestorm",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Bladestorm"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Blink",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Blink"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Blue Wind Rider",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Blue Wind Rider"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Bone Shield",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Bone Shield"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Bulwark of the Royal Guard",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Bulwark of the Royal Guard"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Charge",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Charge"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Charger",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Charger"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Conjured Mana Strudel",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Conjured Mana Strudel"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Corroded Skeleton Key",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Corroded Skeleton Key"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Corruption",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Corruption"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Counterspell",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Counterspell"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Curse of Weakness",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Curse of Weakness"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Dancing Rune Weapon",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Dancing Rune Weapon"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Death Pact",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Death Pact"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Deterrence",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Deterrence"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Devastate",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Devastate"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Devouring Plague",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Devouring Plague"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Disarm",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Disarm"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Edge of Ruin",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Edge of Ruin"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Enraged Regeneration",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Enraged Regeneration"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Frostwolf Howler",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Frostwolf Howler"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Gnaw",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Gnaw"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Grand Firestone",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Grand Firestone"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Grand Spellstone",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Grand Spellstone"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Hammer of Justice",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Hammer of Justice"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Hammer of Wrath",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Hammer of Wrath"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Heart Strike",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Heart Strike"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Heroic Throw",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Heroic Throw"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Hex",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Hex"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Howling",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Howling"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Huddle",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Huddle"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Ice Barrier",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Ice Barrier"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Ice Block",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Ice Block"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Intercept",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Intercept"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Judgement of Justice",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Judgement of Justice"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Judgement of Light",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Judgement of Light"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Judgement of Wisdom",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Judgement of Wisdom"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Leap",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Leap"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Mana Sapphire",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Mana Sapphire"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Mind Blast",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Mind Blast"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Mind Flay",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Mind Flay"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Mortal Strike",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Mortal Strike"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Nevermelting Ice Crystal",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Nevermelting Ice Crystal"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Overpower",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Overpower"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Pestilence",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Pestilence"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Polymorph",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Polymorph"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Pummel",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Pummel"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Rapid Fire",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Rapid Fire"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Rend",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Rend"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Repentance",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Repentance"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Roar of Recovery",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Roar of Recovery"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Royal Crest of Lordaeron",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Royal Crest of Lordaeron"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Scatter Shot",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Scatter Shot"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Shield Bash",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Shield Bash"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Shield Block",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Shield Block"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Shield Slam",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Shield Slam"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Shield Wall",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Shield Wall"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Silence",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Silence"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Spell Reflection",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Spell Reflection"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Summon Charger",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Summon Charger"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Summon Gargoyle",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Summon Gargoyle"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Summon Warhorse",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Summon Warhorse"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Survival Instincts",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Survival Instincts"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift Burgundy Wolf",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift Burgundy Wolf"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift Moonsaber",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift Moonsaber"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift Orange Raptor",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift Orange Raptor"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift Purple Gryphon",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift Purple Gryphon"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift Purple Hawkstrider",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift Purple Hawkstrider"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Swift White Steed",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Swift White Steed"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Turn Evil",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Turn Evil"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip Wind Shear",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "Wind Shear"
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip seduction",
+    "results": [
+      [
+        "#showtooltip",
+        " ",
+        "seduction"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Aimed Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Aimed Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Arcane Blast",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Arcane Blast"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Arcane Power",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Arcane Power"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Arcane Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Arcane Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Aspect of the Cheetah",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Aspect of the Cheetah"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Aspect of the Dragonhawk",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Aspect of the Dragonhawk"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Avenging Wrath",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Avenging Wrath"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Battle Stance",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Battle Stance"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Berserk",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Berserk"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Berserker Stance",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Berserker Stance"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Blink",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Blink"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Blood Tap",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Blood Tap"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Bloodrage",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Bloodrage"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Bone Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Bone Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Call of the Wild",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Call of the Wild"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Charge",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Charge"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Chimera Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Chimera Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Corruption",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Corruption"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Counterspell",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Counterspell"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Cower",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Cower"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Crusader Strike",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Crusader Strike"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Cyclone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Cyclone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Dancing Rune Weapon",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Dancing Rune Weapon"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Death Pact",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Death Pact"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Defensive Stance",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Defensive Stance"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Deterrence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Deterrence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Devastate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Devastate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Devouring Plague",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Devouring Plague"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Disarm",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Disarm"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Dispel magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Dispel magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Dispersion",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Dispersion"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Divine Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Divine Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Divine Storm",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Divine Storm"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Elemental Mastery",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Elemental Mastery"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Enraged Regeneration",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Enraged Regeneration"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Entangling Roots",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Entangling Roots"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Explosive Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Explosive Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Fear",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Fear"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Feed Pet",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Feed Pet"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Flame Shock",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Flame Shock"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Frenzied Regeneration",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Frenzied Regeneration"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Frost Presence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Frost Presence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Gnaw",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Gnaw"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Grounding Totem",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Grounding Totem"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Hammer of Justice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Hammer of Justice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Hammer of Wrath",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Hammer of Wrath"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Hammer of the Righteous",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Hammer of the Righteous"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Healing Wave",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Healing Wave"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Heart Strike",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Heart Strike"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Heroic Throw",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Heroic Throw"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Hex",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Hex"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Hibernate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Hibernate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Huddle",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Huddle"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Ice Barrier",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Ice Barrier"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Ice Block",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Ice Block"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Icy Veins",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Icy Veins"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Inner Focus",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Inner Focus"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Intercept",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Intercept"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Judgement of Justice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Judgement of Justice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Judgement of Light",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Judgement of Light"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Judgement of Wisdom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Judgement of Wisdom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Kill Command",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Kill Command"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Lifeblood",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Lifeblood"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Mark of Supremacy",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Mark of Supremacy"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Mind Blast",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Mind Blast"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Mirror Image",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Mirror Image"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Mortal Strike",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Mortal Strike"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Mutilate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Mutilate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Nevermelting Ice Crystal",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Nevermelting Ice Crystal"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Obliterate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Obliterate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Overpower",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Overpower"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Pestilence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Pestilence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Pin",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Pin"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Polymorph",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Polymorph"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Psychic Horror",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Psychic Horror"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Psychic Scream",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Psychic Scream"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Pummel",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Pummel"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Rapid Fire",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Rapid Fire"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Rend",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Rend"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Repentance",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Repentance"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Ritual of Summoning",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Ritual of Summoning"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Roar of Recovery",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Roar of Recovery"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Scatter Shot",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Scatter Shot"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Serpent Sting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Serpent Sting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shadowfiend",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shadowfiend"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shield Bash",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shield Bash"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shield Block",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shield Block"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shield Slam",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shield Slam"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shield Wall",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shield Wall"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Shield of the Righteous",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Shield of the Righteous"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Silence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Silence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Sinister Strike",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Sinister Strike"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Spell Reflection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Spell Reflection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Summon Gargoyle",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Summon Gargoyle"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Survival Instincts",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Survival Instincts"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Talisman of Volatile Power",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Talisman of Volatile Power"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Tidal Force",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Tidal Force"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Tremor Totem",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Tremor Totem"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Trueshot Aura",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Trueshot Aura"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Turn Evil",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Turn Evil"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Unholy Presence",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Unholy Presence"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Vampiric Touch",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Vampiric Touch"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Warts-B-Gone Lip Balm",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Warts-B-Gone Lip Balm"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Web",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Web"
+      ]
+    ]
+  },
+  {
+    "line": "/cast Wind Shear",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "Wind Shear"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Armorsmith",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Armorsmith"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Death Gate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Death Gate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Fel Armor",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Fel Armor"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] First Aid",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "First Aid"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Jeeves",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Jeeves"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Jewelcrafting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Jewelcrafting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Summon Felhunter",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Summon Felhunter"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:alt] Summon felhunter",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "alt",
+        "]",
+        " ",
+        "Summon felhunter"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Basic Campfire",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Basic Campfire"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Death Gate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Death Gate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Engineering",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Engineering"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Fel Armor",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Fel Armor"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] First Aid",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "First Aid"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Hearthstone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Hearthstone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Jewelcrafting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Jewelcrafting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Runed Signet of the Kirin Tor",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Runed Signet of the Kirin Tor"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Smelting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Smelting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:ctrl] Summon Imp",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "ctrl",
+        "]",
+        " ",
+        "Summon Imp"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Black Drake",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Black Drake"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Cooking",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Cooking"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Create Healthstone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Create Healthstone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Death Gate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Death Gate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Enchanting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Enchanting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Fel Armor",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Fel Armor"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Hearthstone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Hearthstone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Jewelcrafting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Jewelcrafting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] MOLL-E",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "MOLL-E"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [mod:shift] Summon Succubus",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "mod",
+        ":",
+        "shift",
+        "]",
+        " ",
+        "Summon Succubus"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Astral Recall",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Astral Recall"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Basic Campfire",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Basic Campfire"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Death Gate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Death Gate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Demon Armor",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Demon Armor"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Disenchant",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Disenchant"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Engineering",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Engineering"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Hearthstone",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Hearthstone"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Prospecting",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Prospecting"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod] Summon Voidwalker",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "nomod",
+        "]",
+        " ",
+        "Summon Voidwalker"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Flash of Light",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Flash of Light"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Hand of Freedom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Hand of Freedom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Hand of Protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Hand of Protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Hand of Sacrifice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Hand of Sacrifice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Agimijagi] Sacred Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Agimijagi",
+        "]",
+        " ",
+        "Sacred Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Amancik] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Amancik",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Angrylock] Cure Toxins",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Angrylock",
+        "]",
+        " ",
+        "Cure Toxins"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Angrylock] Gift of the Naaru",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Angrylock",
+        "]",
+        " ",
+        "Gift of the Naaru"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Arald] Dispel magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Arald",
+        "]",
+        " ",
+        "Dispel magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Aseel] Dispel magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Aseel",
+        "]",
+        " ",
+        "Dispel magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Cryptic] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Cryptic",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Cryptic] Hand of Freedom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Cryptic",
+        "]",
+        " ",
+        "Hand of Freedom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Cryptic] Hand of Sacrifice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Cryptic",
+        "]",
+        " ",
+        "Hand of Sacrifice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Cryptic] Hand of protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Cryptic",
+        "]",
+        " ",
+        "Hand of protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Cryptic] Sacred Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Cryptic",
+        "]",
+        " ",
+        "Sacred Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Eledrin] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Eledrin",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Flash of Light",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Flash of Light"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Hand of Freedom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Hand of Freedom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Hand of Protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Hand of Protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Hand of Sacrifice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Hand of Sacrifice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Innervate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Innervate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] Sacred Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "Sacred Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Emiru] remove curse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Emiru",
+        "]",
+        " ",
+        "remove curse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Goldmoon] Cure Toxins",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Goldmoon",
+        "]",
+        " ",
+        "Cure Toxins"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Goldmoon] Hand of protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Goldmoon",
+        "]",
+        " ",
+        "Hand of protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Irrissa] Abolish Disease",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Irrissa",
+        "]",
+        " ",
+        "Abolish Disease"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Irrissa] Dispel magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Irrissa",
+        "]",
+        " ",
+        "Dispel magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Mindblowing] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Mindblowing",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Mindblowing] Hand of Freedom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Mindblowing",
+        "]",
+        " ",
+        "Hand of Freedom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Mindblowing] Hand of protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Mindblowing",
+        "]",
+        " ",
+        "Hand of protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Mindblowing] Sacred Shield",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Mindblowing",
+        "]",
+        " ",
+        "Sacred Shield"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Quenth] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Quenth",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Quenth] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Quenth",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Quenth] Flash of Light",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Quenth",
+        "]",
+        " ",
+        "Flash of Light"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Raffael] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Raffael",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Rashael] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Rashael",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Suzuke] Hand of Protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Suzuke",
+        "]",
+        " ",
+        "Hand of Protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vanyaelnesar] Cleanse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vanyaelnesar",
+        "]",
+        " ",
+        "Cleanse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vanyaelnesar] Flash of Light",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vanyaelnesar",
+        "]",
+        " ",
+        "Flash of Light"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vanyaelnesar] Hand of Freedom",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vanyaelnesar",
+        "]",
+        " ",
+        "Hand of Freedom"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vanyaelnesar] Hand of Protection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vanyaelnesar",
+        "]",
+        " ",
+        "Hand of Protection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vanyaelnesar] Hand of Sacrifice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vanyaelnesar",
+        "]",
+        " ",
+        "Hand of Sacrifice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Voilyn] Leap",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Voilyn",
+        "]",
+        " ",
+        "Leap"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=Vudu] Dispel Magic",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "Vudu",
+        "]",
+        " ",
+        "Dispel Magic"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=dronin] Innervate",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "dronin",
+        "]",
+        " ",
+        "Innervate"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=dronin] remove curse",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "dronin",
+        "]",
+        " ",
+        "remove curse"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=mouseover] Chains of Ice",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "mouseover",
+        "]",
+        " ",
+        "Chains of Ice"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=player] Cure Toxins",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "player",
+        "]",
+        " ",
+        "Cure Toxins"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=player] Gift of the Naaru",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "player",
+        "]",
+        " ",
+        "Gift of the Naaru"
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=szarzuje] Misdirection",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "[",
+        "target",
+        "=",
+        "szarzuje",
+        "]",
+        " ",
+        "Misdirection"
+      ]
+    ]
+  },
+  {
+    "line": "/cast flash heal",
+    "results": [
+      [
+        "/cast",
+        " ",
+        "flash heal"
+      ]
+    ]
+  },
+  {
+    "line": "/castsequence Raise Dead, Death Pact",
+    "results": [
+      [
+        "/castsequence",
+        " ",
+        "Raise Dead",
+        ",",
+        " Death Pact"
+      ]
+    ]
+  },
+  {
+    "line": "/startattack",
+    "results": [
+      [
+        "/startattack"
+      ]
+    ]
+  }
+]
