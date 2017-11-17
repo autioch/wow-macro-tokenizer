@@ -17,4 +17,4 @@ const failed = examples.filter((example) => {
   // });
 });
 
-console.log(failed.length);
+console.log(examples.length, failed.length);

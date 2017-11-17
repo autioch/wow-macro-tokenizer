@@ -6,8 +6,10 @@ const { flattenDeep } = require('lodash');
 module.exports = function tokenize(line) {
   let results = [];
 
+  const parser = new nearley.Parser(grammar);
+
   try {
-    results = new nearley.Parser(grammar).feed(line).results; // eslint-disable-line prefer-destructuring
+    results = parser.feed(line).results; // eslint-disable-line prefer-destructuring
   } catch (err) {
     // console.log(err.message.split('\n')[2]); // eslint-disable-line no-magic-numbers
   }
