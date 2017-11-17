@@ -8,7 +8,8 @@ MAIN ->
   SHOWTOOLTIP_LINE |
   TARGET_LINE |
   USE_LINE |
-  WHO_LINE
+  WHO_LINE |
+  ADDON_LINE
 
 NUMBER -> [0-9]:+ {% d => d[0].join('') %}
 NUMBER_RANGE -> NUMBER "-" NUMBER
