@@ -10,7 +10,7 @@ module.exports = function tokenize(line) {
 
   try {
     results = parser.feed(line).results; // eslint-disable-line prefer-destructuring
-  } catch (err) {
+  } catch (err) { // eslint-disable-line no-unused-vars
     // console.log(err.message.split('\n')[2]); // eslint-disable-line no-magic-numbers
   }
 

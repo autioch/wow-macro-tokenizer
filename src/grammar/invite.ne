@@ -1,3 +1,3 @@
 INVITE_ID -> "/inv" | "/invite"
 
-INVITE_LINE -> INV_START _ NICK
+INVITE_LINE -> INVITE_ID _ NICK
