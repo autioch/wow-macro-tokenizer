@@ -1,16 +1,1179 @@
 [
   {
-    "line": "#showtooltip  Demonic Soulstone",
+    "line": "#showtooltip [combat] Eviscerate; Stealth",
     "results": [
       [
         "#showtooltip",
-        "  ",
-        "Demonic Soulstone"
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Eviscerate"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Stealth"
+        }
       ],
       [
         "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
         " ",
-        " Demonic Soulstone"
+        {
+          "type": "spell",
+          "data": "Eviscerate"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Stealth"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Eviscerate"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Stealth"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Eviscerate"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Stealth"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [combat] Ferocious Bite; Prowl",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Ferocious Bite"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Prowl"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Ferocious Bite"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Prowl"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Ferocious Bite"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Prowl"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "combat"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Ferocious Bite"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Prowl"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Armored Blue Wind Rider; Swift Warstrider",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Armored Blue Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Warstrider"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Armored Blue Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Warstrider"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Armored Blue Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Warstrider"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Armored Blue Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Warstrider"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Ashes of Al'ar; Swift Razzashi Raptor",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Ashes of Al,',ar"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Razzashi Raptor"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Ashes of Al,',ar"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Razzashi Raptor"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Ashes of Al,',ar"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Razzashi Raptor"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Ashes of Al,',ar"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Razzashi Raptor"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Blue Wind Rider; Swift Timber Wolf",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Blue Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Timber Wolf"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Blue Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Timber Wolf"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Blue Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Timber Wolf"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Blue Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Timber Wolf"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Swift Purple Wind Rider; Acherus Deathcharger",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [flyable] Time-Lost Proto-Drake; Red Skeletal Warhorse",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Time,-,Lost Proto,-,Drake"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Red Skeletal Warhorse"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Time,-,Lost Proto,-,Drake"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Red Skeletal Warhorse"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Time,-,Lost Proto,-,Drake"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Red Skeletal Warhorse"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "flyable"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Time,-,Lost Proto,-,Drake"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Red Skeletal Warhorse"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "#showtooltip [nopet] Summon Water Elemental; Freeze",
+    "results": [
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ],
+      [
+        "#showtooltip",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod,noflyable,nomounted]  Charger",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        "  ",
+        {
+          "type": "spell",
+          "data": "Charger"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Charger"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [nomod,noflyable,nomounted]  Summon Charger",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        "  ",
+        {
+          "type": "spell",
+          "data": "Summon Charger"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Summon Charger"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [pet:Felhunter,target=player] Devour Magic",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "pet:Felhunter"
+              ]
+            ],
+            ",",
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Devour Magic"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "pet:Felhunter"
+              ]
+            ],
+            ",",
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Devour Magic"
+        }
       ]
     ]
   },
@@ -18,26 +1181,54 @@
     "line": "/cast [target=focus] Chains of Ice",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Chains of Ice"
+        {
+          "type": "spell",
+          "data": "Chains of Ice"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Chains of Ice"
+        {
+          "type": "spell",
+          "data": "Chains of Ice"
+        }
       ]
     ]
   },
@@ -45,26 +1236,54 @@
     "line": "/cast [target=focus] Charge",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Charge"
+        {
+          "type": "spell",
+          "data": "Charge"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Charge"
+        {
+          "type": "spell",
+          "data": "Charge"
+        }
       ]
     ]
   },
@@ -72,26 +1291,54 @@
     "line": "/cast [target=focus] Counterspell",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Counterspell"
+        {
+          "type": "spell",
+          "data": "Counterspell"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Counterspell"
+        {
+          "type": "spell",
+          "data": "Counterspell"
+        }
       ]
     ]
   },
@@ -99,26 +1346,109 @@
     "line": "/cast [target=focus] Cyclone",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Cyclone"
+        {
+          "type": "spell",
+          "data": "Cyclone"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
+        {
+          "type": "spell",
+          "data": "Cyclone"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=focus] Death Coil(Rank 6)",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "Cyclone"
+        {
+          "type": "spell",
+          "data": "Death Coil(,Rank ,[object Object],)"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Death Coil(,Rank ,[object Object],)"
+        }
       ]
     ]
   },
@@ -126,26 +1456,54 @@
     "line": "/cast [target=focus] Entangling Roots",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Entangling Roots"
+        {
+          "type": "spell",
+          "data": "Entangling Roots"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Entangling Roots"
+        {
+          "type": "spell",
+          "data": "Entangling Roots"
+        }
       ]
     ]
   },
@@ -153,26 +1511,54 @@
     "line": "/cast [target=focus] Fear",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Fear"
+        {
+          "type": "spell",
+          "data": "Fear"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Fear"
+        {
+          "type": "spell",
+          "data": "Fear"
+        }
       ]
     ]
   },
@@ -180,26 +1566,54 @@
     "line": "/cast [target=focus] Hammer of Justice",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hammer of Justice"
+        {
+          "type": "spell",
+          "data": "Hammer of Justice"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hammer of Justice"
+        {
+          "type": "spell",
+          "data": "Hammer of Justice"
+        }
       ]
     ]
   },
@@ -207,26 +1621,54 @@
     "line": "/cast [target=focus] Hex",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hex"
+        {
+          "type": "spell",
+          "data": "Hex"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hex"
+        {
+          "type": "spell",
+          "data": "Hex"
+        }
       ]
     ]
   },
@@ -234,26 +1676,54 @@
     "line": "/cast [target=focus] Hibernate",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hibernate"
+        {
+          "type": "spell",
+          "data": "Hibernate"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Hibernate"
+        {
+          "type": "spell",
+          "data": "Hibernate"
+        }
       ]
     ]
   },
@@ -261,26 +1731,54 @@
     "line": "/cast [target=focus] Intercept",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Intercept"
+        {
+          "type": "spell",
+          "data": "Intercept"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Intercept"
+        {
+          "type": "spell",
+          "data": "Intercept"
+        }
       ]
     ]
   },
@@ -288,26 +1786,54 @@
     "line": "/cast [target=focus] Polymorph",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Polymorph"
+        {
+          "type": "spell",
+          "data": "Polymorph"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Polymorph"
+        {
+          "type": "spell",
+          "data": "Polymorph"
+        }
       ]
     ]
   },
@@ -315,26 +1841,54 @@
     "line": "/cast [target=focus] Repentance",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Repentance"
+        {
+          "type": "spell",
+          "data": "Repentance"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Repentance"
+        {
+          "type": "spell",
+          "data": "Repentance"
+        }
       ]
     ]
   },
@@ -342,26 +1896,54 @@
     "line": "/cast [target=focus] Scatter Shot",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Scatter Shot"
+        {
+          "type": "spell",
+          "data": "Scatter Shot"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Scatter Shot"
+        {
+          "type": "spell",
+          "data": "Scatter Shot"
+        }
       ]
     ]
   },
@@ -369,26 +1951,54 @@
     "line": "/cast [target=focus] Silence",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Silence"
+        {
+          "type": "spell",
+          "data": "Silence"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Silence"
+        {
+          "type": "spell",
+          "data": "Silence"
+        }
       ]
     ]
   },
@@ -396,26 +2006,54 @@
     "line": "/cast [target=focus] Silencing Shot",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Silencing Shot"
+        {
+          "type": "spell",
+          "data": "Silencing Shot"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Silencing Shot"
+        {
+          "type": "spell",
+          "data": "Silencing Shot"
+        }
       ]
     ]
   },
@@ -423,26 +2061,54 @@
     "line": "/cast [target=focus] Turn Evil",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Turn Evil"
+        {
+          "type": "spell",
+          "data": "Turn Evil"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Turn Evil"
+        {
+          "type": "spell",
+          "data": "Turn Evil"
+        }
       ]
     ]
   },
@@ -450,26 +2116,2691 @@
     "line": "/cast [target=focus] Wind Shear",
     "results": [
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "focus"
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
-        " ",
-        "Wind Shear"
+        {
+          "type": "spell",
+          "data": "Wind Shear"
+        }
       ],
       [
-        "/cast",
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "focus"
+                ]
+              ]
+            ]
+          ]
+        },
         " ",
-        "[",
-        "target",
-        "=",
-        "focus",
-        "]",
+        {
+          "type": "spell",
+          "data": "Wind Shear"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=player] Cure Toxins",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
         " ",
-        "Wind Shear"
+        {
+          "type": "spell",
+          "data": "Cure Toxins"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Cure Toxins"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/cast [target=player] Gift of the Naaru",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Gift of the Naaru"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/cast"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Gift of the Naaru"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/castrandom [nomod,noflyable,nomounted]  Black War Bear, Swift Moonsaber, Swift Brewfest Ram, Black War Steed, Stormpike Battle Charger, Turbostrider",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/castrandom"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        "  ",
+        {
+          "type": "spell",
+          "data": "Black War Bear"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Swift Moonsaber"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Swift Brewfest Ram"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Black War Steed"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Stormpike Battle Charger"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Turbostrider"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/castrandom"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  [
+                    "nomod"
+                  ]
+                ]
+              ],
+              ",",
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ",",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Black War Bear"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Swift Moonsaber"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Swift Brewfest Ram"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Black War Steed"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Stormpike Battle Charger"
+        },
+        ", ",
+        {
+          "type": "spell",
+          "data": "Turbostrider"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/ra    Soulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel",
+    "results": [
+      [
+        "/ra",
+        "    ",
+        "S",
+        "oulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel"
+      ],
+      [
+        "/ra",
+        "  ",
+        " ",
+        " Soulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel"
+      ],
+      [
+        "/ra",
+        " ",
+        " ",
+        "  Soulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel"
+      ],
+      [
+        "/ra",
+        "   ",
+        " ",
+        "Soulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel"
+      ]
+    ]
+  },
+  {
+    "line": "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/run"
+          ]
+        },
+        "  ",
+        "r",
+        "z=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/run"
+          ]
+        },
+        " ",
+        " ",
+        "rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
+      ]
+    ]
+  },
+  {
+    "line": "/target player",
+    "results": [
+      [
+        "/target",
+        " ",
+        {
+          "type": "spell",
+          "data": "player"
+        }
+      ],
+      [
+        "/tar",
+        null,
+        {
+          "type": "spell",
+          "data": "get player"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/targetlasttarget",
+    "results": [
+      [
+        "/targetlasttarget",
+        null,
+        null
+      ],
+      [
+        "/tar",
+        null,
+        {
+          "type": "spell",
+          "data": "getlasttarget"
+        }
+      ],
+      [
+        "/target",
+        null,
+        {
+          "type": "spell",
+          "data": "lasttarget"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [button:1]  Demonic Soulstone",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Demonic Soulstone"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        "  ",
+        {
+          "type": "spell",
+          "data": "Demonic Soulstone"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Demonic Soulstone"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [button:1] 16",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "16"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "16"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [button:1] 16; [button:2] 17",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "16"
+        },
+        ";",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:2"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "17"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "16"
+        },
+        ";",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:2"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "17"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "16"
+        },
+        ";",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:2"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "17"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "16"
+        },
+        ";",
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:2"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "17"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [button:1] Grand Firestone",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Grand Firestone"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Grand Firestone"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [button:1] Grand Spellstone",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Grand Spellstone"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              "button:1"
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Grand Spellstone"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Black Drake;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Black Drake"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Black Drake"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Bronze Drake",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Bronze Drake"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Bronze Drake"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Magnificent Flying Carpet;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Magnificent Flying Carpet"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Magnificent Flying Carpet"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Swift Blue Gryphon;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Blue Gryphon"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Blue Gryphon"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Swift Purple Gryphon;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Purple Gryphon"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Purple Gryphon"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Swift Purple Wind Rider;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Purple Wind Rider"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] Swift Red Gryphon;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Red Gryphon"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [flyable, nomounted] fly;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "fly"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "flyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "fly"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Acherus Deathcharger;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Acherus Deathcharger"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Black War Tiger;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Black War Tiger"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Frostwolf Howler;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Frostwolf Howler"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Frostwolf Howler"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Swift Burgundy Wolf",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Burgundy Wolf"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Burgundy Wolf"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Swift Moonsaber;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift Moonsaber"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift Moonsaber"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] Swift White Steed;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Swift White Steed"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Swift White Steed"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [noflyable, nomounted] run;",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "run"
+        },
+        ";"
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                [
+                  "noflyable"
+                ]
+              ]
+            ],
+            ", ",
+            [
+              [
+                "nomounted"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "run"
+        },
+        ";"
+      ]
+    ]
+  },
+  {
+    "line": "/use [nomod] Fel Healthstone",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nomod"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Fel Healthstone"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nomod"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "Fel Healthstone"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [nopet]Summon Water Elemental; Freeze",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        "; ",
+        null,
+        null,
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "nopet"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "spell",
+          "data": "Summon Water Elemental"
+        },
+        ";",
+        null,
+        " ",
+        {
+          "type": "spell",
+          "data": "Freeze"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [target=player] 13",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "13"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "13"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "13"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "13"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/use [target=player] 14",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "14"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        null,
+        {
+          "type": "number",
+          "data": "14"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                "player"
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "14"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/use"
+          ]
+        },
+        {
+          "type": "modifier",
+          "data": [
+            [
+              [
+                "target=",
+                [
+                  "player"
+                ]
+              ]
+            ]
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "14"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/who 10-79 warsong arathi eye strand",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi eye"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong arathi eye"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi eye strand"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "10"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong arathi eye strand"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/who 70-79 arathi warsong strand eye",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong strand"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi warsong strand"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi warsong"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "strand eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "warsong strand eye"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "70"
+        },
+        "-",
+        {
+          "type": "number",
+          "data": "79"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arathi warsong strand eye"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/who 80 alterac conquest",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "80"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "alterac"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "conquest"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "number",
+          "data": "80"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "alterac conquest"
+        }
+      ]
+    ]
+  },
+  {
+    "line": "/who arena ruins",
+    "results": [
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arena"
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "ruins"
+        }
+      ],
+      [
+        {
+          "type": "command",
+          "data": [
+            "/who"
+          ]
+        },
+        " ",
+        {
+          "type": "spell",
+          "data": "arena ruins"
+        }
       ]
     ]
   }

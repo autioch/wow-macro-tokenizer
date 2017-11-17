@@ -19,14 +19,14 @@ ANYTHING_CONTENT -> [a-zA-Z-0-9!? :;='",\.+\ >/\\~%|()[\]{}]:+ {% d => d[0].join
 ANYTHING -> [^/] ANYTHING_CONTENT
 
 _ -> " ":+ {% d => d[0].join('') %}
-COMMA -> _:? "," _:?
-SEMICOLON -> _:? ";" _:?
-COLON ->  _:? ":" _:?
-BRACKET_OPEN -> _:? "[" _:?
-BRACKET_CLOSE -> _:? "]" _:?
-EQUAL -> _:? "=" _:?
+COMMA -> _:? "," _:? {% data => data.join('') %}
+SEMICOLON -> _:? ";" _:? {% data => data.join('') %}
+COLON ->  _:? ":" _:? {% data => data.join('') %}
+BRACKET_OPEN -> _:? "[" _:? {% data => data.join('') %}
+BRACKET_CLOSE -> _:? "]" _:? {% data => data.join('') %}
+EQUAL -> _:? "=" _:? {% data => data.join('') %}
 
-NUMBER -> [0-9]:+ {% d => d[0].join('') %}
+NUMBER -> [0-9]:+ {% data => ({ type: "number", data: data[0].join('')}) %}
 NUMBER_RANGE -> NUMBER "-" NUMBER
 NUMBER_DECIMAL -> NUMBER "." NUMBER
 
@@ -36,10 +36,10 @@ NICK -> TEXT
 
 SPELL_PREFIX -> "!"
 SPELL_SEPARATOR -> _:? "-" _:? | _:? "'" _:? | _:? ":" _:? | _
-SPELL_PART -> TEXT | SPELL_PART SPELL_SEPARATOR TEXT
+SPELL_PART -> TEXT | SPELL_PART SPELL_SEPARATOR TEXT {% data => data.join('') %}
 SPELL_SUFFIX_CUSTOM -> "Feral" | "Racial" | "Cat" | "Bear" | "Demon" | "Shapeshift"
 SPELL_SUFFIX_RANK -> "Rank " NUMBER
 SPELL_SUFFIX_OPTIONS -> SPELL_SUFFIX_CUSTOM | SPELL_SUFFIX_RANK
 SPELL_SUFFIX -> "(" SPELL_SUFFIX_OPTIONS ")"
 
-SPELL -> SPELL_PREFIX:? SPELL_PART _:? SPELL_SUFFIX:?
+SPELL -> SPELL_PREFIX:? SPELL_PART _:? SPELL_SUFFIX:? {% data => ({ type: "spell", data: data.join('')}) %}

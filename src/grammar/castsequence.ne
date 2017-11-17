@@ -1,4 +1,4 @@
-CASTSEQUENCE_ID -> "/castsequence"
+CASTSEQUENCE_ID -> "/castsequence" {% data => ({ type: "command", data}) %}
 
 CASTSEQUENCE_OPTION -> SPELL
 CASTSEQUENCE_OPTION_LIST -> SPELL | CASTRANDOM_OPTION_LIST COMMA SPELL

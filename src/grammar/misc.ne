@@ -1,7 +1,7 @@
 MISC_COMMAND_ID ->
   "/stopcasting" | "/stopmacro" | "/startattack" | "/macro" | "/cleartarget" | "/afk" |
   "/petfollow" | "/petattack" |
-  "/focus" | "/promote" | "/cancelaura" | "/clearfocus" | "/dismount"
+  "/focus" | "/promote" | "/cancelaura" | "/clearfocus" | "/dismount" {% data => ({ type: "command", data}) %}
 
 MISC_COMMAND_OPTION -> MOD | SPELL
 MISC_COMMAND_LINE -> MISC_COMMAND_ID _:? MISC_COMMAND_OPTION:?

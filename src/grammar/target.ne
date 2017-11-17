@@ -1,8 +1,8 @@
-TARGET_COMMAND_ID -> "/tar" | "/target" | "/targetlasttarget" | "/targetenemy"
+TARGET_COMMAND_ID -> "/tar" | "/target" | "/targetlasttarget" | "/targetenemy" {% data => ({ type: "command", data}) %}
 TARGET_COMMAND_OPTION -> MOD | SPELL
 TARGET_COMMAND_LINE -> TARGET_COMMAND_ID _:? TARGET_COMMAND_OPTION:?
 
-TARGET_SCRIPT_ID -> "/script"
+TARGET_SCRIPT_ID -> "/script" {% data => ({ type: "command", data}) %}
 TARGET_SCRIPT_TEXT -> "SetRaidTarget"
 TARGET_SCRIPT_OPTIONS -> "party" NUMBER | NICK
 TARGET_SCRIPT_LINE -> TARGET_SCRIPT_ID _ TARGET_SCRIPT_TEXT "(\"" TARGET_SCRIPT_OPTIONS "\"" COMMA NUMBER ")" SEMICOLON:?

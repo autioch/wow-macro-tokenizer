@@ -1,4 +1,4 @@
-WHO_ID -> "/who"
+WHO_ID -> "/who" {% data => ({ type: "command", data}) %}
 
 WHO_OPTION -> NUMBER | NUMBER_RANGE | SPELL
 WHO_OPTION_LIST -> WHO_OPTION | WHO_OPTION_LIST _ WHO_OPTION

@@ -1,4 +1,4 @@
-CASTRANDOM_ID -> "/castrandom"
+CASTRANDOM_ID -> "/castrandom" {% data => ({ type: "command", data}) %}
 
 CASTRANDOM_OPTION -> SPELL
 CASTRANDOM_OPTION_LIST -> SPELL | CASTRANDOM_OPTION_LIST COMMA SPELL

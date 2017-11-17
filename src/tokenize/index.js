@@ -1,4 +1,4 @@
-const lines = require('./lines.json');
+const lines = require('../../input/lines.json');
 const saveLines = require('./saveLines');
 const tokenize = require('./tokenize');
 

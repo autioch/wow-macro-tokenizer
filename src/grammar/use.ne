@@ -1,4 +1,4 @@
-USE_ID -> "/use"
+USE_ID -> "/use" {% data => ({ type: "command", data}) %}
 
 USE_EQUIPPED -> MOD:? _:? NUMBER
 USE_GEAR -> MOD:? _:? SPELL
