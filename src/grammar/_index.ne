@@ -20,7 +20,7 @@ ANYTHING -> [^/] ANYTHING_CONTENT
 
 _ -> " ":+ {% d => d[0].join('') %}
 COMMA -> _:? "," _:? {% data => data.join('') %}
-SEMICOLON -> _:? ";" _:? {% data => data.join('') %}
+SEMICOLON -> _:? ";" _:? {% data => ({type: 'separator', data: ';'}) %}
 COLON ->  _:? ":" _:? {% data => data.join('') %}
 BRACKET_OPEN -> _:? "[" _:? {% data => data.join('') %}
 BRACKET_CLOSE -> _:? "]" _:? {% data => data.join('') %}
