@@ -20,7 +20,7 @@ module.exports = moo.compile({
   number: /[0-9]+/,
 
   /* words */
-  word: /[a-zA-Z'-]+/,
+  word: /[a-zA-Z' -]+/,
 
   other: /.+/
 

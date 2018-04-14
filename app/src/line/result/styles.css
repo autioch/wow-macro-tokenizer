@@ -1,0 +1,23 @@
+.result {
+  flex: none;
+}
+
+.result--space {
+  margin: 0 .25em;
+}
+
+.result--command {color: #a00}
+.result--channel {color: #00a}
+.result--tooltip {color: #0a0}
+.result--server {color: #aa0}
+.result--comma {color: #999}
+.result--colon {color: #999}
+.result--bracketOpen {color: #999}
+.result--bracketClose {color: #999}
+.result--equal {color: #999}
+.result--space {color: #aaa}
+.result--numberRange {color: #0aa}
+.result--numberDecimal {color: #0aa}
+.result--number {color: #0aa}
+.result--word {color: #a0a}
+.result--other {color: #0f0}
