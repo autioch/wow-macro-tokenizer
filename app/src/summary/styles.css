@@ -1,0 +1,18 @@
+.summary__row {
+  display: flex;
+  width: 100%;
+  flex: auto;
+  margin-bottom: 1em;
+}
+
+.summary__type {
+  width: 8em;
+  flex: none;
+}
+
+
+.summary__texts > div{
+  /* display: inline-block; */
+  /* margin-right: 2em; */
+  /* white-space: nowrap; */
+}

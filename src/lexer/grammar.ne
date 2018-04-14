@@ -10,4 +10,17 @@ MAIN -> LINE
 
 LINE -> WORD:*
 
-WORD ->  %command | %tooltip | %channel | %server | %comma | %colon | %bracketOpen | %bracketClose | %equal | %space | %numberRange | %numberDecimal | %number | %word | %other
+WORD ->  %command | %channel | %tooltip | %server
+      | %space
+      | %linkProffesion | %linkSpell
+      | %comma | %semicolon | %colon
+      | %squareBracketOpen | %squareBracketClose
+      | %roundBracketOpen | %roundBracketClose
+      | %at | %equal | %exclamation
+      # | %separator | %slash  | %plus |  %hash
+
+      | %word
+      # | %spellMode | %spellRank
+
+      | %numberRange | %numberDecimal | %number
+      | %other

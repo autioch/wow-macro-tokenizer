@@ -9,17 +9,36 @@
 }
 
 .result--command {color: #a00}
-.result--channel {color: #00a}
-.result--tooltip {color: #0a0}
-.result--server {color: #aa0}
-.result--comma {color: #999}
-.result--colon {color: #999}
-.result--bracketOpen {color: #999}
-.result--bracketClose {color: #999}
-.result--equal {color: #999}
-.result--space {color: #aaa}
-.result--numberRange {color: #0aa}
-.result--numberDecimal {color: #0aa}
-.result--number {color: #0aa}
-.result--word {color: #a0a}
-.result--other {color: #0f0}
+.result--channel {color: #a00}
+.result--tooltip {color: #a00}
+.result--server {color: #a00}
+
+.result--space {color: #ccc}
+
+.result--comma {color: #dd0}
+.result--semicolon {color: #dd0}
+.result--colon {color: #dd0}
+.result--squareBracketOpen {color: #dd0}
+.result--squareBracketClose {color: #dd0}
+.result--roundBracketOpen {color: #dd0}
+.result--roundBracketClose {color: #dd0}
+.result--separator {color: #dd0}
+.result--slash {color: #dd0}
+.result--at {color: #dd0}
+.result--plus {color: #dd0}
+.result--equal {color: #dd0}
+.result--exclamation {color: #dd0}
+.result--hash {color: #dd0}
+
+.result--word {color: #0bb}
+.result--spellRank {color: #00a}
+.result--spellMode {color: #00a}
+
+.result--numberRange {color: #0a0}
+.result--numberDecimal {color: #0a0}
+.result--number {color: #0a0}
+
+.result--linkProffesion {color:#b0b}
+.result--linkSpell {color:#b0b}
+
+.result--other {background-color: #fa0}
