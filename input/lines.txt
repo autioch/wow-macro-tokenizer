@@ -118,7 +118,7 @@
 /4 WTS |cffffd000|Htrade:51304:450:450:18FA5CBC:2//n+x/3/Vd/vAMEgEADpCAAAEA/oAC/7///Du/P+//v|h[Alchemy]|h|r
 /4 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r wszystkie przepisy WotLK
 /4 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r wszystkie przepisy WotLK, tylko twoje matsy
-/7 Gildia PvE \" Socially Awkward\" poszukuje aktywnych ludzi do stalej grupy raidowej. Najwiekszy nacisk kladziemy obecnie na ICC10/25 oraz TOGC 25. Wymagamy (co najmniej) podstawowego ogaru wlasnej klasy oraz GS 5K +. System DKP. Zainteresowani /w me
+/7 Gildia PvE " Socially Awkward" poszukuje aktywnych ludzi do stalej grupy raidowej. Najwiekszy nacisk kladziemy obecnie na ICC10/25 oraz TOGC 25. Wymagamy (co najmniej) podstawowego ogaru wlasnej klasy oraz GS 5K +. System DKP. Zainteresowani /w me
 /afk
 /cancelaura Bladestorm
 /cancelaura Deterrence
@@ -561,7 +561,7 @@
 /ra Helliash BoW / Conc
 /ra Janji BoW/BoK + Conc
 /ra Morgoph  BoM/BoK + Retri
-/ra Pokoj: \"We pwn like np\" Haslo: \"marchewka\"
+/ra Pokoj: "We pwn like np" Haslo: "marchewka"
 /ra TS: 178.33.136.99
 /ra Twojnick AP shoult
 /ra Unkylson BoM / Fire
@@ -571,31 +571,31 @@
 /recount toggle
 /rofl
 /run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r
-/run CastSpellByName(\"Blacksmithing\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" jestem w \"..GetZoneText(),\"CHANNEL\nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end
-/run CastSpellByName(\"Jewelcrafting\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" FULL, gem+40g\" ,\"CHANNEL\nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end
-/run CastSpellByName(\"Jewelcrafting\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" gem+50g w \"..GetZoneText(),\"CHANNEL\nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end
-/run CastSpellByName(\"Weaponsmith\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" 6/6 ICC, 6/6 ToC\\"CHANNEL\nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end
-/run SetRaidTarget(\"target\ 1);
-/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\nil,GetChannelName(b)) end
-/run c=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then c=c..h..\"h \";end;if m>0 then c=c..m..\"m \";end;if s>0 then c=c..s..\"s\";end;print(c)end
-/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(\"Devout Candle\") then BuyMerchantItem(i,100)end end end
-/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(\"Rumsey Rum Black Label\") then BuyMerchantItem(i,100)end end end
-/run local x=UnitSex(\"target\");local g={\"n unknown!\ \" boy!\ \" girl!\"} n=GetUnitName(\"target\");if IsShiftKeyDown()then SendChatMessage(n ..\" is a\" ..g[x],\"SAY\");else print(n ..\" --\" ..g[x]);end
-/run t=3 h=5 d=17 r=\"ICC25\" g=5.5 x=\"extra info\"
-/run x=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"CHANNEL\nil,GetChannelName(\"pl\"))end
-/run x=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"GUILD\");end
-/run x=\"WG in \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;print(x);else print('WG in progress');end
-/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"CHANNEL\nil,GetChannelName(\"pl\"))end
-/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"GUILD\");end
-/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;print(x);else print('Trwa WG');end
-/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print(\"\\124cffff0000\\Failed:\\124r\k) else print(\"\\124cff00ff00\\OK:\\124r\k) end; end
-/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print(\"\\124cffff0000\\You have NOT YET equipped:\\124r\k) else print(\"\\124cff00ff00\\You have equipped:\\124r\k) end; end
-/run z=r..\" \" if t>0 then z=z..t..\"tank \"end if h>0 then z=z..h..\"heal \"end if d>0 then z=z..d..\"dps \"end if g>0 then z=z..g..\"gs \"end  SendChatMessage(z..x,\"CHANNEL\nil,GetChannelName(\"test\"))
+/run CastSpellByName("Blacksmithing");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i("shift") then s(g().." jestem w "..GetZoneText(),"CHANNEL\nil,GetChannelName("handel"))c()end;if i("ctrl") then s(g(),"GUILD")c()end
+/run CastSpellByName("Jewelcrafting");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i("shift") then s(g().." FULL, gem+40g" ,"CHANNEL\nil,GetChannelName("handel"))c()end;if i("ctrl") then s(g(),"GUILD")c()end
+/run CastSpellByName("Jewelcrafting");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i("shift") then s(g().." gem+50g w "..GetZoneText(),"CHANNEL\nil,GetChannelName("handel"))c()end;if i("ctrl") then s(g(),"GUILD")c()end
+/run CastSpellByName("Weaponsmith");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i("shift") then s(g().." 6/6 ICC, 6/6 ToC\"CHANNEL\nil,GetChannelName("handel"))c()end;if i("ctrl") then s(g(),"GUILD")c()end
+/run SetRaidTarget("target\ 1);
+/run a=SendChatMessage;b="test";c="WG ";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600).."h ";g=(e(d/60)%60).."m ";h=(d%60).."s ";a(c..f..g..h,"CHANNEL\nil,GetChannelName(b)) end
+/run c="WG ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then c=c..h.."h ";end;if m>0 then c=c..m.."m ";end;if s>0 then c=c..s.."s";end;print(c)end
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find("Devout Candle") then BuyMerchantItem(i,100)end end end
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find("Rumsey Rum Black Label") then BuyMerchantItem(i,100)end end end
+/run local x=UnitSex("target");local g={"n unknown!\ " boy!\ " girl!"} n=GetUnitName("target");if IsShiftKeyDown()then SendChatMessage(n .." is a" ..g[x],"SAY");else print(n .." --" ..g[x]);end
+/run t=3 h=5 d=17 r="ICC25" g=5.5 x="extra info"
+/run x="WG ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;SendChatMessage(x,"CHANNEL\nil,GetChannelName("pl"))end
+/run x="WG ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;SendChatMessage(x,"GUILD");end
+/run x="WG in ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;print(x);else print('WG in progress');end
+/run x="WG za ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;SendChatMessage(x,"CHANNEL\nil,GetChannelName("pl"))end
+/run x="WG za ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;SendChatMessage(x,"GUILD");end
+/run x="WG za ";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h.."h ";end;if m>0 then x=x..m.."m ";end;if s>0 then x=x..s.."s";end;print(x);else print('Trwa WG');end
+/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print("\\124cffff0000\\Failed:\\124r\k) else print("\\124cff00ff00\\OK:\\124r\k) end; end
+/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print("\\124cffff0000\\You have NOT YET equipped:\\124r\k) else print("\\124cff00ff00\\You have equipped:\\124r\k) end; end
+/run z=r.." " if t>0 then z=z..t.."tank "end if h>0 then z=z..h.."heal "end if d>0 then z=z..d.."dps "end if g>0 then z=z..g.."gs "end  SendChatMessage(z..x,"CHANNEL\nil,GetChannelName("test"))
 /rw 1 faza polega na zbiciu hp bez odpalania CDs
 /rw 2 faza Onyxia lata, rdps caly czas ja bija, mdps bije addy
 /rw 3 faza Onyxia laduje,i co jakis czas fearuje, szamani musza postawic tremor totem
 /rw Argent Defender CD
-/rw Pokoj: \"We pwn like np\" Haslo: \"marchewka\"
+/rw Pokoj: "We pwn like np" Haslo: "marchewka"
 /rw TS: 178.33.136.99
 /rw ZAWSZE stoimy obok smoka, pod skrzydlami
 /rw jak bedzie breath, trzeba uciekac na boki i patrzec, gdzie bedzie zionac ogniem
@@ -605,42 +605,42 @@
 /script CombatLogClearEntries();
 /script LeaveParty()
 /script LeaveParty();
-/script SetCVar(\"cameraDistanceMax\45)
-/script SetCVar(\"cameraDistanceMax\90)
-/script SetRaidTarget(\"Arald\4);
-/script SetRaidTarget(\"Arsh\8);
-/script SetRaidTarget(\"Aseel\8);
-/script SetRaidTarget(\"Asheel\8);
-/script SetRaidTarget(\"Bowjob\8);
-/script SetRaidTarget(\"Cleavage\1);
-/script SetRaidTarget(\"Crab\8);
-/script SetRaidTarget(\"Fiervina\8);
-/script SetRaidTarget(\"Graverawler\5);
-/script SetRaidTarget(\"Graverawler\7);
-/script SetRaidTarget(\"Khuunem\8);
-/script SetRaidTarget(\"Shadowfiend\7); )
-/script SetRaidTarget(\"Stonerumbler\7)
-/script SetRaidTarget(\"Thornstar\4);
-/script SetRaidTarget(\"Thryllin\8);
-/script SetRaidTarget(\"Voylin\8);
-/script SetRaidTarget(\"asdfasd\8);
-/script SetRaidTarget(\"party1\2);
-/script SetRaidTarget(\"party1\4);
-/script SetRaidTarget(\"party1\5);
-/script SetRaidTarget(\"party1\8);
-/script SetRaidTarget(\"party2\2);
-/script SetRaidTarget(\"party2\3);
-/script SetRaidTarget(\"party2\4);
-/script SetRaidTarget(\"party2\6);
-/script SetRaidTarget(\"party3\2);
-/script SetRaidTarget(\"party3\3);
-/script SetRaidTarget(\"party3\7);
-/script SetRaidTarget(\"party4\1);
-/script SetRaidTarget(\"party4\5);
-/script SetRaidTarget(\"player\1);
-/script SetRaidTarget(\"player\4);
-/script SetRaidTarget(\"target\1);
-/script SetRaidTarget(\"target\4);
+/script SetCVar("cameraDistanceMax\45)
+/script SetCVar("cameraDistanceMax\90)
+/script SetRaidTarget("Arald\4);
+/script SetRaidTarget("Arsh\8);
+/script SetRaidTarget("Aseel\8);
+/script SetRaidTarget("Asheel\8);
+/script SetRaidTarget("Bowjob\8);
+/script SetRaidTarget("Cleavage\1);
+/script SetRaidTarget("Crab\8);
+/script SetRaidTarget("Fiervina\8);
+/script SetRaidTarget("Graverawler\5);
+/script SetRaidTarget("Graverawler\7);
+/script SetRaidTarget("Khuunem\8);
+/script SetRaidTarget("Shadowfiend\7); )
+/script SetRaidTarget("Stonerumbler\7)
+/script SetRaidTarget("Thornstar\4);
+/script SetRaidTarget("Thryllin\8);
+/script SetRaidTarget("Voylin\8);
+/script SetRaidTarget("asdfasd\8);
+/script SetRaidTarget("party1\2);
+/script SetRaidTarget("party1\4);
+/script SetRaidTarget("party1\5);
+/script SetRaidTarget("party1\8);
+/script SetRaidTarget("party2\2);
+/script SetRaidTarget("party2\3);
+/script SetRaidTarget("party2\4);
+/script SetRaidTarget("party2\6);
+/script SetRaidTarget("party3\2);
+/script SetRaidTarget("party3\3);
+/script SetRaidTarget("party3\7);
+/script SetRaidTarget("party4\1);
+/script SetRaidTarget("party4\5);
+/script SetRaidTarget("player\1);
+/script SetRaidTarget("player\4);
+/script SetRaidTarget("target\1);
+/script SetRaidTarget("target\4);
 /script UIErrorsFrame:Clear()
 /startattack
 /stopcasting

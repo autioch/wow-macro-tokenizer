@@ -1,14 +1,24 @@
 .line {
   display: flex;
+  margin-bottom: .5em;
+}
+
+.line:hover {
+  background-color: #eee;
 }
 
 .line__original {
-  width: 50%;
+  width: 25%;
+  overflow: hidden;
+  word-break: break-all;
+  word-break: break-word;
   padding: .25em;
 }
 
 .line__results {
-  width: 50%;
   display: flex;
+  width: 75%;
+  word-break: break-all;
+  flex-wrap: wrap;
   padding: .25em;
 }

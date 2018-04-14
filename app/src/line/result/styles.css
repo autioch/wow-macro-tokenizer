@@ -1,4 +1,6 @@
 .result {
+  word-break: break-all;
+  flex-wrap: wrap;
   flex: none;
 }
 

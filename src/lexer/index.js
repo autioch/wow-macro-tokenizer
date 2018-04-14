@@ -10,5 +10,5 @@ fs
   .then((lines) => {
     const results = lines.trim().split('\n').map((line) => parse(line.trim()));
 
-    fs.writeFileAsync(join(__dirname, '..', '..', 'app', 'output.json'), JSON.stringify(results, null, '  '), 'utf8');
+    fs.writeFileAsync(join(__dirname, '..', '..', 'app', 'src', 'output.json'), JSON.stringify(results, null, '  '), 'utf8');
   });

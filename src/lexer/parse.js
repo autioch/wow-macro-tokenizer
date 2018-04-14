@@ -30,9 +30,9 @@ module.exports = function parse(line) {
   }
 
   return {
-    results,
+    // results,
 
-    // results: smartFlatten(results),
+    results: smartFlatten(results),
     line
   };
 };
