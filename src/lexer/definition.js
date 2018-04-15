@@ -6,41 +6,35 @@ module.exports = moo.compile({
   tooltip: '#showtooltip',
   server: /^\.[a-zA-Z]+/,
 
-  space: /[ \t]+/,
-
+  /* customs */
   linkProffesion: /.+\|Htrade:.+/,
   linkSpell: /.+\|Hspell:.+/,
-
-  /* interpunction */
-  comma: ',',
-  semicolon: ';',
-  colon: ':',
-  squareBracketOpen: '[',
-  squareBracketClose: ']',
-  roundBracketOpen: '(',
-  roundBracketClose: ')',
-
-  at: '@',
-  equal: '=',
-  exclamation: '!',
-
-  // separator: '|',
-  // slash: '/',
-  // plus: '+',
-  // hash: '#',
+  spellRank: /\(Rank \d\d?\)/,
+  spellMode: ['(Shapeshift)', '(Bear)', '(Cat)', '(Demon)', '(Feral)', '(Racial)'],
 
   /* words */
-  word: /[a-zA-Z'-]+/,
-
-  // word: /!?[a-zA-Z'-]+(?: [a-zA-Z'-]+)*/,
-  // spellRank: /\(Rank \d\d?\)/,
-  // spellMode: ['(Shapeshift)', '(Bear)', '(Cat)', '(Demon)', '(Feral)', '(Racial)'],
+  word: /[a-zA-Z]+/,
+  spell: /[a-zA-Z](['-: ][a-zA-Z])+/,
 
   /* numbers */
   numberRange: /[0-9]+-[0-9]+/,
   numberDecimal: /[0-9]+\.[0-9]+/,
   number: /[0-9]+/,
 
-  other: /.+?/
+  /* interpunction */
+  at: '@',
+  colon: ':',
+  comma: ',',
+  equal: '=',
+  exclamation: '!',
+  bracketRoundClose: ')',
+  bracketRoundOpen: '(',
+  bracketSquareClose: ']',
+  bracketSquareOpen: '[',
+  semicolon: ';',
+  separator: '|',
+  slash: '/',
+  space: /[ \t]+/,
 
+  unknown: /.+?/
 });
