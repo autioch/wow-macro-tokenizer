@@ -1,44 +1,35 @@
-.result {
-  word-break: break-all;
-  flex-wrap: wrap;
-  flex: none;
-}
-
-.result--space {
-  margin: 0 .25em;
-}
-
+.result:not(:last-child)::after {content:'  ';display:inline-block;width:.5em;height:.5em;background-color:#d8d8d8}
 .result--command {color: #a00}
-.result--channel {color: #a00}
+.result--chat {color: #a00}
 .result--tooltip {color: #a00}
 .result--server {color: #a00}
 
-.result--space {color: #ccc}
+.result--linkProffesion {color:#b0b}
+.result--linkSpell {color:#b0b}
 
-.result--comma {color: #dd0}
-.result--semicolon {color: #dd0}
-.result--colon {color: #dd0}
-.result--squareBracketOpen {color: #dd0}
-.result--squareBracketClose {color: #dd0}
-.result--roundBracketOpen {color: #dd0}
-.result--roundBracketClose {color: #dd0}
-.result--separator {color: #dd0}
-.result--slash {color: #dd0}
-.result--at {color: #dd0}
-.result--plus {color: #dd0}
-.result--equal {color: #dd0}
-.result--exclamation {color: #dd0}
-.result--hash {color: #dd0}
+.result--spellLevel {color: #00a}
+.result--spellMode {color: #00a}
+.result--spellName {color: #00a}
 
 .result--word {color: #0bb}
-.result--spellRank {color: #00a}
-.result--spellMode {color: #00a}
 
 .result--numberRange {color: #0a0}
 .result--numberDecimal {color: #0a0}
 .result--number {color: #0a0}
 
-.result--linkProffesion {color:#b0b}
-.result--linkSpell {color:#b0b}
+.result--at {color: #dd0}
+.result--colon {color: #dd0}
+.result--comma {color: #dd0}
+.result--equal {color: #dd0}
+.result--exclamation {color: #dd0}
+.result--bracketRoundClose {color: #dd0}
+.result--bracketRoundOpen {color: #dd0}
+.result--bracketSquareClose {color: #dd0}
+.result--bracketSquareOpen {color: # dd0}
+.result--semicolon {color: #dd0}
+.result--separator {color: #dd0}
+.result--slash {color: #dd0}
 
-.result--other {background-color: #fa0}
+.result--space {color: #ccc;margin: 0 .25em;}
+
+.result--unknown {background-color: #fa0}

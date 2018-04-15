@@ -6,8 +6,9 @@
 
 MAIN -> WHO | SHOWTOOLTIP | RUN | INVITE | CHAT | %linkProffesion | %linkSpell | COMMAND_ANY | WORD
 
-ANYTHING ->  %command | %channel | %tooltip | %server
-    | %linkProffesion | %linkSpell | %spellRank | %spellMode
+ANYTHING ->  %command | %chat | %tooltip | %server
+    | %linkProffesion
+    | %linkSpell | %spellRank | %spellMode
     | %word | %spell
     | %numberRange | %numberDecimal | %number
     | %at | %colon | %comma | %equal | %exclamation | %semicolon | %separator | %slash | %space | %unknown

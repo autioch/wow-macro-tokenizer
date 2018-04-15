@@ -2,4 +2,8 @@
 const { readFileSync } = require('fs');
 const { join } = require('path');
 
-module.exports = readFileSync(join(__dirname, 'grammar.ne'), 'utf8').trim();
+// const NAME = 'grammar';
+// const NAME = 'ebnf';
+const NAME = 'simple';
+
+module.exports = readFileSync(join(__dirname, 'grammars', `${NAME}.ne`), 'utf8').trim();

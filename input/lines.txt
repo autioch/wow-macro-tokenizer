@@ -716,32 +716,4 @@
 /who arena ruins
 /who g-pwn
 /yell INCINARATE FLESH NA MNIE
-Alliance Battle Standard
-Brute Force
-Chain Heal
-Conquest (Alliance)
-Cure Toxins
-Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.
-Darnassus Tab
-Drums
-Exodar Tab
-Gift of the Naaru
-Gnomeregan Tab
-Healthstone
-Ironforge Tab
-Noggenfogger Elixir
-Silver Covenant Tab
-Silverwing Battle Tab
-Stormpike Battle Tab
-Stormwind Tab
-Summer Flames
-aimed
-chimera
-haha, mozna sie bylo tego spodziewac po burakach z nii
-serpent
-siatka
-spam steady
-sztandar
-the Illidari
-the Scarlet Crusade
 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
