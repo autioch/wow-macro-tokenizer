@@ -14,5 +14,3 @@ CONDITION -> "[" CONDITION_PHRASE { "," CONDITION_PHRASE } "]"
 CONDITION_PHRASE -> ([ "no" ], OPTION_WORD, [ ":" CONDITION_OPTION { "/" CONDITION_OPTION } ] | "target=", TARGET | "@", TARGET)
 
 CONDITION_OPTION -> ? any one-word option, such as 'shift, 'ctrl', 'target', '1', '2' ?
-
-TARGET -> ? a target pattern ?

@@ -1,19 +1,14 @@
 {
-  "unknown": [
-    "\"",
-    "#",
-    "%",
-    "'",
-    "+",
-    "-",
-    ".",
-    "<",
-    ">",
-    "?",
-    "\\",
-    "{",
-    "}",
-    "~"
+  "tooltip": [
+    "#showtooltip"
+  ],
+  "space": [
+    " ",
+    "  ",
+    "   ",
+    "    ",
+    "     ",
+    "       "
   ],
   "spellName": [
     "ALL NA ROLL",
@@ -366,7 +361,6 @@
     "Shield Wall",
     "Shield of the Righteous",
     "Shockinhorny",
-    "Showtooltip Fear",
     "Silence",
     "Silencing Shot",
     "Sinister Strike",
@@ -645,9 +639,7 @@
     "show",
     "showfootprintparticles",
     "showfootprints",
-    "showooltip Web",
     "showshadow",
-    "showtoolip",
     "skycloudlod",
     "smallcull",
     "succubus",
@@ -690,17 +682,6 @@
     "z",
     "za matsy"
   ],
-  "tooltip": [
-    "#showtooltip"
-  ],
-  "space": [
-    " ",
-    "  ",
-    "   ",
-    "    ",
-    "     ",
-    "       "
-  ],
   "spellLevel": [
     "(Rank 13)",
     "(Rank 4)",
@@ -728,14 +709,26 @@
     ".gm",
     ".server"
   ],
-  "slash": [
-    "/"
-  ],
   "chat": [
     "/2",
     "/3",
     "/4",
     "/7"
+  ],
+  "unknown": [
+    "\"",
+    "%",
+    "'",
+    "+",
+    "-",
+    ".",
+    "<",
+    ">",
+    "?",
+    "\\",
+    "{",
+    "}",
+    "~"
   ],
   "linkProffesion": [
     "|cffffd000|Htrade:3909:122:150:1D6B7:6//yrCAIwthrZCAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
@@ -793,6 +786,9 @@
     "80",
     "85",
     "90"
+  ],
+  "slash": [
+    "/"
   ],
   "bracketRoundOpen": [
     "("

@@ -1,88 +1,33 @@
 [
   {
-    "parsed": true,
+    "parsed": false,
     "line": "#Showtooltip Fear",
-    "results": [
-      {
-        "type": "unknown",
-        "value": "#",
-        "text": "#",
-        "offset": 0,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 1
-      },
-      {
-        "type": "spellName",
-        "value": "Showtooltip Fear",
-        "text": "Showtooltip Fear",
-        "offset": 1,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 2
-      }
-    ]
+    "results": []
   },
   {
-    "parsed": true,
+    "parsed": false,
     "line": "#showooltip Web",
-    "results": [
-      {
-        "type": "unknown",
-        "value": "#",
-        "text": "#",
-        "offset": 0,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 1
-      },
-      {
-        "type": "spellName",
-        "value": "showooltip Web",
-        "text": "showooltip Web",
-        "offset": 1,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 2
-      }
-    ]
+    "results": []
   },
   {
-    "parsed": true,
+    "parsed": false,
     "line": "#showtoolip",
-    "results": [
-      {
-        "type": "unknown",
-        "value": "#",
-        "text": "#",
-        "offset": 0,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 1
-      },
-      {
-        "type": "spellName",
-        "value": "showtoolip",
-        "text": "showtoolip",
-        "offset": 1,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 2
-      }
-    ]
+    "results": []
   },
   {
     "parsed": true,
     "line": "#showtooltip",
-    "results": {
-      "type": "tooltip",
-      "value": "#showtooltip",
-      "text": "#showtooltip",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "tooltip",
+        "value": "#showtooltip",
+        "text": "#showtooltip",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -3976,17 +3921,9 @@
     ]
   },
   {
-    "parsed": true,
+    "parsed": false,
     "line": "/",
-    "results": {
-      "type": "slash",
-      "value": "/",
-      "text": "/",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": []
   },
   {
     "parsed": true,
@@ -6817,15 +6754,17 @@
   {
     "parsed": true,
     "line": "/afk",
-    "results": {
-      "type": "command",
-      "value": "/afk",
-      "text": "/afk",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/afk",
+        "text": "/afk",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -31157,15 +31096,17 @@
   {
     "parsed": true,
     "line": "/castBladestorm",
-    "results": {
-      "type": "command",
-      "value": "/castBladestorm",
-      "text": "/castBladestorm",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/castBladestorm",
+        "text": "/castBladestorm",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -32304,15 +32245,17 @@
   {
     "parsed": true,
     "line": "/cleartarget",
-    "results": {
-      "type": "command",
-      "value": "/cleartarget",
-      "text": "/cleartarget",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/cleartarget",
+        "text": "/cleartarget",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -33541,15 +33484,17 @@
   {
     "parsed": true,
     "line": "/drdamage",
-    "results": {
-      "type": "command",
-      "value": "/drdamage",
-      "text": "/drdamage",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/drdamage",
+        "text": "/drdamage",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -34334,28 +34279,32 @@
   {
     "parsed": true,
     "line": "/facepalm",
-    "results": {
-      "type": "command",
-      "value": "/facepalm",
-      "text": "/facepalm",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/facepalm",
+        "text": "/facepalm",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/focus",
-    "results": {
-      "type": "command",
-      "value": "/focus",
-      "text": "/focus",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/focus",
+        "text": "/focus",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -35218,41 +35167,47 @@
   {
     "parsed": true,
     "line": "/kiss",
-    "results": {
-      "type": "command",
-      "value": "/kiss",
-      "text": "/kiss",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/kiss",
+        "text": "/kiss",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/lol",
-    "results": {
-      "type": "command",
-      "value": "/lol",
-      "text": "/lol",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/lol",
+        "text": "/lol",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/macro",
-    "results": {
-      "type": "command",
-      "value": "/macro",
-      "text": "/macro",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/macro",
+        "text": "/macro",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -35299,15 +35254,17 @@
   {
     "parsed": true,
     "line": "/petattack",
-    "results": {
-      "type": "command",
-      "value": "/petattack",
-      "text": "/petattack",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/petattack",
+        "text": "/petattack",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -35381,41 +35338,47 @@
   {
     "parsed": true,
     "line": "/petfollow",
-    "results": {
-      "type": "command",
-      "value": "/petfollow",
-      "text": "/petfollow",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/petfollow",
+        "text": "/petfollow",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/pity",
-    "results": {
-      "type": "command",
-      "value": "/pity",
-      "text": "/pity",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/pity",
+        "text": "/pity",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/powa",
-    "results": {
-      "type": "command",
-      "value": "/powa",
-      "text": "/powa",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/powa",
+        "text": "/powa",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -37976,15 +37939,17 @@
   {
     "parsed": true,
     "line": "/rofl",
-    "results": {
-      "type": "command",
-      "value": "/rofl",
-      "text": "/rofl",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/rofl",
+        "text": "/rofl",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -59175,41 +59140,47 @@
   {
     "parsed": true,
     "line": "/startattack",
-    "results": {
-      "type": "command",
-      "value": "/startattack",
-      "text": "/startattack",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/startattack",
+        "text": "/startattack",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/stopcasting",
-    "results": {
-      "type": "command",
-      "value": "/stopcasting",
-      "text": "/stopcasting",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/stopcasting",
+        "text": "/stopcasting",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
     "line": "/stopmacro",
-    "results": {
-      "type": "command",
-      "value": "/stopmacro",
-      "text": "/stopmacro",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/stopmacro",
+        "text": "/stopmacro",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -59889,15 +59860,17 @@
   {
     "parsed": true,
     "line": "/targetlasttarget",
-    "results": {
-      "type": "command",
-      "value": "/targetlasttarget",
-      "text": "/targetlasttarget",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/targetlasttarget",
+        "text": "/targetlasttarget",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -59971,15 +59944,17 @@
   {
     "parsed": true,
     "line": "/tidy",
-    "results": {
-      "type": "command",
-      "value": "/tidy",
-      "text": "/tidy",
-      "offset": 0,
-      "lineBreaks": 0,
-      "line": 1,
-      "col": 1
-    }
+    "results": [
+      {
+        "type": "command",
+        "value": "/tidy",
+        "text": "/tidy",
+        "offset": 0,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 1
+      }
+    ]
   },
   {
     "parsed": true,
@@ -63297,27 +63272,8 @@
     ]
   },
   {
-    "parsed": true,
+    "parsed": false,
     "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"",
-    "results": [
-      {
-        "type": "linkProffesion",
-        "value": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
-        "text": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
-        "offset": 0,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 1
-      },
-      {
-        "type": "unknown",
-        "value": "\"",
-        "text": "\"",
-        "offset": 155,
-        "lineBreaks": 0,
-        "line": 1,
-        "col": 156
-      }
-    ]
+    "results": []
   }
 ]

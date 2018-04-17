@@ -2,6 +2,7 @@ const compileGrammar = require('./compileGrammar');
 const grammar = compileGrammar(require('./grammar'));
 const nearley = require('nearley');
 const qbLog = require('qb-log')('simple');
+const { flattenDeep } = require('lodash');
 
 function isSingleElementArray(obj) {
   return Array.isArray(obj) && obj.length === 1;
@@ -30,7 +31,7 @@ module.exports = function parse(line, index) {
     parsed = true;
   } catch (err) { // eslint-disable-line no-unused-vars
     qbLog.warn(index, line);
-    // console.log(err.message); // eslint-disable-line no-magic-numbers
+    qbLog.warn(err.message); // eslint-disable-line no-magic-numbers
   }
 
   return {
@@ -38,6 +39,6 @@ module.exports = function parse(line, index) {
     line,
 
     // results,
-    results: smartFlatten(results)
+    results: flattenDeep(results)
   };
 };

@@ -7,12 +7,14 @@
 MAIN -> WHO | SHOWTOOLTIP | RUN | INVITE | CHAT | %linkProffesion | %linkSpell | COMMAND_ANY | WORD
 
 ANYTHING ->  %command | %chat | %tooltip | %server
-    | %linkProffesion
-    | %linkSpell | %spellRank | %spellMode
-    | %word | %spell
+    | %linkProffesion | %linkSpell
+    | %spellLevel | %spellMode | %spellName
+    | %word
     | %numberRange | %numberDecimal | %number
-    | %at | %colon | %comma | %equal | %exclamation | %semicolon | %separator | %slash | %space | %unknown
+    | %at | %colon | %comma | %equal | %exclamation | %semicolon | %separator | %slash
     | %bracketRoundClose | %bracketRoundOpen | %bracketSquareClose | %bracketSquareOpen
+    | %space
+    | %unknown
 
 SPELL_SUFFIX -> %spellMode | %spellRank
 SPELL -> %exclamation? %spell %space? SPELL_SUFFIX?
