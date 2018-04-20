@@ -11,14 +11,14 @@ MAIN -> TOOLTIP | WHO | CONSOLE_OPTION | CLICK
 
 SPACE -> null | %space
 SPELL -> %spellName (SPACE %spellMode):* (SPACE %spellLevel):*
-SPELL_NO_CAST -> SPELL | %exclamation SPELL
-RULE -> MOD:* SPACE SPELL_NO_CAST | SPELL_NO_CAST
-RULE_LIST -> RULE (SPACE %semicolon SPACE RULE):*
+SPELL_NO_CAST -> ( MOD:* SPACE | null ) ( %exclamation | null)  SPELL
+RULE_LIST -> SPELL_NO_CAST (SPACE %semicolon SPACE SPELL_NO_CAST):*
 MOD -> %bracketSquareOpen MOD_OPTION:* %bracketSquareClose
 MOD_OPTION -> %modifier | %slash | %semicolon | %equal | %comma | %colon | %at | %number | %space | %spellName
 ANYTHING -> %linkProffesion | %linkSpell | %spellName | %numberRange | %numberDecimal | %number | %at | %colon | %comma | %equal | %exclamation | %semicolon | %dash | %modifier | %slash | %bracketSquareClose | %bracketSquareOpen | %space | %unknown
-SPACE_SPELLNAME -> %space %spellName
-TOOLTIP -> %tooltip %space RULE_LIST
+TOOLTIP_SPELL -> ( MOD:* SPACE | null ) SPELL
+TOOLTIP_OPTION -> TOOLTIP_SPELL (SPACE %semicolon SPACE TOOLTIP_SPELL):*
+TOOLTIP -> %tooltip %space TOOLTIP_OPTION
 CHANNEL -> %channel %space ANYTHING:*
 CHAT -> %chat %space ANYTHING:*
 RUN -> "/run" %space ANYTHING:*
@@ -36,9 +36,9 @@ USE_OPTION -> %number | RULE_LIST | MOD %space %number
 USE_OPTION_LIST -> USE_OPTION ( SPACE %semicolon SPACE ):*
 USE -> "/use" %space USE_OPTION_LIST
 FOCUS -> "/focus" %space RULE_LIST
-CONSOLE_OPTION -> "/console" SPACE_SPELLNAME %space ( %numberDecimal | %number )
-SPELL_ONLY -> ( %server | "/equip" | "/promote" | "/inv" | "/invite" | "/follow" | "/tar" | "/target") SPACE_SPELLNAME
+CONSOLE_OPTION -> "/console" %space %spellName %space ( %numberDecimal | %number )
+SPELL_ONLY -> ( %server | "/equip" | "/promote" | "/inv" | "/invite" | "/follow" | "/tar" | "/target") %space %spellName
 MOD_ONLY -> ( "/dismount" | "/clearfocus" | "/targetenemy" | "/stopmacro") %space MOD:*
-ADDON ->  %command SPACE_SPELLNAME
+ADDON ->  %command %space %spellName
 CLLICK -> "/click" %space ANYTHING:*
 EQUIP_SLOT -> "/equipslot" %space %number %space (%spellName | %linkItem)
