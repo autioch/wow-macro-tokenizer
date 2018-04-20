@@ -23,6 +23,7 @@ function smartFlatten(obj) {
 module.exports = function parse(line, index) {
   let results = [];
   let parsed = false;
+  let message = '';
 
   const parser = new nearley.Parser(grammar);
 
@@ -31,14 +32,19 @@ module.exports = function parse(line, index) {
     parsed = true;
   } catch (err) { // eslint-disable-line no-unused-vars
     qbLog.warn(index, line);
+    message = err.message; // eslint-disable-line prefer-destructuring
     qbLog.warn(err.message); // eslint-disable-line no-magic-numbers
   }
+
+  const ambiguous = results.length > 1;
 
   return {
     parsed,
     line,
+    message,
+    ambiguous,
 
     // results,
-    results: flattenDeep(results)
+    results: results.map((result) => flattenDeep(result))
   };
 };

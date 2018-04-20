@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Line from './line';
+import Group from './group';
 
 // import Summary from './summary';
 import lexerOutput from './data/output.json';
@@ -13,12 +13,12 @@ export default class App extends Component {
   }
 
   render() {
-    const { lines /* , summary */ } = this.state;
+    const { lines } = this.state;
 
     return (
       <div className="App">
-        {/* <Summary summary={summary} /> */}
-        {lines.map((line, index) => (<Line key={index} line={line} />))};
+        <Group header="Parsed" lines={lines.filter((line) => line.parsed && line.ambiguous)} />
+        {/* <Group header="Failed" lines={lines.filter((line) => !line.parsed)} /> */}
       </div>
     );
   }

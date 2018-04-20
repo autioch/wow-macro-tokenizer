@@ -2,7 +2,8 @@
 const { readFileSync } = require('fs');
 const { join } = require('path');
 
-// const NAME = 'grammar';
+// const NAME = 'anything';
+// const NAME = 'complex';
 // const NAME = 'ebnf';
 const NAME = 'simple';
 

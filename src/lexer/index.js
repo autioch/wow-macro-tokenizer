@@ -7,6 +7,8 @@ const qbLog = require('qb-log');
 
 const parse = require('./parse');
 
+const OUTPUT_PATH = join(__dirname, '..', '..', 'app', 'src', 'data');
+
 fs
   .readFileAsync(join(__dirname, '..', '..', 'input', 'lines.txt'), 'utf8')
   .then((lines) => {
@@ -15,6 +17,6 @@ fs
 
     qbLog.info(results.filter((result) => result.parsed).length, '/', results.length);
 
-    fs.writeFileAsync(join(__dirname, '..', '..', 'app', 'src', 'data', 'output.json'), JSON.stringify(results, null, '  '), 'utf8');
-    fs.writeFileAsync(join(__dirname, '..', '..', 'app', 'src', 'data', 'summary.json'), JSON.stringify(summary, null, '  '), 'utf8');
+    fs.writeFileAsync(join(OUTPUT_PATH, 'output.json'), JSON.stringify(results, null, '  '), 'utf8');
+    fs.writeFileAsync(join(OUTPUT_PATH, 'summary.json'), JSON.stringify(summary, null, '  '), 'utf8');
   });
