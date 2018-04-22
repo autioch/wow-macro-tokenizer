@@ -1,0 +1,1305 @@
+[
+  {
+    "key": "portal",
+    "values": [
+      "EU"
+    ]
+  },
+  {
+    "key": "textLocale",
+    "values": [
+      "enUS"
+    ]
+  },
+  {
+    "key": "audioLocale",
+    "values": [
+      "enUS"
+    ]
+  },
+  {
+    "key": "agentUID",
+    "values": [
+      "wow_enus"
+    ]
+  },
+  {
+    "key": "hwDetect",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "videoOptionsVersion",
+    "values": [
+      "12",
+      "13",
+      "3",
+      "9"
+    ]
+  },
+  {
+    "key": "gxWindow",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "gxMaximize",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "graphicsQuality",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDgraphicsQuality",
+    "values": [
+      "1",
+      "5"
+    ]
+  },
+  {
+    "key": "farclip",
+    "values": [
+      "1167",
+      "1277",
+      "1300",
+      "6000.000000",
+      "7000.000000",
+      "777.000000"
+    ]
+  },
+  {
+    "key": "horizonStart",
+    "values": [
+      "1400.000000",
+      "1900.000000"
+    ]
+  },
+  {
+    "key": "particleDensity",
+    "values": [
+      "0.10000000149012",
+      "1",
+      "10.000000",
+      "50"
+    ]
+  },
+  {
+    "key": "particleMTDensity",
+    "values": [
+      "20.000000",
+      "70"
+    ]
+  },
+  {
+    "key": "waterDetail",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "rippleDetail",
+    "values": [
+      "0.000000",
+      "1"
+    ]
+  },
+  {
+    "key": "reflectionMode",
+    "values": [
+      "0",
+      "0.000000"
+    ]
+  },
+  {
+    "key": "sunShafts",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "refraction",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "groundEffectDensity",
+    "values": [
+      "16.000000",
+      "24",
+      "40"
+    ]
+  },
+  {
+    "key": "groundEffectDist",
+    "values": [
+      "100",
+      "110",
+      "140",
+      "40.000000",
+      "70"
+    ]
+  },
+  {
+    "key": "environmentDetail",
+    "values": [
+      "1",
+      "1.5",
+      "20.000000",
+      "50"
+    ]
+  },
+  {
+    "key": "projectedTextures",
+    "values": [
+      "0.000000",
+      "1",
+      "1.000000"
+    ]
+  },
+  {
+    "key": "shadowMode",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "shadowTextureSize",
+    "values": [
+      "1024.000000",
+      "2048"
+    ]
+  },
+  {
+    "key": "shadowSoft",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "SSAO",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "DepthBasedOpacity",
+    "values": [
+      "0",
+      "0.000000"
+    ]
+  },
+  {
+    "key": "textureFilteringMode",
+    "values": [
+      "0",
+      "0.000000",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "key": "terrainLodDist",
+    "values": [
+      "400.000000",
+      "500.000000",
+      "650"
+    ]
+  },
+  {
+    "key": "wmoLodDist",
+    "values": [
+      "400.000000",
+      "450.000000",
+      "550"
+    ]
+  },
+  {
+    "key": "terrainMipLevel",
+    "values": [
+      "1.000000"
+    ]
+  },
+  {
+    "key": "worldBaseMip",
+    "values": [
+      "1.000000",
+      "2.000000"
+    ]
+  },
+  {
+    "key": "OutlineEngineMode",
+    "values": [
+      "0.000000",
+      "1"
+    ]
+  },
+  {
+    "key": "lightMode",
+    "values": [
+      "0",
+      "0.000000"
+    ]
+  },
+  {
+    "key": "lodObjectCullSize",
+    "values": [
+      "35.000000"
+    ]
+  },
+  {
+    "key": "lodObjectCullDist",
+    "values": [
+      "30.000000"
+    ]
+  },
+  {
+    "key": "lodObjectMinSize",
+    "values": [
+      "105.000000"
+    ]
+  },
+  {
+    "key": "RAIDfarclip",
+    "values": [
+      "1300",
+      "1500.000000",
+      "8000.000000"
+    ]
+  },
+  {
+    "key": "RAIDWaterDetail",
+    "values": [
+      "0.000000",
+      "3"
+    ]
+  },
+  {
+    "key": "RAIDSSAO",
+    "values": [
+      "0.000000",
+      "3"
+    ]
+  },
+  {
+    "key": "RAIDDepthBasedOpacity",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "RAIDgroundEffectDensity",
+    "values": [
+      "128",
+      "16.000000"
+    ]
+  },
+  {
+    "key": "RAIDgroundEffectDist",
+    "values": [
+      "260",
+      "40.000000"
+    ]
+  },
+  {
+    "key": "RAIDshadowMode",
+    "values": [
+      "0.000000",
+      "4"
+    ]
+  },
+  {
+    "key": "RAIDterrainLodDist",
+    "values": [
+      "200.000000",
+      "650",
+      "700.000000"
+    ]
+  },
+  {
+    "key": "RAIDwmoLodDist",
+    "values": [
+      "160.000000",
+      "550",
+      "550.000000"
+    ]
+  },
+  {
+    "key": "RAIDterrainMipLevel",
+    "values": [
+      "1.000000"
+    ]
+  },
+  {
+    "key": "RAIDworldBaseMip",
+    "values": [
+      "1.000000",
+      "2.000000"
+    ]
+  },
+  {
+    "key": "RAIDtextureFilteringMode",
+    "values": [
+      "0.000000",
+      "5"
+    ]
+  },
+  {
+    "key": "RAIDprojectedTextures",
+    "values": [
+      "0.000000",
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDenvironmentDetail",
+    "values": [
+      "150",
+      "20.000000"
+    ]
+  },
+  {
+    "key": "RAIDshadowTextureSize",
+    "values": [
+      "1024.000000",
+      "2048"
+    ]
+  },
+  {
+    "key": "RAIDshadowSoft",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "RAIDreflectionMode",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "RAIDrippleDetail",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "RAIDsunShafts",
+    "values": [
+      "0.000000",
+      "2"
+    ]
+  },
+  {
+    "key": "RAIDparticleDensity",
+    "values": [
+      "10.000000",
+      "80"
+    ]
+  },
+  {
+    "key": "RAIDparticleMTDensity",
+    "values": [
+      "20.000000"
+    ]
+  },
+  {
+    "key": "RAIDrefraction",
+    "values": [
+      "0.000000",
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDOutlineEngineMode",
+    "values": [
+      "0.000000",
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDLightMode",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "RAIDlodObjectCullSize",
+    "values": [
+      "35.000000"
+    ]
+  },
+  {
+    "key": "RAIDlodObjectCullDist",
+    "values": [
+      "30.000000"
+    ]
+  },
+  {
+    "key": "RAIDlodObjectMinSize",
+    "values": [
+      "105.000000"
+    ]
+  },
+  {
+    "key": "componentTextureLevel",
+    "values": [
+      "0",
+      "1.000000",
+      "9"
+    ]
+  },
+  {
+    "key": "RAIDcomponentTextureLevel",
+    "values": [
+      "0",
+      "1.000000"
+    ]
+  },
+  {
+    "key": "weatherDensity",
+    "values": [
+      "0",
+      "0.000000",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "key": "RAIDweatherDensity",
+    "values": [
+      "0.000000",
+      "3"
+    ]
+  },
+  {
+    "key": "graphicsTextureResolution",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsEnvironmentDetail",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsGroundClutter",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsShadowQuality",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsLiquidDetail",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsSunshafts",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsParticleDensity",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsSSAO",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsDepthEffects",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsLightingQuality",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "graphicsOutlineMode",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsTextureResolution",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsTextureFiltering",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsEnvironmentDetail",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsGroundClutter",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsShadowQuality",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsLiquidDetail",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsParticleDensity",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsSSAO",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "raidGraphicsLightingQuality",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "playIntroMovie",
+    "values": [
+      "6",
+      "7"
+    ]
+  },
+  {
+    "key": "Sound_MusicVolume",
+    "values": [
+      "0.20000000298023",
+      "0.30000001192093",
+      "0.40000000596046",
+      "0.60000002384186",
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_AmbienceVolume",
+    "values": [
+      "0",
+      "0.20000000298023",
+      "0.30000001192093",
+      "0.40000000596046",
+      "0.60000002384186",
+      "0.69999998807907",
+      "1"
+    ]
+  },
+  {
+    "key": "maxFPS",
+    "values": [
+      "60"
+    ]
+  },
+  {
+    "key": "gxApi",
+    "values": [
+      "D3D11"
+    ]
+  },
+  {
+    "key": "engineSurvey",
+    "values": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "key": "checkAddonVersion",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "lastAddonVersion",
+    "values": [
+      "60200",
+      "70100",
+      "70200"
+    ]
+  },
+  {
+    "key": "mouseSpeed",
+    "values": [
+      "1",
+      "1.2000000476837"
+    ]
+  },
+  {
+    "key": "Gamma",
+    "values": [
+      "1.000000"
+    ]
+  },
+  {
+    "key": "ChatMusicVolume",
+    "values": [
+      "0.29999998211861"
+    ]
+  },
+  {
+    "key": "ChatSoundVolume",
+    "values": [
+      "0.39999997615814"
+    ]
+  },
+  {
+    "key": "ChatAmbienceVolume",
+    "values": [
+      "0.29999998211861"
+    ]
+  },
+  {
+    "key": "VoiceActivationSensitivity",
+    "values": [
+      "0.39999997615814"
+    ]
+  },
+  {
+    "key": "Sound_NumChannels",
+    "values": [
+      "24",
+      "48",
+      "64"
+    ]
+  },
+  {
+    "key": "Sound_EnableReverb",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_MasterVolume",
+    "values": [
+      "0.19900001585484",
+      "0.20000000298023",
+      "0.30000001192093",
+      "0.35300001502037",
+      "0.5",
+      "0.69200003147125",
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_ZoneMusicNoDelay",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_EnableDSPEffects",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_EnableSoundWhenGameIsInBG",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_EnablePositionalLowPassFilter",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "gameTip",
+    "values": [
+      "126",
+      "129",
+      "134",
+      "169",
+      "193",
+      "21",
+      "36",
+      "68",
+      "76",
+      "79",
+      "85",
+      "91",
+      "96"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestV2RecordCount",
+    "values": [
+      "29143",
+      "30689"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestV2HotfixCount",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestObjectiveRecordCount",
+    "values": [
+      "28799",
+      "30175"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestObjectiveHotfixCount",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestObjectiveXEffectRecordCount",
+    "values": [
+      "7426",
+      "8160"
+    ]
+  },
+  {
+    "key": "CACHE-WQST-QuestObjectiveXEffectHotfixCount",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "CACHE-WGOB-GameObjectsRecordCount",
+    "values": [
+      "55464",
+      "58151"
+    ]
+  },
+  {
+    "key": "CACHE-WGOB-GameObjectsHotfixCount",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "terrainTextureLod",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "Sound_SFXVolume",
+    "values": [
+      "0.10000000149012",
+      "0.20000000298023",
+      "0.30000001192093",
+      "0.40000000596046",
+      "0.5",
+      "0.60000002384186",
+      "1"
+    ]
+  },
+  {
+    "key": "gxWindowedResolution",
+    "values": [
+      "1824x965"
+    ]
+  },
+  {
+    "key": "accountName",
+    "values": [
+      "autioch",
+      "autioch+battle.net@gmail.com",
+      "daria.konopko@gmail.com",
+      "karolina",
+      "kasumi"
+    ]
+  },
+  {
+    "key": "accountList",
+    "values": [
+      "!WoW4|"
+    ]
+  },
+  {
+    "key": "raidOrBattleCount",
+    "values": [
+      "10",
+      "20"
+    ]
+  },
+  {
+    "key": "expandUpgradePanel",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "physicsLevel",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "RenderScale",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDsettingsEnabled",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDterrainTextureLod",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "raidGraphicsViewDistance",
+    "values": [
+      "1",
+      "8"
+    ]
+  },
+  {
+    "key": "graphicsTextureFiltering",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_EnableMusic",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "lastCharacterIndex",
+    "values": [
+      "1",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "key": "readTerminationWithoutNotice",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "lastReadTerminationWithoutNotice",
+    "values": [
+      "50408",
+      "60203"
+    ]
+  },
+  {
+    "key": "accounttype",
+    "values": [
+      "LK",
+      "WD"
+    ]
+  },
+  {
+    "key": "SSAOBlur",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDsettingsInit",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "RAIDSSAOBlur",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "realmName",
+    "values": [
+      "Feronis",
+      "Lordaeron",
+      "Tarren"
+    ]
+  },
+  {
+    "key": "uiScale",
+    "values": [
+      "0.75",
+      "0.84999996423721",
+      "1.1000000238419"
+    ]
+  },
+  {
+    "key": "Sound_DialogVolume",
+    "values": [
+      "0.60000002384186",
+      "0.80000001192093"
+    ]
+  },
+  {
+    "key": "taintLog",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_EnableSFX",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_EnableAmbience",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_EnableDialog",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "lodObjectFadeScale",
+    "values": [
+      "50.000000"
+    ]
+  },
+  {
+    "key": "RAIDlodObjectFadeScale",
+    "values": [
+      "50.000000"
+    ]
+  },
+  {
+    "key": "SpellTooltip_DisplayAvgValues",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "mountJournalFilters",
+    "values": [
+      "\u0002B"
+    ]
+  },
+  {
+    "key": "mountJournalSourceFilters",
+    "values": [
+      "-1"
+    ]
+  },
+  {
+    "key": "graphicsViewDistance",
+    "values": [
+      "5"
+    ]
+  },
+  {
+    "key": "Sound_OutputDriverName",
+    "values": [
+      "System"
+    ]
+  },
+  {
+    "key": "movieSubtitle",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "useUiScale",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "gxFixLag",
+    "values": [
+      "0",
+      "1"
+    ]
+  },
+  {
+    "key": "MSAAAlphaTest",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_EnableEmoteSounds",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "graphicsProjectedTextures",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "locale",
+    "values": [
+      "enGB"
+    ]
+  },
+  {
+    "key": "realmList",
+    "values": [
+      "176.9.132.194",
+      "logon.sunwell.pl",
+      "logon.warmane.com",
+      "sunwell.pl:9724"
+    ]
+  },
+  {
+    "key": "gxRefresh",
+    "values": [
+      "60"
+    ]
+  },
+  {
+    "key": "gxMultisampleQuality",
+    "values": [
+      "0.000000"
+    ]
+  },
+  {
+    "key": "movie",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "showToolsUI",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "gxResolution",
+    "values": [
+      "1280x768",
+      "1366x768",
+      "1920x1080"
+    ]
+  },
+  {
+    "key": "gxVSync",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "readTOS",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "readEULA",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "ffxGlow",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "ffxDeath",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "timingTestError",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "showGameTips",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "characterAmbient",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "detailDoodadAlpha",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "DistCull",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_EnableAllSound",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "shadowLevel",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "mapShadows",
+    "values": [
+      "0"
+    ]
+  },
+  {
+    "key": "Sound_EnableSoftwareHRTF",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_OutputQuality",
+    "values": [
+      "0",
+      "2"
+    ]
+  },
+  {
+    "key": "windowResizeLock",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "Sound_VoiceChatInputDriverName",
+    "values": [
+      "System"
+    ]
+  },
+  {
+    "key": "Sound_VoiceChatOutputDriverName",
+    "values": [
+      "System"
+    ]
+  },
+  {
+    "key": "gxTripleBuffer",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "baseMip",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "specular",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "key": "readScanning",
+    "values": [
+      "-1"
+    ]
+  },
+  {
+    "key": "readContest",
+    "values": [
+      "-1"
+    ]
+  },
+  {
+    "key": "installLocale",
+    "values": [
+      "enUS"
+    ]
+  },
+  {
+    "key": "maxAnimThreads",
+    "values": [
+      "3"
+    ]
+  },
+  {
+    "key": "lastReadTOS",
+    "values": [
+      "50408"
+    ]
+  },
+  {
+    "key": "lastReadEULA",
+    "values": [
+      "50408"
+    ]
+  },
+  {
+    "key": "gxMultisample",
+    "values": [
+      "8"
+    ]
+  }
+]
