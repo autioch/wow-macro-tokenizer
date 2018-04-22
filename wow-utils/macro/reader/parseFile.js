@@ -1,5 +1,4 @@
-const bluebird = require('bluebird');
-const fs = bluebird.promisifyAll(require('fs'));
+const { readFile } = require('../utils');
 
 const GLOB_PATH_SEP = '/';
 const MAIN_FOLDER = 'Account';
@@ -7,16 +6,8 @@ const MACRO_END = 'END';
 
 function parseFilename(filename) {
   const pathParts = filename.split(GLOB_PATH_SEP);
-
-  while (pathParts[0] && pathParts[0] !== MAIN_FOLDER) {
-    pathParts.shift();
-  }
-
-  pathParts.shift(); // remove 'Account';
-  pathParts.pop(); // remove 'macros-cache.txt';
-
-  /* If file is accunt wide, realm and character will be empty. */
-  const [account, realm, character] = pathParts;
+  const accountIndex = pathParts.indexOf(MAIN_FOLDER);
+  const [account, realm, character] = pathParts.slice(accountIndex + 1, -1);
 
   return {
     filename,
@@ -26,7 +17,7 @@ function parseFilename(filename) {
   };
 }
 
-function parseMacros(fileContents) {
+function extractMacros(fileContents) {
   const macros = [];
   let currentMacroLines = [];
 
@@ -45,13 +36,8 @@ function parseMacros(fileContents) {
 }
 
 module.exports = function parseFile(filename) {
-  return fs
-    .readFileAsync(filename, 'utf8')
-    .then((fileContents) => {
-      const fileDetails = parseFilename(filename);
-
-      fileDetails.macros = parseMacros(fileContents);
-
-      return fileDetails;
-    });
+  return readFile(filename).then(({ fileContents }) => ({
+    ...parseFilename(filename),
+    macros: extractMacros(fileContents)
+  }));
 };

@@ -40,10 +40,12 @@ module.exports = function parseMacro(lines) {
   const [prefix, label] = parseLabel(rawLabel);
 
   return {
-    id,
-    prefix,
-    label,
-    icon,
-    content: lines.slice(1, -1) // remove header line and "END"
+    meta: {
+      id,
+      prefix,
+      label,
+      icon
+    },
+    lines: lines.slice(1, -1) // remove header line and "END"
   };
 };

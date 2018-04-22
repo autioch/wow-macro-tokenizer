@@ -1,13 +1,8 @@
 const tag = require('./tag');
 const { saveJson } = require('../../utils');
-const tagCategories = require('./tagCategories');
-const tagDefinitions = require('./tagDefinitions');
 
-module.exports = function tagger(grouperUnique) {
-  const tagged = tag(grouperUnique);
+module.exports = function tagger(macros) {
+  const tagged = macros.map((macro) => tag(macro));
 
-  return saveJson(tagged, 'tagger')
-    .then(() => saveJson(tagCategories, 'tagCategories'))
-    .then(() => saveJson(tagDefinitions, 'tagDefinitions'))
-    .then(() => tagged);
+  return saveJson(tagged, 'tagger').then(() => tagged);
 };

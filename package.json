@@ -25,10 +25,13 @@
   },
   "homepage": "https://github.com/autioch/wow-macro-tokenizer#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.3",
     "bluebird": "^3.5.1",
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
     "eslint-config-qb": "^1.0.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-import": "^2.11.0",
     "lodash": "^4.17.4",
     "lodash.flatten": "^4.4.0",
     "mocha": "^4.0.1",

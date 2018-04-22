@@ -19,9 +19,10 @@ module.exports = function writeConfig(config) {
     }
   });
 
+  const fileName = path.join(OUTPUT_FOLDER, 'Config.wtf');
   const serialized = lines.join('\n');
 
   return fs
-    .writeFileAsync(path.join(OUTPUT_FOLDER, 'Config.wtf'), serialized, 'utf-8')
+    .writeFileAsync(fileName, serialized, 'utf-8')
     .then(() => config);
 };
