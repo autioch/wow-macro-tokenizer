@@ -1,12 +1,16 @@
 const moo = require('moo');
 
 module.exports = moo.compile({
+  /* slash commands */
   command: {
     match: /^\/[a-zA-Z]+/,
     keywords: {
       chat: [
         '/p', '/party', '/ra', '/raid', '/bg', '/battleground', '/rw',
         '/g', '/guild', '/o', '/r', '/s', '/y', '/yell', '/w', '/whisper'
+      ],
+      emote: [
+        '/em', '/kiss', '/lol', '/pity', '/rofl', '/facepalm', '/poke'
       ]
     }
   },
@@ -14,11 +18,13 @@ module.exports = moo.compile({
   tooltip: '#showtooltip',
   server: /^\.[a-zA-Z]+/,
 
-  /* customs */
-  linkProffesion: /\|.+\|Htrade:.+\|h\|r/,
-  linkSpell: /\|.+\|Hspell:.+\|h\|r/,
+  /* links */
+  linkProfession: /\|.+?\|Htrade:.+?\|h\|r/,
+  linkSpell: /\|.+?\|Hspell:.+?\|h\|r/,
+  linkEnchant: /\|.+?\|Henchant:.+?\|h\|r/,
   linkItem: /item:\d+:\d+/,
 
+  /* spell */
   spellLevel: /\(Rank \d+\)/,
   spellMode: ['(Shapeshift)', '(Bear)', '(Cat)', '(Demon)', '(Feral)', '(Racial)'],
 
@@ -28,8 +34,8 @@ module.exports = moo.compile({
       modifier: [
         'mod', 'modifier',
         'nomod', 'nomodifier',
-        'target', 'focus', 'player',
-        'notarget', 'nofocus', 'noplayer',
+        'target', 'focus', 'player', 'pettarget',
+        'notarget', 'nofocus', 'noplayer', 'pettarget',
         'ctrl', 'shift', 'alt',
         'noctrl', 'noshift', 'noalt',
         'flyable', 'mounted',
@@ -46,9 +52,6 @@ module.exports = moo.compile({
     }
   },
 
-  /* words */
-  // word: /[a-zA-Z]+/,
-
   /* numbers */
   numberRange: /[0-9]+-[0-9]+/,
   numberDecimal: /[0-9]+(?:\.[0-9]+)/,
@@ -60,20 +63,12 @@ module.exports = moo.compile({
   comma: ',',
   equal: '=',
   exclamation: '!',
-
-  // add: '+',
-
-  // bracketRoundClose: ')',
-  // bracketRoundOpen: '(',
   bracketSquareClose: ']',
   bracketSquareOpen: '[',
   semicolon: ';',
-
-  // separator: '|',
   slash: '/',
   dash: '-',
 
   space: /[ \t]+/,
-
   unknown: /.+?/
 });

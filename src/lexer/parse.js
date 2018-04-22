@@ -43,8 +43,6 @@ module.exports = function parse(line, index) {
     line,
     message,
     ambiguous,
-
-    // results,
-    results: results.map((result) => flattenDeep(result))
+    results: ambiguous ? results : results.map((result) => flattenDeep(result))
   };
 };

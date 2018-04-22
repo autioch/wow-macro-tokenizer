@@ -8,10 +8,12 @@ export default ({ line: { line, results, message } }) => {
   return (
     <div className="line">
       <div className="line__original">{line}</div>
-      {interpretations.map((items) => (<div className="line__results">
-        {message}
-        {items.map((result, index) => <Result key={index} result={result} />)}
-      </div>))}
+      {message}
+      {interpretations.map((items, index) => (
+        <div key={index} className="line__results">
+          {items.map((result, index2) => <Result key={index2} result={result} />)}
+        </div>
+      ))}
     </div>
   );
 };

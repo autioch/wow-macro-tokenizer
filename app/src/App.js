@@ -1,24 +1,38 @@
 import React, { Component } from 'react';
-import Group from './group';
 
-// import Summary from './summary';
+import Group from './group';
+import Ambiguous from './ambiguous';
+import Summary from './summary';
 import lexerOutput from './data/output.json';
 import lexerSummary from './data/summary.json';
 import './App.css';
 
 export default class App extends Component {
   state = {
-    lines: lexerOutput,
-    summary: lexerSummary
+    totalCount: lexerOutput.length,
+    summary: lexerSummary,
+    ambiguous: lexerOutput.filter((line) => line.parsed && line.ambiguous),
+    failed: lexerOutput.filter((line) => !line.parsed),
+    parsed: lexerOutput.filter((line) => line.parsed && !line.ambiguous),
+    showSummary: !1,
+    showAmbiguous: !1,
+    showFailed: !1,
+    showParsed: !!1
   }
 
   render() {
-    const { lines } = this.state;
+    const { state } = this;
 
     return (
       <div className="App">
-        <Group header="Parsed" lines={lines.filter((line) => line.parsed && line.ambiguous)} />
-        {/* <Group header="Failed" lines={lines.filter((line) => !line.parsed)} /> */}
+        <div className="group__header">Summary</div>
+        {state.showSummary ? <Summary summary={state.summary}/> : ''}
+        <div className="group__header">Ambiguous ({state.ambiguous.length}/{state.totalCount})</div>
+        {state.showAmbiguous ? <Ambiguous lines={state.ambiguous} /> : ''}
+        <div className="group__header">Failed ({state.failed.length}/{state.totalCount})</div>
+        {state.showFailed ? <Group lines={state.failed} /> : ''}
+        <div className="group__header">Parsed ({state.parsed.length}/{state.totalCount})</div>
+        {state.showParsed ? <Group lines={state.parsed} /> : ''}
       </div>
     );
   }

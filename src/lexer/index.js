@@ -14,6 +14,13 @@ fs
   .then((lines) => {
     const results = lines.trim().split('\n').map((line, index) => parse(line.trim(), index + 1));
     const summary = summarize(results);
+    const ambCount = results.filter((result) => result.ambiguous).length;
+
+    if (ambCount > 0) {
+      qbLog.error(ambCount, 'ambiguous parses');
+    } else {
+      qbLog.info('no ambiguous parses');
+    }
 
     qbLog.info(results.filter((result) => result.parsed).length, '/', results.length);
 
