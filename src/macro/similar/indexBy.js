@@ -1,18 +1,16 @@
+const { setDict } = require('../../utils');
+
 /* Lodash indexby/keyby works in a different way. */
 module.exports = function indexBy(macros) {
-  const dict = {};
+  return macros.reduce((dict, macro) => {
+    const entry = setDict(dict, macro.clusterId, {
+      count: 0,
+      macros: []
+    });
 
-  macros.forEach(({ clusterId, content }) => {
-    if (!dict[clusterId]) {
-      dict[clusterId] = {
-        count: 0,
-        macros: []
-      };
-    }
+    entry.count++; // eslint-disable-line no-plusplus
+    entry.macros.push(macro.lines.map((lineInfo) => lineInfo.line));
 
-    dict[clusterId].count++; // eslint-disable-line no-plusplus
-    dict[clusterId].macros.push(content);
-  });
-
-  return dict;
+    return dict;
+  }, {});
 };

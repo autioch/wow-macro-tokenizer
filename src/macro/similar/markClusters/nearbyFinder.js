@@ -1,19 +1,19 @@
 /* eslint no-underscore-dangle: 0 */
 
-module.exports = function nearbyFinder(maxDistance, points, distanceFn) {
+module.exports = function nearbyFinder(maxDistance, macros, distanceFn) {
   const cache = {};
 
-  return function findAdjacent(mainPoint) {
-    return points.filter((point) => {
-      if (mainPoint === point) {
+  return function findAdjacent(mainMacro) {
+    return macros.filter((macro) => {
+      if (mainMacro === macro) {
         return false;
       }
-      const mainIndex = mainPoint.__markClustersMarker;
-      const pointIndex = point.__markClustersMarker;
-      const cacheIndex = mainIndex > pointIndex ? `${mainIndex}+${pointIndex}` : `${pointIndex}+${mainIndex}`;
+      const mainIndex = mainMacro.__markClustersMarker;
+      const macroIndex = macro.__markClustersMarker;
+      const cacheIndex = mainIndex > macroIndex ? `${mainIndex}+${macroIndex}` : `${macroIndex}+${mainIndex}`;
 
       if (cache[cacheIndex] === undefined) { // eslint-disable-line no-undefined
-        cache[cacheIndex] = distanceFn(mainPoint, point) <= maxDistance;
+        cache[cacheIndex] = distanceFn(mainMacro, macro) <= maxDistance;
       }
 
       return cache[cacheIndex];

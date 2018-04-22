@@ -1,5 +1,6 @@
 module.exports = {
   findFiles: require('./findFiles'),
   readFile: require('./readFile'),
-  saveJson: require('./saveJson')
+  saveJson: require('./saveJson'),
+  setDict: require('./setDict')
 };

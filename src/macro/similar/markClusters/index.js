@@ -4,35 +4,35 @@ const assignMarkers = require('./assignMarkers');
 const nearbyAdder = require('./nearbyAdder');
 const { markAsNoise } = require('./noise');
 
-const MAX_DISTANCE = 10;
-const MIN_NEARBY = 1;
+const MAX_DISTANCE = 20;
+const MIN_NEARBY = 5;
 
-module.exports = function markClusters(points, distanceFn, maxDistance = MAX_DISTANCE, minNearby = MIN_NEARBY) {
+module.exports = function markClusters(macros, distanceFn, maxDistance = MAX_DISTANCE, minNearby = MIN_NEARBY) {
   const generateId = idGenerator();
-  const findNearby = nearbyFinder(maxDistance, points, distanceFn);
+  const findNearby = nearbyFinder(maxDistance, macros, distanceFn);
   const addNearby = nearbyAdder(findNearby, minNearby);
 
-  assignMarkers(points);
+  assignMarkers(macros);
 
-  points.forEach((point) => {
-    if (point.clusterId) {
+  macros.forEach((macro) => {
+    if (macro.clusterId) {
       return;
     }
 
-    const nearby = findNearby(point);
+    const nearby = findNearby(macro);
 
     if (nearby.length < minNearby) {
-      markAsNoise(point);
+      markAsNoise(macro);
 
       return;
     }
 
-    point.clusterId = generateId.next().value;
+    macro.clusterId = generateId.next().value;
 
     if (nearby.length >= minNearby) {
-      addNearby(nearby, point.clusterId);
+      addNearby(nearby, macro.clusterId);
     }
   });
 
-  return points;
+  return macros;
 };

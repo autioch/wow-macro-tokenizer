@@ -2,12 +2,12 @@ const NOISE_ID = 'Noise';
 
 module.exports = {
 
-  isNoise(point) {
-    return point.clusterId === NOISE_ID;
+  isNoise(macro) {
+    return macro.clusterId === NOISE_ID;
   },
 
-  markAsNoise(point) {
-    point.clusterId = NOISE_ID;
+  markAsNoise(macro) {
+    macro.clusterId = NOISE_ID;
   }
 
 };

@@ -1,7 +1,7 @@
 /* eslint no-underscore-dangle: 0 */
 
-module.exports = function assignMarkers(points) {
-  points.forEach((point, index) => {
-    point.__markClustersMarker = index;
+module.exports = function assignMarkers(macros) {
+  macros.forEach((macro, index) => {
+    macro.__markClustersMarker = index;
   });
 };

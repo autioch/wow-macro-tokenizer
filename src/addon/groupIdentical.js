@@ -1,10 +1,4 @@
-function setDict(dict, key, value) {
-  if (!dict[key]) {
-    dict[key] = value;
-  }
-
-  return dict;
-}
+const { setDict } = require('../utils');
 
 function setHashEntry(addons, { fileName, hash, fileSize }) {
   setDict(addons, fileName, {});

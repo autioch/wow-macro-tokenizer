@@ -1,14 +1,7 @@
 const { uniq, compact } = require('lodash');
+const { setDict } = require('../../utils');
 
 const INDEX_KEY = 'lines';
-
-function setDict(dict, key, value) {
-  if (!dict[key]) {
-    dict[key] = value;
-  }
-
-  return dict[key];
-}
 
 function getProps(macros) {
   const allKeys = macros.reduce((arr, macro) => arr.concat(Object.keys(macro)), []);
