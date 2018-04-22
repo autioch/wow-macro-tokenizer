@@ -1,12 +1,11 @@
 const parseMacro = require('./parseMacro');
 const { saveJson } = require('../../utils');
 
-function parseFile({ filename, account, realm, character, macros }) {
+function parseFile(fileData) {
+  const { macros, ...fileInfo } = fileData;
+
   return macros.map((lines) => ({
-    filename,
-    account,
-    realm,
-    character,
+    ...fileInfo,
     ...parseMacro(lines)
   }));
 }

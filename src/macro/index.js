@@ -1,6 +1,6 @@
-const reader = require('./reader');
-const parser = require('./parser');
 const dedupe = require('./dedupe');
+const parser = require('./parser');
+const reader = require('./reader');
 const tokenize = require('./tokenize');
 
 // const tagger = require('./tagger');

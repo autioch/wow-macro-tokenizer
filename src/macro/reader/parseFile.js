@@ -1,19 +1,21 @@
-const { readFile } = require('../utils');
+const { readFile } = require('../../utils');
 
-const GLOB_PATH_SEP = '/';
-const MAIN_FOLDER = 'Account';
+// const GLOB_PATH_SEP = '/';
+// const MAIN_FOLDER = 'Account';
 const MACRO_END = 'END';
 
+/* TODO */
 function parseFilename(filename) {
-  const pathParts = filename.split(GLOB_PATH_SEP);
-  const accountIndex = pathParts.indexOf(MAIN_FOLDER);
-  const [account, realm, character] = pathParts.slice(accountIndex + 1, -1);
+  // const pathParts = filename.split(GLOB_PATH_SEP);
+  // const accountIndex = pathParts.indexOf(MAIN_FOLDER);
+  // const [account, realm, character] = pathParts.slice(accountIndex + 1, -1);
 
   return {
-    filename,
-    account,
-    realm,
-    character
+    filename
+
+    // account,
+    // realm,
+    // character
   };
 }
 

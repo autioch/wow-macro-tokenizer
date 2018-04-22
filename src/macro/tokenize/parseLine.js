@@ -19,7 +19,7 @@ module.exports = function parseLine(line) {
   const ambiguous = results.length > 1;
 
   return {
-    results: ambiguous ? results : results.map((result) => flattenDeep(result)),
+    results: ambiguous ? results : flattenDeep(results),
     parsed,
     message,
     line,

@@ -8,8 +8,6 @@ module.exports = function findSimilar(minifiedMacros) {
   const clustered = markClusters(minifiedMacros, distance);
   const indexed = indexBy(clustered, 'clusterId');
 
-  console.log(`${minifiedMacros.length} macros, ${distance.callCount()} distances counted`);
-
   return saveJson(indexed, 'similar')
     .then(() => saveJson(toLines(minifiedMacros), 'lines'))
     .then(() => minifiedMacros);

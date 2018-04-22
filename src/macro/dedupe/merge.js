@@ -27,6 +27,7 @@ module.exports = function dedupe(macros) {
     }))
     .forEach(({ hash, macro }) => {
       const item = setDict(seen, hash, {
+        [INDEX_KEY]: macro[INDEX_KEY],
         occurences: 0
       });
 
@@ -38,7 +39,7 @@ module.exports = function dedupe(macros) {
 
   uniqueMacros.forEach((macro) => {
     props.forEach((prop) => {
-      macro[prop] = compact(uniq(macro[prop])).sort((prop1, prop2) => prop1.localeCompare(prop2));
+      macro[prop] = compact(uniq(macro[prop])).sort();
     });
   });
 

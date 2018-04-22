@@ -4,6 +4,7 @@
   "description": "World of Warcraft macro parser",
   "main": "index.js",
   "scripts": {
+    "go": "node ./index",
     "test": "mocha --reporter=min src/**/*.spec.js & exit 0",
     "test:watch": "mocha --reporter=min --watch src/**/*.spec.js & exit 0"
   },

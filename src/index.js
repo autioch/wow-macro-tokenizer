@@ -6,7 +6,8 @@ const macro = require('./macro');
 const backupDir = join('e:', 'projects', 'wow configs');
 
 // macro(backupDir).then(() => config(backupDir)).then(() => addon(backupDir));
-// macro(backupDir);
+macro(backupDir);
+
 // config(backupDir);
 
-addon(backupDir);
+// addon(backupDir);
