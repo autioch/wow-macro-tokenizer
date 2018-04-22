@@ -11,5 +11,5 @@ module.exports = function findFiles(dir, fileName) {
   qbLog.info('Find files', posixSearchExpression, '...');
 
   return glob(posixSearchExpression)
-    .tap((files) => qbLog.info('Found', files.length, 'files'));
+    .tap((fileNames) => qbLog.info('Found', fileNames.length, 'files'));
 };
