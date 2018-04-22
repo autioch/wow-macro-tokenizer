@@ -1,5 +1,5 @@
 @{%
-  const lexer = require(__dirname + '/' + 'definition')
+  const lexer = require(__dirname + '/' + 'lexer')
 %}
 
 @lexer lexer

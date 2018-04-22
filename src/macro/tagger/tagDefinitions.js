@@ -1,9 +1,10 @@
 /* eslint no-magic-numbers: 0 */
 const tagCategories = require('./tagCategories');
 
-const TAGS = tagCategories.reduce((dict, group) => Object.assign(dict, {
-  [group.label]: group.id
-}, {}));
+const TAGS = tagCategories.reduce((dict, { label, id }) => ({
+  [label]: id,
+  ...dict
+}), {});
 
 module.exports = [{
   id: 1,
