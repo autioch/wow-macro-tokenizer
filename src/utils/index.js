@@ -3,5 +3,6 @@ module.exports = {
   readFile: require('./readFile'),
   saveJson: require('./saveJson'),
   readJson: require('./readJson'),
-  setDict: require('./setDict')
+  setDict: require('./setDict'),
+  singleRun: require('./singleRun')
 };

@@ -1,0 +1,1993 @@
+[
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/recount toggle",
+        "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/cast [nomod] Engineering",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "nomod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Engineering"
+          }
+        ]
+      },
+      {
+        "line": "/cast [mod:shift] MOLL-E",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "shift"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "MOLL-E"
+          }
+        ]
+      },
+      {
+        "line": "/cast [mod:alt] Jeeves",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "alt"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Jeeves"
+          }
+        ]
+      },
+      {
+        "line": "/cast [mod:ctrl] Blingtron 4000",
+        "message": "invalid syntax at line 1 col 28:\n\n  /cast [mod:ctrl] Blingtron 4000\n                             ^\nUnexpected number token: \"4000\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtoolip",
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast [target=focus] Repentance",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "focus"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Repentance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "Darnassus Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected spellName token: \"Darnassus Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Exodar Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected spellName token: \"Exodar Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Gnomeregan Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected spellName token: \"Gnomeregan Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Ironforge Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected spellName token: \"Ironforge Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Silver Covenant Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected spellName token: \"Silver Covenant Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Silverwing Battle Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected spellName token: \"Silverwing Battle Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Stormpike Battle Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected spellName token: \"Stormpike Battle Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Stormwind Tab",
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected spellName token: \"Stormwind Tab\"\n",
+        "results": []
+      },
+      {
+        "line": "Brute Force",
+        "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected spellName token: \"Brute Force\"\n",
+        "results": []
+      },
+      {
+        "line": "Conquest (Alliance)",
+        "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected spellName token: \"Conquest\"\n",
+        "results": []
+      },
+      {
+        "line": "Summer Flames",
+        "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected spellName token: \"Summer Flames\"\n",
+        "results": []
+      },
+      {
+        "line": "the Illidari",
+        "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected spellName token: \"the Illidari\"\n",
+        "results": []
+      },
+      {
+        "line": "the Scarlet Crusade",
+        "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected spellName token: \"the Scarlet Crusade\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/target player",
+        "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
+        "results": []
+      },
+      {
+        "line": "/use [target=player] 13",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/target player",
+        "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
+        "results": []
+      },
+      {
+        "line": "/use [target=player] 14",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "14"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip Survival Instincts",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Survival Instincts"
+          }
+        ]
+      },
+      {
+        "line": "/cleartarget",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cleartarget"
+          }
+        ]
+      },
+      {
+        "line": "/cast Survival Instincts",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Survival Instincts"
+          }
+        ]
+      },
+      {
+        "line": "/cast Lifeblood",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Lifeblood"
+          }
+        ]
+      },
+      {
+        "line": "/use 14",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "14"
+          }
+        ]
+      },
+      {
+        "line": "/cast Frenzied Regeneration",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Frenzied Regeneration"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "haha, mozna sie bylo tego spodziewac po burakach z nii",
+        "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected spellName token: \"haha\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/cast Shadowfiend",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Shadowfiend"
+          }
+        ]
+      },
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#Showtooltip Fear",
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "results": []
+      },
+      {
+        "line": "/focus [target=focus, noexists][target=focus, dead] playertarget",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/focus"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "noexists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "dead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "playertarget"
+          }
+        ]
+      },
+      {
+        "line": "/cast [target=focus] Fear",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "focus"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Fear"
+          }
+        ]
+      },
+      {
+        "line": "/clearfocus [modifier:ctrl]",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/clearfocus"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "modifier"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "ctrl"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ]
+      },
+      {
+        "line": "/stopmacro",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast [pet:Felhunter,target=player] Devour Magic",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "pet"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "spellName",
+            "value": "Felhunter"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Devour Magic"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget [pet:Felhunter]",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast [pet:Felhunter] Devour Magic",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "pet"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "spellName",
+            "value": "Felhunter"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Devour Magic"
+          }
+        ]
+      },
+      {
+        "line": "/cast [pet:Felhunter,target=targettarget] Devour Magic",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "pet"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "spellName",
+            "value": "Felhunter"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "spellName",
+            "value": "targettarget"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Devour Magic"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget [pet:Felhunter]",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip Curse of Weakness",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Curse of Weakness"
+          }
+        ]
+      },
+      {
+        "line": "/console targetNearestDistance 15.000000",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "targetNearestDistance"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "numberDecimal",
+            "value": "15.000000"
+          }
+        ]
+      },
+      {
+        "line": "/targetenemy [noharm][dead]",
+        "message": "invalid syntax at line 1 col 22:\n\n  /targetenemy [noharm][\n                       ^\nUnexpected bracketSquareOpen token: \"[\"\n",
+        "results": []
+      },
+      {
+        "line": "/console targetNearestDistance 41.000000",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "targetNearestDistance"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "numberDecimal",
+            "value": "41.000000"
+          }
+        ]
+      },
+      {
+        "line": "/cast [harm,nodead] Curse of Weakness",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Curse of Weakness"
+          }
+        ]
+      },
+      {
+        "line": "/dismount [target=target,exists]",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/dismount"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip seduction",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "seduction"
+          }
+        ]
+      },
+      {
+        "line": "/stopmacro [nopet:succubus]",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "nopet"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "spellName",
+            "value": "succubus"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ]
+      },
+      {
+        "line": "/petfollow",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/petfollow"
+          }
+        ]
+      },
+      {
+        "line": "/petattack [target=pettarget]",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast [button:1,target=pettarget] Seduction",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "button"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "pettarget"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Seduction"
+          }
+        ]
+      },
+      {
+        "line": "/cast [button:2,target=playertarget] Seduction",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "button"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "spellName",
+            "value": "playertarget"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Seduction"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip Bladestorm",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Bladestorm"
+          }
+        ]
+      },
+      {
+        "line": "/equipslot 16 Dreadlord's Blade",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/equipslot"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "16"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Dreadlord's Blade"
+          }
+        ]
+      },
+      {
+        "line": "/castBladestorm",
+        "message": "invalid syntax at line 1 col 1:\n\n  /castBladestorm\n  ^\nUnexpected command token: \"/castBladestorm\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "flyable"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Swift Red Gryphon"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Black War Tiger"
+          }
+        ]
+      },
+      {
+        "line": "/use [flyable, nomounted] Swift Red Gryphon;",
+        "message": "",
+        "results": []
+      },
+      {
+        "line": "/use [noflyable, nomounted] Black War Tiger;",
+        "message": "",
+        "results": []
+      },
+      {
+        "line": "/dismount [noflying, mounted]]",
+        "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/drdamage",
+        "message": "invalid syntax at line 1 col 1:\n\n  /drdamage\n  ^\nUnexpected command token: \"/drdamage\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/powa",
+        "message": "invalid syntax at line 1 col 1:\n\n  /powa\n  ^\nUnexpected command token: \"/powa\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/recount show",
+        "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/tidy",
+        "message": "invalid syntax at line 1 col 1:\n\n  /tidy\n  ^\nUnexpected command token: \"/tidy\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast Arcane Shot",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Arcane Shot"
+          }
+        ]
+      },
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          }
+        ]
+      },
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast Serpent Sting",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Serpent Sting"
+          }
+        ]
+      },
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/cast Fear",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Fear"
+          }
+        ]
+      },
+      {
+        "line": "/",
+        "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtooltip [nopet] Summon Water Elemental; Freeze",
+        "message": "",
+        "results": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "nopet"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Summon Water Elemental"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Freeze"
+          }
+        ]
+      },
+      {
+        "line": "/use [nopet]Summon Water Elemental; Freeze",
+        "message": "invalid syntax at line 1 col 13:\n\n  /use [nopet]Summon Water Elemental\n              ^\nUnexpected spellName token: \"Summon Water Elemental\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "Cure Toxins",
+        "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected spellName token: \"Cure Toxins\"\n",
+        "results": []
+      },
+      {
+        "line": "Gift of the Naaru",
+        "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected spellName token: \"Gift of the Naaru\"\n",
+        "results": []
+      },
+      {
+        "line": "Noggenfogger Elixir",
+        "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected spellName token: \"Noggenfogger Elixir\"\n",
+        "results": []
+      },
+      {
+        "line": "Alliance Battle Standard",
+        "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected spellName token: \"Alliance Battle Standard\"\n",
+        "results": []
+      },
+      {
+        "line": "Chain Heal",
+        "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected spellName token: \"Chain Heal\"\n",
+        "results": []
+      },
+      {
+        "line": "Drums",
+        "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected spellName token: \"Drums\"\n",
+        "results": []
+      },
+      {
+        "line": "Healthstone",
+        "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected spellName token: \"Healthstone\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/cleartarget",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cleartarget"
+          }
+        ]
+      },
+      {
+        "line": "/tar Shadowy Mercenary",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/tar"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Shadowy Mercenary"
+          }
+        ]
+      },
+      {
+        "line": "/script SetRaidTarget(\"target\",4);",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "SetRaidTarget"
+          },
+          {
+            "type": "unknown",
+            "value": "("
+          },
+          {
+            "type": "unknown",
+            "value": "\""
+          },
+          {
+            "type": "modifier",
+            "value": "target"
+          },
+          {
+            "type": "unknown",
+            "value": "\""
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "unknown",
+            "value": ")"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          }
+        ]
+      },
+      {
+        "line": "/targetlasttarget",
+        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "sztandar",
+        "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected spellName token: \"sztandar\"\n",
+        "results": []
+      },
+      {
+        "line": "siatka",
+        "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected spellName token: \"siatka\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showtoolip",
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast Nature's Swiftness",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Nature's Swiftness"
+          }
+        ]
+      },
+      {
+        "line": "/cast Tidal Force",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Tidal Force"
+          }
+        ]
+      },
+      {
+        "line": "/cast Healing Wave",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Healing Wave"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
+        "message": "invalid syntax at line 1 col 1:\n\n  |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\n  ^\nUnexpected linkProfession token: \"|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "/petattack",
+        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
+        "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected spellName token: \"Czesc\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "serpent",
+        "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected spellName token: \"serpent\"\n",
+        "results": []
+      },
+      {
+        "line": "chimera",
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
+        "results": []
+      },
+      {
+        "line": "aimed",
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
+        "results": []
+      },
+      {
+        "line": "spam steady",
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
+        "results": []
+      },
+      {
+        "line": "chimera",
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
+        "results": []
+      },
+      {
+        "line": "aimed",
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
+        "results": []
+      },
+      {
+        "line": "spam steady",
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
+        "results": []
+      }
+    ]
+  },
+  {
+    "parsed": false,
+    "failed": true,
+    "ambiguous": false,
+    "lines": [
+      {
+        "line": "#showooltip Web",
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "results": []
+      },
+      {
+        "line": "/cast Web",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Web"
+          }
+        ]
+      },
+      {
+        "line": "/cast Pin",
+        "message": "",
+        "results": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "spellName",
+            "value": "Pin"
+          }
+        ]
+      }
+    ]
+  }
+]

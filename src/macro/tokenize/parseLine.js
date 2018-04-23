@@ -2,6 +2,15 @@ const { Parser } = require('nearley');
 const { flattenDeep } = require('lodash');
 const grammar = require('./grammar');
 
+function simplifyResults(results) {
+  return flattenDeep(results)
+    .filter((result) => !!result) // TODO Grammar has some nulls
+    .map(({ type, value }) => ({
+      type,
+      value
+    }));
+}
+
 module.exports = function parseLine(line) {
   let results = [];
   let parsed = false;
@@ -19,7 +28,7 @@ module.exports = function parseLine(line) {
   const ambiguous = results.length > 1;
 
   return {
-    results: ambiguous ? results : flattenDeep(results),
+    results: ambiguous ? results : simplifyResults(results),
     parsed,
     message,
     line,
