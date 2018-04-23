@@ -9,7 +9,7 @@ module.exports = function indexBy(macros) {
     });
 
     entry.count++; // eslint-disable-line no-plusplus
-    entry.macros.push(macro.lines.map((lineInfo) => lineInfo.line));
+    entry.macros.push(macro.lines.map((line) => line.map((token) => token.value).join('')));
 
     return dict;
   }, {});

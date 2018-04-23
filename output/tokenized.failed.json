@@ -1,25 +1,28 @@
 [
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/recount toggle",
         "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "132093",
+      "Ability_Creature_Cursed_01"
+    ],
+    "label": [
+      "Rec",
+      "recount"
+    ],
+    "occurences": 39
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -29,7 +32,7 @@
       {
         "line": "/cast [nomod] Engineering",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -63,7 +66,7 @@
       {
         "line": "/cast [mod:shift] MOLL-E",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -105,7 +108,7 @@
       {
         "line": "/cast [mod:alt] Jeeves",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -147,24 +150,28 @@
       {
         "line": "/cast [mod:ctrl] Blingtron 4000",
         "message": "invalid syntax at line 1 col 28:\n\n  /cast [mod:ctrl] Blingtron 4000\n                             ^\nUnexpected number token: \"4000\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_MISC_QUESTIONMARK"
+    ],
+    "label": [
+      "Engi"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtoolip",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast [target=focus] Repentance",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -203,89 +210,97 @@
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "FRepa"
+    ],
+    "occurences": 3
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "Darnassus Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected spellName token: \"Darnassus Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Exodar Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected spellName token: \"Exodar Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Gnomeregan Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected spellName token: \"Gnomeregan Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Ironforge Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected spellName token: \"Ironforge Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Silver Covenant Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected spellName token: \"Silver Covenant Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Silverwing Battle Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected spellName token: \"Silverwing Battle Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Stormpike Battle Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected spellName token: \"Stormpike Battle Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Stormwind Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected spellName token: \"Stormwind Tab\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Brute Force",
         "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected spellName token: \"Brute Force\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Conquest (Alliance)",
         "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected spellName token: \"Conquest\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Summer Flames",
         "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected spellName token: \"Summer Flames\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "the Illidari",
         "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected spellName token: \"the Illidari\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "the Scarlet Crusade",
         "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected spellName token: \"the Scarlet Crusade\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "tabs"
+    ],
+    "occurences": 6
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -295,12 +310,12 @@
       {
         "line": "/target player",
         "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/use [target=player] 13",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/use"
@@ -342,19 +357,23 @@
       {
         "line": "/targetlasttarget",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "gT1"
+    ],
+    "occurences": 19
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -364,12 +383,12 @@
       {
         "line": "/target player",
         "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/use [target=player] 14",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/use"
@@ -411,19 +430,23 @@
       {
         "line": "/targetlasttarget",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "gT2"
+    ],
+    "occurences": 19
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip Survival Instincts",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -441,7 +464,7 @@
       {
         "line": "/cleartarget",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cleartarget"
@@ -451,7 +474,7 @@
       {
         "line": "/cast Survival Instincts",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -469,7 +492,7 @@
       {
         "line": "/cast Lifeblood",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -487,7 +510,7 @@
       {
         "line": "/use 14",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/use"
@@ -505,7 +528,7 @@
       {
         "line": "/cast Frenzied Regeneration",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -523,31 +546,39 @@
       {
         "line": "/targetlasttarget",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "Survi"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "haha, mozna sie bylo tego spodziewac po burakach z nii",
         "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected spellName token: \"haha\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "troll"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -557,7 +588,7 @@
       {
         "line": "/cast Shadowfiend",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -575,24 +606,28 @@
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "fiend"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#Showtooltip Fear",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/focus [target=focus, noexists][target=focus, dead] playertarget",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/focus"
@@ -678,7 +713,7 @@
       {
         "line": "/cast [target=focus] Fear",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -720,7 +755,7 @@
       {
         "line": "/clearfocus [modifier:ctrl]",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/clearfocus"
@@ -754,29 +789,34 @@
       {
         "line": "/stopmacro",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/stopmacro"
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Shadow_Possession",
+      "Spell_Shadow_PsychicScream"
+    ],
+    "label": [
+      "chain fear"
+    ],
+    "occurences": 13
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast [pet:Felhunter,target=player] Devour Magic",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -834,12 +874,12 @@
       {
         "line": "/targetlasttarget [pet:Felhunter]",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast [pet:Felhunter] Devour Magic",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -881,7 +921,7 @@
       {
         "line": "/cast [pet:Felhunter,target=targettarget] Devour Magic",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -939,19 +979,23 @@
       {
         "line": "/targetlasttarget [pet:Felhunter]",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Shadow_Brainwash"
+    ],
+    "label": [
+      "fel hunter"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip Curse of Weakness",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -969,7 +1013,7 @@
       {
         "line": "/console targetNearestDistance 15.000000",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/console"
@@ -995,12 +1039,12 @@
       {
         "line": "/targetenemy [noharm][dead]",
         "message": "invalid syntax at line 1 col 22:\n\n  /targetenemy [noharm][\n                       ^\nUnexpected bracketSquareOpen token: \"[\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/console targetNearestDistance 41.000000",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/console"
@@ -1026,7 +1070,7 @@
       {
         "line": "/cast [harm,nodead] Curse of Weakness",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1068,7 +1112,7 @@
       {
         "line": "/dismount [target=target,exists]",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/dismount"
@@ -1107,17 +1151,21 @@
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Ambush"
+    ],
+    "label": [
+      "rouge"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip seduction",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1135,7 +1183,7 @@
       {
         "line": "/stopmacro [nopet:succubus]",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/stopmacro"
@@ -1169,7 +1217,7 @@
       {
         "line": "/petfollow",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/petfollow"
@@ -1179,12 +1227,12 @@
       {
         "line": "/petattack [target=pettarget]",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast [button:1,target=pettarget] Seduction",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1242,7 +1290,7 @@
       {
         "line": "/cast [button:2,target=playertarget] Seduction",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1297,17 +1345,21 @@
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Shadow_Curse"
+    ],
+    "label": [
+      "seduction"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip Bladestorm",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1325,7 +1377,7 @@
       {
         "line": "/equipslot 16 Dreadlord's Blade",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/equipslot"
@@ -1351,19 +1403,23 @@
       {
         "line": "/castBladestorm",
         "message": "invalid syntax at line 1 col 1:\n\n  /castBladestorm\n  ^\nUnexpected command token: \"/castBladestorm\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "Bladestorm"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1409,77 +1465,99 @@
       {
         "line": "/use [flyable, nomounted] Swift Red Gryphon;",
         "message": "",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/use [noflyable, nomounted] Black War Tiger;",
         "message": "",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/dismount [noflying, mounted]]",
         "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "mount"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/drdamage",
         "message": "invalid syntax at line 1 col 1:\n\n  /drdamage\n  ^\nUnexpected command token: \"/drdamage\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_05"
+    ],
+    "label": [
+      "aDrDamage"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/powa",
         "message": "invalid syntax at line 1 col 1:\n\n  /powa\n  ^\nUnexpected command token: \"/powa\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_01",
+      "Ability_Creature_Cursed_02"
+    ],
+    "label": [
+      "aPowa",
+      "powa"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/recount show",
         "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_02"
+    ],
+    "label": [
+      "aRecount"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/tidy",
         "message": "invalid syntax at line 1 col 1:\n\n  /tidy\n  ^\nUnexpected command token: \"/tidy\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_03"
+    ],
+    "label": [
+      "aTP"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1489,12 +1567,12 @@
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast Arcane Shot",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1512,19 +1590,23 @@
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "AS"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1534,12 +1616,12 @@
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast Serpent Sting",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1557,19 +1639,23 @@
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "SS"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/cast Fear",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1587,19 +1673,23 @@
       {
         "line": "/",
         "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Shadow_Possession"
+    ],
+    "label": [
+      "focus"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtooltip [nopet] Summon Water Elemental; Freeze",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "tooltip",
             "value": "#showtooltip"
@@ -1645,61 +1735,69 @@
       {
         "line": "/use [nopet]Summon Water Elemental; Freeze",
         "message": "invalid syntax at line 1 col 13:\n\n  /use [nopet]Summon Water Elemental\n              ^\nUnexpected spellName token: \"Summon Water Elemental\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "Pet"
+    ],
+    "occurences": 4
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "Cure Toxins",
         "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected spellName token: \"Cure Toxins\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Gift of the Naaru",
         "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected spellName token: \"Gift of the Naaru\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Noggenfogger Elixir",
         "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected spellName token: \"Noggenfogger Elixir\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Alliance Battle Standard",
         "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected spellName token: \"Alliance Battle Standard\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Chain Heal",
         "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected spellName token: \"Chain Heal\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Drums",
         "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected spellName token: \"Drums\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "Healthstone",
         "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected spellName token: \"Healthstone\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Nature_Rune"
+    ],
+    "label": [
+      "Arena"
+    ],
+    "occurences": 11
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/cleartarget",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cleartarget"
@@ -1709,7 +1807,7 @@
       {
         "line": "/tar Shadowy Mercenary",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/tar"
@@ -1727,7 +1825,7 @@
       {
         "line": "/script SetRaidTarget(\"target\",4);",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/script"
@@ -1777,41 +1875,49 @@
       {
         "line": "/targetlasttarget",
         "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Fire_FelFire"
+    ],
+    "label": [
+      "Hor"
+    ],
+    "occurences": 1
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "sztandar",
         "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected spellName token: \"sztandar\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "siatka",
         "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected spellName token: \"siatka\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Spell_Nature_Rune"
+    ],
+    "label": [
+      "Areny"
+    ],
+    "occurences": 5
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showtoolip",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast Nature's Swiftness",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1829,7 +1935,7 @@
       {
         "line": "/cast Tidal Force",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1847,7 +1953,7 @@
       {
         "line": "/cast Healing Wave",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1862,100 +1968,121 @@
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "IN"
+    ],
+    "occurences": 10
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
         "message": "invalid syntax at line 1 col 1:\n\n  |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\n  ^\nUnexpected linkProfession token: \"|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "test"
+    ],
+    "occurences": 7
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "/petattack",
         "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Disease_05",
+      "Spell_Misc_EmotionSad"
+    ],
+    "label": [
+      "Pet"
+    ],
+    "occurences": 5
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
         "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected spellName token: \"Czesc\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_04"
+    ],
+    "label": [
+      "Rule"
+    ],
+    "occurences": 5
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "serpent",
         "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected spellName token: \"serpent\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "chimera",
         "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "aimed",
         "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "spam steady",
         "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "chimera",
         "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "aimed",
         "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "spam steady",
         "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
-        "results": []
+        "tokens": []
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "ROT"
+    ],
+    "occurences": 2
   },
   {
-    "parsed": false,
-    "failed": true,
-    "ambiguous": false,
     "lines": [
       {
         "line": "#showooltip Web",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "results": []
+        "tokens": []
       },
       {
         "line": "/cast Web",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1973,7 +2100,7 @@
       {
         "line": "/cast Pin",
         "message": "",
-        "results": [
+        "tokens": [
           {
             "type": "command",
             "value": "/cast"
@@ -1988,6 +2115,13 @@
           }
         ]
       }
-    ]
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "Web"
+    ],
+    "occurences": 2
   }
 ]

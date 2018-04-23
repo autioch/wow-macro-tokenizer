@@ -1,6 +1,4 @@
 /* eslint-disable max-len */
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable max-statements */
 const MAX_DISTANCE = 2;
 const MIN_NEARBY = 1;
 const NOISE_ID = 'Noise';
@@ -23,7 +21,7 @@ module.exports = function markClusters(macros, distanceFn, maxDistance = MAX_DIS
 
       macro.clusterId = clusterId;
 
-      /* Don't grow the cluster */
+      // /* Don't grow the cluster */
       // const nextNeighbours = findNearby(macro);
       //
       // if (nextNeighbours.length >= minNearby) {

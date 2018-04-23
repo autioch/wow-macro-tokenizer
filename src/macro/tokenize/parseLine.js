@@ -2,33 +2,37 @@ const { Parser } = require('nearley');
 const { flattenDeep } = require('lodash');
 const grammar = require('./grammar');
 
-function simplifyResults(results) {
-  return flattenDeep(results)
-    .filter((result) => !!result) // TODO Grammar has some nulls
-    .map(({ type, value }) => ({
-      type,
-      value
-    }));
+function simplifyTokens(tokens) {
+  if (Array.isArray(tokens)) {
+    return tokens
+      .filter((result) => !!result) // TODO Grammar has some nulls
+      .map((result) => simplifyTokens(result));
+  }
+
+  return {
+    type: tokens.type,
+    value: tokens.value
+  };
 }
 
 module.exports = function parseLine(line) {
-  let results = [];
+  let tokens = [];
   let parsed = false;
   let message = '';
 
   const parser = new Parser(grammar);
 
   try {
-    results = parser.feed(line).results; // eslint-disable-line prefer-destructuring
+    tokens = parser.feed(line).results; // eslint-disable-line prefer-destructuring
     parsed = true;
   } catch (err) { // eslint-disable-line no-unused-vars
     message = err.message; // eslint-disable-line prefer-destructuring
   }
 
-  const ambiguous = results.length > 1;
+  const ambiguous = tokens.length > 1;
 
   return {
-    results: ambiguous ? results : simplifyResults(results),
+    tokens: simplifyTokens(ambiguous ? tokens : flattenDeep(tokens)),
     parsed,
     message,
     line,
