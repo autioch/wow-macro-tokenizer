@@ -1,0 +1,2666 @@
+{
+  "1": {
+    "count": 8,
+    "macros": [
+      [
+        "#showtooltip",
+        "/use 15"
+      ],
+      [
+        "#showtooltip",
+        "/use 6"
+      ],
+      [
+        "#showtooltip",
+        "/use 8"
+      ],
+      [
+        "#showtooltip",
+        "/use 1"
+      ],
+      [
+        "#showtooltip",
+        "/use 13"
+      ],
+      [
+        "#showtooltip",
+        "/use 14"
+      ],
+      [
+        "#showtooltip",
+        "/use 10"
+      ],
+      [
+        "#showtooltip",
+        "/use Fel Healthstone"
+      ]
+    ]
+  },
+  "2": {
+    "count": 7,
+    "macros": [
+      [
+        "/cleartarget",
+        "/tar Stelleris Libertine",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/cleartarget",
+        "/tar Mindblowing",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/cleartarget",
+        "/tar Shadowy Mercenary",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/tar Lorekeeper",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/tar Holiinaf",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/tar Refille",
+        "/script SetRaidTarget(\"target\",4);"
+      ],
+      [
+        "/tar thangorodrim",
+        "/script SetRaidTarget(\"target\",4);"
+      ]
+    ]
+  },
+  "3": {
+    "count": 3,
+    "macros": [
+      [
+        "/script CombatLogClearEntries();"
+      ],
+      [
+        "/script LeaveParty()"
+      ],
+      [
+        "/script LeaveParty();"
+      ]
+    ]
+  },
+  "4": {
+    "count": 19,
+    "macros": [
+      [
+        "/macro"
+      ],
+      [
+        "/promote Alard"
+      ],
+      [
+        "/who g-pwn"
+      ],
+      [
+        "#showtooltip",
+        "/cast [modifier:alt] Demonic Circle: Summon;",
+        "/cast [nomodifier] Demonic Circle: Teleport;"
+      ],
+      [
+        "/cancelaura Bladestorm"
+      ],
+      [
+        "/yell INCINARATE FLESH NA MNIE"
+      ],
+      [
+        "/promote sheid"
+      ],
+      [
+        "/lol"
+      ],
+      [
+        "/promote Kerlic"
+      ],
+      [
+        "/cancelaura Divine Shield"
+      ],
+      [
+        "/pity"
+      ],
+      [
+        "/afk"
+      ],
+      [
+        "/s Another One Bites By Dusst"
+      ],
+      [
+        "/petfollow"
+      ],
+      [
+        "/focus"
+      ],
+      [
+        "/cancelaura Lichborne"
+      ],
+      [
+        "/cast Battle Stance"
+      ],
+      [
+        "/who arena ruins"
+      ],
+      [
+        "/follow Amancik"
+      ]
+    ]
+  },
+  "5": {
+    "count": 4,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Cooking Fire",
+        "/cast [mod:shift] Cooking",
+        "/cast [mod:alt] First Aid",
+        "/cast [mod:ctrl] Archaeology"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Cooking Fire",
+        "/cast [mod:shift] Cooking",
+        "/cast [mod:ctrl] First Aid",
+        "/cast [mod:alt] Archaeology"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Basic Campfire",
+        "/cast [mod:shift] Cooking",
+        "/cast [mod:alt] First Aid",
+        "/cast [mod:ctrl] Basic Campfire"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Basic Campfire",
+        "/cast [mod:shift] Cooking",
+        "/cast [mod:alt] First Aid",
+        "/cast [mod:ctrl] First Aid"
+      ]
+    ]
+  },
+  "6": {
+    "count": 43,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [target=Mindblowing] Cleanse Toxins"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Mindblowing] Flash of Light"
+      ],
+      [
+        "/cast [target=Mindblowing] Blessing of Freedom"
+      ],
+      [
+        "/cast [target=Mindblowing] Blessing of Protection"
+      ],
+      [
+        "/cast [target=Mindblowing] Cleanse"
+      ],
+      [
+        "/cast [target=Mindblowing] Hand of Freedom"
+      ],
+      [
+        "/cast [target=Mindblowing] Hand of Protection"
+      ],
+      [
+        "/cast [target=Mindblowing] Hand of Sacrifice"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=szarzuje] Misdirection"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Aseel] Dispel magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Irrissa] Dispel magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Irrissa] Abolish Disease"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Goldmoon] Cure Toxins"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=dronin] Innervate"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=dronin] remove curse"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Cleanse"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Hand of Freedom"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Hand of protection"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Hand of Sacrifice"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Sacred Shield"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Rashael] Dispel Magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Amancik] Dispel Magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Arald] Dispel magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Emiru] Cleanse"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Emiru] Flash of Light"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Emiru] Sacred Shield"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Angrylock] Cure Toxins"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Angrylock] Gift of the Naaru"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Emiru] Innervate"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Emiru] remove curse"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Quenth] Dispel Magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Ebon Gargoyle] Shackle Undead"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Mindblowing] Hand of Freedom"
+      ],
+      [
+        "/cast [target=Mindblowing] Hand of protection"
+      ],
+      [
+        "/cast [target=Mindblowing] Sacred Shield"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Rashael] Master's Call"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Raffael] Dispel Magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Eledrin] Dispel Magic"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Vanyaelnesar] Cleanse"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Vanyaelnesar] Flash of Light"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Vanyaelnesar] Hand of Freedom"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Vanyaelnesar] Hand of Protection"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=Vanyaelnesar] Hand of Sacrifice"
+      ]
+    ]
+  },
+  "7": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/castsequence reset=20 Divine Shield, Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/castsequence reset=50 Divine Shield, Hearthstone"
+      ]
+    ]
+  },
+  "8": {
+    "count": 4,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Engineering",
+        "/cast [mod:shift] Reaves Battery",
+        "/cast [mod:alt] Jeeves",
+        "/cast [mod:ctrl] MOLL-E"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Engineering",
+        "/cast [mod:shift] Rechargeable Reaves Battery",
+        "/cast [mod:alt] Jeeves",
+        "/cast [mod:ctrl] MOLL-E"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Engineering",
+        "/cast [mod:shift] MOLL-E",
+        "/cast [mod:alt] Jeeves",
+        "/cast [mod:ctrl] Engineering"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Engineering",
+        "/cast [mod:shift] MOLL-E",
+        "/cast [mod:alt] Jeeves",
+        "/cast [mod:ctrl] Smelting"
+      ]
+    ]
+  },
+  "9": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Mining Skills",
+        "/cast [mod:shift] Thermal Anvil",
+        "/cast [mod:alt] Thermal Anvil",
+        "/cast [mod:ctrl] Thermal Anvil"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Smelting",
+        "/cast [mod:shift] Thermal Anvil",
+        "/cast [mod:alt] Thermal Anvil",
+        "/cast [mod:ctrl] Thermal Anvil"
+      ]
+    ]
+  },
+  "10": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Dalaran Hearthstone",
+        "/cast [mod:shift] Hearthstone",
+        "/cast [mod:alt] Garrison Hearthstone",
+        "/cast [mod:ctrl] Wormhole Generator: Northrend"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Dalaran Hearthstone",
+        "/cast [mod:shift] Hearthstone",
+        "/cast [mod:alt] Garrison Hearthstone",
+        "/cast [mod:ctrl] Dreamwalk"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Dalaran Hearthstone",
+        "/cast [mod:shift] Hearthstone",
+        "/cast [mod:alt] Garrison Hearthstone",
+        "/cast [mod:ctrl] Teleport: Hall of the Guardian"
+      ]
+    ]
+  },
+  "11": {
+    "count": 10,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [target=focus] Counterspell"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=focus] Hammer of Justice"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=focus] Turn Evil"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=focus] Cyclone"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=focus] Hibernate"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=focus] Entangling Roots"
+      ],
+      [
+        "/cast [target=focus] Fear"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast [target=focus] Silence"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=player] Cure Toxins"
+      ],
+      [
+        "#showtooltip",
+        "/cast [target=player] Gift of the Naaru"
+      ]
+    ]
+  },
+  "12": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast Counterspell",
+        "/focus"
+      ],
+      [
+        "#showtooltip",
+        "/cast Polymorph",
+        "/focus"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Silence",
+        "/focus"
+      ]
+    ]
+  },
+  "13": {
+    "count": 6,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Enchanting",
+        "/cast [mod:shift] Disenchant"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Jewelcrafting",
+        "/cast [mod:shift] Prospecting"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Disenchant",
+        "/cast [mod:shift] Enchanting"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Death Gate",
+        "/cast [mod:shift] Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Wormhole Generator: Northrend"
+      ]
+    ]
+  },
+  "14": {
+    "count": 22,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast Water Jet"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Crusader Strike"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Divine Storm"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Flame Shock"
+      ],
+      [
+        "#showtooltip",
+        "/cast Dispel magic"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Shadowfiend"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Sinister Strike"
+      ],
+      [
+        "#showtooltip",
+        "/cast Devouring Plague",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Psychic Horror"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Silence"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Shadow Word: Death"
+      ],
+      [
+        "#showtooltip",
+        "/cast Vampiric Touch",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/cast Shadow Word: Pain",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Mutilate"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Dispersion"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Devouring Plague"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Shadow Word: Pain"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Vampiric Touch"
+      ],
+      [
+        "#showtooltip",
+        "/cast Cower"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Grounding Totem"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Tremor Totem"
+      ],
+      [
+        "/stopcasting",
+        "/cast Dispersion"
+      ]
+    ]
+  },
+  "15": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Prideful Gladiator's Greatsword",
+        "/equip Prideful Gladiator's Greatsword"
+      ],
+      [
+        "#showtooltip Edge of Ruin",
+        "/equip Edge of Ruin"
+      ]
+    ]
+  },
+  "16": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip Frostwolf Howler",
+        "/cast [nomod,flyable,nomounted] Blue Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Frostwolf Howler"
+      ],
+      [
+        "#showtooltip Summon Charger",
+        "/cast [nomod,flyable,nomounted] Blue Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Summon Charger"
+      ],
+      [
+        "#showtooltip Blue Wind Rider",
+        "/cast [nomod,flyable,nomounted] Blue Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Swift Purple Hawkstrider"
+      ]
+    ]
+  },
+  "17": {
+    "count": 3,
+    "macros": [
+      [
+        "/cast Avenging Wrath",
+        "/use 14"
+      ],
+      [
+        "#showtooltip",
+        "/cast Avenging Wrath",
+        "/use 14"
+      ],
+      [
+        "/startattack",
+        "/cast Avenging Wrath",
+        "/use 10"
+      ]
+    ]
+  },
+  "18": {
+    "count": 5,
+    "macros": [
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Judgment",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Divine Storm",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Crusader Strike",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Hammer of the Righteous",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Shield of the Righteous",
+        "/startattack"
+      ]
+    ]
+  },
+  "19": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Judgement of Justice",
+        "/startattack",
+        "/cast Judgement of Justice",
+        "/use 14",
+        "/use 13",
+        "/use 10"
+      ],
+      [
+        "#showtooltip Judgement of Light",
+        "/startattack",
+        "/cast Judgement of Light",
+        "/use 14",
+        "/use 13",
+        "/use 10"
+      ]
+    ]
+  },
+  "20": {
+    "count": 6,
+    "macros": [
+      [
+        "#showtooltip Judgement of Wisdom",
+        "/startattack",
+        "/cast Judgement of Wisdom"
+      ],
+      [
+        "#showtooltip Devastate",
+        "/startattack",
+        "/cast Devastate"
+      ],
+      [
+        "#showtooltip Mortal Strike",
+        "/startattack",
+        "/cast Mortal Strike"
+      ],
+      [
+        "#showtooltip Rend",
+        "/startattack",
+        "/cast Rend"
+      ],
+      [
+        "#showtooltip Judgement of Justice",
+        "/startattack",
+        "/cast Judgement of Justice"
+      ],
+      [
+        "#showtooltip Judgement of Light",
+        "/startattack",
+        "/cast Judgement of Light"
+      ]
+    ]
+  },
+  "21": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Charger",
+        "/cast [nomod,flyable,nomounted] Time-Lost Proto-Drake",
+        "/cast [nomod,noflyable,nomounted]  Charger",
+        "/cast [mounted] Crusader Aura"
+      ],
+      [
+        "#showtooltip Charger",
+        "/cast [nomod,flyable,nomounted] Time-Lost Proto-Drake",
+        "/cast [nomod,noflyable,nomounted] Charger",
+        "/cast [mounted] Crusader Aura"
+      ]
+    ]
+  },
+  "22": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip Hammer of Justice",
+        "/focus",
+        "/cast Hammer of Justice"
+      ],
+      [
+        "#showtooltip Repentance",
+        "/focus",
+        "/cast Repentance"
+      ],
+      [
+        "#showtooltip Hex",
+        "/focus",
+        "/cast Hex"
+      ]
+    ]
+  },
+  "23": {
+    "count": 18,
+    "macros": [
+      [
+        "/cast [target=Goldmoon] Hand of protection"
+      ],
+      [
+        "/cast [target=Vudu] Dispel Magic"
+      ],
+      [
+        "/cast [target=Suzuke] Hand of Protection"
+      ],
+      [
+        "/cast [target=Emiru] Hand of Freedom"
+      ],
+      [
+        "/cast [target=Emiru] Hand of Protection"
+      ],
+      [
+        "/cast [target=Emiru] Hand of Sacrifice"
+      ],
+      [
+        "/cast [target=Quenth] Cleanse"
+      ],
+      [
+        "/cast [target=Quenth] Flash of Light"
+      ],
+      [
+        "/cast [target=Noshards] Power Word: Shield"
+      ],
+      [
+        "/cast [target=Agimijagi] Cleanse"
+      ],
+      [
+        "/cast [target=Emiru] Cleanse"
+      ],
+      [
+        "/cast [target=Agimijagi] Flash of Light"
+      ],
+      [
+        "/cast [target=Emiru] Flash of Light"
+      ],
+      [
+        "/cast [target=Agimijagi] Hand of Freedom"
+      ],
+      [
+        "/cast [target=Agimijagi] Hand of Protection"
+      ],
+      [
+        "/cast [target=Agimijagi] Hand of Sacrifice"
+      ],
+      [
+        "/cast [target=Agimijagi] Sacred Shield"
+      ],
+      [
+        "/cast [target=Emiru] Sacred Shield"
+      ]
+    ]
+  },
+  "24": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Hammer of Wrath",
+        "/use 10",
+        "/cast Hammer of Wrath",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Hammer of Wrath",
+        "/startattack",
+        "/use 10",
+        "/cast Hammer of Wrath",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "25": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip Judgement of Justice",
+        "/startattack",
+        "/cast Judgement of Justice",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Judgement of Light",
+        "/startattack",
+        "/cast Judgement of Light",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Judgement of Wisdom",
+        "/startattack",
+        "/cast Judgement of Wisdom",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "26": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Charger",
+        "/cast [nomod,flyable,nomounted] Green Proto-Drake",
+        "/castrandom [nomod,noflyable,nomounted]  Black War Bear, Swift Moonsaber, Swift Brewfest Ram, Black War Steed, Stormpike Battle Charger, Turbostrider",
+        "/cast [mounted] Crusader Aura"
+      ],
+      [
+        "#showtooltip Charger",
+        "/cast [nomod,flyable,nomounted] Violet Proto-Drake",
+        "/castrandom [nomod,noflyable,nomounted]  Black War Bear, Swift Moonsaber, Swift Brewfest Ram, Black War Steed, Stormpike Battle Charger, Turbostrider",
+        "/cast [mounted] Crusader Aura"
+      ]
+    ]
+  },
+  "27": {
+    "count": 2,
+    "macros": [
+      [
+        "/run x=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"GUILD\");end"
+      ],
+      [
+        "/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"GUILD\");end"
+      ]
+    ]
+  },
+  "28": {
+    "count": 1,
+    "macros": [
+      [
+        "/g .server info"
+      ]
+    ]
+  },
+  "29": {
+    "count": 2,
+    "macros": [
+      [
+        "/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print(\"\\124cffff0000\\Failed:\\124r\",k) else print(\"\\124cff00ff00\\OK:\\124r\",k) end; end"
+      ],
+      [
+        "/run y=GetAchievementCriteriaInfo for z=1,85 do a,b,c,d,e,f,g,h,i,j = y(1021,z); k,l,m,n,o,p,q,r,s,t = y(j) if m==false then print(\"\\124cffff0000\\You have NOT YET equipped:\\124r\",k) else print(\"\\124cff00ff00\\You have equipped:\\124r\",k) end; end"
+      ]
+    ]
+  },
+  "30": {
+    "count": 2,
+    "macros": [
+      [
+        "/who 80 alterac conquest"
+      ],
+      [
+        "/equipslot 16 Relentless Gladiator's Decapitator"
+      ]
+    ]
+  },
+  "31": {
+    "count": 2,
+    "macros": [
+      [
+        "/who 10-79 warsong arathi eye strand"
+      ],
+      [
+        "/who 70-79 arathi warsong strand eye"
+      ]
+    ]
+  },
+  "32": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip",
+        "/focus",
+        "/cast Cyclone"
+      ],
+      [
+        "#showtooltip",
+        "/focus",
+        "/cast Hibernate"
+      ],
+      [
+        "#showtooltip",
+        "/focus",
+        "/cast Entangling Roots"
+      ]
+    ]
+  },
+  "33": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Faerie Fire (Feral)"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Mangle (Bear)"
+      ],
+      [
+        "#showtooltip",
+        "/startattack",
+        "/cast Mangle (Cat)"
+      ]
+    ]
+  },
+  "34": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Argent Crusader's Tabard",
+        "/cast [mod:ctrl] Teleport: Moonglade",
+        "/cast [mod:alt] Teleport: Moonglade"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Argent Crusader's Tabard",
+        "/cast [mod:ctrl] Teleport: Dalaran",
+        "/cast [mod:alt] Teleport: Dalaran"
+      ]
+    ]
+  },
+  "35": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip Swift Flight Form(Shapeshift)",
+        "/cast [nomod,flyable, nomounted] Swift Flight Form(Shapeshift)",
+        "/cast [nomod,noflyable, nomounted] Swift Frostsaber",
+        "/cast [mod:shift] Black Drake"
+      ],
+      [
+        "#showtooltip Swift Flight Form(Shapeshift)",
+        "/cast [nomod,flyable, nomounted] Swift Flight Form(Shapeshift)",
+        "/cast [nomod,noflyable, nomounted] Darnassian Nightsaber",
+        "/cast [mod:shift] Black Drake"
+      ],
+      [
+        "#showtooltip Swift Flight Form(Shapeshift)",
+        "/cast [nomod,flyable, nomounted] Swift Flight Form(Shapeshift)",
+        "/cast [nomod,noflyable, nomounted] Swift Red Hawkstrider",
+        "/cast [mod:shift] Black Drake"
+      ]
+    ]
+  },
+  "36": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip Hex",
+        "/stopcasting",
+        "/cast [target=focus] Hex"
+      ],
+      [
+        "#showtooltip Wind Shear",
+        "/stopcasting",
+        "/cast [target=focus] Wind Shear"
+      ],
+      [
+        "#showtooltip Silence",
+        "/stopcasting",
+        "/cast [target=focus] Silence"
+      ]
+    ]
+  },
+  "37": {
+    "count": 1,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [target=Goldmoon] Gift of the Naaru(Racial)"
+      ]
+    ]
+  },
+  "38": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Astral Recall",
+        "/cast [mod:shift] Argent Crusader's Tabard",
+        "/cast [mod:ctrl] Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Argent Crusader's Tabard",
+        "/cast [mod:ctrl] Runed Signet of the Kirin Tor"
+      ]
+    ]
+  },
+  "39": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Black War Tiger",
+        "/cast [nomodifier,flyable, nomounted] Bronze Drake",
+        "/cast [nomodifier,noflyable, nomounted] Black War Tiger",
+        "/cast [modifier:shift] Black War Tiger",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "#showtooltip Black War Tiger",
+        "/cast [nomodifier,flyable, nomounted] Swift Blue Gryphon",
+        "/cast [nomodifier,noflyable, nomounted] Black War Tiger",
+        "/cast [modifier:shift] Black War Tiger",
+        "/dismount [noflying, mounted]"
+      ]
+    ]
+  },
+  "40": {
+    "count": 2,
+    "macros": [
+      [
+        "/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;print(x);else print('Trwa WG');end"
+      ],
+      [
+        "/run x=\"WG in \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;print(x);else print('WG in progress');end"
+      ]
+    ]
+  },
+  "41": {
+    "count": 2,
+    "macros": [
+      [
+        "/run x=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"CHANNEL\",nil,GetChannelName(\"pl\"))end"
+      ],
+      [
+        "/run x=\"WG za \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then x=x..h..\"h \";end;if m>0 then x=x..m..\"m \";end;if s>0 then x=x..s..\"s\";end;SendChatMessage(x,\"CHANNEL\",nil,GetChannelName(\"pl\"))end"
+      ]
+    ]
+  },
+  "42": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomodifier] Hearthstone",
+        "/cast [modifier:shift] Death Gate"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomodifier] Runed Signet of the Kirin Tor",
+        "/cast [modifier:shift] Hearthstone"
+      ]
+    ]
+  },
+  "43": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip [flyable] Swift Purple Wind Rider; Acherus Deathcharger",
+        "/use [flyable, nomounted] Swift Purple Wind Rider;",
+        "/use [noflyable, nomounted] Acherus Deathcharger;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ],
+      [
+        "#showtooltip [flyable] Armored Blue Wind Rider; Swift Warstrider",
+        "/use [flyable, nomounted] Black Drake;",
+        "/use [noflyable, nomounted] Frostwolf Howler;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ]
+    ]
+  },
+  "44": {
+    "count": 7,
+    "macros": [
+      [
+        "/cast [pet:Felhunter,target=Atchene] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Vanyaelnesar] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Arald] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Maraelnesar] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Eilan] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Cretok] Devour Magic"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Shardless] Devour Magic"
+      ]
+    ]
+  },
+  "45": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nochanneling: Drain Life] Drain Life"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nochanneling: Drain Mana] Drain Mana"
+      ]
+    ]
+  },
+  "46": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/use [nomod] Fel Healthstone",
+        "/cast [mod:shift] Create Healthstone"
+      ],
+      [
+        "/use [nomod] Fel Healthstone",
+        "/cast [mod:shift] Create Healthstone"
+      ]
+    ]
+  },
+  "47": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Shield Block",
+        "/cast Defensive Stance",
+        "/equipslot 16 Aledar's Battlestar",
+        "/equipslot 17 Titansteel Shield Wall",
+        "/cast Shield Block"
+      ],
+      [
+        "#showtooltip Shield Wall",
+        "/cast Defensive Stance",
+        "/equipslot 16 Aledar's Battlestar",
+        "/equipslot 17 Titansteel Shield Wall",
+        "/cast Shield Wall"
+      ]
+    ]
+  },
+  "48": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Enraged Regeneration",
+        "/use 14",
+        "/cast Enraged Regeneration"
+      ],
+      [
+        "#showtooltip Summon Gargoyle",
+        "/use 14",
+        "/cast Summon Gargoyle"
+      ]
+    ]
+  },
+  "49": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Intercept",
+        "/cast Berserker Stance",
+        "/cast Intercept"
+      ],
+      [
+        "#showtooltip Pummel",
+        "/cast Berserker Stance",
+        "/cast Pummel"
+      ]
+    ]
+  },
+  "50": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Prospecting",
+        "/cast [mod:shift] Jewelcrafting",
+        "/cast [mod:alt] Jewelcrafting",
+        "/cast [mod:ctrl] Jewelcrafting"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Prospecting",
+        "/cast [mod:shift] Jewelcrafting",
+        "/cast [mod:ctrl] Jewelcrafting",
+        "/cast [mod:alt] Jewelcrafting"
+      ]
+    ]
+  },
+  "51": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip [flyable] Swift Purple gryphon; Black War Tiger;",
+        "/use [flyable, nomounted] Swift Purple Gryphon;",
+        "/use [noflyable, nomounted] Black War Tiger;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ],
+      [
+        "#showtooltip [flyable] fly; run;",
+        "/use [flyable, nomounted] fly;",
+        "/use [noflyable, nomounted] run;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ]
+    ]
+  },
+  "52": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [nomod] Summon Voidwalker",
+        "/cast [mod:shift] Summon Succubus",
+        "/cast [mod:alt] Summon felhunter",
+        "/cast [mod:ctrl] Summon Imp"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Summon Voidwalker",
+        "/cast [mod:shift] Summon Succubus",
+        "/cast [mod:alt] Summon Felhunter",
+        "/cast [mod:ctrl] Summon Imp"
+      ]
+    ]
+  },
+  "53": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Swift Moonsaber",
+        "/use [flyable, nomounted] Magnificent Flying Carpet;",
+        "/use [noflyable, nomounted] Swift Moonsaber;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ],
+      [
+        "#showtooltip Swift White Steed",
+        "/use [flyable, nomounted] Swift Blue Gryphon;",
+        "/use [noflyable, nomounted] Swift White Steed;",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ]
+    ]
+  },
+  "54": {
+    "count": 3,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast Feed Pet",
+        "/use Smoked Talbuk Venison"
+      ],
+      [
+        "#showtooltip",
+        "/cast Feed Pet",
+        "/use Honey-Spiced Lichen"
+      ],
+      [
+        "#showtooltip",
+        "/cast Feed Pet",
+        "/use Poached Emperor Salmon"
+      ]
+    ]
+  },
+  "55": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cancelaura dampen magic",
+        "/cast flash heal"
+      ],
+      [
+        "#showtooltip",
+        "/cancelaura Deterrence",
+        "/cast Explosive Shot"
+      ]
+    ]
+  },
+  "56": {
+    "count": 3,
+    "macros": [
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"party1\",2);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",7);",
+        "/script SetRaidTarget(\"party4\",1);",
+        "/script SetRaidTarget(\"asdfasd\",8);"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"party1\",2);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",7);",
+        "/script SetRaidTarget(\"party4\",1);",
+        "/script SetRaidTarget(\"Khuunem\",8);"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"party1\",2);",
+        "/script SetRaidTarget(\"party2\",6);",
+        "/script SetRaidTarget(\"party3\",7);",
+        "/script SetRaidTarget(\"party4\",1);",
+        "/script SetRaidTarget(\"asdfasd\",8);"
+      ]
+    ]
+  },
+  "57": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cast [target=Cryptic] Flash of Light(Rank 9)"
+      ],
+      [
+        "/cast [target=Mindblowing] Flash of Light(Rank 9)"
+      ]
+    ]
+  },
+  "58": {
+    "count": 2,
+    "macros": [
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",4);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Thryllin\",8);"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",4);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Bowjob\",8);"
+      ]
+    ]
+  },
+  "59": {
+    "count": 2,
+    "macros": [
+      [
+        "/tar trousi",
+        "/script SetRaidTarget(\"target\",1);"
+      ],
+      [
+        "/tar Busted",
+        "/script SetRaidTarget(\"target\",1);"
+      ]
+    ]
+  },
+  "60": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Repentance",
+        "/cast [target=focus] Repentance"
+      ],
+      [
+        "/cast Berserker Stance",
+        "/cast [target=focus] Intercept"
+      ]
+    ]
+  },
+  "61": {
+    "count": 2,
+    "macros": [
+      [
+        "/4 WTS |cffffd000|Htrade:51304:450:450:18FA5CBC:2//n+x/3/Vd/vAMEgEADpCAAAEA/oAC/7///Du/P+//v|h[Alchemy]|h|r"
+      ],
+      [
+        "/3 WTS |cffffd000|Htrade:51304:450:450:18FA5CBC:2//n+x/3/Vd/vAMEgEADpCAAAEA/oAC/7///Du/P+//v|h[Alchemy]|h|r"
+      ]
+    ]
+  },
+  "62": {
+    "count": 1,
+    "macros": [
+      [
+        "/rofl",
+        "/facepalm"
+      ]
+    ]
+  },
+  "63": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Aegis of the Coliseum",
+        "/equip Ardent Guard",
+        "/equip Aegis of the Coliseum"
+      ],
+      [
+        "#showtooltip Aegis of the Coliseum",
+        "/equip Wrathful Gladiator's Gavel",
+        "/equip Aegis of the Coliseum"
+      ]
+    ]
+  },
+  "64": {
+    "count": 2,
+    "macros": [
+      [
+        "/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(\"Devout Candle\") then BuyMerchantItem(i,100)end end end"
+      ],
+      [
+        "/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(\"Rumsey Rum Black Label\") then BuyMerchantItem(i,100)end end end"
+      ]
+    ]
+  },
+  "65": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip",
+        "/cancelaura Deterrence",
+        "/cast Aimed Shot",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Deterrence",
+        "/cast Deterrence",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "66": {
+    "count": 6,
+    "macros": [
+      [
+        "#showtooltip Roar of Recovery",
+        "/cast Roar of Recovery",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Corruption",
+        "/cast Corruption",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Dancing Rune Weapon",
+        "/cast Dancing Rune Weapon",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Heroic Throw",
+        "/cast Heroic Throw",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Huddle",
+        "/cast Huddle",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Pestilence",
+        "/cast Pestilence",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "67": {
+    "count": 3,
+    "macros": [
+      [
+        "/cast [target=focus] Scatter Shot",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cast [target=focus] Silencing Shot",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cast [target=focus] Chains of Ice",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "68": {
+    "count": 1,
+    "macros": [
+      [
+        "/cast [target=mouseover] Chains of Ice",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "69": {
+    "count": 1,
+    "macros": [
+      [
+        "/cast [target=focus] Death Coil(Rank 6)"
+      ]
+    ]
+  },
+  "70": {
+    "count": 2,
+    "macros": [
+      [
+        "#showtooltip Gnaw",
+        "/cast Gnaw"
+      ],
+      [
+        "/cast Frost Presence",
+        "/cast Unholy Presence"
+      ]
+    ]
+  },
+  "71": {
+    "count": 2,
+    "macros": [
+      [
+        "/script SetCVar(\"cameraDistanceMax\",45)"
+      ],
+      [
+        "/script SetCVar(\"cameraDistanceMax\",90)"
+      ]
+    ]
+  },
+  "72": {
+    "count": 1,
+    "macros": [
+      [
+        "/equipslot 16 item:51480:3367"
+      ]
+    ]
+  },
+  "73": {
+    "count": 1,
+    "macros": [
+      [
+        "/startattack",
+        "/cast Hammer of Wrath",
+        "/use 10"
+      ]
+    ]
+  },
+  "74": {
+    "count": 5,
+    "macros": [
+      [
+        "/cleartarget",
+        "/tar devilsmile",
+        "/script SetRaidTarget(\"target\",4);",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cleartarget",
+        "/tar Knucklerot",
+        "/script SetRaidTarget(\"target\",4);",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cleartarget",
+        "/tar Nexus Drake Hatchling",
+        "/script SetRaidTarget(\"target\",4);",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cleartarget",
+        "/tar Asius",
+        "/script SetRaidTarget(\"target\",4);",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cleartarget",
+        "/tar umis",
+        "/script SetRaidTarget(\"target\",4);",
+        "/script UIErrorsFrame:Clear()"
+      ]
+    ]
+  },
+  "75": {
+    "count": 1,
+    "macros": [
+      [
+        "#showtooltip Summon Charger",
+        "/cast [nomod,flyable,nomounted] Swift Purple Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Summon Charger"
+      ]
+    ]
+  },
+  "76": {
+    "count": 1,
+    "macros": [
+      [
+        "/p czesc,"
+      ]
+    ]
+  },
+  "77": {
+    "count": 1,
+    "macros": [
+      [
+        "#showtooltip Swift Purple Hawkstrider",
+        "/cast [nomod,flyable,nomounted] Flying Carpet",
+        "/cast [nomod,noflyable,nomounted] Swift Purple Hawkstrider"
+      ]
+    ]
+  },
+  "Noise": {
+    "count": 169,
+    "macros": [
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"party1\",1);",
+        "/script SetRaidTarget(\"party2\",2);",
+        "/script SetRaidTarget(\"party3\",3);",
+        "/script SetRaidTarget(\"party4\",5);"
+      ],
+      [
+        "/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(\"Formula: Enchant Chest - Major Health\") then BuyMerchantItem(i,1)end end end"
+      ],
+      [
+        "/cast Warts-B-Gone Lip Balm",
+        "/kiss"
+      ],
+      [
+        "#showtooltip",
+        "/cast Avenging Wrath",
+        "/use 13",
+        "/use 14"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Redemption",
+        "/cast [mod:shift] Ultimate Gnomish Army Knife",
+        "/cast [mod:alt] Ultimate Gnomish Army Knife",
+        "/cast [mod:ctrl] Ultimate Gnomish Army Knife"
+      ],
+      [
+        "#showtooltip Red Flying Cloud",
+        "/cast [nomod,flyable,nomounted] Red Flying Cloud",
+        "/cast [nomod,noflyable,nomounted] Red Flying Cloud"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Mobile Banking",
+        "/cast [mod:shift] Pack Hobgoblin",
+        "/cast [mod:ctrl] Pack Hobgoblin",
+        "/cast [mod:alt] Pack Hobgoblin"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Conjured Mana Pudding",
+        "/cast [mod:shift] Conjure Refreshment",
+        "/cast [mod:ctrl] Conjure Refreshment Table",
+        "/cast [mod:alt] Conjure Refreshment Table"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod: shift] Garrison Hearthstone",
+        "/cast [mod:ctrl] Garrison Hearthstone",
+        "/cast [mod:alt] Garrison Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/dismount",
+        "/cast !Freeze"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",4);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Graverawler\",7);",
+        "/script SetRaidTarget(\"Stonerumbler\",7)"
+      ],
+      [
+        "#showtooltip Bulwark of the Fallen General",
+        "/equip Encapsulated Essence of Immerseus",
+        "/equip Bulwark of the Fallen General"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Wormhole Generator: Northrend",
+        "/cast [mod:alt] Wormhole Generator: Pandaria",
+        "/cast [mod:ctrl] Garrison Hearthstone"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Redemption",
+        "/cast [mod:shift] Mass Resurrection",
+        "/cast [mod:alt] Mass Resurrection",
+        "/cast [mod:ctrl] Mass Resurrection"
+      ],
+      [
+        "/y Move on apes! You wanna live forever?!"
+      ],
+      [
+        "#showtooltip",
+        "/cast Avenging Wrath",
+        "/use 1",
+        "/use 13",
+        "/use 14"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Dalaran Hearthstone",
+        "/cast [mod:shift] Hearthstone",
+        "/cast [mod:ctrl] Garrison Hearthstone",
+        "/cast [mod:alt] Admiral's Compass"
+      ],
+      [
+        "#showtooltip Hammer of Wrath",
+        "/use 10",
+        "/cast Hammer of Wrath"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Argent Crusader's Tabard",
+        "/cast [mod:alt] Wormhole Generator: Northrend",
+        "/cast [mod:ctrl] Hearthstone"
+      ],
+      [
+        "/script SetRaidTarget(\"Arald\",4);",
+        "/script SetRaidTarget(\"Cleavage\",1);",
+        "/script SetRaidTarget(\"Asheel\",8);",
+        "/script SetRaidTarget(\"Graverawler\",5);"
+      ],
+      [
+        "#showtooltip Turn Evil",
+        "/tar Ebon Gargoyle",
+        "/focus",
+        "/cast Turn Evil"
+      ],
+      [
+        "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end"
+      ],
+      [
+        "#showtooltip",
+        "/castsequence reset=3 Star's Sorrow, Poached Emperor Salmon"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",5);",
+        "/script SetRaidTarget(\"party2\",4);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",1);",
+        "/script SetRaidTarget(\"asdfasd\",8);"
+      ],
+      [
+        "#showtooltip [combat] Ferocious Bite; Prowl",
+        "/cast [nocombat] !Prowl",
+        "/cast [combat, harm] Ferocious Bite",
+        "/cast [combat, noharm] Noggenfogger Elixir"
+      ],
+      [
+        "/2 ----------------",
+        "/2 |cffffd000|Htrade:45363:450:450:18F194CA:g////7////3///////////////////////////////////////////////////f///////////f|h[Inscription]|h|r",
+        "/2 wszystkie glify, 100g/szt"
+      ],
+      [
+        "#showtooltip Nature's Swiftness",
+        "/cast Gift of the Naaru(Racial)",
+        "/cast Nature's Swiftness",
+        "/cast Tidal Force",
+        "/cast Healing Wave"
+      ],
+      [
+        "#showtooltip Nevermelting Ice Crystal",
+        "/cast Nevermelting Ice Crystal",
+        "/cast Talisman of Volatile Power",
+        "/cast Elemental Mastery"
+      ],
+      [
+        "#showtooltip Wind Shear",
+        "/stopcasting",
+        "/focus",
+        "/cast Wind Shear"
+      ],
+      [
+        "/script SetRaidTarget(\"Thornstar\",4);",
+        "/script SetRaidTarget(\"Voylin\",8);"
+      ],
+      [
+        "#showtooltip Berserk",
+        "/cast Berserk",
+        "/cast Mark of Supremacy"
+      ],
+      [
+        "#showtooltip",
+        "/cast Survival Instincts",
+        "/cast Frenzied Regeneration"
+      ],
+      [
+        "#showtooltip Devouring Plague",
+        "/cast !Inner Focus",
+        "/cast Devouring Plague",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Swift Purple Gryphon",
+        "/cast [nomodifier,flyable, nomounted] Swift Purple Gryphon",
+        "/cast [nomodifier,noflyable, nomounted] Swift Palomino",
+        "/cast [modifier:shift]",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "/run local x=UnitSex(\"target\");local g={\"n unknown!\", \" boy!\", \" girl!\"} n=GetUnitName(\"target\");if IsShiftKeyDown()then SendChatMessage(n ..\" is a\" ..g[x],\"SAY\");else print(n ..\" --\" ..g[x]);end"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"party1\",8);",
+        "/script SetRaidTarget(\"party2\",2);",
+        "/script SetRaidTarget(\"party3\",3);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Khuunem\",8);"
+      ],
+      [
+        "/run SetRaidTarget(\"target\", 1);",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Summon Warhorse",
+        "/castrandom Summon Warhorse, Red Hawkstrider, Purple Hawkstrider, Brewfest Ram, Blue Hawkstrider, Black Hawkstrider, Brewfest Ram, Summon Warhorse"
+      ],
+      [
+        "#showtooltip Death Pact",
+        "/castsequence Raise Dead, Death Pact"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Disenchant",
+        "/cast [mod:ctrl] Basic Campfire",
+        "/cast [mod:shift] Enchanting",
+        "/cast [mod:alt] Armorsmith"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Demon Armor",
+        "/cast [mod:shift] Fel Armor",
+        "/cast [mod:alt] Fel Armor",
+        "/cast [mod:ctrl] Fel Armor"
+      ],
+      [
+        "#showtooltip Grand Firestone",
+        "/cast [button:2] Create Firestone",
+        "/use [button:1] Grand Firestone",
+        "/use [button:1] 16",
+        "/click StaticPopup1Button1"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomodifier] Summon Voidwalker",
+        "/cast [modifier:shift] Summon Succubus",
+        "/cast [modifier:alt] Summon Felhunter",
+        "/cast [modifier:ctrl] Inferno"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomodifier] Prospecting",
+        "/cast [modifier:shift] Jewelcrafting",
+        "/cast [modifier:alt] Cooking",
+        "/cast [modifier:ctrl] Blacksmithing"
+      ],
+      [
+        "#showtooltip Grand Spellstone",
+        "/cast [button:2] Create Spellstone",
+        "/use [button:1] Grand Spellstone",
+        "/use [button:1] 16",
+        "/click StaticPopup1Button1"
+      ],
+      [
+        "#showtooltip Charge",
+        "/cast Bloodrage",
+        "/cast Charge"
+      ],
+      [
+        "#showtooltip Charge",
+        "/cast Charge",
+        "/cast Intercept",
+        "/cast Rend"
+      ],
+      [
+        "#showtooltip Disarm",
+        "/cast Defensive Stance",
+        "/cast Disarm"
+      ],
+      [
+        "#showtooltip",
+        "/castsequence reset=45  Deadly Gladiator's Plate Gauntlets, Heroic Throw"
+      ],
+      [
+        "#showtooltip Shield Bash",
+        "/equipslot 16 Aledar's Battlestar",
+        "/equipslot 17 Titansteel Shield Wall",
+        "/cast Shield Bash"
+      ],
+      [
+        "#showtooltip Spell Reflection",
+        "/cast Battle Stance",
+        "/equipslot 16 Aledar's Battlestar",
+        "/equipslot 17 Titansteel Shield Wall",
+        "/cast Spell Reflection"
+      ],
+      [
+        "#showtooltip Shield Slam",
+        "/equipslot 16 Aledar's Battlestar",
+        "/equipslot 17 Leeka's Shield",
+        "/cast Shield Slam"
+      ],
+      [
+        "/cast [pet:Felhunter,target=Eilan] Devour Magic",
+        "/cast [pet:Voidwalker] Sacrifice"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Demonic Circle: Teleport",
+        "/cast [mod:alt] Demonic Circle: Summon",
+        "/cast [mod:shift] Demonic Circle: Summon",
+        "/cast [mod:ctrl] Demonic Circle: Summon"
+      ],
+      [
+        "#showtooltip  Demonic Soulstone",
+        "/cast [button:2] Create Soulstone",
+        "/use [button:1]  Demonic Soulstone"
+      ],
+      [
+        "#showtooltip Mind Blast",
+        "/cast !Inner Focus",
+        "/cast Mind Blast"
+      ],
+      [
+        "#showtooltip",
+        "/cast [@Shockinhorny] Resurrection"
+      ],
+      [
+        ".server info",
+        ".gm ingame"
+      ],
+      [
+        "#showtooltip",
+        "/s Click the portal to get lazy butts over here",
+        "/cast Ritual of Summoning"
+      ],
+      [
+        "/3 |cffffd000|Htrade:3909:122:150:1D6B7:6//yrCAIwthrZCAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r za matsy",
+        "/3 kupie Golden Rod"
+      ],
+      [
+        "#showtooltip",
+        "/cast [@pet,dead] Revive Pet",
+        "/cast [pet] Mend Pet"
+      ],
+      [
+        "#showtooltip [flyable] Blue Wind Rider; Swift Timber Wolf",
+        "/cast [nomodifier,flyable, nomounted] Blue Wind Rider",
+        "/cast [nomodifier,noflyable, nomounted] Swift Timber Wolf",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "#showtooltip",
+        "/cast [pet:Obcy] Nether Shock"
+      ],
+      [
+        "/g .server info",
+        "/g .gm ingame"
+      ],
+      [
+        "#showtooltip",
+        "/use Deadly Poison IX",
+        "/use [button:1] 16; [button:2] 17",
+        "/click StaticPopup1Button1"
+      ],
+      [
+        "#showtooltip [flyable]",
+        "/cast [nomodifier,flyable, nomounted]",
+        "/cast [nomodifier,noflyable, nomounted]",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "/rw TS: 178.33.136.99",
+        "/ra TS: 178.33.136.99",
+        "/rw Pokoj: \"We pwn like np\" Haslo: \"marchewka\"",
+        "/ra Pokoj: \"We pwn like np\" Haslo: \"marchewka\""
+      ],
+      [
+        "/cast [button:2] Create Soulstone",
+        "/use [button:1]  Demonic Soulstone"
+      ],
+      [
+        "/run c=\"WG \";t=GetWintergraspWaitTime();f=floor;if t~=nil then h=f(t/3600);m=f(t/60)%60;s=t%60;if h>0 then c=c..h..\"h \";end;if m>0 then c=c..m..\"m \";end;if s>0 then c=c..s..\"s\";end;print(c)end"
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/tar Tremor Totem",
+        "/cast Psychic Scream",
+        "/startattack"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone"
+      ],
+      [
+        "#showtooltip Blink",
+        "/stopcasting",
+        "/cancelaura Ice Block",
+        "/cast Blink"
+      ],
+      [
+        "#showtooltip Counterspell",
+        "/stopcasting",
+        "/cancelaura Ice Block",
+        "/cast [target=focus] Counterspell"
+      ],
+      [
+        "#showtooltip Conjured Mana Strudel",
+        "/cast [button:1] Conjured Mana Strudel",
+        "/cast [button:2] Conjure Refreshment"
+      ],
+      [
+        "#showtooltip Polymorph",
+        "/cancelaura Ice Block",
+        "/cast [target=focus] Polymorph"
+      ],
+      [
+        "#showtooltip Mana Sapphire",
+        "/cast [button:1] Mana Sapphire",
+        "/cast [button:2] Conjure Mana Gem"
+      ],
+      [
+        "#showtooltip Ice Block",
+        "/stopcasting",
+        "/cast Ice Block"
+      ],
+      [
+        "#showtooltip Ice Barrier",
+        "/stopcasting",
+        "/cancelaura Ice Block",
+        "/cancelaura Mana Shield",
+        "/cast Ice Barrier"
+      ],
+      [
+        "#showtooltip Swift Moonsaber",
+        "/cast [nomodifier,flyable, nomounted] Swift Blue Gryphon",
+        "/cast [nomodifier,noflyable, nomounted] Swift Moonsaber",
+        "/cast [modifier:shift]",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "#showtooltip Counterspell",
+        "/stopcasting",
+        "/cancelaura Ice Block",
+        "/focus",
+        "/cast Counterspell"
+      ],
+      [
+        "#showtooltip Polymorph",
+        "/cancelaura Ice Block",
+        "/focus",
+        "/cast Polymorph"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",4);",
+        "/script SetRaidTarget(\"Aseel\",8);",
+        "/script SetRaidTarget(\"Asheel\",8);",
+        "/script SetRaidTarget(\"Arsh\",8);"
+      ],
+      [
+        "/2 kupie Dark Iron Ore, Fiery Core, Lava Core, Core Leather, Blood of the Mountain, kazda ilosc w rozsadnej cenie"
+      ],
+      [
+        "/2 --- |cffffd000|Htrade:45363:450:450:18F194CA:g////7////3///////////////////////////////////////////////////f///////////f|h[Inscription]|h|r wszystkie glify, 100g/szt"
+      ],
+      [
+        "/2 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+b/////P/7/B56d/Pgf+//BwMBAAX4////HAA5w8D4/vK5//////////////////2/Dw///D|h[Leatherworking]|h|r 8/8 ICC 8/8 ToC 6/8 Uldu"
+      ],
+      [
+        "/r twoje matsy + 50g, matsy kup, pozycz lub wyfarm"
+      ],
+      [
+        "/run t=3 h=5 d=17 r=\"ICC25\" g=5.5 x=\"extra info\"",
+        "/run z=r..\" \" if t>0 then z=z..t..\"tank \"end if h>0 then z=z..h..\"heal \"end if d>0 then z=z..d..\"dps \"end if g>0 then z=z..g..\"gs \"end  SendChatMessage(z..x,\"CHANNEL\",nil,GetChannelName(\"test\"))"
+      ],
+      [
+        "/ra Argent Defender CD",
+        "/rw Argent Defender CD",
+        "/w Dronin Argent Defender CD"
+      ],
+      [
+        "#showtooltip Bulwark of the Royal Guard",
+        "/equip Bonebreaker Scepter",
+        "/equip Bulwark of the Royal Guard"
+      ],
+      [
+        "#showtooltip [combat] Eviscerate; Stealth",
+        "/cast [nocombat] !Stealth",
+        "/cast [combat, harm] Eviscerate",
+        "/cast [combat, noharm] Noggenfogger Elixirt"
+      ],
+      [
+        "/ra Amancik BoW   Pirzmak BoM    Kaevel BoK"
+      ],
+      [
+        "/2 VoA25 2 heal, 11 dps, all na roll, pve wedle speca, pvp wedle klasy, 2 bossy"
+      ],
+      [
+        "#showtooltip",
+        "/cast Psychic Scream",
+        "/startattack",
+        "/tar tremor totem"
+      ],
+      [
+        "#showtooltip Mind Flay",
+        "/cast [nochanneling:Mind Flay] Mind Flay"
+      ],
+      [
+        "/ra Dagmara BoW    Janny BoK    Velriath BoS       Warki   Battle Shout"
+      ],
+      [
+        "#showtooltip Arcane Blast",
+        "/cast !Presence of Mind",
+        "/cast Arcane Blast"
+      ],
+      [
+        "#showtooltip",
+        "/cast Arcane Power",
+        "/cast Icy Veins",
+        "/use 13",
+        "/cast Mirror Image"
+      ],
+      [
+        "/2 |cffffd000|Htrade:51313:450:450:18EED3C9:4//////////7////v/vPpgfAw/2A7sAC7fzz907//f3/H////vT|h[Enchanting]|h|r twoje matsy + 50g"
+      ],
+      [
+        "/7 Gildia PvE \" Socially Awkward\" poszukuje aktywnych ludzi do stalej grupy raidowej. Najwiekszy nacisk kladziemy obecnie na ICC10/25 oraz TOGC 25. Wymagamy (co najmniej) podstawowego ogaru wlasnej klasy oraz GS 5K +. System DKP. Zainteresowani /w me"
+      ],
+      [
+        "#showtooltip Hammer of Wrath",
+        "/startattack",
+        "/cast Hammer of Wrath",
+        "/use 10"
+      ],
+      [
+        "#showtooltip Summon Charger",
+        "/cast [nomod,flyable,nomounted] Swift Red Wind Rider",
+        "/cast [nomod,noflyable,nomounted]  Summon Charger",
+        "/cast [mounted] Crusader Aura"
+      ],
+      [
+        "#showtooltip Survival Instincts",
+        "/cast Survival Instincts",
+        "/cast Lifeblood",
+        "/use 14",
+        "/cast Frenzied Regeneration"
+      ],
+      [
+        "/2 |cffffd000|Htrade:45363:450:450:18F194CA:g////7////3///////////////////////////////////////////////////////////////f|h[Inscription]|h|r full - wszystkie glify 100g/szt, mam tez |cffffd000|Henchant:64051|h[Inscription: Rituals of the New Moon]|h|r"
+      ],
+      [
+        "#showtooltip [combat] Eviscerate; Stealth",
+        "/cast [nocombat] !Stealth",
+        "/cast [combat, harm] Cold Blood",
+        "/cast [combat, harm] Eviscerate",
+        "/cast [combat, noharm] Noggenfogger Elixirt"
+      ],
+      [
+        "/4 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r wszystkie przepisy WotLK"
+      ],
+      [
+        "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
+      ],
+      [
+        "/r robota Uldu (226) 100g, Toc (245) 200g, Icc (264) 400g, reszta 50g; tylko Twoje matsy - kup, pozycz lub wyfarm"
+      ],
+      [
+        "/run CastSpellByName(\"Blacksmithing\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" jestem w \"..GetZoneText(),\"CHANNEL\",nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end"
+      ],
+      [
+        "/run CastSpellByName(\"Jewelcrafting\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" gem+50g w \"..GetZoneText(),\"CHANNEL\",nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end"
+      ],
+      [
+        "/r JC twoj gem + 50g; BS od 50 do 400g"
+      ],
+      [
+        "/ra buffy,aury:   Janji BoM/BoW,conc    Amancik BoK,fire/frost"
+      ],
+      [
+        "/2 VoA25 1 heal (druid), 1 tank (war), all na roll, 2 bossy, czekamy pod fire"
+      ],
+      [
+        "/ra    Soulstones:     Antie->Roegnar  Tori->Amancik  Skrzypa->Irong  Agloval->Kaevel"
+      ],
+      [
+        "/cast Divine Shield",
+        "/cancelaura Divine Shield"
+      ],
+      [
+        "/use Warts-B-Gone Lip Balm",
+        "/tar Lake Frog",
+        "/kiss"
+      ],
+      [
+        "/3 |cffffd000|Htrade:51311:450:450:18ED0F37:8//3v+NtNzjpvMHBAEcwHIBEh/Jg/vBEAAAAAg+RAAAA6////////f//PjaW1wvR2PH5i39nbIC+/D8Po/v/+///////r3D|h[Jewelcrafting]|h|r FULL, gem +40g"
+      ],
+      [
+        "/run CastSpellByName(\"Weaponsmith\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" 6/6 ICC, 6/6 ToC\",\"CHANNEL\",nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end"
+      ],
+      [
+        "/run CastSpellByName(\"Jewelcrafting\");i=IsModifiedClick;s=SendChatMessage;c=CloseTradeSkill;g=GetTradeSkillListLink;if i(\"shift\") then s(g()..\" FULL, gem+40g\" ,\"CHANNEL\",nil,GetChannelName(\"handel\"))c()end;if i(\"ctrl\") then s(g(),\"GUILD\")c()end"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",4);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Fiervina\",8);",
+        "/script SetRaidTarget(\"Crab\",8);"
+      ],
+      [
+        "/ra Janji BoW/BoK + Conc",
+        "/ra Bloodmaks BoS + Devo",
+        "/ra Morgoph  BoM/BoK + Retri"
+      ],
+      [
+        "/2 Icc10 guild run 1 heal (szam), 4 bossy hc, reszta az do LK na normalu, bijemy mniej wiecej do 23, ALL NA ROLL, wymagany TS"
+      ],
+      [
+        "/g Chcesz rajdowac z gildia?",
+        "/g Zapraszamy na strone:",
+        "/g x.praetorianssunwell.cba.pl",
+        "/g W newsach mozna znalezc link do ankiety dotyczacej rajdow."
+      ],
+      [
+        "/g Odwracajac uwage od papierow, chcialbym wszystkim zaintersowanym rajdowaniem z gildia przypomniec o wypelnieniu ankiety dostepnej na naszej stronie:",
+        "/g x.praetorianssunwell.cba.pl",
+        "/g Link do ankiety mozna znalesc w newsach."
+      ],
+      [
+        "#showtooltip",
+        "/stopcasting",
+        "/cast Psychic Scream",
+        "/tar tremor totem",
+        "/startattack"
+      ],
+      [
+        "#showtooltip Swift Burgundy Wolf",
+        "/use [flyable, nomounted] Bronze Drake",
+        "/use [noflyable, nomounted] Swift Burgundy Wolf",
+        "/dismount [noflying, mounted]",
+        "/dismount [mod:alt, mounted]"
+      ],
+      [
+        "/3 kupie |cff71d5ff|Hspell:22749|h[Enchant Weapon - Spellpower]|h|r (Molten Core), mam matsy"
+      ],
+      [
+        "/ra Unkylson BoM / Fire",
+        "/ra Amancik BoK / Frost",
+        "/ra Helliash BoW / Conc",
+        "/ra <brak> BoS / Devo"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod] Hearthstone",
+        "/cast [mod:shift] Death Gate",
+        "/cast [mod:ctrl] Death Gate",
+        "/cast [mod:alt] Death Gate"
+      ],
+      [
+        "/cast Aspect of the Dragonhawk",
+        "/cast Aspect of the Cheetah",
+        "/cast Trueshot Aura",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Rapid Fire",
+        "/cast Rapid Fire",
+        "/cast Call of the Wild",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip",
+        "/cancelaura Deterrence",
+        "/cast Chimera Shot",
+        "/cast Kill Command",
+        "/use Furious Gladiator's Chain Gauntlets",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip",
+        "/castsequence reset=target/3 Wing Clip, Raptor Strike, Wing Clip",
+        "/castrandom [target=target, exists] Mongoose Bite"
+      ],
+      [
+        "#showtooltip",
+        "/cast [@pet,dead] Revive Pet",
+        "/cast [pet] Mend Pet",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip [flyable] Time-Lost Proto-Drake; Red Skeletal Warhorse",
+        "/cast [nomodifier,flyable, nomounted] Time-Lost Proto-Drake",
+        "/cast [nomodifier,noflyable, nomounted] Red Skeletal Warhorse",
+        "/dismount [mounted]",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Scatter Shot",
+        "/cast Scatter Shot",
+        "/focus",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Intercept",
+        "/cancelaura bladestorm",
+        "/cast Berserker Stance"
+      ],
+      [
+        "#showtooltip Corroded Skeleton Key",
+        "/cast Blood Tap",
+        "/cast Bone Shield",
+        "/use Corroded Skeleton Key"
+      ],
+      [
+        "/equipslot  16 item:51392:3365",
+        "/equipslot  16 item:49888:3368"
+      ],
+      [
+        "#showtooltip Bone Shield",
+        "/cast Blood Tap",
+        "/cast Bone Shield"
+      ],
+      [
+        "#showtooltip Charge",
+        "/cast Battle Stance",
+        "/cast Charge",
+        "/cast Rend",
+        "/startattack",
+        "/cancelaura Bladestorm",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "/cancelaura bladestorm",
+        "/cast Battle Stance",
+        "/cast [target=focus] Charge",
+        "/cancelaura Hand of Protection"
+      ],
+      [
+        "#showtooltip Death Pact",
+        "/cast Death Pact",
+        "/use Runic Healing Potion",
+        "/use Fel HealthstoneFel Healthstone",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Howling",
+        "/startattack",
+        "/cast Obliterate",
+        "/cast !Rune Strike",
+        "/use Relentless Gladiator's Dreadplate Gauntlets",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Heart Strike",
+        "/startattack",
+        "/cast Heart Strike",
+        "/cast !Rune Strike",
+        "/use Scourgelord Gauntlets",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip",
+        "/cast [pet:succubus] Seduction",
+        "/focus"
+      ],
+      [
+        "#showtooltip Leap",
+        "/cast [target=Voilyn] Leap"
+      ],
+      [
+        "/console ffx 0",
+        "/console hwPCF 1",
+        "/console shadowlod 0",
+        "/console timingmethod 1",
+        "/console showshadow 0",
+        "/console showfootprints 0",
+        "/console showfootprintparticles 0"
+      ],
+      [
+        "/console groundeffectdist 1",
+        "/console smallcull 1",
+        "/console skycloudlod 1",
+        "/console characterAmbient 1",
+        "/console extshadowquality 0",
+        "/console environmentDetail 0.5"
+      ],
+      [
+        "#showtooltip [flyable] Ashes of Al'ar; Swift Razzashi Raptor",
+        "/cast [nomodifier,flyable, nomounted] Ashes of Al'ar",
+        "/cast [nomodifier,noflyable, nomounted] Swift Razzashi Raptor",
+        "/dismount [mounted]",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Overpower",
+        "/cancelaura Bladestorm",
+        "/startattack",
+        "/cast Overpower",
+        "/cancelaura Hand of Protection",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Shadow Bolt(Rank 13)",
+        "/cast Shadow Bolt(Rank 13)",
+        "/use Frostsavage Gloves",
+        "/cast Shadow Cleave(Demon)",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Unstable Affliction(Rank 4)",
+        "/cast Unstable Affliction(Rank 4)",
+        "/use Frostsavage Gloves",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip Frostwolf Howler",
+        "/cast [nomod,flyable,nomounted] Swift Red Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Frostwolf Howler",
+        "/cast [mounted] Crusader Aura"
+      ],
+      [
+        "#showtooltip Swift Orange Raptor",
+        "/cast [nomodifier,flyable, nomounted] Swift Red Wind Rider",
+        "/cast [nomodifier,noflyable, nomounted] Swift Orange Raptor",
+        "/cast [modifier:shift] Black War Mammoth",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "/4 |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r wszystkie przepisy WotLK, tylko twoje matsy"
+      ],
+      [
+        "#showtooltip",
+        "/castsequence reset=50 Divine Shield, Hearthstone",
+        "/script UIErrorsFrame:Clear()"
+      ],
+      [
+        "#showtooltip",
+        "/cast [nomod,flyable,nomounted] Summon Charger",
+        "/cast [nomod,noflyable,nomounted] Summon Charger"
+      ],
+      [
+        "#showtooltip Summon Warhorse",
+        "/cast [nomod,flyable,nomounted] Blue Wind Rider",
+        "/cast [nomod,noflyable,nomounted] Summon Charger",
+        "/cast [mounted] Crusader Aura"
+      ],
+      [
+        "/ra BoM",
+        "/ra BoW",
+        "/ra BoK",
+        "/ra BoS"
+      ],
+      [
+        "#showtooltip Royal Crest of Lordaeron",
+        "/equip Peacekeeper Blade",
+        "/equip Royal Crest of Lordaeron"
+      ],
+      [
+        "#showtooltip Blue Wind Rider",
+        "/cast [nomodifier,flyable, nomounted] Blue Wind Rider",
+        "/cast [nomodifier,noflyable, nomounted] Swift Olive Raptor",
+        "/cast [modifier:shift] Swift Olive Raptor",
+        "/dismount [noflying, mounted]"
+      ],
+      [
+        "/script SetRaidTarget(\"player\",1);",
+        "/script SetRaidTarget(\"party1\",4);",
+        "/script SetRaidTarget(\"party2\",3);",
+        "/script SetRaidTarget(\"party3\",2);",
+        "/script SetRaidTarget(\"party4\",5);",
+        "/script SetRaidTarget(\"Shadowfiend\",7); )"
+      ],
+      [
+        "/ra Yaxon BoW",
+        "/ra Amancik Bok/BoS",
+        "/ra Twojnick AP shoult",
+        "/ra Benon HP shout"
+      ],
+      [
+        "/inv Emiru",
+        "/inv Agimijagi",
+        "/inv Benon",
+        "/inv Starydran",
+        "/inv Twojnick",
+        "/inv Martynqa",
+        "/inv Quenth"
+      ],
+      [
+        "/4 ToC10n LF 1 rdps (ele shaman)"
+      ],
+      [
+        "/rw 1 faza polega na zbiciu hp bez odpalania CDs",
+        "/rw ZAWSZE stoimy obok smoka, pod skrzydlami"
+      ],
+      [
+        "/rw 2 faza Onyxia lata, rdps caly czas ja bija, mdps bije addy",
+        "/rw jak bedzie breath, trzeba uciekac na boki i patrzec, gdzie bedzie zionac ogniem"
+      ],
+      [
+        "/rw 3 faza Onyxia laduje,i co jakis czas fearuje, szamani musza postawic tremor totem",
+        "/rw tutaj odpalamy BL i wszystkie CDs, nadal bijemy z boku, jak to ze smokami"
+      ],
+      [
+        "#showtooltip Devouring Plague",
+        "/startattack",
+        "/cast Inner Focus",
+        "/script UIErrorsFrame:Clear()",
+        "/cast Devouring Plague",
+        "/startattack"
+      ]
+    ]
+  }
+}
