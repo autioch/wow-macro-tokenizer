@@ -5,14 +5,11 @@
   margin-bottom: 1em;
 }
 
+.summary__row:hover {
+  background-color: #eee;
+}
+
 .summary__type {
   width: 8em;
   flex: none;
-}
-
-
-.summary__texts > div{
-  /* display: inline-block; */
-  /* margin-right: 2em; */
-  /* white-space: nowrap; */
 }

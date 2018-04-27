@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
-
-import Group from './group';
-import Ambiguous from './ambiguous';
 import Summary from './summary';
-import lexerOutput from './data/output.json';
-import lexerSummary from './data/summary.json';
-import './App.css';
+import { Ambiguous, Failed, Parsed } from './line';
+import { lines, summary } from './data.json';
 
 export default class App extends Component {
   state = {
-    totalCount: lexerOutput.length,
-    summary: lexerSummary,
-    ambiguous: lexerOutput.filter((line) => line.parsed && line.ambiguous),
-    failed: lexerOutput.filter((line) => !line.parsed),
-    parsed: lexerOutput.filter((line) => line.parsed && !line.ambiguous),
-    showSummary: !1,
-    showAmbiguous: !1,
-    showFailed: !1,
-    showParsed: !!1
+    summary,
+    totalCount: lines.length,
+    ambiguous: lines.filter((line) => line.parsed && line.ambiguous),
+    failed: lines.filter((line) => !line.parsed),
+    parsed: lines.filter((line) => line.parsed && !line.ambiguous),
+    showSummary: true,
+    showAmbiguous: true,
+    showFailed: true,
+    showParsed: true
   }
 
   render() {
@@ -28,11 +24,11 @@ export default class App extends Component {
         <div className="group__header">Summary</div>
         {state.showSummary ? <Summary summary={state.summary}/> : ''}
         <div className="group__header">Ambiguous ({state.ambiguous.length}/{state.totalCount})</div>
-        {state.showAmbiguous ? <Ambiguous lines={state.ambiguous} /> : ''}
+        {state.showAmbiguous ? state.ambiguous.map((line, index) => <Ambiguous line={line} key={index} />) : ''}
         <div className="group__header">Failed ({state.failed.length}/{state.totalCount})</div>
-        {state.showFailed ? <Group lines={state.failed} /> : ''}
+        {state.showFailed ? state.failed.map((line, index) => <Failed line={line} key={index} />) : ''}
         <div className="group__header">Parsed ({state.parsed.length}/{state.totalCount})</div>
-        {state.showParsed ? <Group lines={state.parsed} /> : ''}
+        {state.showParsed ? state.parsed.map((line, index) => <Parsed line={line} key={index} />) : ''}
       </div>
     );
   }

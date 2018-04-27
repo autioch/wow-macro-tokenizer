@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas;
+  font-size: 12px;
+}
+
+.App {
+  width: 100%;
+}
+
+.group__header {
+  font-size: 1.2em;
+  padding: 1em 0;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.token:not(:last-child)::after {content:'  ';display:inline-block;width:.5em;height:.5em;background-color:#d8d8d8}
+.token--command,
+.token--chat,
+.token--emote,
+.token--channel,
+.token--tooltip,
+.token--server {color: #a00}
+
+.token--linkProfession,
+.token--linkSpell,
+.token--linkEnchant,
+.token--linkItem {color:#b0b}
+
+.token--spellLevel,
+.token--spellMode,
+.token--spellName {color: #00a}
+
+.token--modifier {color: #dd0}
+
+.token--numberRange,
+.token--numberDecimal,
+.token--number {color: #0a0}
+
+.token--at,
+.token--colon,
+.token--comma,
+.token--equal,
+.token--exclamation,
+.token--bracketSquareClose,
+.token--bracketSquareOpen,
+.token--semicolon,
+.token--slash,
+.token--dash {color: #aaa}
+
+.token--space {color: #ccc;margin: 0 .25em;}
+.token--unknown {background-color: #fa0}
