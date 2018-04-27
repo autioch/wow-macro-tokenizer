@@ -1,6 +1,9 @@
 const parseLine = require('./parseLine');
 const { saveJson, singleRun } = require('../../utils');
 const { pick } = require('lodash');
+const { join } = require('path');
+
+const APP_DATA_PATH = join('..', 'src', 'macro', 'tokenize', 'app', 'src');
 
 const simplifyParsedLine = (lineInfo) => lineInfo.tokens;
 const simplifyFailedLine = (lineInfo) => pick(lineInfo, ['line', 'message', 'tokens']);
@@ -28,6 +31,7 @@ module.exports = function tokenize(macros) {
   return saveJson(simplifyMacros(parsed), 'tokenized.parsed')
     .then(() => saveJson(simplifyMacros(ambiguous), 'tokenized.ambiguous'))
     .then(() => saveJson(simplifyMacros(failed), 'tokenized.failed'))
+    .then(() => saveJson(tokenized, join(APP_DATA_PATH, 'data'))) // for the app
     .then(() => parsed);
 };
 
