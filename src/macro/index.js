@@ -2,7 +2,7 @@ const dedupe = require('./dedupe');
 const parser = require('./parser');
 const reader = require('./reader');
 const tokenize = require('./tokenize');
-const similar = require('./similar');
+const app = require('./app');
 const tagger = require('./tagger');
 
 module.exports = function getMacros(dir) {
@@ -11,5 +11,5 @@ module.exports = function getMacros(dir) {
     .then(dedupe)
     .then(tokenize)
     .then(tagger)
-    .then(similar);
+    .then(app); // app only copies jsons. Build must be done manually.
 };
