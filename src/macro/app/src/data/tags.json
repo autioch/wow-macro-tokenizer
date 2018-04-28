@@ -1,0 +1,113 @@
+[
+  {
+    "label": "Death Knight",
+    "category": 1,
+    "color": "#C41F3B",
+    "id": 0,
+    "count": 23
+  },
+  {
+    "label": "Druid",
+    "category": 1,
+    "color": "#FF7D0A",
+    "id": 1,
+    "count": 25
+  },
+  {
+    "label": "Hunter",
+    "category": 1,
+    "color": "#ABD473",
+    "id": 2,
+    "count": 25
+  },
+  {
+    "label": "Mage",
+    "category": 1,
+    "color": "#69CCF0",
+    "id": 3,
+    "count": 28
+  },
+  {
+    "label": "Paladin",
+    "category": 1,
+    "color": "#F58CBA",
+    "id": 4,
+    "count": 92
+  },
+  {
+    "label": "Priest",
+    "category": 1,
+    "color": "#FFFFFF",
+    "id": 5,
+    "count": 44
+  },
+  {
+    "label": "Rogue",
+    "category": 1,
+    "color": "#FFF569",
+    "id": 6,
+    "count": 5
+  },
+  {
+    "label": "Shaman",
+    "category": 1,
+    "color": "#0070DE",
+    "id": 7,
+    "count": 26
+  },
+  {
+    "label": "Warlock",
+    "category": 1,
+    "color": "#9482C9",
+    "id": 8,
+    "count": 38
+  },
+  {
+    "label": "Warrior",
+    "category": 1,
+    "color": "#C79C6E",
+    "id": 9,
+    "count": 29
+  },
+  {
+    "label": "Chat",
+    "category": 3,
+    "id": 10,
+    "count": 43
+  },
+  {
+    "label": "Teleport",
+    "category": 3,
+    "id": 11,
+    "count": 21
+  },
+  {
+    "label": "Proffesion",
+    "category": 3,
+    "id": 12,
+    "count": 33
+  },
+  {
+    "label": "Draenei",
+    "category": 2,
+    "id": 13,
+    "count": 4
+  },
+  {
+    "label": "Blood Elf",
+    "category": 2,
+    "id": 14
+  },
+  {
+    "label": "Goblin",
+    "category": 2,
+    "id": 15,
+    "count": 1
+  },
+  {
+    "label": "Mount",
+    "category": 3,
+    "id": 16,
+    "count": 31
+  }
+]

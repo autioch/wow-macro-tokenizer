@@ -1,0 +1,94 @@
+.macros {
+ flex: 1;
+ overflow: auto;
+ width: 100%;
+}
+
+.macro {
+  padding: .5em 0;
+  transition: background-color 200ms;
+  box-sizing: border-box;
+}
+
+.macro:hover {
+  background-color: #1a1a1a;
+}
+
+.macro__header {
+  display: flex;
+  margin: .5em;
+  color: #aaa;
+}
+
+.macro__label {
+  font-size: 1.1em;
+}
+
+.macro__count {
+  margin-left: auto;
+}
+
+.macro__lines {
+  padding: .5em;
+  border: dashed 1px #666;
+  border-radius: .25em;
+  margin: .5em;
+}
+
+.line {
+  font-family: Consolas;
+  /* font-size: 12px; */
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+.token--command,
+.token--chat,
+.token--emote,
+.token--channel,
+.token--tooltip,
+.token--server {color: #FFD700	}
+
+.token--linkProfession,
+.token--linkSpell,
+.token--linkEnchant,
+.token--linkItem {color:#FA8072 }
+
+.token--spellLevel,
+.token--spellMode,
+.token--spellName {color: #00bfff}
+
+.token--modifier {color: #e4e4e4}
+
+.token--numberRange,
+.token--numberDecimal,
+.token--number {color: #90ee90}
+
+.token--at,
+.token--colon,
+.token--comma,
+.token--equal,
+.token--exclamation,
+.token--bracketSquareClose,
+.token--bracketSquareOpen,
+.token--semicolon,
+.token--slash,
+.token--dash {color: #e4e4e4}
+
+.token--space {color: #e4e4e4}
+
+.token--unknown {color: #e4e4e4}
