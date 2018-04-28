@@ -1,113 +1,193 @@
 [
   {
+    "label": "Blood Elf",
+    "category": 2,
+    "id": 0
+  },
+  {
+    "label": "Chat",
+    "category": 4,
+    "id": 1,
+    "count": 53
+  },
+  {
     "label": "Death Knight",
     "category": 1,
     "color": "#C41F3B",
-    "id": 0,
+    "id": 2,
     "count": 23
+  },
+  {
+    "label": "Draenei",
+    "category": 2,
+    "id": 3,
+    "count": 4
   },
   {
     "label": "Druid",
     "category": 1,
     "color": "#FF7D0A",
-    "id": 1,
+    "id": 4,
     "count": 25
+  },
+  {
+    "label": "Emote",
+    "category": 4,
+    "id": 5,
+    "count": 5
+  },
+  {
+    "label": "Equipment",
+    "commandNames": [
+      "/equip",
+      "/equipslot",
+      "linkItem",
+      "/use"
+    ],
+    "category": 3,
+    "id": 6,
+    "count": 58
+  },
+  {
+    "label": "Goblin",
+    "category": 2,
+    "id": 7,
+    "count": 1
   },
   {
     "label": "Hunter",
     "category": 1,
     "color": "#ABD473",
-    "id": 2,
+    "id": 8,
     "count": 25
   },
   {
     "label": "Mage",
     "category": 1,
     "color": "#69CCF0",
-    "id": 3,
+    "id": 9,
     "count": 28
+  },
+  {
+    "label": "Mount",
+    "commandNames": [
+      "/dismount"
+    ],
+    "category": 3,
+    "id": 10,
+    "count": 35
   },
   {
     "label": "Paladin",
     "category": 1,
     "color": "#F58CBA",
-    "id": 4,
+    "id": 11,
     "count": 92
+  },
+  {
+    "label": "Party",
+    "commandNames": [
+      "/follow",
+      "/inv",
+      "/invite",
+      "/petfollow",
+      "/promote"
+    ],
+    "category": 3,
+    "id": 12,
+    "count": 8
   },
   {
     "label": "Priest",
     "category": 1,
     "color": "#FFFFFF",
-    "id": 5,
+    "id": 13,
     "count": 44
+  },
+  {
+    "label": "Profession",
+    "category": 4,
+    "id": 14,
+    "count": 32
+  },
+  {
+    "label": "Quest",
+    "category": 3,
+    "id": 15,
+    "count": 2
   },
   {
     "label": "Rogue",
     "category": 1,
     "color": "#FFF569",
-    "id": 6,
+    "id": 16,
     "count": 5
+  },
+  {
+    "label": "Script & Config",
+    "commandNames": [
+      "/console",
+      "/run"
+    ],
+    "category": 4,
+    "id": 17,
+    "count": 25
+  },
+  {
+    "label": "Search & Target",
+    "commandNames": [
+      "/tar",
+      "/who",
+      "/target",
+      "/focus"
+    ],
+    "category": 3,
+    "id": 18,
+    "count": 54
+  },
+  {
+    "label": "Server",
+    "category": 4,
+    "id": 19,
+    "count": 1
   },
   {
     "label": "Shaman",
     "category": 1,
     "color": "#0070DE",
-    "id": 7,
+    "id": 20,
     "count": 26
+  },
+  {
+    "label": "Teleport",
+    "category": 3,
+    "id": 21,
+    "count": 21
   },
   {
     "label": "Warlock",
     "category": 1,
     "color": "#9482C9",
-    "id": 8,
+    "id": 22,
     "count": 38
   },
   {
     "label": "Warrior",
     "category": 1,
     "color": "#C79C6E",
-    "id": 9,
+    "id": 23,
     "count": 29
   },
   {
-    "label": "Chat",
-    "category": 3,
-    "id": 10,
-    "count": 43
+    "label": "Wintergrasp",
+    "category": 4,
+    "id": 24,
+    "count": 8
   },
   {
-    "label": "Teleport",
-    "category": 3,
-    "id": 11,
-    "count": 21
-  },
-  {
-    "label": "Proffesion",
-    "category": 3,
-    "id": 12,
-    "count": 33
-  },
-  {
-    "label": "Draenei",
-    "category": 2,
-    "id": 13,
-    "count": 4
-  },
-  {
-    "label": "Blood Elf",
-    "category": 2,
-    "id": 14
-  },
-  {
-    "label": "Goblin",
-    "category": 2,
-    "id": 15,
-    "count": 1
-  },
-  {
-    "label": "Mount",
-    "category": 3,
-    "id": 16,
-    "count": 31
+    "label": "Other",
+    "category": 4,
+    "id": 25,
+    "count": 28
   }
 ]

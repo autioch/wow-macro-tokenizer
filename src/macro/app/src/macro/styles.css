@@ -14,6 +14,12 @@
   background-color: #1a1a1a;
 }
 
+.macro__index {
+  color: #666;
+  margin-right: .25em;
+  font-size: 1.1em;
+}
+
 .macro__header {
   display: flex;
   margin: .5em;

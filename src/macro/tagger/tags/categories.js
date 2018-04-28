@@ -1,5 +1,6 @@
 module.exports = {
   Class: 1,
   Race: 2,
-  Other: 3
+  Gameplay: 3,
+  Other: 4
 };

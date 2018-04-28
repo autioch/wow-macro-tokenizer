@@ -15,6 +15,14 @@ function setOccurences(tagged) {
 module.exports = function tagger(macros) {
   const tagged = macros.map((macro) => findTags(macro));
 
+  const otherTagId = tags[tags.length - 1].id;
+
+  tagged
+    .filter((macro) => !macro.tags.length)
+    .forEach((macro) => {
+      macro.tags.push(otherTagId);
+    });
+
   setOccurences(tagged);
 
   return saveJson(tagged, 'tagger')

@@ -23,7 +23,7 @@ export default ({ macros }) => (
           width={width}
           rowCount={macros.length}
           rowHeight={({ index }) => calculateMacroHeight(macros[index]) }
-          rowRenderer={ ({ index, style }) => <Item style={style} key={index} macro={macros[index]} /> }
+          rowRenderer={ ({ index, style }) => <Item style={style} key={index} index={index} macro={macros[index]} /> }
         />
       )}
     </AutoSizer>
