@@ -13,9 +13,17 @@ function getTokenTags(token) {
       }
 
       if (
-        def.spellNames &&
         token.type === 'spellName' &&
+        def.spellNames &&
         def.spellNames.some((spellName) => spellName === token.value)
+      ) {
+        return true;
+      }
+
+      if (
+        token.type === 'command' &&
+        def.commandNames &&
+        def.commandNames.some((commandName) => commandName === token.value)
       ) {
         return true;
       }

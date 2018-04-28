@@ -31,4 +31,22 @@ module.exports = [{
   label: 'Mount',
   spellNames: mounts,
   category: categories.Other
+}, {
+  label: 'Search',
+  spellNames: ['SetRaidTarget'],
+  commandNames: ['/tar ', '/who ', '/target'],
+  category: categories.Other
+}, {
+  label: 'Quest',
+  spellNames: ['Warts-B-Gone Lip Balm'],
+  category: categories.Other
+}, {
+  label: 'Script',
+  commandNames: ['/console', '/run', '/script'],
+  spellNames: ['SetCVar'],
+  category: categories.Other
+}, {
+  label: 'Wintergrasp',
+  spellNames: ['GetWintergraspWaitTime'],
+  category: categories.Other
 }];
