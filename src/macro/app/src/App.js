@@ -3,23 +3,31 @@ import './App.css';
 import categories from './data/categories';
 import macros from './data/tagger';
 import tags from './data/tags';
-import { keyBy, flattenDeep, debounce } from 'lodash';
+import { keyBy, flattenDeep, debounce, groupBy } from 'lodash';
 import Macros from './macro/list';
 import Menu from './menu';
 
-const tagDict = keyBy(tags, 'id');
+const tagIdDict = keyBy(tags, 'id');
+const tagCategoryDict = groupBy(tags, 'category');
+
 const taggedMacros = macros.map((macro) => ({
   ...macro,
   tokens: flattenDeep(macro.lines).map((token) => ({
     ...token,
     value: token.value.toLowerCase()
   })),
-  tags: macro.tags.map((tagId) => tagDict[tagId])
+  tags: macro.tags.map((tagId) => tagIdDict[tagId])
+}));
+
+const filledCategories = Object.entries(categories).map(([label, id]) => ({
+  id,
+  label,
+  tags: tagCategoryDict[id]
 }));
 
 class App extends Component {
   state = {
-    categories,
+    categories: filledCategories,
     tags,
     macros: taggedMacros,
     visibleMacros: taggedMacros,
@@ -28,7 +36,7 @@ class App extends Component {
   constructor(...args) {
     super(...args);
     this.selectTag = this.selectTag.bind(this);
-    this.filterByText = debounce(this.filterByText.bind(this), 250);
+    this.filterByText = debounce(this.filterByText.bind(this), 250); // eslint-disable-line no-magic-numbers
   }
 
   setVisibleMacros({ currentTags = this.state.tags, filterText = this.state.filterText }) {
@@ -80,7 +88,7 @@ class App extends Component {
     return (
       <div className="App">
         <Menu
-          tags={this.state.tags}
+          categories={this.state.categories}
           action={this.selectTag}
           visibleMacros={this.state.visibleMacros}
           filterText={this.filterText}

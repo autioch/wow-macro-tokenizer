@@ -2,10 +2,13 @@ import React from 'react';
 import Tags from '../tags';
 import './styles.css';
 
-export default ({ tags, action, visibleMacros, filterAction, filterText }) => (
+export default ({ categories, action, visibleMacros, filterAction, filterText }) => (
   <div className="menu">
     <div>{visibleMacros.length} macros displayed</div>
-    <Tags tags={tags} action={action} />
+    {categories.map((category) => <div className="category" key={category.id}>
+      <div className="category__label">{category.label}</div>
+      <Tags tags={category.tags} action={action} />
+    </div>)}
     <div>
       Search for text:
       <input
