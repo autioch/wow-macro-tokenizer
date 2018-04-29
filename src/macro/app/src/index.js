@@ -6,8 +6,17 @@ import './styles.css';
 import React from 'react';
 import { render } from 'react-dom';
 
+/* data */
+import { categories, macros, tags } from './data';
+import icons from './macroIcons';
+
 const store = createStore(actions, initialState);
 
 store.subscribe(({ state }) => render(<App state={state} store={store}/>, document.getElementById('root')));
 
-store.loadData();
+setTimeout(() => store.setData({
+  categories,
+  macros,
+  tags,
+  icons
+}), 10);

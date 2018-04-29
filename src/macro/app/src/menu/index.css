@@ -1,0 +1,27 @@
+.menu {
+  flex: none;
+  border-bottom: 1px solid #111;
+  padding: .5em;
+}
+
+.category {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: .25em;
+}
+
+.category__label {
+  flex: none;
+  width: 7em;
+  padding: 0 .25em;
+}
+
+.menu__input {
+  background-color: #999;
+  border: 1px solid #666;
+  padding: 2px .25em;
+}
+
+.menu__text {
+  margin-left: auto;
+}

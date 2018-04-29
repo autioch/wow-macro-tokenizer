@@ -69,3 +69,24 @@
   margin: .25em .25em 0 0;
   font-size: .9em;
 }
+
+
+@media (max-width: 1000px) {
+  .macro__description {
+    width: 15em;
+  }
+}
+
+@media (max-width: 600px) {
+  .macro {
+    display: block;
+  }
+
+  .macro__description {
+    width: 100%;
+  }
+
+  .macro__lines {
+    margin-top: 1em;
+  }
+}

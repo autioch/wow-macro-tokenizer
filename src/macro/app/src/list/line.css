@@ -1,5 +1,6 @@
 .macro__lines {
   flex: 1 1 auto;
+  counter-reset: line;
 }
 
 .line {
@@ -13,6 +14,17 @@
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+  margin-left: 1.5em;
+}
+
+.line::before {
+  counter-increment: line;
+  content: counter(line) ".";
+  color: #555;
+  margin-left: -1.5em;
+  font-size: .9em;
+  width: 1.5em;
+  display: inline-block;
 }
 
 .token {color: #e4e4e4}
@@ -21,8 +33,9 @@
 .token--chat,
 .token--emote,
 .token--channel,
-.token--tooltip,
-.token--server {color: #FFD766	}
+.token--server {color: #FFD766}
+
+.token--tooltip {color: #999 }
 
 .token--linkProfession,
 .token--linkSpell,
