@@ -1,5 +1,5 @@
 import React from 'react';
-import Tags from '../tags';
+import Tags from './tags';
 import './styles.css';
 
 export default ({ state: { categories, visibleMacros, filterText }, store: { setTagFilter, setTextFilter } }) => (

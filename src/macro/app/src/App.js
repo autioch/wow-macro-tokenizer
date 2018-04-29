@@ -1,10 +1,10 @@
 import React from 'react';
-import Macros from './macro/list';
+import List from './list';
 import Menu from './menu';
 
 export default ({ store, state }) => (
   <div className="App">
     <Menu state={state} store={store} />
-    <Macros macros={state.visibleMacros} />
+    <List macros={state.visibleMacros} />
   </div>
 );

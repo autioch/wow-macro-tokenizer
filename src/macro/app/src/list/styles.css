@@ -4,7 +4,7 @@
 }
 
 .macro {
-  padding: .5em 0;
+  /* padding: .5em 0; */
   transition: background-color 200ms;
   box-sizing: border-box;
 }
@@ -15,18 +15,29 @@
 
 .macro__index {
   color: #666;
-  margin-right: .25em;
-  font-size: 1.1em;
+  /* margin-right: .25em; */
+  /* font-size: 1.1em; */
 }
 
 .macro__header {
   display: flex;
-  margin: .5em;
+  /* margin: .5em; */
   color: #aaa;
 }
 
 .macro__label {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
+}
+
+.macro__icons {
+  display: flex;
+}
+
+.macro__icon {
+  width: 2em;
+  height: 2em;
+  display: block;
+  flex: none;
 }
 
 .macro__count {
@@ -34,39 +45,33 @@
 }
 
 .macro__lines {
-  padding: .5em;
+  /* padding: .5em; */
   border: dashed 1px #666;
   border-radius: .25em;
-  margin: .5em;
+  /* margin: .5em; */
 }
 
 .line {
   font-family: Consolas;
-  /* font-size: 12px; */
-  /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
-
   -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
   word-break: break-all;
-  /* Instead use this non-standard one: */
   word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
   -ms-hyphens: auto;
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-
 }
+
+.token {color: #e4e4e4}
 
 .token--command,
 .token--chat,
 .token--emote,
 .token--channel,
 .token--tooltip,
-.token--server {color: #FFD700	}
+.token--server {color: #FFD766	}
 
 .token--linkProfession,
 .token--linkSpell,
@@ -82,18 +87,3 @@
 .token--numberRange,
 .token--numberDecimal,
 .token--number {color: #90ee90}
-
-.token--at,
-.token--colon,
-.token--comma,
-.token--equal,
-.token--exclamation,
-.token--bracketSquareClose,
-.token--bracketSquareOpen,
-.token--semicolon,
-.token--slash,
-.token--dash {color: #e4e4e4}
-
-.token--space {color: #e4e4e4}
-
-.token--unknown {color: #e4e4e4}

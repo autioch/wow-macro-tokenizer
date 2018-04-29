@@ -97,13 +97,19 @@ function loadData({ store }) {
       .setState({
         isLoading: false,
         tags,
-        macros: macros.map((macro) => ({
+        macros: macros.map((macro, index) => ({
+          id: index,
           ...macro,
+          label: macro.label.join(', '),
           tokens: flattenDeep(macro.lines).map((token) => ({
             ...token,
             value: token.value.toLowerCase()
           })),
-          tags: macro.tags.map((tagId) => tagIdDict[tagId])
+          tags: macro.tags.map((tagId) => tagIdDict[tagId]),
+          icons: macro.icon.map((icon) => ({
+            label: icon,
+            link: icon.toLowerCase()
+          }))
         })),
         categories: Object.entries(categories).map(([label, id]) => ({
           id,
@@ -113,7 +119,7 @@ function loadData({ store }) {
       })
       .setVisibleMacros()
       .setTagCounts();
-  }, 2000);
+  }, 1000);
 
   return {
     isLoading: true
