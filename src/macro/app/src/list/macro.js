@@ -1,49 +1,34 @@
 import React from 'react';
+import Line from './line';
+import './macro.css';
 
-const Token = ({ token: { type, value } }) => (
-  <span className={`token token--${type}`} title={type}>
-    {value}
-  </span>
-);
-
-const Line = ({ line }) => (
-  <div className="line">
-    {line.map((token, index) => <Token key={index} token={token} />)}
-  </div>
+const Icon = ({ icon }) => (
+  <img className="macro__icon" alt="" title={icon.label} src={icon.src} />
 );
 
 const Tag = ({ tag }) => (
-  <span className="tag" style={{
+  <li className="macro__tag" style={{
     color: tag.color
-  }} >
+  }}>
     {tag.label}
-  </span>
+  </li>
 );
 
-const Icon = ({ icon }) => (
-  <img
-    className="macro__icon"
-    alt=""
-    title={icon.label}
-    src={`http://wow.zamimg.com/images/wow/icons/large/${icon.link}.jpg`}
-    onError={(ev) => ev.target.parentNode.remove()}
-  />
+const Label = ({ label }) => (
+  <span className="macro__label">
+    {label}
+  </span>
 );
 
 export default ({ macro, style }) => (
   <div className="macro" style={style}>
-    <div className="macro__header">
-      <span className="macro__icons">
+    <div className="macro__description">
+      <div className="macro__header">
         {macro.icons.map((icon, index2) => <Icon key={index2} icon={icon} />)}
-      </span>
-      <span className="macro__label">{macro.label}</span>
-      <span className="macro__count">Seen {macro.occurences} times</span>
+        {macro.labels.map((label, index2) => <Label key={index2} label={label} />)}
+      </div>
+      <ul className="macro__tags">{macro.tags.map((tag, index2) => <Tag key={index2} tag={tag}/>)}</ul>
     </div>
-    <div className="tags">
-      {macro.tags.map((tag, index2) => <Tag key={index2} tag={tag}/>)}
-    </div>
-    <div className="macro__lines">
-      {macro.lines.map((line, index2) => <Line key={index2} line={line}/>)}
-    </div>
+    <div className="macro__lines">{macro.lines.map((line, index2) => <Line key={index2} line={line}/>)}</div>
   </div>
 );

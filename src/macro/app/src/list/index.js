@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Macro from './macro';
 import { CellMeasurer, CellMeasurerCache, AutoSizer, List } from 'react-virtualized';
-import './styles.css';
+import './index.css';
 
 export default class MacroList extends PureComponent {
   constructor(props) {
@@ -49,7 +49,7 @@ export default class MacroList extends PureComponent {
     const { cache, props: { macros } } = this;
 
     return (
-      <div className="macros">
+      <div className="macro-list">
         <AutoSizer>
           {({ height, width }) => (
             <List

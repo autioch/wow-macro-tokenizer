@@ -1,5 +1,6 @@
 import { categories, macros, tags } from './data';
 import { keyBy, flattenDeep, groupBy, countBy, flatten } from 'lodash';
+import icons from './macroIcons';
 
 function setState({ data }) {
   return data;
@@ -92,6 +93,11 @@ function loadData({ store }) {
   setTimeout(() => {
     const tagIdDict = keyBy(tags, 'id');
     const tagCategoryDict = groupBy(tags, 'category');
+    const lowCaseIcons = Object.entries(icons).reduce((obj, [key, value]) => {
+      obj[key.toLowerCase()] = value;
+
+      return obj;
+    }, []);
 
     store
       .setState({
@@ -100,7 +106,7 @@ function loadData({ store }) {
         macros: macros.map((macro, index) => ({
           id: index,
           ...macro,
-          label: macro.label.join(', '),
+          labels: macro.label,
           tokens: flattenDeep(macro.lines).map((token) => ({
             ...token,
             value: token.value.toLowerCase()
@@ -108,7 +114,7 @@ function loadData({ store }) {
           tags: macro.tags.map((tagId) => tagIdDict[tagId]),
           icons: macro.icon.map((icon) => ({
             label: icon,
-            link: icon.toLowerCase()
+            src: lowCaseIcons[icon.toLowerCase()]
           }))
         })),
         categories: Object.entries(categories).map(([label, id]) => ({

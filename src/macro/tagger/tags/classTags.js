@@ -1,4 +1,6 @@
-const spells = require('../../../../output/spells');
+const { join } = require('path');
+const { outputRoot } = require('../../../utils');
+const spells = require(join(outputRoot, 'spells'));
 const categories = require('./categories');
 const { uniq } = require('lodash');
 

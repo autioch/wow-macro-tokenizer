@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
-const mounts = require('../../../../output/mounts');
+const { join } = require('path');
+const { outputRoot } = require('../../../utils');
+const mounts = require(join(outputRoot, 'mounts'));
 const categories = require('./categories');
 
 module.exports = [{

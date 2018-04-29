@@ -1,8 +1,7 @@
 const path = require('path');
 const bluebird = require('bluebird');
 const fs = bluebird.promisifyAll(require('fs'));
-
-const OUTPUT_FOLDER = path.join(__dirname, '..', '..', 'output');
+const { outputRoot } = require('../../utils');
 
 module.exports = function writeConfig(config) {
   const lines = [];
@@ -19,7 +18,7 @@ module.exports = function writeConfig(config) {
     }
   });
 
-  const fileName = path.join(OUTPUT_FOLDER, 'Config.wtf');
+  const fileName = path.join(outputRoot, 'Config.wtf');
   const serialized = lines.join('\n');
 
   return fs

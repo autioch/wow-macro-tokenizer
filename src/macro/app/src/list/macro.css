@@ -1,0 +1,71 @@
+.macro {
+  transition: background-color 200ms;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  padding: .5em 0;
+  border-bottom: solid 1px #333;
+}
+
+.macro:hover {
+  background-color: #1a1a1a;
+}
+
+.macro > div {
+  padding: 0 .5em;
+}
+
+.macro > div:not(:first-child) {
+  border-left: solid 1px #333;
+}
+
+.macro__description {
+  width: 20em;
+  flex: none;
+}
+
+.macro__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: .5em;
+}
+
+.macro__label {
+  margin: .25em 0;
+}
+
+.macro__label:not(:last-child)::after {
+  content: ',';
+  margin-right: .5em;
+}
+
+.macro__icon {
+  width: 2em;
+  height: 2em;
+  border: solid 1px #666;
+  border-radius: .15em;
+  box-sizing: border-box;
+  margin-right: .5em;
+  display: block;
+  flex: none;
+}
+
+.macro__tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.macro__tag {
+  color: #aaa;
+  background: #333;
+  padding: .15em .5em;
+  border-radius: .25em;
+  white-space: nowrap;
+  box-sizing: border-box;
+  margin: .25em .25em 0 0;
+  font-size: .9em;
+}

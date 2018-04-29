@@ -1,54 +1,5 @@
-.macros {
- flex: 1;
- width: 100%;
-}
-
-.macro {
-  /* padding: .5em 0; */
-  transition: background-color 200ms;
-  box-sizing: border-box;
-}
-
-.macro:hover {
-  background-color: #1a1a1a;
-}
-
-.macro__index {
-  color: #666;
-  /* margin-right: .25em; */
-  /* font-size: 1.1em; */
-}
-
-.macro__header {
-  display: flex;
-  /* margin: .5em; */
-  color: #aaa;
-}
-
-.macro__label {
-  /* font-size: 1.1em; */
-}
-
-.macro__icons {
-  display: flex;
-}
-
-.macro__icon {
-  width: 2em;
-  height: 2em;
-  display: block;
-  flex: none;
-}
-
-.macro__count {
-  margin-left: auto;
-}
-
 .macro__lines {
-  /* padding: .5em; */
-  border: dashed 1px #666;
-  border-radius: .25em;
-  /* margin: .5em; */
+  flex: 1 1 auto;
 }
 
 .line {
