@@ -1,13 +1,11 @@
-import categories from './data/categories';
-import macros from './data/tagger';
-import tags from './data/tags';
+import { categories, macros, tags } from './data';
 import { keyBy, flattenDeep, groupBy, countBy, flatten } from 'lodash';
 
-export function setState({ data }) {
+function setState({ data }) {
   return data;
 }
 
-export function setVisibleMacros({ state }) {
+function setVisibleMacros({ state }) {
   let visibleMacros = state.macros;
 
   /* Filter by search text */
@@ -29,7 +27,7 @@ export function setVisibleMacros({ state }) {
   };
 }
 
-export function setTagCounts({ state }) {
+function setTagCounts({ state }) {
   const counts = countBy(flatten(state.visibleMacros.map((macro) => macro.tags)), (tag) => tag.id);
 
   return {
@@ -40,7 +38,7 @@ export function setTagCounts({ state }) {
   };
 }
 
-export function toggleTag({ state, data }) {
+function toggleTag({ state, data }) {
   return {
     tags: state.tags.map((tag) => {
       if (tag.id !== data) {
@@ -55,7 +53,7 @@ export function toggleTag({ state, data }) {
   };
 }
 
-export function resetTags({ state }) {
+function resetTags({ state }) {
   return {
     tags: state.tags.map((tag) => ({
       ...tag,
@@ -64,7 +62,7 @@ export function resetTags({ state }) {
   };
 }
 
-export function setTextFilter({ data, store }) {
+function setTextFilter({ data, store }) {
   store
     .setState({
       filterText: data.trim().toLowerCase()
@@ -73,7 +71,7 @@ export function setTextFilter({ data, store }) {
     .setTagCounts();
 }
 
-export function resetTextFilter({ store }) {
+function resetTextFilter({ store }) {
   store
     .setState({
       filterText: ''
@@ -82,15 +80,15 @@ export function resetTextFilter({ store }) {
     .setTagCounts();
 }
 
-export function setTagFilter({ data, store }) {
+function setTagFilter({ data, store }) {
   store.toggleTag(data).setVisibleMacros().setTagCounts();
 }
 
-export function resetTagFilter({ store }) {
+function resetTagFilter({ store }) {
   store.resetTags().setVisibleMacros().setTagCounts();
 }
 
-export function loadData({ store }) {
+function loadData({ store }) {
   setTimeout(() => {
     const tagIdDict = keyBy(tags, 'id');
     const tagCategoryDict = groupBy(tags, 'category');
@@ -98,6 +96,7 @@ export function loadData({ store }) {
     store
       .setState({
         isLoading: false,
+        tags,
         macros: macros.map((macro) => ({
           ...macro,
           tokens: flattenDeep(macro.lines).map((token) => ({
@@ -120,3 +119,16 @@ export function loadData({ store }) {
     isLoading: true
   };
 }
+
+export default {
+  setState,
+  setVisibleMacros,
+  setTagCounts,
+  toggleTag,
+  resetTags,
+  setTextFilter,
+  resetTextFilter,
+  setTagFilter,
+  resetTagFilter,
+  loadData
+};
