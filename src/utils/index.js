@@ -4,5 +4,6 @@ module.exports = {
   saveJson: require('./saveJson'),
   readJson: require('./readJson'),
   setDict: require('./setDict'),
-  singleRun: require('./singleRun')
+  singleRun: require('./singleRun'),
+  outputRoot: require('./outputRoot')
 };

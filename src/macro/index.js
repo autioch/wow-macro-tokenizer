@@ -1,9 +1,10 @@
+const app = require('./app');
 const dedupe = require('./dedupe');
+const icons = require('./icons');
 const parser = require('./parser');
 const reader = require('./reader');
-const tokenize = require('./tokenize');
-const app = require('./app');
 const tagger = require('./tagger');
+const tokenize = require('./tokenize');
 
 module.exports = function getMacros(dir) {
   return reader(dir)
@@ -11,5 +12,6 @@ module.exports = function getMacros(dir) {
     .then(dedupe)
     .then(tokenize)
     .then(tagger)
+    .then(icons)
     .then(app); // app only copies jsons. Build must be done manually.
 };
