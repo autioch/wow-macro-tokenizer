@@ -10,7 +10,11 @@ function tokenizeMacro({ icon, label, occurences, lines }) {
     icon,
     label,
     occurences,
-    lines: lines.map(parseLine)
+    lines: lines.map((line) => line.trim()).map((line) => {
+      const cleanLine = line.endsWith(';') ? line.slice(0, -1) : line;
+
+      return parseLine(cleanLine.trim());
+    })
   };
 }
 

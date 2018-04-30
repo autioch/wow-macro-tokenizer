@@ -1,168 +1,6 @@
 [
   {
     "icon": [
-      "132093",
-      "Ability_Creature_Cursed_01"
-    ],
-    "label": [
-      "Rec",
-      "recount"
-    ],
-    "occurences": 39,
-    "lines": [
-      {
-        "line": "/recount toggle",
-        "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_MISC_QUESTIONMARK"
-    ],
-    "label": [
-      "Engi"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/cast [nomod] Engineering",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "nomod"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Engineering"
-          }
-        ]
-      },
-      {
-        "line": "/cast [mod:shift] MOLL-E",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "mod"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "modifier",
-            "value": "shift"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "MOLL-E"
-          }
-        ]
-      },
-      {
-        "line": "/cast [mod:alt] Jeeves",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "mod"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "modifier",
-            "value": "alt"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Jeeves"
-          }
-        ]
-      },
-      {
-        "line": "/cast [mod:ctrl] Blingtron 4000",
-        "message": "invalid syntax at line 1 col 28:\n\n  /cast [mod:ctrl] Blingtron 4000\n                             ^\nUnexpected number token: \"4000\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
       "INV_Misc_QuestionMark"
     ],
     "label": [
@@ -177,7 +15,7 @@
       },
       {
         "line": "/cast [target=focus] Repentance",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -192,7 +30,7 @@
             "value": "["
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "target"
           },
           {
@@ -200,7 +38,7 @@
             "value": "="
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "focus"
           },
           {
@@ -212,7 +50,7 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Repentance"
           }
         ]
@@ -230,329 +68,67 @@
     "lines": [
       {
         "line": "Darnassus Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected spellName token: \"Darnassus Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected identifier token: \"Darnassus Tab\"\n",
         "tokens": []
       },
       {
         "line": "Exodar Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected spellName token: \"Exodar Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected identifier token: \"Exodar Tab\"\n",
         "tokens": []
       },
       {
         "line": "Gnomeregan Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected spellName token: \"Gnomeregan Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected identifier token: \"Gnomeregan Tab\"\n",
         "tokens": []
       },
       {
         "line": "Ironforge Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected spellName token: \"Ironforge Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected identifier token: \"Ironforge Tab\"\n",
         "tokens": []
       },
       {
         "line": "Silver Covenant Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected spellName token: \"Silver Covenant Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected identifier token: \"Silver Covenant Tab\"\n",
         "tokens": []
       },
       {
         "line": "Silverwing Battle Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected spellName token: \"Silverwing Battle Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected identifier token: \"Silverwing Battle Tab\"\n",
         "tokens": []
       },
       {
         "line": "Stormpike Battle Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected spellName token: \"Stormpike Battle Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected identifier token: \"Stormpike Battle Tab\"\n",
         "tokens": []
       },
       {
         "line": "Stormwind Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected spellName token: \"Stormwind Tab\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected identifier token: \"Stormwind Tab\"\n",
         "tokens": []
       },
       {
         "line": "Brute Force",
-        "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected spellName token: \"Brute Force\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected identifier token: \"Brute Force\"\n",
         "tokens": []
       },
       {
         "line": "Conquest (Alliance)",
-        "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected spellName token: \"Conquest\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected identifier token: \"Conquest\"\n",
         "tokens": []
       },
       {
         "line": "Summer Flames",
-        "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected spellName token: \"Summer Flames\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected identifier token: \"Summer Flames\"\n",
         "tokens": []
       },
       {
         "line": "the Illidari",
-        "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected spellName token: \"the Illidari\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected identifier token: \"the Illidari\"\n",
         "tokens": []
       },
       {
         "line": "the Scarlet Crusade",
-        "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected spellName token: \"the Scarlet Crusade\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "gT1"
-    ],
-    "occurences": 19,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/target player",
-        "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/use [target=player] 13",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/use"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "modifier",
-            "value": "player"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "number",
-            "value": "13"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "gT2"
-    ],
-    "occurences": 19,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/target player",
-        "message": "invalid syntax at line 1 col 9:\n\n  /target player\n          ^\nUnexpected modifier token: \"player\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/use [target=player] 14",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/use"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "modifier",
-            "value": "player"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "number",
-            "value": "14"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "Survi"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "#showtooltip Survival Instincts",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Survival Instincts"
-          }
-        ]
-      },
-      {
-        "line": "/cleartarget",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cleartarget"
-          }
-        ]
-      },
-      {
-        "line": "/cast Survival Instincts",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Survival Instincts"
-          }
-        ]
-      },
-      {
-        "line": "/cast Lifeblood",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Lifeblood"
-          }
-        ]
-      },
-      {
-        "line": "/use 14",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/use"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "number",
-            "value": "14"
-          }
-        ]
-      },
-      {
-        "line": "/cast Frenzied Regeneration",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Frenzied Regeneration"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected identifier token: \"the Scarlet Crusade\"\n",
         "tokens": []
       }
     ]
@@ -568,51 +144,7 @@
     "lines": [
       {
         "line": "haha, mozna sie bylo tego spodziewac po burakach z nii",
-        "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected spellName token: \"haha\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "fiend"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/cast Shadowfiend",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Shadowfiend"
-          }
-        ]
-      },
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected identifier token: \"haha\"\n",
         "tokens": []
       }
     ]
@@ -634,7 +166,7 @@
       },
       {
         "line": "/focus [target=focus, noexists][target=focus, dead] playertarget",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -649,7 +181,7 @@
             "value": "["
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "target"
           },
           {
@@ -657,7 +189,7 @@
             "value": "="
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "focus"
           },
           {
@@ -669,7 +201,7 @@
             "value": " "
           },
           {
-            "type": "modifier",
+            "type": "identifier",
             "value": "noexists"
           },
           {
@@ -681,7 +213,7 @@
             "value": "["
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "target"
           },
           {
@@ -689,7 +221,7 @@
             "value": "="
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "focus"
           },
           {
@@ -713,14 +245,14 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "playertarget"
           }
         ]
       },
       {
         "line": "/cast [target=focus] Fear",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -735,7 +267,7 @@
             "value": "["
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "target"
           },
           {
@@ -743,7 +275,7 @@
             "value": "="
           },
           {
-            "type": "modifier",
+            "type": "gameTarget",
             "value": "focus"
           },
           {
@@ -755,14 +287,14 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Fear"
           }
         ]
       },
       {
         "line": "/clearfocus [modifier:ctrl]",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -796,621 +328,14 @@
       },
       {
         "line": "/stopmacro",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/stopmacro"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Spell_Shadow_Brainwash"
-    ],
-    "label": [
-      "fel hunter"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/cast [pet:Felhunter,target=player] Devour Magic",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "pet"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "spellName",
-            "value": "Felhunter"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "modifier",
-            "value": "player"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Devour Magic"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget [pet:Felhunter]",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/cast [pet:Felhunter] Devour Magic",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "pet"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "spellName",
-            "value": "Felhunter"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Devour Magic"
-          }
-        ]
-      },
-      {
-        "line": "/cast [pet:Felhunter,target=targettarget] Devour Magic",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "pet"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "spellName",
-            "value": "Felhunter"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "spellName",
-            "value": "targettarget"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Devour Magic"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget [pet:Felhunter]",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Ability_Ambush"
-    ],
-    "label": [
-      "rouge"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "#showtooltip Curse of Weakness",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Curse of Weakness"
-          }
-        ]
-      },
-      {
-        "line": "/console targetNearestDistance 15.000000",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/console"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "targetNearestDistance"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "numberDecimal",
-            "value": "15.000000"
-          }
-        ]
-      },
-      {
-        "line": "/targetenemy [noharm][dead]",
-        "message": "invalid syntax at line 1 col 22:\n\n  /targetenemy [noharm][\n                       ^\nUnexpected bracketSquareOpen token: \"[\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/console targetNearestDistance 41.000000",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/console"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "targetNearestDistance"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "numberDecimal",
-            "value": "41.000000"
-          }
-        ]
-      },
-      {
-        "line": "/cast [harm,nodead] Curse of Weakness",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "harm"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "nodead"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Curse of Weakness"
-          }
-        ]
-      },
-      {
-        "line": "/dismount [target=target,exists]",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/dismount"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "exists"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Spell_Shadow_Curse"
-    ],
-    "label": [
-      "seduction"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "#showtooltip seduction",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "seduction"
-          }
-        ]
-      },
-      {
-        "line": "/stopmacro [nopet:succubus]",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
             "value": "/stopmacro"
           },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "nopet"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "spellName",
-            "value": "succubus"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          }
+          {}
         ]
-      },
-      {
-        "line": "/petfollow",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/petfollow"
-          }
-        ]
-      },
-      {
-        "line": "/petattack [target=pettarget]",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/cast [button:1,target=pettarget] Seduction",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "button"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "number",
-            "value": "1"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "modifier",
-            "value": "pettarget"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Seduction"
-          }
-        ]
-      },
-      {
-        "line": "/cast [button:2,target=playertarget] Seduction",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "button"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "number",
-            "value": "2"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "spellName",
-            "value": "playertarget"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Seduction"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "Bladestorm"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "#showtooltip Bladestorm",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Bladestorm"
-          }
-        ]
-      },
-      {
-        "line": "/equipslot 16 Dreadlord's Blade",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/equipslot"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "number",
-            "value": "16"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Dreadlord's Blade"
-          }
-        ]
-      },
-      {
-        "line": "/castBladestorm",
-        "message": "invalid syntax at line 1 col 1:\n\n  /castBladestorm\n  ^\nUnexpected command token: \"/castBladestorm\"\n",
-        "tokens": []
       }
     ]
   },
@@ -1425,7 +350,7 @@
     "lines": [
       {
         "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "tooltip",
@@ -1452,7 +377,7 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Swift Red Gryphon"
           },
           {
@@ -1464,188 +389,106 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Black War Tiger"
           }
         ]
       },
       {
-        "line": "/use [flyable, nomounted] Swift Red Gryphon;",
-        "message": "",
-        "tokens": []
+        "line": "/use [flyable, nomounted] Swift Red Gryphon",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "flyable"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "nomounted"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Swift Red Gryphon"
+          }
+        ]
       },
       {
-        "line": "/use [noflyable, nomounted] Black War Tiger;",
-        "message": "",
-        "tokens": []
+        "line": "/use [noflyable, nomounted] Black War Tiger",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "identifier",
+            "value": "noflyable"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "nomounted"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Black War Tiger"
+          }
+        ]
       },
       {
         "line": "/dismount [noflying, mounted]]",
         "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Ability_Creature_Cursed_05"
-    ],
-    "label": [
-      "aDrDamage"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "/drdamage",
-        "message": "invalid syntax at line 1 col 1:\n\n  /drdamage\n  ^\nUnexpected command token: \"/drdamage\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Ability_Creature_Cursed_01",
-      "Ability_Creature_Cursed_02"
-    ],
-    "label": [
-      "aPowa",
-      "powa"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "/powa",
-        "message": "invalid syntax at line 1 col 1:\n\n  /powa\n  ^\nUnexpected command token: \"/powa\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Ability_Creature_Cursed_02"
-    ],
-    "label": [
-      "aRecount"
-    ],
-    "occurences": 2,
-    "lines": [
-      {
-        "line": "/recount show",
-        "message": "invalid syntax at line 1 col 1:\n\n  /recount\n  ^\nUnexpected command token: \"/recount\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Ability_Creature_Cursed_03"
-    ],
-    "label": [
-      "aTP"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "/tidy",
-        "message": "invalid syntax at line 1 col 1:\n\n  /tidy\n  ^\nUnexpected command token: \"/tidy\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "AS"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/cast Arcane Shot",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Arcane Shot"
-          }
-        ]
-      },
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "SS"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "#showtooltip",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          }
-        ]
-      },
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      },
-      {
-        "line": "/cast Serpent Sting",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Serpent Sting"
-          }
-        ]
-      },
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
         "tokens": []
       }
     ]
@@ -1661,7 +504,7 @@
     "lines": [
       {
         "line": "/cast Fear",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1672,7 +515,7 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Fear"
           }
         ]
@@ -1680,68 +523,6 @@
       {
         "line": "/",
         "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
-    "label": [
-      "Pet"
-    ],
-    "occurences": 4,
-    "lines": [
-      {
-        "line": "#showtooltip [nopet] Summon Water Elemental; Freeze",
-        "message": "",
-        "tokens": [
-          {
-            "type": "tooltip",
-            "value": "#showtooltip"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "nopet"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Summon Water Elemental"
-          },
-          {
-            "type": "semicolon",
-            "value": ";"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Freeze"
-          }
-        ]
-      },
-      {
-        "line": "/use [nopet]Summon Water Elemental; Freeze",
-        "message": "invalid syntax at line 1 col 13:\n\n  /use [nopet]Summon Water Elemental\n              ^\nUnexpected spellName token: \"Summon Water Elemental\"\n",
         "tokens": []
       }
     ]
@@ -1757,131 +538,37 @@
     "lines": [
       {
         "line": "Cure Toxins",
-        "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected spellName token: \"Cure Toxins\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected identifier token: \"Cure Toxins\"\n",
         "tokens": []
       },
       {
         "line": "Gift of the Naaru",
-        "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected spellName token: \"Gift of the Naaru\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected identifier token: \"Gift of the Naaru\"\n",
         "tokens": []
       },
       {
         "line": "Noggenfogger Elixir",
-        "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected spellName token: \"Noggenfogger Elixir\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected identifier token: \"Noggenfogger Elixir\"\n",
         "tokens": []
       },
       {
         "line": "Alliance Battle Standard",
-        "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected spellName token: \"Alliance Battle Standard\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected identifier token: \"Alliance Battle Standard\"\n",
         "tokens": []
       },
       {
         "line": "Chain Heal",
-        "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected spellName token: \"Chain Heal\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected identifier token: \"Chain Heal\"\n",
         "tokens": []
       },
       {
         "line": "Drums",
-        "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected spellName token: \"Drums\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected identifier token: \"Drums\"\n",
         "tokens": []
       },
       {
         "line": "Healthstone",
-        "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected spellName token: \"Healthstone\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
-      "Spell_Fire_FelFire"
-    ],
-    "label": [
-      "Hor"
-    ],
-    "occurences": 1,
-    "lines": [
-      {
-        "line": "/cleartarget",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cleartarget"
-          }
-        ]
-      },
-      {
-        "line": "/tar Shadowy Mercenary",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/tar"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "Shadowy Mercenary"
-          }
-        ]
-      },
-      {
-        "line": "/script SetRaidTarget(\"target\",4);",
-        "message": "",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/script"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "spellName",
-            "value": "SetRaidTarget"
-          },
-          {
-            "type": "unknown",
-            "value": "("
-          },
-          {
-            "type": "unknown",
-            "value": "\""
-          },
-          {
-            "type": "modifier",
-            "value": "target"
-          },
-          {
-            "type": "unknown",
-            "value": "\""
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "number",
-            "value": "4"
-          },
-          {
-            "type": "unknown",
-            "value": ")"
-          },
-          {
-            "type": "semicolon",
-            "value": ";"
-          }
-        ]
-      },
-      {
-        "line": "/targetlasttarget",
-        "message": "invalid syntax at line 1 col 1:\n\n  /targetlasttarget\n  ^\nUnexpected command token: \"/targetlasttarget\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected identifier token: \"Healthstone\"\n",
         "tokens": []
       }
     ]
@@ -1897,12 +584,12 @@
     "lines": [
       {
         "line": "sztandar",
-        "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected spellName token: \"sztandar\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected identifier token: \"sztandar\"\n",
         "tokens": []
       },
       {
         "line": "siatka",
-        "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected spellName token: \"siatka\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected identifier token: \"siatka\"\n",
         "tokens": []
       }
     ]
@@ -1923,7 +610,7 @@
       },
       {
         "line": "/cast Nature's Swiftness",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1934,14 +621,14 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Nature's Swiftness"
           }
         ]
       },
       {
         "line": "/cast Tidal Force",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1952,14 +639,14 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Tidal Force"
           }
         ]
       },
       {
         "line": "/cast Healing Wave",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1970,7 +657,7 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Healing Wave"
           }
         ]
@@ -1995,23 +682,6 @@
   },
   {
     "icon": [
-      "Ability_Creature_Disease_05",
-      "Spell_Misc_EmotionSad"
-    ],
-    "label": [
-      "Pet"
-    ],
-    "occurences": 5,
-    "lines": [
-      {
-        "line": "/petattack",
-        "message": "invalid syntax at line 1 col 1:\n\n  /petattack\n  ^\nUnexpected command token: \"/petattack\"\n",
-        "tokens": []
-      }
-    ]
-  },
-  {
-    "icon": [
       "Ability_Creature_Cursed_04"
     ],
     "label": [
@@ -2021,7 +691,7 @@
     "lines": [
       {
         "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
-        "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected spellName token: \"Czesc\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected identifier token: \"Czesc\"\n",
         "tokens": []
       }
     ]
@@ -2037,37 +707,37 @@
     "lines": [
       {
         "line": "serpent",
-        "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected spellName token: \"serpent\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected identifier token: \"serpent\"\n",
         "tokens": []
       },
       {
         "line": "chimera",
-        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
         "tokens": []
       },
       {
         "line": "aimed",
-        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
         "tokens": []
       },
       {
         "line": "spam steady",
-        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
         "tokens": []
       },
       {
         "line": "chimera",
-        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected spellName token: \"chimera\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
         "tokens": []
       },
       {
         "line": "aimed",
-        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected spellName token: \"aimed\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
         "tokens": []
       },
       {
         "line": "spam steady",
-        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected spellName token: \"spam steady\"\n",
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
         "tokens": []
       }
     ]
@@ -2088,7 +758,7 @@
       },
       {
         "line": "/cast Web",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -2099,14 +769,14 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Web"
           }
         ]
       },
       {
         "line": "/cast Pin",
-        "message": "",
+        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -2117,7 +787,7 @@
             "value": " "
           },
           {
-            "type": "spellName",
+            "type": "identifier",
             "value": "Pin"
           }
         ]

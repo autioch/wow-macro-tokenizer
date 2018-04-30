@@ -19,12 +19,8 @@ function parseSpellsText(scriptText) {
   return JSON.parse(spellsJSON);
 }
 
-function cleanupSpellName(spellName) {
-  return spellName.replace(/\([^)]+\)/g, '').trim();
-}
-
 function cleanupSpells(spells) {
-  const spellNames = spells.map((spell) => cleanupSpellName(spell.name));
+  const spellNames = spells.map((spell) => spell.name.replace(/\([^)]+\)/g, '').trim());
   const uniqSpellNames = uniq(spellNames);
 
   qbLog.info('SPELL CLEANUP', uniqSpellNames.length, 'out of', spellNames.length);

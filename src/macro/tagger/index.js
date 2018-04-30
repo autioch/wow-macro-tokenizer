@@ -16,7 +16,7 @@ module.exports = function tagger(macros) {
     });
 
   return saveJson(tagged, 'tagger')
-    .then(() => saveJson(tags.map((tag) => omit(tag, ['spellNames', 'tokenTypes'])), 'tags'))
+    .then(() => saveJson(tags.map((tag) => omit(tag, ['identifiers', 'tokenTypes'])), 'tags'))
     .then(() => saveJson(categories, 'categories'))
     .then(() => tagged);
 };

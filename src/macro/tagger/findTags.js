@@ -13,9 +13,9 @@ function getTokenTags(token) {
       }
 
       if (
-        token.type === 'spellName' &&
-        def.spellNames &&
-        def.spellNames.some((spellName) => spellName === token.value)
+        token.type === 'identifier' &&
+        def.identifiers &&
+        def.identifiers.some((identifier) => identifier === token.value)
       ) {
         return true;
       }

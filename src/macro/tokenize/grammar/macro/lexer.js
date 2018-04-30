@@ -1,6 +1,8 @@
 const moo = require('moo');
 
 module.exports = moo.compile({
+  target: /\/target(?:lasttarget|target|enemy)*/,
+
   /* slash commands */
   command: {
     match: /^\/[a-zA-Z]+/,
@@ -28,26 +30,21 @@ module.exports = moo.compile({
   spellLevel: /\(Rank \d+\)/,
   spellMode: ['(Shapeshift)', '(Bear)', '(Cat)', '(Demon)', '(Feral)', '(Racial)'],
 
-  spellName: {
-    match: /[a-zA-Z]+(?:(?: |'|-|: )[a-zA-Z]+)*/,
+  identifier: {
+    match: /[a-zA-Z]+(?:(?: |'|-|: )[a-zA-Z]+)*(?: 4000)?/, // Blingtron
     keywords: {
       modifier: [
         'mod', 'modifier',
-        'nomod', 'nomodifier',
-        'target', 'focus', 'player', 'pettarget',
-        'notarget', 'nofocus', 'noplayer', 'pettarget',
         'ctrl', 'shift', 'alt',
-        'noctrl', 'noshift', 'noalt',
         'flyable', 'mounted',
-        'noflyable', 'nomounted',
         'combat', 'harm', 'dead', 'exists',
-        'nocombat', 'noharm', 'nodead', 'noexists',
-        'button', '1', '2',
-        'nobutton', '1', '2',
+        'button',
         'pet',
-        'nopet',
         'channeling',
-        'nochanneling'
+        'no'
+      ],
+      gameTarget: [
+        'target', 'focus', 'player', 'pet', 'lasttarget', 'mouseover'
       ]
     }
   },

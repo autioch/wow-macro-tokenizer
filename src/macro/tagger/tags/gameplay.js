@@ -6,24 +6,24 @@ const categories = require('./categories');
 
 module.exports = [{
   label: 'Teleport',
-  spellNames: [
+  identifiers: [
     'Death Gate', 'Hearthstone', 'Dalaran Hearthstone', 'Garrison Hearthstone', 'Wormhole Generator: Northrend',
     'Wormhole Generator: Pandaria', 'Admiral\'s Compass', 'Argent Crusader\'s Tabard'
   ],
   category: categories.Gameplay
 }, {
   label: 'Mount',
-  spellNames: mounts,
+  identifiers: mounts,
   commandNames: ['/dismount'],
   category: categories.Gameplay
 }, {
   label: 'Search & Target',
-  spellNames: ['SetRaidTarget'],
+  identifiers: ['SetRaidTarget'],
   commandNames: ['/tar', '/who', '/target', '/focus'],
   category: categories.Gameplay
 }, {
   label: 'Quest',
-  spellNames: ['Warts-B-Gone Lip Balm'],
+  identifiers: ['Warts-B-Gone Lip Balm'],
   category: categories.Gameplay
 }, {
   label: 'Equipment',
@@ -36,6 +36,6 @@ module.exports = [{
 }, {
   label: 'Party',
   commandNames: ['/follow', '/inv', '/invite', '/petfollow', '/promote'],
-  spellNames: ['LeaveParty'],
+  identifiers: ['LeaveParty'],
   category: categories.Gameplay
 }];

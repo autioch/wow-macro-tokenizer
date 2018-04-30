@@ -10,10 +10,10 @@ export default class App extends Component {
     ambiguous: lines.filter((line) => line.parsed && line.ambiguous),
     failed: lines.filter((line) => !line.parsed),
     parsed: lines.filter((line) => line.parsed && !line.ambiguous),
-    showSummary: true,
+    showSummary: false,
     showAmbiguous: true,
     showFailed: true,
-    showParsed: true
+    showParsed: false
   }
 
   render() {

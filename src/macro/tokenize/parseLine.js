@@ -1,41 +1,46 @@
 const { Parser } = require('nearley');
-const { flattenDeep } = require('lodash');
-const grammar = require('./grammar');
+const { flattenDeep, pick } = require('lodash');
+const { luaGrammar, macroGrammar, genericGrammar } = require('./grammar');
 
 function simplifyTokens(tokens) {
   if (Array.isArray(tokens)) {
-    return tokens
-      .filter((result) => !!result) // TODO Grammar has some nulls
-      .map((result) => simplifyTokens(result));
+    return tokens.map((result) => simplifyTokens(result));
+  }
+
+  return pick(tokens, ['type', 'value']);
+}
+
+function tryParse(line, grammar) {
+  let tokens = [];
+  let message = '';
+
+  try {
+    tokens = new Parser(grammar).feed(line.trim()).results;
+  } catch (err) {
+    message = err.message; // eslint-disable-line prefer-destructuring
   }
 
   return {
-    type: tokens.type,
-    value: tokens.value
+    tokens,
+    parsed: !message && tokens.length > 0,
+    message: message || 'No tokens returned',
+    ambiguous: tokens.length > 1
   };
 }
 
 module.exports = function parseLine(line) {
-  let tokens = [];
-  let parsed = false;
-  let message = '';
+  const isLua = line.startsWith('/run ');
+  let result = tryParse(isLua ? line.slice(5) : line, isLua ? luaGrammar : macroGrammar);
 
-  const parser = new Parser(grammar);
-
-  try {
-    tokens = parser.feed(line).results; // eslint-disable-line prefer-destructuring
-    parsed = true;
-  } catch (err) { // eslint-disable-line no-unused-vars
-    message = err.message; // eslint-disable-line prefer-destructuring
+  if (!result.parsed) {
+    result = tryParse(line, genericGrammar);
   }
 
-  const ambiguous = tokens.length > 1;
+  const { ambiguous, tokens } = result;
 
   return {
+    ...result,
     tokens: simplifyTokens(ambiguous ? tokens : flattenDeep(tokens)),
-    parsed,
-    message,
-    line,
-    ambiguous
+    line
   };
 };

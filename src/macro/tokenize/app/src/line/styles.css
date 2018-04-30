@@ -16,9 +16,18 @@
 }
 
 .line__results {
-  display: flex;
-  width: 75%;
+  /* display: flex; */
+  /* width: 75%; */
   word-break: break-all;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-grow: 1;
   padding: .25em;
+}
+
+.line__results > div {
+  width: 100%;
+}
+
+.line__results > div:nth-child(2n) {
+  background-color: #e8e8e8;
 }
