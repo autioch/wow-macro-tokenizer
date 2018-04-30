@@ -865,7 +865,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -1387,7 +1387,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -1549,7 +1549,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -1711,7 +1711,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -1873,7 +1873,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2042,7 +2042,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2058,7 +2058,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -2088,7 +2088,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2096,7 +2096,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -2104,7 +2104,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -2152,7 +2152,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2409,7 +2409,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2495,7 +2495,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2657,7 +2657,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -2811,7 +2811,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -3011,7 +3011,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -3813,7 +3813,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4122,7 +4122,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4291,7 +4291,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4307,7 +4307,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -4337,7 +4337,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4345,7 +4345,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -4353,7 +4353,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -4440,7 +4440,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4602,7 +4602,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -4901,7 +4901,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -5109,7 +5109,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -5271,7 +5271,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -5433,7 +5433,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -5734,7 +5734,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -6063,7 +6063,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -6633,7 +6633,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -6649,7 +6649,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -6679,7 +6679,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -6687,7 +6687,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -6695,7 +6695,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -7682,7 +7682,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -7698,7 +7698,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -7728,7 +7728,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -7736,7 +7736,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -7744,7 +7744,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -8384,7 +8384,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -9605,7 +9605,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nocombat"
         },
         {
@@ -9693,7 +9693,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noharm"
         },
         {
@@ -10073,7 +10073,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -10342,7 +10342,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -10362,7 +10362,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -10396,7 +10396,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -10404,7 +10404,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -10416,7 +10416,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -10976,7 +10976,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -11107,7 +11107,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -11127,7 +11127,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -11157,7 +11157,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -11165,7 +11165,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -11177,7 +11177,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -11245,7 +11245,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -11657,7 +11657,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -11677,7 +11677,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -11711,7 +11711,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -11719,7 +11719,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -11731,7 +11731,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -12004,7 +12004,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -12185,7 +12185,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -12205,7 +12205,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -12235,7 +12235,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -12243,7 +12243,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -12255,7 +12255,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -12315,7 +12315,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -15254,7 +15254,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -15387,7 +15387,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -15417,7 +15417,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -15429,7 +15429,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -15459,7 +15459,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -15553,7 +15553,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -15715,7 +15715,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -16214,7 +16214,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -16514,7 +16514,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -16723,7 +16723,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -16753,7 +16753,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -16765,7 +16765,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -16795,7 +16795,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -16889,7 +16889,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -17080,7 +17080,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noharm"
         },
         {
@@ -17144,7 +17144,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nodead"
         },
         {
@@ -17237,7 +17237,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nopet"
         },
         {
@@ -17633,7 +17633,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -19015,7 +19015,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -19224,7 +19224,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -19254,7 +19254,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -19266,7 +19266,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -19296,7 +19296,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -19390,7 +19390,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -19552,7 +19552,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -19815,7 +19815,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -19978,7 +19978,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20008,7 +20008,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -20020,7 +20020,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20050,7 +20050,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -20163,7 +20163,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20193,7 +20193,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -20205,7 +20205,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20235,7 +20235,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -20491,7 +20491,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -20696,7 +20696,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -20829,7 +20829,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20859,7 +20859,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -20871,7 +20871,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -20901,7 +20901,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -21521,7 +21521,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -21541,7 +21541,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -21571,7 +21571,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -21579,7 +21579,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -21591,7 +21591,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -21621,7 +21621,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -22002,7 +22002,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -22022,7 +22022,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -22044,7 +22044,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -22052,7 +22052,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -22064,7 +22064,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -22086,7 +22086,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -22399,7 +22399,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -22485,7 +22485,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -23561,7 +23561,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -24422,7 +24422,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -24704,7 +24704,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -24873,7 +24873,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -24893,7 +24893,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -24923,7 +24923,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -24931,7 +24931,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -24943,7 +24943,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -25003,7 +25003,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -25048,7 +25048,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nopet"
         },
         {
@@ -25090,7 +25090,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nopet"
         },
         {
@@ -27026,7 +27026,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -27042,7 +27042,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -27072,7 +27072,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -27080,7 +27080,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -27088,7 +27088,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -27459,7 +27459,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nocombat"
         },
         {
@@ -27547,7 +27547,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noharm"
         },
         {
@@ -29118,7 +29118,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nochanneling"
         },
         {
@@ -29601,7 +29601,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -29617,7 +29617,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -29647,7 +29647,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -29655,7 +29655,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -29663,7 +29663,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -30530,7 +30530,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -30546,7 +30546,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -30576,7 +30576,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -30584,7 +30584,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -30592,7 +30592,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -30978,7 +30978,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -31099,7 +31099,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nocombat"
         },
         {
@@ -31229,7 +31229,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noharm"
         },
         {
@@ -31435,7 +31435,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -31455,7 +31455,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -31485,7 +31485,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -31493,7 +31493,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -31505,7 +31505,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -31573,7 +31573,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -31987,7 +31987,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -32007,7 +32007,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -32041,7 +32041,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -32049,7 +32049,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -32061,7 +32061,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -36709,7 +36709,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -36739,7 +36739,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -36751,7 +36751,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -36781,7 +36781,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -36875,7 +36875,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -37743,7 +37743,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -38785,7 +38785,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -38805,7 +38805,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -38835,7 +38835,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -38843,7 +38843,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -38855,7 +38855,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -41213,7 +41213,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -41233,7 +41233,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -41263,7 +41263,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -41271,7 +41271,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -41283,7 +41283,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -42741,7 +42741,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -42757,7 +42757,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -42787,7 +42787,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -42795,7 +42795,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -42803,7 +42803,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -43026,7 +43026,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -43046,7 +43046,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -43076,7 +43076,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -43084,7 +43084,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -43096,7 +43096,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -43164,7 +43164,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -43783,7 +43783,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -43945,7 +43945,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -44031,7 +44031,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -44047,7 +44047,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -44077,7 +44077,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -44085,7 +44085,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -44093,7 +44093,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -44733,7 +44733,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -44749,7 +44749,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -44779,7 +44779,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -44787,7 +44787,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -44795,7 +44795,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -44987,7 +44987,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -45003,7 +45003,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45033,7 +45033,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -45041,7 +45041,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -45049,7 +45049,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45305,7 +45305,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -45321,7 +45321,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45351,7 +45351,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -45359,7 +45359,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -45367,7 +45367,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45618,7 +45618,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -45638,7 +45638,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45668,7 +45668,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomodifier"
         },
         {
@@ -45676,7 +45676,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -45688,7 +45688,7 @@
           "value": " "
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -45756,7 +45756,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflying"
         },
         {
@@ -46972,7 +46972,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -46988,7 +46988,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -47018,7 +47018,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -47026,7 +47026,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -47034,7 +47034,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -47186,7 +47186,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -47202,7 +47202,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {
@@ -47232,7 +47232,7 @@
           "value": "["
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomod"
         },
         {
@@ -47240,7 +47240,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "noflyable"
         },
         {
@@ -47248,7 +47248,7 @@
           "value": ","
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "value": "nomounted"
         },
         {

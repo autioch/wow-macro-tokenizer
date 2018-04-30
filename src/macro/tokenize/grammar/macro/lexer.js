@@ -34,14 +34,11 @@ module.exports = moo.compile({
     match: /[a-zA-Z]+(?:(?: |'|-|: )[a-zA-Z]+)*(?: 4000)?/, // Blingtron
     keywords: {
       modifier: [
-        'mod', 'modifier',
-        'ctrl', 'shift', 'alt',
-        'flyable', 'mounted',
-        'combat', 'harm', 'dead', 'exists',
-        'button',
-        'pet',
-        'channeling',
-        'no'
+        'mod', 'modifier', 'nomod', 'nomodifier',
+        'button', 'ctrl', 'shift', 'alt',
+        'flyable', 'mounted', 'flying', 'noflyable', 'nomounted', 'noflying',
+        'combat', 'harm', 'dead', 'exists', 'nocombat', 'noharm', 'nodead', 'noexists',
+        'pet', 'channeling', 'nopet', 'nochanneling'
       ],
       gameTarget: [
         'target', 'focus', 'player', 'pet', 'lasttarget', 'mouseover'

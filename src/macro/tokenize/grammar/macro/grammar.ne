@@ -13,7 +13,7 @@ SPELL_LIST_SEMICOLON -> SPELL (SPACE %semicolon SPACE SPELL):*
 SPELL_LIST_COMMA -> SPELL (SPACE %comma SPACE SPELL):*
 
 MOD -> %bracketSquareOpen MOD_OPTION:+ %bracketSquareClose
-MOD_OPTION -> %modifier | %slash | %semicolon | %equal | %comma | %colon | %at | %number | %space | %identifier | %gameTarget # TODO More specific
+MOD_OPTION -> %modifier | %slash | %semicolon | %equal | %comma | %colon | %at | %number | %space | %identifier | %target | %gameTarget # TODO More specific
 
 CANCEL_AURA -> "/cancelaura" %space SPELL_LIST_SEMICOLON
 CAST -> "/cast" %space SPELL_LIST_SEMICOLON

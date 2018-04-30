@@ -44,9 +44,11 @@
 
 .token--spellLevel,
 .token--spellMode,
-.token--spellName {color: #00bfff}
+.token--identifier {color: #00bfff}
 
 .token--modifier {color: #e4e4e4}
+
+.token--gameTarget {color:#9370DB}
 
 .token--numberRange,
 .token--numberDecimal,

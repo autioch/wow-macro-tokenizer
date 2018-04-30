@@ -68,7 +68,7 @@ function setData({ store, data: { tags, icons, macros, categories } }) {
         id: index,
         ...macro,
         labels: macro.label,
-        tokens: flattenDeep(macro.lines).map((token) => ({
+        tokens: flattenDeep(macro.lines).filter((token) => !!token.value).map((token) => ({
           ...token,
           value: token.value.toLowerCase()
         })),

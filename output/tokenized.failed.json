@@ -201,7 +201,7 @@
             "value": " "
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "noexists"
           },
           {
@@ -423,7 +423,7 @@
             "value": " "
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "nomounted"
           },
           {
@@ -457,7 +457,7 @@
             "value": "["
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "noflyable"
           },
           {
@@ -469,7 +469,7 @@
             "value": " "
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "nomounted"
           },
           {

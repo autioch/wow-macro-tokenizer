@@ -7,34 +7,29 @@
   {
     "label": "Chat",
     "category": 4,
-    "id": 1,
-    "count": 53
+    "id": 1
   },
   {
     "label": "Death Knight",
     "category": 1,
     "color": "#C41F3B",
-    "id": 2,
-    "count": 23
+    "id": 2
   },
   {
     "label": "Draenei",
     "category": 2,
-    "id": 3,
-    "count": 4
+    "id": 3
   },
   {
     "label": "Druid",
     "category": 1,
     "color": "#FF7D0A",
-    "id": 4,
-    "count": 25
+    "id": 4
   },
   {
     "label": "Emote",
     "category": 4,
-    "id": 5,
-    "count": 5
+    "id": 5
   },
   {
     "label": "Equipment",
@@ -45,28 +40,24 @@
       "/use"
     ],
     "category": 3,
-    "id": 6,
-    "count": 58
+    "id": 6
   },
   {
     "label": "Goblin",
     "category": 2,
-    "id": 7,
-    "count": 1
+    "id": 7
   },
   {
     "label": "Hunter",
     "category": 1,
     "color": "#ABD473",
-    "id": 8,
-    "count": 25
+    "id": 8
   },
   {
     "label": "Mage",
     "category": 1,
     "color": "#69CCF0",
-    "id": 9,
-    "count": 28
+    "id": 9
   },
   {
     "label": "Mount",
@@ -74,15 +65,13 @@
       "/dismount"
     ],
     "category": 3,
-    "id": 10,
-    "count": 35
+    "id": 10
   },
   {
     "label": "Paladin",
     "category": 1,
     "color": "#F58CBA",
-    "id": 11,
-    "count": 92
+    "id": 11
   },
   {
     "label": "Party",
@@ -94,34 +83,29 @@
       "/promote"
     ],
     "category": 3,
-    "id": 12,
-    "count": 8
+    "id": 12
   },
   {
     "label": "Priest",
     "category": 1,
     "color": "#FFFFFF",
-    "id": 13,
-    "count": 44
+    "id": 13
   },
   {
     "label": "Profession",
     "category": 4,
-    "id": 14,
-    "count": 32
+    "id": 14
   },
   {
     "label": "Quest",
     "category": 3,
-    "id": 15,
-    "count": 2
+    "id": 15
   },
   {
     "label": "Rogue",
     "category": 1,
     "color": "#FFF569",
-    "id": 16,
-    "count": 5
+    "id": 16
   },
   {
     "label": "Script & Config",
@@ -130,8 +114,7 @@
       "/run"
     ],
     "category": 4,
-    "id": 17,
-    "count": 25
+    "id": 17
   },
   {
     "label": "Search & Target",
@@ -142,52 +125,44 @@
       "/focus"
     ],
     "category": 3,
-    "id": 18,
-    "count": 54
+    "id": 18
   },
   {
     "label": "Server",
     "category": 4,
-    "id": 19,
-    "count": 1
+    "id": 19
   },
   {
     "label": "Shaman",
     "category": 1,
     "color": "#0070DE",
-    "id": 20,
-    "count": 26
+    "id": 20
   },
   {
     "label": "Teleport",
     "category": 3,
-    "id": 21,
-    "count": 21
+    "id": 21
   },
   {
     "label": "Warlock",
     "category": 1,
     "color": "#9482C9",
-    "id": 22,
-    "count": 38
+    "id": 22
   },
   {
     "label": "Warrior",
     "category": 1,
     "color": "#C79C6E",
-    "id": 23,
-    "count": 29
+    "id": 23
   },
   {
     "label": "Wintergrasp",
     "category": 4,
-    "id": 24,
-    "count": 8
+    "id": 24
   },
   {
     "label": "Other",
     "category": 4,
-    "id": 25,
-    "count": 28
+    "id": 25
   }
 ]
