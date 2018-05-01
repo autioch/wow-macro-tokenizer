@@ -2,11 +2,10 @@ const findTags = require('./findTags');
 const { saveJson, singleRun } = require('../../utils');
 const tags = require('./tags');
 const categories = require('./tags/categories');
-const { omit } = require('lodash');
+const { pick } = require('lodash');
 
 module.exports = function tagger(macros) {
   const tagged = macros.map((macro) => findTags(macro));
-
   const otherTagId = tags[tags.length - 1].id;
 
   tagged
@@ -16,7 +15,7 @@ module.exports = function tagger(macros) {
     });
 
   return saveJson(tagged, 'tagger')
-    .then(() => saveJson(tags.map((tag) => omit(tag, ['identifiers', 'tokenTypes'])), 'tags'))
+    .then(() => saveJson(tags.map((tag) => pick(tag, ['label', 'category', 'id', 'color'])), 'tags'))
     .then(() => saveJson(categories, 'categories'))
     .then(() => tagged);
 };

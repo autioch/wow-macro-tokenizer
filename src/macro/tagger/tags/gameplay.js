@@ -6,36 +6,53 @@ const categories = require('./categories');
 
 module.exports = [{
   label: 'Teleport',
-  identifiers: [
-    'Death Gate', 'Hearthstone', 'Dalaran Hearthstone', 'Garrison Hearthstone', 'Wormhole Generator: Northrend',
-    'Wormhole Generator: Pandaria', 'Admiral\'s Compass', 'Argent Crusader\'s Tabard'
-  ],
+  rules: [{
+    value: [
+      'Death Gate', 'Hearthstone', 'Dalaran Hearthstone', 'Garrison Hearthstone', 'Wormhole Generator: Northrend',
+      'Wormhole Generator: Pandaria', 'Admiral\'s Compass', 'Argent Crusader\'s Tabard'
+    ]
+  }],
   category: categories.Gameplay
 }, {
   label: 'Mount',
-  identifiers: mounts,
-  commandNames: ['/dismount'],
+  rules: [{
+    value: mounts
+  }, {
+    value: ['/dismount']
+  }],
   category: categories.Gameplay
 }, {
   label: 'Search & Target',
-  identifiers: ['SetRaidTarget'],
-  commandNames: ['/tar', '/who', '/target', '/focus'],
+  rules: [{
+    value: ['SetRaidTarget']
+  }, {
+    value: ['/tar', '/who', '/target', '/focus']
+  }],
   category: categories.Gameplay
 }, {
   label: 'Quest',
-  identifiers: ['Warts-B-Gone Lip Balm'],
+  rules: [{
+    value: ['Warts-B-Gone Lip Balm', 'Nexus Drake Hatchling']
+  }],
   category: categories.Gameplay
 }, {
   label: 'Equipment',
-  commandNames: ['/equip', '/equipslot', 'linkItem', '/use'],
+  rules: [{
+    value: ['/equip', '/equipslot', 'linkItem', '/use']
+  }],
   category: categories.Gameplay
 }, {
   label: 'Emote',
-  tokenTypes: ['emote'],
+  rules: [{
+    type: ['emote']
+  }],
   category: categories.Other
 }, {
   label: 'Party',
-  commandNames: ['/follow', '/inv', '/invite', '/petfollow', '/promote'],
-  identifiers: ['LeaveParty'],
+  rules: [{
+    value: ['/follow', '/inv', '/invite', '/petfollow', '/promote']
+  }, {
+    value: ['LeaveParty']
+  }],
   category: categories.Gameplay
 }];

@@ -29,7 +29,10 @@ const colors = {
 
 module.exports = Object.keys(spellsDict).map((key) => ({
   label: key,
-  identifiers: uniq(spellsDict[key]).sort((a, b) => a.localeCompare(b)),
+  rules: [{
+    type: ['identifier'],
+    value: uniq(spellsDict[key]).sort((a, b) => a.localeCompare(b))
+  }],
   category: categories.Class,
   color: colors[key]
 }));
