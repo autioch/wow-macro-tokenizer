@@ -34,8 +34,12 @@ function getTokenTags(token) {
   return foundTags.map((def) => def.id);
 }
 
-module.exports = function tag(macro) {
+module.exports = function findTags(macro) {
   const tokenTags = flattenDeep(macro.lines.map((line) => line.tokens)).map((token) => getTokenTags(token));
+
+  if (macro.lines.some((line) => line.grammar)) {
+    tokenTags.push(tags.find((tag) => tag.label === 'Script & Config').id);
+  }
 
   return {
     ...macro,
