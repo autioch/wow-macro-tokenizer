@@ -4,7 +4,7 @@ import './index.css';
 
 export default ({
   state: { tags, categories, macros, visibleMacros, filterText },
-  store: { toggleTag, setTextFilter }
+  store: { toggleTag, setTextFilter, resetTextFilter }
 }) => (
   <div className="menu">
     {categories.map((category) => <div className="category" key={category.id}>
@@ -20,6 +20,7 @@ export default ({
         onChange={(ev) => setTextFilter(ev.target.value)}
         onInput={(ev) => setTextFilter(ev.target.value)}
       />
+      <div className="menu__clear" onClick={resetTextFilter} title="Clear filter">X</div>
       <div className="menu__text">{visibleMacros.length} / {macros.length} macros</div>
     </div>
   </div>

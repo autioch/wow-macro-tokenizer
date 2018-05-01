@@ -34,3 +34,8 @@
 
 .token--space {color: #ccc;margin: 0 .25em;}
 .token--unknown {background-color: #fa0}
+
+.token--id {color: #d43}
+.token--string {color: #0a0}
+.token--keyword {color:#b0f}
+.token--binop {color:#5bc}

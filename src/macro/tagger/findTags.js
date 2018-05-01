@@ -35,7 +35,7 @@ function getTokenTags(token) {
 }
 
 module.exports = function tag(macro) {
-  const tokenTags = flattenDeep(macro.lines).map((token) => getTokenTags(token));
+  const tokenTags = flattenDeep(macro.lines.map((line) => line.tokens)).map((token) => getTokenTags(token));
 
   return {
     ...macro,

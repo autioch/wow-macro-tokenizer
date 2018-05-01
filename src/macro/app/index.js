@@ -7,10 +7,10 @@ const APP_DATA_PATH = join('..', 'src', 'macro', 'app', 'src', 'data');
 
 const copyJson = (json) => readJson(json).then((contents) => saveJson(contents, join(APP_DATA_PATH, json)));
 
-module.exports = function macroApp(tagged) {
+module.exports = function macroApp(tagger) {
   return Bluebird
     .all(['categories', 'tags', 'tagger'].map(copyJson))
-    .then(() => tagged);
+    .then(() => tagger);
 };
 
-singleRun(module, 'tagged');
+singleRun(module, 'tagger');

@@ -7,7 +7,8 @@ const tagger = require('./tagger');
 const tokenize = require('./tokenize');
 
 module.exports = function getMacros(dir) {
-  return reader(dir)
+  return Promise.resolve()
+    .then(() => reader(dir))
     .then(parser)
     .then(dedupe)
     .then(tokenize)

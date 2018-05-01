@@ -9,9 +9,10 @@ const Pre = ({ items }) => (
   </pre>
 );
 
-export default ({ line: { line, tokens = [] } }) => (
+export default ({ line: { line, grammar, tokens = [] } }) => (
   <div className="line">
     <div className="line__original">{line}</div>
+    <div className="line__grammar">{grammar}</div>
     {tokens.map((items, index) => <Pre key={index} items={items}/>)}
   </div>
 );

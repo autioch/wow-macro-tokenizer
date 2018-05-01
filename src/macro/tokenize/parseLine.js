@@ -10,7 +10,7 @@ function simplifyTokens(tokens) {
   return pick(tokens, ['type', 'value']);
 }
 
-function tryParse(line, grammar) {
+function tryParse(line, grammar, grammarName) {
   let tokens = [];
   let message = '';
 
@@ -19,21 +19,37 @@ function tryParse(line, grammar) {
   } catch (err) {
     message = err.message; // eslint-disable-line prefer-destructuring
   }
+  const parsed = !message && tokens.length > 0;
 
   return {
     tokens,
-    parsed: !message && tokens.length > 0,
+    parsed,
     message: message || 'No tokens returned',
-    ambiguous: tokens.length > 1
+    ambiguous: tokens.length > 1,
+    grammar: grammarName
   };
 }
 
 module.exports = function parseLine(line) {
-  const isLua = line.startsWith('/run ');
-  let result = tryParse(isLua ? line.slice(5) : line, isLua ? luaGrammar : macroGrammar);
+  let result;
 
-  if (!result.parsed) {
-    result = tryParse(line, genericGrammar);
+  if (line.startsWith('/run ') || line.startsWith('/script ')) {
+    const words = line.split(' ');
+
+    result = tryParse(words.slice(1).join(' '), luaGrammar, 'lua');
+
+    result.tokens.unshift({
+      type: 'command',
+      value: words[0]
+    }, {
+      type: 'space',
+      value: ' '
+    });
+  } else {
+    result = tryParse(line, macroGrammar, 'macro');
+    if (!result.parsed) {
+      result = tryParse(line, genericGrammar, 'generic');
+    }
   }
 
   const { ambiguous, tokens } = result;

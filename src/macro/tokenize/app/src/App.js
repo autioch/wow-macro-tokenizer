@@ -13,7 +13,30 @@ export default class App extends Component {
     showSummary: false,
     showAmbiguous: true,
     showFailed: true,
-    showParsed: false
+    showParsed: true,
+    showLua: true,
+    showMacro: false,
+    showGeneric: false
+  }
+
+  filterLines(linesType) {
+    const { showMacro, showLua, showGeneric } = this.state;
+    const linesArr = this.state[linesType];
+    let visibleLines = linesArr.filter((line) => line.grammar === '');
+
+    if (showMacro) {
+      visibleLines = visibleLines.concat(linesArr.filter((line) => line.grammar === 'macro'));
+    }
+
+    if (showLua) {
+      visibleLines = visibleLines.concat(linesArr.filter((line) => line.grammar === 'lua'));
+    }
+
+    if (showGeneric) {
+      visibleLines = visibleLines.concat(linesArr.filter((line) => line.grammar === 'generic'));
+    }
+
+    return visibleLines;
   }
 
   render() {
@@ -24,11 +47,11 @@ export default class App extends Component {
         <div className="group__header">Summary</div>
         {state.showSummary ? <Summary summary={state.summary}/> : ''}
         <div className="group__header">Ambiguous ({state.ambiguous.length}/{state.totalCount})</div>
-        {state.showAmbiguous ? state.ambiguous.map((line, index) => <Ambiguous line={line} key={index} />) : ''}
+        {state.showAmbiguous ? this.filterLines('ambiguous').map((line, index) => <Ambiguous line={line} key={index} />) : ''}
         <div className="group__header">Failed ({state.failed.length}/{state.totalCount})</div>
-        {state.showFailed ? state.failed.map((line, index) => <Failed line={line} key={index} />) : ''}
+        {state.showFailed ? this.filterLines('failed').map((line, index) => <Failed line={line} key={index} />) : ''}
         <div className="group__header">Parsed ({state.parsed.length}/{state.totalCount})</div>
-        {state.showParsed ? state.parsed.map((line, index) => <Parsed line={line} key={index} />) : ''}
+        {state.showParsed ? this.filterLines('parsed').map((line, index) => <Parsed line={line} key={index} />) : ''}
       </div>
     );
   }

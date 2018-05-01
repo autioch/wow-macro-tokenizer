@@ -10,9 +10,15 @@
 .line__original {
   width: 25%;
   overflow: hidden;
+  flex: none;
   word-break: break-all;
   word-break: break-word;
   padding: .25em;
+}
+
+.line__grammar {
+  width: 4em;
+  flex: none;
 }
 
 .line__results {
@@ -27,6 +33,7 @@
 .line__results > div {
   width: 100%;
 }
+
 
 .line__results > div:nth-child(2n) {
   background-color: #e8e8e8;

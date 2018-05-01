@@ -20,11 +20,23 @@
 .line::before {
   counter-increment: line;
   content: counter(line) ".";
-  color: #555;
+  color: #666;
   margin-left: -1.5em;
   font-size: .9em;
   width: 1.5em;
   display: inline-block;
+}
+
+.line--lua::before {
+  color: #559;
+}
+
+.line--macro::before {
+  color: #585;
+}
+
+.line--generic::before {
+  color: #885;
 }
 
 .token {color: #e4e4e4}
@@ -53,3 +65,8 @@
 .token--numberRange,
 .token--numberDecimal,
 .token--number {color: #90ee90}
+
+.token--id {color: #d65}
+.token--string {color: #4a4}
+.token--keyword {color:#d6d}
+.token--binop {color:#59f}

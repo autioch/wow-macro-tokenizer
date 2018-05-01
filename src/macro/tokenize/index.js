@@ -1,6 +1,6 @@
 const parseLine = require('./parseLine');
 const { saveJson, singleRun } = require('../../utils');
-const { flattenDeep, uniq, pick } = require('lodash');
+const { flattenDeep, uniq, pick, uniqBy } = require('lodash');
 const { join } = require('path');
 
 const APP_DATA_PATH = join('..', 'src', 'macro', 'tokenize', 'app', 'src');
@@ -10,11 +10,13 @@ function tokenizeMacro({ icon, label, occurences, lines }) {
     icon,
     label,
     occurences,
-    lines: lines.map((line) => line.trim()).map((line) => {
-      const cleanLine = line.endsWith(';') ? line.slice(0, -1) : line;
+    lines: lines
+      .map((line) => line.trim())
+      .map((line) => {
+        const cleanLine = line.endsWith(';') ? line.slice(0, -1) : line;
 
-      return parseLine(cleanLine.trim());
-    })
+        return parseLine(cleanLine.trim());
+      })
   };
 }
 
@@ -23,7 +25,7 @@ function getParsedMacros(macros) {
     .filter((macro) => macro.lines.every((line) => line.parsed && !line.ambiguous))
     .map((macro) => ({
       ...macro,
-      lines: macro.lines.map((lineInfo) => lineInfo.tokens)
+      lines: macro.lines.map((lineInfo) => pick(lineInfo, ['tokens', 'grammar']))
     }));
 }
 
@@ -32,7 +34,7 @@ function getFailedMacros(macros) {
     .filter((macro) => macro.lines.some((line) => !line.parsed))
     .map((macro) => ({
       ...macro,
-      lines: macro.lines.map((lineInfo) => pick(lineInfo, ['line', 'message', 'tokens']))
+      lines: macro.lines.map((lineInfo) => pick(lineInfo, ['line', 'message', 'tokens', 'grammar']))
     }));
 }
 
@@ -67,14 +69,18 @@ module.exports = function tokenize(macros) {
   const parsed = getParsedMacros(tokenized);
   const failed = getFailedMacros(tokenized);
   const ambiguous = getAmbiguousMacros(tokenized);
-  const lines = tokenized.reduce((arr, macro) => arr.concat(macro.lines), []);
+  const lines = tokenized
+    .reduce((arr, macro) => arr.concat(macro.lines), [])
+    .sort((a, b) => a.line.localeCompare(b.line));
+
+  const uniqLines = uniqBy(lines, (line) => line.line);
 
   return saveJson(parsed, 'tokenized.parsed')
     .then(() => saveJson(failed, 'tokenized.failed'))
     .then(() => saveJson(ambiguous, 'tokenized.ambiguous'))
     .then(() => saveJson({
-      lines,
-      summary: getSummary(lines)
+      lines: uniqLines,
+      summary: getSummary(uniqLines)
     }, join(APP_DATA_PATH, 'data')))
     .then(() => parsed);
 };

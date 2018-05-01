@@ -36,6 +36,14 @@ function setTextFilter({ data, store }) {
     .setVisibleMacros();
 }
 
+function resetTextFilter({ store }) {
+  store
+    .setState({
+      filterText: ''
+    })
+    .setVisibleMacros();
+}
+
 function toggleTag({ state, data, store }) {
   store
     .setState({
@@ -68,7 +76,7 @@ function setData({ store, data: { tags, icons, macros, categories } }) {
         id: index,
         ...macro,
         labels: macro.label,
-        tokens: flattenDeep(macro.lines).filter((token) => !!token.value).map((token) => ({
+        tokens: flattenDeep(macro.lines.map((line) => line.tokens)).filter((token) => !!token.value).map((token) => ({
           ...token,
           value: token.value.toLowerCase()
         })),
@@ -91,5 +99,6 @@ export default {
   setData,
   setVisibleMacros,
   setTextFilter,
+  resetTextFilter,
   toggleTag
 };

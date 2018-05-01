@@ -7,7 +7,7 @@ const nearleyGrammar = require('nearley/lib/nearley-language-bootstrapped');
 
 const macroSource = readFileSync(join(__dirname, 'macro', 'grammar.ne'), 'utf8').trim();
 const genericSource = readFileSync(join(__dirname, 'macro', 'generic.ne'), 'utf8').trim();
-const luaSource = readFileSync(join(__dirname, 'lua', 'grammar.ne'), 'utf8').trim();
+const luaSource = readFileSync(join(__dirname, 'lua', 'custom.ne'), 'utf8').trim();
 
 function sourceToScript(sourceCode) {
   // Parse the grammar source into an AST

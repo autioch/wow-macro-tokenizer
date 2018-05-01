@@ -11,7 +11,8 @@
       {
         "line": "#showtoolip",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "/cast [target=focus] Repentance",
@@ -53,7 +54,34 @@
             "type": "identifier",
             "value": "Repentance"
           }
-        ]
+        ],
+        "grammar": "macro"
+      }
+    ]
+  },
+  {
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "label": [
+      "bak"
+    ],
+    "occurences": 2,
+    "lines": [
+      {
+        "line": "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end",
+        "message": "invalid syntax at line 1 col 106:\n\n  a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(\n                                                                                                           ^\nUnexpected other token: \"(\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
       }
     ]
   },
@@ -69,67 +97,80 @@
       {
         "line": "Darnassus Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected identifier token: \"Darnassus Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Exodar Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected identifier token: \"Exodar Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Gnomeregan Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected identifier token: \"Gnomeregan Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Ironforge Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected identifier token: \"Ironforge Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Silver Covenant Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected identifier token: \"Silver Covenant Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Silverwing Battle Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected identifier token: \"Silverwing Battle Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Stormpike Battle Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected identifier token: \"Stormpike Battle Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Stormwind Tab",
         "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected identifier token: \"Stormwind Tab\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Brute Force",
         "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected identifier token: \"Brute Force\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Conquest (Alliance)",
         "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected identifier token: \"Conquest\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Summer Flames",
         "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected identifier token: \"Summer Flames\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "the Illidari",
         "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected identifier token: \"the Illidari\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "the Scarlet Crusade",
         "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected identifier token: \"the Scarlet Crusade\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -145,7 +186,8 @@
       {
         "line": "haha, mozna sie bylo tego spodziewac po burakach z nii",
         "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected identifier token: \"haha\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -162,7 +204,8 @@
       {
         "line": "#Showtooltip Fear",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "/focus [target=focus, noexists][target=focus, dead] playertarget",
@@ -248,7 +291,8 @@
             "type": "identifier",
             "value": "playertarget"
           }
-        ]
+        ],
+        "grammar": "generic"
       },
       {
         "line": "/cast [target=focus] Fear",
@@ -290,7 +334,8 @@
             "type": "identifier",
             "value": "Fear"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/clearfocus [modifier:ctrl]",
@@ -324,7 +369,8 @@
             "type": "bracketSquareClose",
             "value": "]"
           }
-        ]
+        ],
+        "grammar": "generic"
       },
       {
         "line": "/stopmacro",
@@ -335,7 +381,8 @@
             "value": "/stopmacro"
           },
           {}
-        ]
+        ],
+        "grammar": "generic"
       }
     ]
   },
@@ -392,7 +439,8 @@
             "type": "identifier",
             "value": "Black War Tiger"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/use [flyable, nomounted] Swift Red Gryphon",
@@ -438,7 +486,8 @@
             "type": "identifier",
             "value": "Swift Red Gryphon"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/use [noflyable, nomounted] Black War Tiger",
@@ -484,12 +533,14 @@
             "type": "identifier",
             "value": "Black War Tiger"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/dismount [noflying, mounted]]",
         "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -518,12 +569,14 @@
             "type": "identifier",
             "value": "Fear"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/",
         "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -539,37 +592,44 @@
       {
         "line": "Cure Toxins",
         "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected identifier token: \"Cure Toxins\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Gift of the Naaru",
         "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected identifier token: \"Gift of the Naaru\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Noggenfogger Elixir",
         "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected identifier token: \"Noggenfogger Elixir\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Alliance Battle Standard",
         "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected identifier token: \"Alliance Battle Standard\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Chain Heal",
         "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected identifier token: \"Chain Heal\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Drums",
         "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected identifier token: \"Drums\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "Healthstone",
         "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected identifier token: \"Healthstone\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -585,12 +645,14 @@
       {
         "line": "sztandar",
         "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected identifier token: \"sztandar\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "siatka",
         "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected identifier token: \"siatka\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -606,7 +668,8 @@
       {
         "line": "#showtoolip",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "/cast Nature's Swiftness",
@@ -624,7 +687,8 @@
             "type": "identifier",
             "value": "Nature's Swiftness"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/cast Tidal Force",
@@ -642,7 +706,8 @@
             "type": "identifier",
             "value": "Tidal Force"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/cast Healing Wave",
@@ -660,7 +725,8 @@
             "type": "identifier",
             "value": "Healing Wave"
           }
-        ]
+        ],
+        "grammar": "macro"
       }
     ]
   },
@@ -676,7 +742,34 @@
       {
         "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
         "message": "invalid syntax at line 1 col 1:\n\n  |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\n  ^\nUnexpected linkProfession token: \"|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
+      }
+    ]
+  },
+  {
+    "icon": [
+      "Ability_Hunter_ExplosiveShot"
+    ],
+    "label": [
+      "WTS new"
+    ],
+    "occurences": 7,
+    "lines": [
+      {
+        "line": "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
+        "message": "invalid syntax at line 1 col 82:\n\n  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|\n                                                                                   ^\nUnexpected other token: \"|\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
       }
     ]
   },
@@ -692,7 +785,8 @@
       {
         "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
         "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected identifier token: \"Czesc\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -708,37 +802,44 @@
       {
         "line": "serpent",
         "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected identifier token: \"serpent\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "chimera",
         "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "aimed",
         "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "spam steady",
         "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "chimera",
         "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "aimed",
         "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "spam steady",
         "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   },
@@ -754,7 +855,8 @@
       {
         "line": "#showooltip Web",
         "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "tokens": []
+        "tokens": [],
+        "grammar": "generic"
       },
       {
         "line": "/cast Web",
@@ -772,7 +874,8 @@
             "type": "identifier",
             "value": "Web"
           }
-        ]
+        ],
+        "grammar": "macro"
       },
       {
         "line": "/cast Pin",
@@ -790,7 +893,234 @@
             "type": "identifier",
             "value": "Pin"
           }
-        ]
+        ],
+        "grammar": "macro"
+      }
+    ]
+  },
+  {
+    "icon": [
+      "Spell_Fire_BlueFire"
+    ],
+    "label": [
+      "Icon"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/script SetRaidTarget(\"player\",1)",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"player\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/script SetRaidTarget(\"party1\",4)",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"party1\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/script SetRaidTarget(\"party2\",3)",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"party2\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "3"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/script SetRaidTarget(\"party3\",2)",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"party3\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/script SetRaidTarget(\"party4\",5)",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"party4\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "5"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/script SetRaidTarget(\"Shadowfiend\",7); )",
+        "message": "invalid syntax at line 1 col 33:\n\n  SetRaidTarget(\"Shadowfiend\",7); )\n                                  ^\nUnexpected other token: \")\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
       }
     ]
   }
