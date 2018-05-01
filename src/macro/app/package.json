@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://autioch.github.io/wow-macro-tokenizer/",
   "dependencies": {
     "pipe-and-gauge": "^1.1.0",
     "react": "^16.3.2",
