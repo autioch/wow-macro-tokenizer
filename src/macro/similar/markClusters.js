@@ -3,7 +3,11 @@ const MAX_DISTANCE = 2;
 const MIN_NEARBY = 1;
 const NOISE_ID = 'Noise';
 
-/* https://en.wikipedia.org/wiki/DBSCAN */
+/* Based on the DBSCAN algorithm
+ * https://en.wikipedia.org/wiki/DBSCAN
+ * https://github.com/upphiminn/jDBSCAN
+ * http://yaikhom.com/2015/09/04/implementing-the-dbscan-clustering-algorithm.html
+ */
 module.exports = function markClusters(macros, distanceFn, maxDistance = MAX_DISTANCE, minNearby = MIN_NEARBY) {
   let nextClusterId = 0;
 

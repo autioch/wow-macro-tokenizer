@@ -1,3 +1,4 @@
+// https://nearley.js.org/
 const { Parser } = require('nearley');
 const { flattenDeep, pick } = require('lodash');
 const { luaGrammar, macroGrammar, genericGrammar } = require('./grammar');

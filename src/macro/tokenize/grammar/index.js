@@ -1,3 +1,5 @@
+// https://nearley.js.org/
+// https://tomassetti.me/parsing-in-javascript/
 const { readFileSync } = require('fs');
 const { join } = require('path');
 const { Parser, Grammar } = require('nearley');

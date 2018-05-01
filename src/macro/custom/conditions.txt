@@ -1,0 +1,44 @@
+actionbar:#
+bar:#
+bonusbar:5
+button:#
+btn:#
+channeling
+channeling:<spell name>
+combat
+dead
+equipped:<item type>
+worn:<item type>exists
+flyable
+flying
+group:party
+group:raid
+harm
+help
+indoors
+modifier
+mod
+shift
+ctrl
+alt
+mounted
+outdoors
+party
+pet
+pet:Bear
+raid
+spec:1
+stance:1
+form:1
+stealth
+swimming
+mouseover
+target
+targettarget
+lasttarget
+pet
+pettarget
+focus
+party3
+raid15
+player

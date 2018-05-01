@@ -8,6 +8,17 @@ const REPLACE_COST = {
   TYPE: 2
 };
 
+/* This is distance function based on levelshtein distance algorithm
+ * https://www.npmjs.com/package/leven
+ * https://www.npmjs.com/package/fast-levenshtein
+ * https://www.npmjs.com/package/string-similarity
+ * https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
+ * https://www.npmjs.com/package/wuzzy
+ * https://www.npmjs.com/package/similarity
+ * https://en.wikipedia.org/wiki/String_metric
+ * https://www.joyofdata.de/blog/comparison-of-string-distance-algorithms/
+ */
+
 function buildMatrix(lengthA, lengthB) {
   const matrix = [];
 

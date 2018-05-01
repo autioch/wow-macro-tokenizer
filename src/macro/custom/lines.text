@@ -1,0 +1,61 @@
+/petattack
+/petfollow
+/petstay
+/petautocastoff
+/petautocaston
+/petautocasttoggle
+/startattack
+/stopattack
+/stopmacro
+/stopcasting
+/targetexact Skeleton
+/targetenemy
+/targetfriend
+/targetenemyplayer
+/targetfriendplayer
+/targetparty
+/targetraid
+/targetlasttarget
+/usetalents 1
+/userandom
+#showtooltip    /console Sound_EnableSFX 0    /cast Icy Veins   /console Sound_EnableSFX 1    /cast Frostbolt   /run UIErrorsFrame:Clear()
+/m
+/use !Aspect of the Beast   /use Raptor Strike    /use Mongoose Bite
+/equipslot [mod:shift] 16 Nighttime   /equipslot [nomod] 16 Rimefang's Claw
+#showtooltip    /cast [mod] Shamanistic Rage    /castsequence [nomod] Windfury Weapon, Flametongue Weapon
+/run ShowHelm(not ShowingHelm())
+/use [mod]Holy Shock;[@mouseover,help][help]Holy Light;[@mouseover,harm][harm]Exorsism;[@player]Holy Light
+/use [mod]Holy Shock;[@mouseover,harm]Exorsism;[@mouseover,help]Holy Light;[harm]Exorsism;[help][@player]Holy Light
+#showtooltip    /use Hunter's Mark    /use Rapid Fire   /use 13   /use 14
+/console Sound_EnableSFX 0    /console Sound_EnableSFX 1    /run UIErrorsFrame:Clear()
+/dismount [mounted]   /use [flyabe] Sandstone Drake   /stopmacro [flyable]    /use Swift Spectral Tiger
+/use 13   /use 14   /use Arcane Power   /use Mirror Image
+/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff("target", i); if(s) then m("B "..i..": "..s); end s=UnitDebuff("target", i); if(s) then m("D "..i..": "..s); end end
+/run AcceptQuest()    /run CompleteQuest()    /run i=GetNumQuestChoices() if i<2 then GetQuestReward(1) end   /run SelectAvailableQuest(1)    /run SelectGossipAvailableQuest(1)    /run SelectActiveQuest(1)   /run SelectGossipActiveQuest(1)
+/script if IsShiftKeyDown() then SendChatMessage(".duel off") elseif IsAltKeyDown() then SendChatMessage(".duel off") elseif IsControlKeyDown() then SendChatMessage(".duel off") else SendChatMessage(".duel on") end;
+/cast Polymorph   /run for i=1,GetNumRaidMembers()-1 do local u,t="raid"..i,"target"if UnitIsUnit(u..t,t)then SendChatMessage("Change targets! Trying to sheep...","WHISPER",nil,UnitName(u))end end
+/cast [help] Renew; [harm] Shadow Word: Pain
+#showtooltip    /cast [mod:ctrl, target=focus, help] Renew else   /cast [mod:ctrl, target=focus, harm] Shadow Word: Pain else   /cast [harm] Shadow Word: Pain; [help] Renew else   /cast [@player] Renew
+#show [equipped:Shields] Shield Bash; Pummel    /cast [equipped:Shields,stance:1/2] Shield Bash; [equipped:Shields] Defensive Stance; [stance:3] Pummel; Berserker Stance
+/script print(UnitCreatureFamily("pet"))
+/cast [pet] Freeze; Frost Nova
+#showtooltip Recklessness   /cast Recklessness    /cast Inner Rage    /cast Shield Block(Defensive Stance)    /use 13
+#showtooltip Recklessness   /cast Recklessness    /cast Death Wish    /cast Inner Rage    /use 13
+/run px,py=GetPlayerMapPosition("player"); DEFAULT_CHAT_FRAME:AddMessage(format("You are at: %s (%0.1f, %0.1f)",GetZoneText(),px*100,py*100));
+#showtooltip [mod] 0 16; 17   /equipslot 17 0 16
+/run sfx=GetCVar("Sound_EnableSFX");    /console Sound_EnableSFX 0    /use 13 /run UIErrorsFrame:Clear()    /run SetCVar("Sound_EnableSFX",sfx)
+/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
+/script local cu = GetMoney(); print(GetCoinTextureString(cu,"12"))   /stopmacro [btn:1]    /script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end
+/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,"9d9d9d")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))
+/script CastSpellByName("Engineering");SendChatMessage("I'll create items against mats, look out: "..GetTradeSkillListLink(),"CHANNEL",nil,GetChannelName("Trade - City"));CloseTradeSkill();
+/run DoTradeSkill(GetTradeSkillSelectionIndex()); /run for i=0,4,1 do for l=1,GetContainerNumSlots(i),1 do if GetContainerItemID(i,l)==38682 then UseContainerItem(i,l);end;end;end; /run ReplaceEnchant(); /run ClearCursor();
+/run local a,b,c,d,t,h,r,l,z;a,b=UnitClass("player");c=UnitLevel("player");l,t,h,d=GetLFGRoles();r="";if d then r=r.."DPS " end;if t then r=r.."TANK " end;if h then r=r.."HEALER" end;z= a.." LEVEL "..c.." LFG RDF "..r;SendChatMessage(z,"CHANNEL",nil,4)
+/afk reloading UI   /run SendChatMessage("reloading my UI - afk for a sec", ((UnitInRaid("player")and "RAID")or(GetNumPartyMembers()>0 and "PARTY")or "AFK"));    /console reloadui
+/target [@focustarget, harm, nodead]
+#show Attack    /target [@focustarget, harm, nodead]    /startattack
+/run nfb="[Eat!]: ";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua=="Well Fed"or ua=="Food"then break;elseif b==40 and ua~="Well Fed"then nfb=nfb..UnitName('raid'..i).." ";end;end;end;print(nfb);
+/run nfb="[Eat!]: ";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua=="Well Fed"or ua=="Food"then break;elseif b==40 and ua~="Well Fed"then nfb=nfb..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nfb,"raid");
+/run nf="[Flask!]: ";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,"Flask")or strfind(ufl,"Distilled")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i).." ";end;end;end;print(nf);
+/run nf="[Flask!]: ";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,"Flask")or strfind(ufl,"Distilled")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nf,"raid");
+/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b="Raid",r else c,b="guild",g end;SendChatMessage("[iBlame]: "..b..".",c);
+/run print("Reloading UI...")   /reload
