@@ -43,14 +43,10 @@ const categories = [{
 }, {
   label: 'Warrior',
   id: '7.1'
-}].sort((a, b) => a.id.localeCompare(b.id));
-
-function buildDefinition(expansion, category) {
-  return {
-    expansion,
-    category
-  };
-}
+}].sort((a, b) => a.label.localeCompare(b.label));
 
 module.exports = expansions
-  .reduce((defs, expansion) => defs.concat(categories.map((category) => buildDefinition(expansion, category))), []);
+  .reduce((defs, expansion) => defs.concat(categories.map((category) => ({
+    expansion,
+    category
+  }))), []);

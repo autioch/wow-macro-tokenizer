@@ -1,4 +1,4 @@
-const path = require('path');
+const { join, resolve } = require('path');
 const bluebird = require('bluebird');
 const glob = bluebird.promisify(require('glob'));
 const qbLog = require('qb-log');
@@ -11,8 +11,8 @@ qbLog({
 });
 
 module.exports = function findFiles(dir, fileName) {
-  const absoluteRoot = path.resolve(dir);
-  const searchExpression = path.join(absoluteRoot, '**', fileName);
+  const absoluteRoot = resolve(dir);
+  const searchExpression = join(absoluteRoot, '**', fileName);
   const posixSearchExpression = searchExpression.replace(/\\/g, '/');
 
   qbLog.search(posixSearchExpression, '...');

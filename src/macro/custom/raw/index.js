@@ -22,7 +22,7 @@ function extractMacros(fileContents) {
 }
 
 module.exports = () => readFile(join(__dirname, 'macros.txt'))
-  .then(({ fileContents }) => extractMacros(fileContents))
+  .then((fileContents) => extractMacros(fileContents))
   .then((macros) => macros.map((lines) => ({
     lines
   })))

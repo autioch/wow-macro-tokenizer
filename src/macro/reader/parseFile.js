@@ -38,7 +38,7 @@ function extractMacros(fileContents) {
 }
 
 module.exports = function parseFile(filename) {
-  return readFile(filename).then(({ fileContents }) => ({
+  return readFile(filename).then((fileContents) => ({
     ...parseFilename(filename),
     macros: extractMacros(fileContents)
   }));
