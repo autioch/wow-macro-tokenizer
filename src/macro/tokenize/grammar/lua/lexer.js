@@ -1,6 +1,7 @@
 const moo = require('moo');
 
 module.exports = moo.compile({
+  string: /(?:(?:"|')[^"]+(?:"|')|""|'')/,
   id: {
     match: /[a-zA-Z]+(?:[0-9_a-zA-Z]+)*/,
     keywords: {
@@ -11,11 +12,11 @@ module.exports = moo.compile({
       ]
     }
   },
-  string: /(?:"|')[^"]+(?:"|')/,
   number: /[0-9]+(?:\.[0-9]+)?/,
   binop: ['+', '-', '*', '/', '^', '%', '..', '<', '<=', '>', '>=', '==', '~=', 'and', 'or'],
   unop: ['-', 'not', '#'],
   space: / +/,
   equal: '=',
+  quote: '"',
   other: /.+?/
 });

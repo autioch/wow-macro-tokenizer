@@ -9709,7 +9709,7 @@
     "lines": [
       "/petattack"
     ],
-    "occurences": 5,
+    "occurences": 6,
     "filename": [
       "e:/projects/wow configs/wow wotlk/WTF/2013.10.06/KAROLINA/Feronis/Dusst/macros-cache.txt",
       "e:/projects/wow configs/wow wotlk/WTF/2016.01.16/KAROLINA/Feronis/Dusst/macros-cache.txt",
@@ -9734,7 +9734,7 @@
     "lines": [
       "/petfollow"
     ],
-    "occurences": 3,
+    "occurences": 4,
     "filename": [
       "e:/projects/wow configs/wow wotlk/WTF/2013.10.06/KAROLINA/Feronis/Dusst/macros-cache.txt",
       "e:/projects/wow configs/wow wotlk/WTF/2016.01.16/KAROLINA/Feronis/Dusst/macros-cache.txt",
@@ -12959,5 +12959,832 @@
     "icon": [
       "INV_Misc_QuestionMark"
     ]
+  },
+  {
+    "lines": [
+      "/petstay"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petautocastoff"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petautocaston"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petautocasttoggle"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/startattack"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/stopattack"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/stopmacro"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/stopcasting"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetexact Skeleton"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetenemy"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetfriend"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetenemyplayer"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetfriendplayer"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetparty"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetraid"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/targetlasttarget"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/usetalents 1"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/userandom"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip",
+      "/console Sound_EnableSFX 0",
+      "/cast Icy Veins",
+      "/console Sound_EnableSFX 1",
+      "/cast Frostbolt",
+      "/run UIErrorsFrame:Clear()"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/m"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/use !Aspect of the Beast",
+      "/use Raptor Strike",
+      "/use Mongoose Bite"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/equipslot [mod:shift] 16 Nighttime",
+      "/equipslot [nomod] 16 Rimefang's Claw"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip",
+      "/cast [mod] Shamanistic Rage",
+      "/castsequence [nomod] Windfury Weapon, Flametongue Weapon"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run ShowHelm(not ShowingHelm())"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/use [mod]Holy Shock;[@mouseover,help][help]Holy Light;[@mouseover,harm][harm]Exorsism;[@player]Holy Light"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/use [mod]Holy Shock;[@mouseover,harm]Exorsism;[@mouseover,help]Holy Light;[harm]Exorsism;[help][@player]Holy Light"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip",
+      "/use Hunter's Mark",
+      "/use Rapid Fire",
+      "/use 13",
+      "/use 14"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/console Sound_EnableSFX 0",
+      "/console Sound_EnableSFX 1",
+      "/run UIErrorsFrame:Clear()"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/dismount [mounted]",
+      "/use [flyabe] Sandstone Drake",
+      "/stopmacro [flyable]",
+      "/use Swift Spectral Tiger"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/use 13",
+      "/use 14",
+      "/use Arcane Power",
+      "/use Mirror Image"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(s) then m(\"B \"..i..\": \"..s); end s=UnitDebuff(\"target\", i); if(s) then m(\"D \"..i..\": \"..s); end end"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run AcceptQuest()",
+      "/run CompleteQuest()",
+      "/run i=GetNumQuestChoices() if i<2 then GetQuestReward(1) end",
+      "/run SelectAvailableQuest(1)",
+      "/run SelectGossipAvailableQuest(1)",
+      "/run SelectActiveQuest(1)",
+      "/run SelectGossipActiveQuest(1)"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/script if IsShiftKeyDown() then SendChatMessage(\".duel off\") elseif IsAltKeyDown() then SendChatMessage(\".duel off\") elseif IsControlKeyDown() then SendChatMessage(\".duel off\") else SendChatMessage(\".duel on\") end;"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cast Polymorph",
+      "/run for i=1,GetNumRaidMembers()-1 do local u,t=\"raid\"..i,\"target\"if UnitIsUnit(u..t,t)then SendChatMessage(\"Change targets! Trying to sheep...\",\"WHISPER\",nil,UnitName(u))end end"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cast [help] Renew; [harm] Shadow Word: Pain"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip",
+      "/cast [mod:ctrl, target=focus, help] Renew else",
+      "/cast [mod:ctrl, target=focus, harm] Shadow Word: Pain else",
+      "/cast [harm] Shadow Word: Pain; [help] Renew else",
+      "/cast [@player] Renew"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip [equipped:Shields] Shield Bash; Pummel",
+      "/cast [equipped:Shields,stance:1/2] Shield Bash; [equipped:Shields] Defensive Stance; [stance:3] Pummel; Berserker Stance"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/script print(UnitCreatureFamily(\"pet\"))"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cast [pet] Freeze; Frost Nova"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Recklessness",
+      "/cast Recklessness",
+      "/cast Inner Rage",
+      "/cast Shield Block",
+      "/use 13"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Recklessness",
+      "/cast Recklessness",
+      "/cast Death Wish",
+      "/cast Inner Rage",
+      "/use 13"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run px,py=GetPlayerMapPosition(\"player\"); DEFAULT_CHAT_FRAME:AddMessage(format(\"You are at: %s (%0.1f, %0.1f)\",GetZoneText(),px*100,py*100));"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run sfx=GetCVar(\"Sound_EnableSFX\");",
+      "/console Sound_EnableSFX 0",
+      "/use 13",
+      "/run UIErrorsFrame:Clear()",
+      "/run SetCVar(\"Sound_EnableSFX\",sfx)"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/script local cu = GetMoney(); print(GetCoinTextureString(cu,\"12\"))",
+      "/stopmacro [btn:1]",
+      "/script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,\"9d9d9d\")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/script CastSpellByName(\"Engineering\");SendChatMessage(\"I'll create items against mats, look out: \"..GetTradeSkillListLink(),\"CHANNEL\",nil,GetChannelName(\"Trade - City\"));CloseTradeSkill();"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run DoTradeSkill(GetTradeSkillSelectionIndex());",
+      "/run for i=0,4,1 do for l=1,GetContainerNumSlots(i),1 do if GetContainerItemID(i,l)==38682 then UseContainerItem(i,l);end;end;end;",
+      "/run ReplaceEnchant();",
+      "/run ClearCursor();"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run local a,b,c,d,t,h,r,l,z;a,b=UnitClass(\"player\");c=UnitLevel(\"player\");l,t,h,d=GetLFGRoles();r=\"\";if d then r=r..\"DPS \" end;if t then r=r..\"TANK \" end;if h then r=r..\"HEALER\" end;z= a..\" LEVEL \"..c..\" LFG RDF \"..r;SendChatMessage(z,\"CHANNEL\",nil,4)"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/afk reloading UI",
+      "/run SendChatMessage(\"reloading my UI - afk for a sec\", ((UnitInRaid(\"player\")and \"RAID\")or(GetNumPartyMembers()>0 and \"PARTY\")or \"AFK\"));",
+      "/console reloadui"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/target [@focustarget, harm, nodead]"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Attack",
+      "/target [@focustarget, harm, nodead]",
+      "/startattack"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;print(nfb);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\");"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;print(nf);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\");"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b=\"Raid\",r else c,b=\"guild\",g end;SendChatMessage(\"[iBlame]: \"..b..\".\",c);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run print(\"Reloading UI...\")",
+      "/reload"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/use [harm][@targettarget]Smite"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip",
+      "/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help] [] SPELL"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cast [harm,nodead] Smite; [help,nodead][@player] Renew"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cast [mod:shift,@mouseover] Power Word: Shield; [@mouseover] Renew"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run if(ShowingHelm()) then ShowHelm(0) else ShowHelm(1) end"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/assist"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cancelform"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/changeactionbar 1"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/equipset PvP_Set"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petaggressive"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petdefensive"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/petpassive"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [],
+    "icon": []
   }
 ]

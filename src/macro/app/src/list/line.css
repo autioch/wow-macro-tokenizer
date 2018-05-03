@@ -42,6 +42,7 @@
 .token {color: #e4e4e4}
 
 .token--command,
+.token--target,
 .token--chat,
 .token--emote,
 .token--channel,

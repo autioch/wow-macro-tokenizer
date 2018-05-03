@@ -193,201 +193,6 @@
   },
   {
     "icon": [
-      "Spell_Shadow_Possession",
-      "Spell_Shadow_PsychicScream"
-    ],
-    "label": [
-      "chain fear"
-    ],
-    "occurences": 13,
-    "lines": [
-      {
-        "line": "#Showtooltip Fear",
-        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "/focus [target=focus, noexists][target=focus, dead] playertarget",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/focus"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "gameTarget",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "gameTarget",
-            "value": "focus"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "modifier",
-            "value": "noexists"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "gameTarget",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "gameTarget",
-            "value": "focus"
-          },
-          {
-            "type": "comma",
-            "value": ","
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "modifier",
-            "value": "dead"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "identifier",
-            "value": "playertarget"
-          }
-        ],
-        "grammar": "generic"
-      },
-      {
-        "line": "/cast [target=focus] Fear",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/cast"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "gameTarget",
-            "value": "target"
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "gameTarget",
-            "value": "focus"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "identifier",
-            "value": "Fear"
-          }
-        ],
-        "grammar": "macro"
-      },
-      {
-        "line": "/clearfocus [modifier:ctrl]",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/clearfocus"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "modifier"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "modifier",
-            "value": "ctrl"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          }
-        ],
-        "grammar": "generic"
-      },
-      {
-        "line": "/stopmacro",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/stopmacro"
-          },
-          {}
-        ],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
-    "icon": [
       "INV_Misc_QuestionMark"
     ],
     "label": [
@@ -1121,6 +926,455 @@
           }
         ],
         "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run ShowHelm(not ShowingHelm())",
+        "message": "invalid syntax at line 1 col 10:\n\n  ShowHelm(not\n           ^\nUnexpected keyword token: \"not\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(s) then m(\"B \"..i..\": \"..s); end s=UnitDebuff(\"target\", i); if(s) then m(\"D \"..i..\": \"..s); end end",
+        "message": "invalid syntax at line 1 col 94:\n\n  function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(\n                                                                                               ^\nUnexpected other token: \"(\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))",
+        "message": "invalid syntax at line 1 col 106:\n\n  local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(\n                                                                                                           ^\nUnexpected other token: \"(\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/script local cu = GetMoney(); print(GetCoinTextureString(cu,\"12\"))",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "local"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "cu"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "GetMoney"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "print"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "GetCoinTextureString"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "cu"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "string",
+            "value": "\"12\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/stopmacro [btn:1]",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "btn"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "generic"
+      },
+      {
+        "line": "/script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end",
+        "message": "invalid syntax at line 1 col 35:\n\n  yy = GetNumWatchedTokens(); for xx \n                                    ^\nUnexpected space token: \" \"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,\"9d9d9d\")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))",
+        "message": "invalid syntax at line 1 col 104:\n\n  local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and\n                                                                                                         ^\nUnexpected keyword token: \"and\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/afk reloading UI",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/afk"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "reloading UI"
+          }
+        ],
+        "grammar": "generic"
+      },
+      {
+        "line": "/run SendChatMessage(\"reloading my UI - afk for a sec\", ((UnitInRaid(\"player\")and \"RAID\")or(GetNumPartyMembers()>0 and \"PARTY\")or \"AFK\"))",
+        "message": "invalid syntax at line 1 col 52:\n\n  SendChatMessage(\"reloading my UI - afk for a sec\", (\n                                                     ^\nUnexpected other token: \"(\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "line": "/console reloadui",
+        "message": "No tokens returned",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "reloadui"
+          }
+        ],
+        "grammar": "generic"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;print(nfb)",
+        "message": "invalid syntax at line 1 col 195:\n\n  nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \"\n                                                                                                                                                                                                    ^\nUnexpected quote token: \"\\\"\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\")",
+        "message": "invalid syntax at line 1 col 234:\n\n  nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\"\n                                                                                                                                                                                                                                           ^\nUnexpected quote token: \"\\\"\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;print(nf)",
+        "message": "invalid syntax at line 1 col 213:\n\n  nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \"\n                                                                                                                                                                                                                      ^\nUnexpected quote token: \"\\\"\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\")",
+        "message": "invalid syntax at line 1 col 251:\n\n  nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\"\n                                                                                                                                                                                                                                                            ^\nUnexpected quote token: \"\\\"\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b=\"Raid\",r else c,b=\"guild\",g end;SendChatMessage(\"[iBlame]: \"..b..\".\",c)",
+        "message": "invalid syntax at line 1 col 30:\n\n  x=GetNumGuildMembers(1)g=x>0 and\n                               ^\nUnexpected keyword token: \"and\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/run if(ShowingHelm()) then ShowHelm(0) else ShowHelm(1) end",
+        "message": "invalid syntax at line 1 col 3:\n\n  if(\n    ^\nUnexpected other token: \"(\"\n",
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          }
+        ],
+        "grammar": "lua"
+      }
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "line": "/equipset PvP_Set",
+        "message": "invalid syntax at line 1 col 14:\n\n  /equipset PvP_\n               ^\nUnexpected unknown token: \"_\"\n",
+        "tokens": [],
+        "grammar": "generic"
       }
     ]
   }

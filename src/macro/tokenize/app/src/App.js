@@ -13,7 +13,7 @@ export default class App extends Component {
     showSummary: false,
     showAmbiguous: true,
     showFailed: true,
-    showParsed: true,
+    showParsed: false,
     showLua: true,
     showMacro: false,
     showGeneric: false

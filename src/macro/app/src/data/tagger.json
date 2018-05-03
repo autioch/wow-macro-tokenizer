@@ -16894,6 +16894,208 @@
   },
   {
     "icon": [
+      "Spell_Shadow_Possession",
+      "Spell_Shadow_PsychicScream"
+    ],
+    "label": [
+      "chain fear"
+    ],
+    "occurences": 13,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#Showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Fear"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/focus"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "noexists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "dead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "playertarget"
+          }
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Fear"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/clearfocus"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "modifier"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "ctrl"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      15,
+      18
+    ]
+  },
+  {
+    "icon": [
       "INV_Misc_QuestionMark"
     ],
     "label": [
@@ -17138,7 +17340,7 @@
             "value": "="
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "targettarget"
           },
           {
@@ -18419,7 +18621,7 @@
             "value": "="
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "pettarget"
           },
           {
@@ -18468,7 +18670,7 @@
             "value": "="
           },
           {
-            "type": "identifier",
+            "type": "modifier",
             "value": "pettarget"
           },
           {
@@ -18922,6 +19124,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -18978,6 +19181,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -19245,6 +19449,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -19270,6 +19475,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "17"
@@ -19793,6 +19999,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -19818,6 +20025,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "17"
@@ -19909,6 +20117,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -19934,6 +20143,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "17"
@@ -20025,6 +20235,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -20050,6 +20261,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "17"
@@ -20124,6 +20336,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -20149,6 +20362,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "17"
@@ -39000,7 +39214,7 @@
     "label": [
       "Pet"
     ],
-    "occurences": 5,
+    "occurences": 6,
     "lines": [
       {
         "tokens": [
@@ -39024,7 +39238,7 @@
     "label": [
       "Pet2"
     ],
-    "occurences": 3,
+    "occurences": 4,
     "lines": [
       {
         "tokens": [
@@ -42884,6 +43098,7 @@
             "type": "space",
             "value": "  "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -42909,6 +43124,7 @@
             "type": "space",
             "value": "  "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -45568,6 +45784,7 @@
             "type": "space",
             "value": " "
           },
+          {},
           {
             "type": "number",
             "value": "16"
@@ -51486,6 +51703,5142 @@
     ],
     "tags": [
       7
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petstay"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petautocastoff"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petautocaston"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petautocasttoggle"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/startattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "identifier",
+            "value": "exact Skeleton"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/targetenemy"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "identifier",
+            "value": "friend"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/targetenemy"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "identifier",
+            "value": "friendplayer"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "modifier",
+            "value": "party"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "modifier",
+            "value": "raid"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/targetlasttarget"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/usetalents"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/userandom"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {}
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sound_,EnableSFX"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "0"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Icy Veins"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sound_,EnableSFX"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Frostbolt"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "UIErrorsFrame"
+          },
+          {
+            "type": "other",
+            "value": ":"
+          },
+          {
+            "type": "id",
+            "value": "Clear"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/m"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "exclamation",
+            "value": "!"
+          },
+          {
+            "type": "identifier",
+            "value": "Aspect of the Beast"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Raptor Strike"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Mongoose Bite"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/equipslot"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "shift"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "16"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Nighttime"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/equipslot"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "nomod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "16"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Rimefang's Claw"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {}
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shamanistic Rage"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/castsequence"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "nomod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Windfury Weapon"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Flametongue Weapon"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Shock"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Light"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Exorsism"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Light"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4,
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Shock"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Exorsism"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Light"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Exorsism"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Holy Light"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4,
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {}
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Hunter's Mark"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Rapid Fire"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "14"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sound_,EnableSFX"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "0"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sound_,EnableSFX"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "UIErrorsFrame"
+          },
+          {
+            "type": "other",
+            "value": ":"
+          },
+          {
+            "type": "id",
+            "value": "Clear"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/dismount"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mounted"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "identifier",
+            "value": "flyabe"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sandstone Drake"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopmacro"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "flyable"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Swift Spectral Tiger"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4,
+      7
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "14"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Arcane Power"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Mirror Image"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4,
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "AcceptQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "CompleteQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "GetNumQuestChoices"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "binop",
+            "value": "<"
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "GetQuestReward"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SelectAvailableQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SelectGossipAvailableQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SelectActiveQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SelectGossipActiveQuest"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "IsShiftKeyDown"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\".duel off\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "elseif"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "IsAltKeyDown"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\".duel off\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "elseif"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "IsControlKeyDown"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\".duel off\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "else"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\".duel on\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "end"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      0
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Polymorph"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "for"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "GetNumRaidMembers"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "binop",
+            "value": "-"
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {},
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "do"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "local"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "u"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "string",
+            "value": "\"raid\""
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "UnitIsUnit"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "u"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Change targets! Trying to sheep...\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "string",
+            "value": "\"WHISPER\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "keyword",
+            "value": "nil"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "UnitName"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "u"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "end"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      0,
+      14,
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shadow Word: Pain"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {}
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "ctrl"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew else"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "ctrl"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shadow Word: Pain else"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shadow Word: Pain"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew else"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "equipped"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "identifier",
+            "value": "Shields"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shield Bash"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Pummel"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "equipped"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "identifier",
+            "value": "Shields"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "stance"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "slash",
+            "value": "/"
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shield Bash"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "equipped"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "identifier",
+            "value": "Shields"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Defensive Stance"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "stance"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "number",
+            "value": "3"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Pummel"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Berserker Stance"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "print"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "UnitCreatureFamily"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"pet\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "pet"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Freeze"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Frost Nova"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16,
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Inner Rage"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Shield Block"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19,
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Death Wish"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Inner Rage"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19,
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "px"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "py"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "GetPlayerMapPosition"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"player\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "DEFAULT_CHAT_FRAME"
+          },
+          {
+            "type": "other",
+            "value": ":"
+          },
+          {
+            "type": "id",
+            "value": "AddMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "format"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"You are at: %s (%0.1f, %0.1f)\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "GetZoneText"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "px"
+          },
+          {
+            "type": "binop",
+            "value": "*"
+          },
+          {
+            "type": "number",
+            "value": "100"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "py"
+          },
+          {
+            "type": "binop",
+            "value": "*"
+          },
+          {
+            "type": "number",
+            "value": "100"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "sfx"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "GetCVar"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Sound_EnableSFX\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Sound_,EnableSFX"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "0"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "UIErrorsFrame"
+          },
+          {
+            "type": "other",
+            "value": ":"
+          },
+          {
+            "type": "id",
+            "value": "Clear"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetCVar"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Sound_EnableSFX\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "sfx"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/script"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "CastSpellByName"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Engineering\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"I'll create items against mats, look out: \""
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "id",
+            "value": "GetTradeSkillListLink"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "string",
+            "value": "\"CHANNEL\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "keyword",
+            "value": "nil"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "GetChannelName"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Trade - City\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "CloseTradeSkill"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      0
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "DoTradeSkill"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "GetTradeSkillSelectionIndex"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "for"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "number",
+            "value": "0"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "do"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "for"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "l"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "GetContainerNumSlots"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "do"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "GetContainerItemID"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "l"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "binop",
+            "value": "=="
+          },
+          {
+            "type": "number",
+            "value": "38682"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "UseContainerItem"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "i"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "l"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "keyword",
+            "value": "end"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "ReplaceEnchant"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "ClearCursor"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "local"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "a"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "b"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "c"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "d"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "h"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "l"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "z"
+          },
+          {},
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "a"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "b"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "UnitClass"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"player\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "c"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "UnitLevel"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"player\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "l"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "h"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "id",
+            "value": "d"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "GetLFGRoles"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {},
+          {
+            "type": "other",
+            "value": ")"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "string",
+            "value": "\"\""
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "d"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "string",
+            "value": "\"DPS \""
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "t"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "string",
+            "value": "\"TANK \""
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "keyword",
+            "value": "if"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "h"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "then"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "string",
+            "value": "\"HEALER\""
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {},
+          {
+            "type": "keyword",
+            "value": "end"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "z"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "a"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "string",
+            "value": "\" LEVEL \""
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "id",
+            "value": "c"
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "string",
+            "value": "\" LFG RDF \""
+          },
+          {
+            "type": "binop",
+            "value": ".."
+          },
+          {
+            "type": "id",
+            "value": "r"
+          },
+          {
+            "type": "other",
+            "value": ";"
+          },
+          {
+            "type": "id",
+            "value": "SendChatMessage"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "id",
+            "value": "z"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "string",
+            "value": "\"CHANNEL\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "keyword",
+            "value": "nil"
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      0,
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "identifier",
+            "value": "focustarget"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Attack"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "identifier",
+            "value": "focustarget"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/startattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      15,
+      16
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "print"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"Reloading UI...\""
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/reload"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "modifier",
+            "value": "targettarget"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Smite"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10,
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {}
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "alt"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "modifier",
+            "value": "targettarget"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "SPELL"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "harm"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Smite"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "modifier",
+            "value": "mod"
+          },
+          {
+            "type": "colon",
+            "value": ":"
+          },
+          {
+            "type": "modifier",
+            "value": "shift"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Power Word: Shield"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Renew"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/assist"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelform"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/changeactionbar"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petaggressive"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petdefensive"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petpassive"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
     ]
   }
 ]

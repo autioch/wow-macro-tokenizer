@@ -1,7 +1,7 @@
 const moo = require('moo');
 
 module.exports = moo.compile({
-  target: /\/target(?:lasttarget|target|enemy)*/,
+  target: /\/target(?:lasttarget|target|enemy|player|friend|exact)*/,
 
   /* slash commands */
   command: {
@@ -17,7 +17,7 @@ module.exports = moo.compile({
     }
   },
   channel: /^\/[\d]+/,
-  tooltip: '#showtooltip',
+  tooltip: ['#showtooltip', '#Showtooltip'],
   server: /^\.[a-zA-Z]+/,
 
   /* links */
@@ -34,11 +34,13 @@ module.exports = moo.compile({
     match: /[a-zA-Z]+(?:(?: |'|-|: )[a-zA-Z]+)*(?: 4000)?/, // Blingtron
     keywords: {
       modifier: [
-        'mod', 'modifier', 'nomod', 'nomodifier',
-        'button', 'ctrl', 'shift', 'alt',
-        'flyable', 'mounted', 'flying', 'noflyable', 'nomounted', 'noflying',
-        'combat', 'harm', 'dead', 'exists', 'nocombat', 'noharm', 'nodead', 'noexists',
-        'pet', 'channeling', 'nopet', 'nochanneling'
+        'actionbar', 'alt', 'bar', 'bonusbar', 'btn', 'button', 'channeling', 'combat',
+        'ctrl', 'dead', 'equipped', 'exists', 'flyable', 'flying', 'focus', 'form',
+        'group:party', 'group:raid', 'harm', 'help', 'indoors', 'lasttarget', 'mod',
+        'modifier', 'mounted', 'mouseover', 'nochanneling', 'nocombat', 'nodead',
+        'noexists', 'noflyable', 'noflying', 'noharm', 'nomod', 'nomodifier', 'nomounted',
+        'nopet', 'outdoors', 'party', 'pet', 'pettarget', 'player', 'raid', 'shift', 'spec',
+        'stance', 'stealth', 'swimming', 'target', 'targettarget', 'worn'
       ],
       gameTarget: [
         'target', 'focus', 'player', 'pet', 'lasttarget', 'mouseover'

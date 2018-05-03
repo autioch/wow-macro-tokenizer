@@ -1,4 +1,5 @@
 const app = require('./app');
+const custom = require('./custom');
 const dedupe = require('./dedupe');
 const icons = require('./icons');
 const parser = require('./parser');
@@ -10,6 +11,7 @@ module.exports = function getMacros(dir) {
   return Promise.resolve()
     .then(() => reader(dir))
     .then(parser)
+    .then(custom)
     .then(dedupe)
     .then(tokenize)
     .then(tagger)
