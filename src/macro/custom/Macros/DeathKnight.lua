@@ -17,8 +17,8 @@ Sequences['Frosty_heal'] = {
         "/cast Icebound Fortitude",
       },
       PreMacro={
-        "/cast Death Strike",
       },
+        "/cast Death Strike",
       PostMacro={
       },
       KeyRelease={
@@ -195,3 +195,5 @@ Hold alt if outbreak is off the target]],
     },
   },
 }
+
+
