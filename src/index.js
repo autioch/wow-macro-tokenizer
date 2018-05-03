@@ -1,3 +1,4 @@
+require('app-module-path').addPath('.');
 const { join } = require('path');
 const addon = require('./addon');
 const config = require('./config');
