@@ -16,7 +16,7 @@ module.exports = function dedupe(macros) {
   macros
     .map((macro) => ({
       macro,
-      hash: macro[INDEX_KEY].join('\n')
+      hash: macro[INDEX_KEY].map((line) => line.trim()).join('\n')
     }))
     .forEach(({ hash, macro }) => {
       const item = setDict(seen, hash, {

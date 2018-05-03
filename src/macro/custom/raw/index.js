@@ -26,4 +26,4 @@ module.exports = () => readFile(join(__dirname, 'macros.txt'))
   .then((macros) => macros.map((lines) => ({
     lines
   })))
-  .tap((macros) => qbLog.info(macros.length, ' raw macros'));
+  .tap((macros) => qbLog.count('raw', macros.length));

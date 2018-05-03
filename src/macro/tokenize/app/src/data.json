@@ -1564,6 +1564,27 @@
         },
         {
           "type": "identifier",
+          "value": "Aspect of the Turtle"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cancelaura Aspect of the Turtle"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cancelaura"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "bladestorm"
         }
       ],
@@ -1606,6 +1627,27 @@
         },
         {
           "type": "identifier",
+          "value": "Cat Form"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cancelaura Cat Form"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cancelaura"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "dampen magic"
         }
       ],
@@ -1627,6 +1669,27 @@
         },
         {
           "type": "identifier",
+          "value": "Demonic Circle"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cancelaura Demonic Circle"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cancelaura"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Deterrence"
         }
       ],
@@ -1635,6 +1698,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cancelaura Deterrence"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cancelaura"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Dispersion"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cancelaura Dispersion"
     },
     {
       "tokens": [
@@ -1875,6 +1959,128 @@
         },
         {
           "type": "gameTarget",
+          "value": "mouseover"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "identifier",
+          "value": "enemy"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "nodead"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Torment"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Torment"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [@mouseover,enemy,nodead]Torment;Torment"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "at",
+          "value": "@"
+        },
+        {
+          "type": "gameTarget",
+          "value": "mouseover"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "help"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "nodead"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Tiger's Lust"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Tiger's Lust"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [@mouseover,help,nodead]Tiger's Lust;Tiger's Lust"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "at",
+          "value": "@"
+        },
+        {
+          "type": "gameTarget",
           "value": "pet"
         },
         {
@@ -1985,6 +2191,75 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast [@Shockinhorny] Resurrection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "at",
+          "value": "@"
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "identifier",
+          "value": "enemy"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "at",
+          "value": "@"
+        },
+        {
+          "type": "gameTarget",
+          "value": "player"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Chi Wave"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Chi Wave"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [@target,enemy][@player]Chi Wave;Chi Wave"
     },
     {
       "tokens": [
@@ -12506,6 +12781,1333 @@
           "value": "focus"
         },
         {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "modifier",
+          "value": "targettarget"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Misdirection"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists][target=targettarget,exists]Misdirection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "modifier",
+          "value": "targettarget"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Tricks of the Trade"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists][target=targettarget,exists]Tricks of the Trade"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Light"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Light"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Beacon of Light;Beacon of Light"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Virtue"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Virtue"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Beacon of Virtue;Beacon of Virtue"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Freedom"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Freedom"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Blessing of Freedom;Blessing of Freedom"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Protection"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Protection"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Blessing of Protection;Blessing of Protection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse Toxins"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse Toxins"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Cleanse Toxins;Cleanse Toxins"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Cleanse;Cleanse"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Consume Magic"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Consume Magic"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Consume Magic;Consume Magic"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "CounterSpell"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "CounterSpell"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]CounterSpell;CounterSpell"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Detox"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Detox"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Detox;Detox"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Havoc"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Havoc"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Lay on Hands"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Lay on Hands"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Lay on Hands;Lay on Hands"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Leap of Faith"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Leap of Faith"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Leap of Faith;Leap of Faith"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Misdirection"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Misdirection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Polymorph"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Polymorph"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Polymorph;Polymorph"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Purge"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Purge"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Purge;Purge"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Remove Corruption"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Remove Corruption"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Remove Corruption;Remove Corruption"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Ring of Peace"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Ring of Peace"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Ring of Peace;Ring of Peace"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Soulstone"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Soulstone"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Soulstone;Soulstone"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Spellsteal"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "Spellsteal"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Spellsteal;Spellsteal"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "Tricks of the Trade"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]Tricks of the Trade"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "exists"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "YourSkill"
+        },
+        {
+          "type": "semicolon",
+          "value": ";"
+        },
+        {
+          "type": "identifier",
+          "value": "YourSkill"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=focus,exists]YourSkill;YourSkill"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "focus"
+        },
+        {
           "type": "bracketSquareClose",
           "value": "]"
         },
@@ -14048,6 +15650,71 @@
           "value": "mouseover"
         },
         {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "help"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "modifier",
+          "value": "nodead"
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "bracketSquareClose",
+          "value": "]"
+        },
+        {
+          "type": "identifier",
+          "value": "YourSkill"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast [target=mouseover,help,nodead][]YourSkill"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "bracketSquareOpen",
+          "value": "["
+        },
+        {
+          "type": "gameTarget",
+          "value": "target"
+        },
+        {
+          "type": "equal",
+          "value": "="
+        },
+        {
+          "type": "gameTarget",
+          "value": "mouseover"
+        },
+        {
           "type": "bracketSquareClose",
           "value": "]"
         },
@@ -15014,6 +16681,27 @@
         },
         {
           "type": "identifier",
+          "value": "Avatar"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Avatar"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Avenging Wrath"
         }
       ],
@@ -15022,6 +16710,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Avenging Wrath"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Battle Cry"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Battle Cry"
     },
     {
       "tokens": [
@@ -15077,6 +16786,27 @@
         },
         {
           "type": "identifier",
+          "value": "Berserker Rage"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Berserker Rage"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Berserker Stance"
         }
       ],
@@ -15085,6 +16815,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Berserker Stance"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Bladestorm"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Bladestorm"
     },
     {
       "tokens": [
@@ -15127,6 +16878,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Blood Tap"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Bloodbath"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Bloodbath"
     },
     {
       "tokens": [
@@ -15224,6 +16996,27 @@
         },
         {
           "type": "identifier",
+          "value": "Chimaera Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Chimaera Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Chimera Shot"
         }
       ],
@@ -15232,6 +17025,69 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Chimera Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Cobra Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Cobra Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Concussive Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Concussive Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Corpse Shield"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Corpse Shield"
     },
     {
       "tokens": [
@@ -15371,6 +17227,27 @@
         },
         {
           "type": "identifier",
+          "value": "Dark Transformation"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Dark Transformation"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Death Pact"
         }
       ],
@@ -15421,6 +17298,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Defensive Stance"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Demonic Circle"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Demonic Circle"
     },
     {
       "tokens": [
@@ -15497,6 +17395,27 @@
         },
         {
           "type": "identifier",
+          "value": "Dire Beast"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Dire Beast"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Disarm"
         }
       ],
@@ -15547,6 +17466,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Dispersion"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Displacer Beast"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Displacer Beast"
     },
     {
       "tokens": [
@@ -15757,6 +17697,48 @@
         },
         {
           "type": "identifier",
+          "value": "Feign Death"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Feign Death"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Feral Spirit"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Feral Spirit"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Flame Shock"
         }
       ],
@@ -15786,6 +17768,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast flash heal"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Freeze"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Freeze"
     },
     {
       "tokens": [
@@ -15916,6 +17919,48 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Grounding Totem"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Growl"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Growl"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Gust of Wind"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Gust of Wind"
     },
     {
       "tokens": [
@@ -16349,6 +18394,27 @@
         },
         {
           "type": "identifier",
+          "value": "Lacerate"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Lacerate"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Lifeblood"
         }
       ],
@@ -16449,6 +18515,27 @@
         },
         {
           "type": "identifier",
+          "value": "Marked Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Marked Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Mind Blast"
         }
       ],
@@ -16457,6 +18544,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Mind Blast"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Mind Freeze"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Mind Freeze"
     },
     {
       "tokens": [
@@ -16499,6 +18607,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Mortal Strike"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Multi-Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Multi-Shot"
     },
     {
       "tokens": [
@@ -16638,6 +18767,27 @@
         },
         {
           "type": "identifier",
+          "value": "Piercing Howl"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Piercing Howl"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Pin"
         }
       ],
@@ -16667,6 +18817,48 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Polymorph"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Protective Bile"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Protective Bile"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Provoke"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Provoke"
     },
     {
       "tokens": [
@@ -17192,6 +19384,27 @@
         },
         {
           "type": "identifier",
+          "value": "Spirit Walk"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Spirit Walk"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Summon Gargoyle"
         }
       ],
@@ -17393,6 +19606,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/cast Vampiric Touch"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/cast"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Victory Rush"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/cast Victory Rush"
     },
     {
       "tokens": [
@@ -17829,6 +20063,40 @@
         {},
         {
           "type": "identifier",
+          "value": "Displacement"
+        },
+        {
+          "type": "comma",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Arcane Missiles"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/castsequence Displacement, Arcane Missiles"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/castsequence"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {},
+        {
+          "type": "identifier",
           "value": "Raise Dead"
         },
         {
@@ -18219,6 +20487,35 @@
       "ambiguous": false,
       "grammar": "generic",
       "line": "/click StaticPopup1Button1"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/console"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "autoQuestWatch"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "1"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/console autoQuestWatch 1"
     },
     {
       "tokens": [
@@ -18733,6 +21030,20 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "/console timingmethod 1"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/dices"
+        },
+        {}
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "generic",
+      "line": "/dices"
     },
     {
       "tokens": [
@@ -20083,6 +22394,20 @@
       "ambiguous": false,
       "grammar": "generic",
       "line": "/macro"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/mountspecial"
+        },
+        {}
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "generic",
+      "line": "/mountspecial"
     },
     {
       "tokens": [
@@ -26216,6 +28541,464 @@
       "ambiguous": false,
       "grammar": "lua",
       "line": "/run SetRaidTarget(\"target\", 1)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "2"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 2)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "3"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 3)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "4"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 4)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "5"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 5)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "6"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 6)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "7"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 7)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetRaidTarget"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "string",
+          "value": "\"target\""
+        },
+        {
+          "type": "other",
+          "value": ","
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "number",
+          "value": "8"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetRaidTarget(\"target\", 8)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetSpecialization"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "number",
+          "value": "1"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetSpecialization(1)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetSpecialization"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "number",
+          "value": "2"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetSpecialization(2)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetSpecialization"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "number",
+          "value": "3"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetSpecialization(3)"
+    },
+    {
+      "tokens": [
+        {
+          "type": "command",
+          "value": "/run"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "id",
+          "value": "SetSpecialization"
+        },
+        {},
+        {
+          "type": "other",
+          "value": "("
+        },
+        {
+          "type": "number",
+          "value": "4"
+        },
+        {
+          "type": "other",
+          "value": ")"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "lua",
+      "line": "/run SetSpecialization(4)"
     },
     {
       "tokens": [
@@ -33743,6 +36526,27 @@
           "value": " "
         },
         {
+          "type": "identifier",
+          "value": "Black Ox Statue"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "/target Black Ox Statue"
+    },
+    {
+      "tokens": [
+        {
+          "type": "target",
+          "value": "/target"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
           "type": "gameTarget",
           "value": "player"
         }
@@ -33811,11 +36615,7 @@
       "tokens": [
         {
           "type": "target",
-          "value": "/targetenemy"
-        },
-        {
-          "type": "gameTarget",
-          "value": "player"
+          "value": "/targetenemyplayer"
         }
       ],
       "parsed": true,
@@ -33828,11 +36628,15 @@
       "tokens": [
         {
           "type": "target",
-          "value": "/target"
+          "value": "/targetexact"
+        },
+        {
+          "type": "space",
+          "value": " "
         },
         {
           "type": "identifier",
-          "value": "exact Skeleton"
+          "value": "Skeleton"
         }
       ],
       "parsed": true,
@@ -33845,11 +36649,7 @@
       "tokens": [
         {
           "type": "target",
-          "value": "/target"
-        },
-        {
-          "type": "identifier",
-          "value": "friend"
+          "value": "/targetfriend"
         }
       ],
       "parsed": true,
@@ -33862,11 +36662,7 @@
       "tokens": [
         {
           "type": "target",
-          "value": "/target"
-        },
-        {
-          "type": "identifier",
-          "value": "friendplayer"
+          "value": "/targetfriendplayer"
         }
       ],
       "parsed": true,
@@ -37094,6 +39890,27 @@
         },
         {
           "type": "identifier",
+          "value": "Arcane Missiles"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Arcane Missiles"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Attack"
         }
       ],
@@ -37102,6 +39919,48 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Attack"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Light"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Beacon of Light"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Beacon of Virtue"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Beacon of Virtue"
     },
     {
       "tokens": [
@@ -37165,6 +40024,48 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Bladestorm"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Freedom"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Blessing of Freedom"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Blessing of Protection"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Blessing of Protection"
     },
     {
       "tokens": [
@@ -37325,6 +40226,132 @@
         },
         {
           "type": "identifier",
+          "value": "Chi Wave"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Chi Wave"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Chimaera Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Chimaera Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Cleanse"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Cleanse Toxins"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Cleanse Toxins"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Cobra Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Cobra Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Concussive Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Concussive Shot"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Conjured Mana Strudel"
         }
       ],
@@ -37333,6 +40360,48 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Conjured Mana Strudel"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Consume Magic"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Consume Magic"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Corpse Shield"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Corpse Shield"
     },
     {
       "tokens": [
@@ -37409,6 +40478,27 @@
         },
         {
           "type": "identifier",
+          "value": "CounterSpell"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip CounterSpell"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Curse of Weakness"
         }
       ],
@@ -37472,6 +40562,27 @@
         },
         {
           "type": "identifier",
+          "value": "Demonic Circle"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Demonic Circle"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Deterrence"
         }
       ],
@@ -37480,6 +40591,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Deterrence"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Detox"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Detox"
     },
     {
       "tokens": [
@@ -37535,6 +40667,27 @@
         },
         {
           "type": "identifier",
+          "value": "Dire Beast"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Dire Beast"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Disarm"
         }
       ],
@@ -37543,6 +40696,69 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Disarm"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Dispersion"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Dispersion"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Displacer Beast"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Displacer Beast"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Divine Shield"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Divine Shield"
     },
     {
       "tokens": [
@@ -37606,6 +40822,69 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#Showtooltip Fear"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Feign Death"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Feign Death"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Feral Spirit"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Feral Spirit"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Freeze"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Freeze"
     },
     {
       "tokens": [
@@ -37703,6 +40982,48 @@
         },
         {
           "type": "identifier",
+          "value": "Growl"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Growl"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Gust of Wind"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Gust of Wind"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Hammer of Justice"
         }
       ],
@@ -37732,6 +41053,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Hammer of Wrath"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Havoc"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Havoc"
     },
     {
       "tokens": [
@@ -37976,6 +41318,69 @@
         },
         {
           "type": "identifier",
+          "value": "Kill Command"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Kill Command"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Lacerate"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Lacerate"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Lay on Hands"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Lay on Hands"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Leap"
         }
       ],
@@ -37997,6 +41402,27 @@
         },
         {
           "type": "identifier",
+          "value": "Leap of Faith"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Leap of Faith"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Mana Sapphire"
         }
       ],
@@ -38005,6 +41431,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Mana Sapphire"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Marked Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Marked Shot"
     },
     {
       "tokens": [
@@ -38060,6 +41507,48 @@
         },
         {
           "type": "identifier",
+          "value": "Mind Freeze"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Mind Freeze"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Misdirection"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Misdirection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Mortal Strike"
         }
       ],
@@ -38068,6 +41557,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Mortal Strike"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Multi-Shot"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Multi-Shot"
     },
     {
       "tokens": [
@@ -38165,6 +41675,27 @@
         },
         {
           "type": "identifier",
+          "value": "Piercing Howl"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Piercing Howl"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Polymorph"
         }
       ],
@@ -38207,6 +41738,27 @@
         },
         {
           "type": "identifier",
+          "value": "Provoke"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Provoke"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Pummel"
         }
       ],
@@ -38215,6 +41767,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Pummel"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Purge"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Purge"
     },
     {
       "tokens": [
@@ -38291,6 +41864,48 @@
         },
         {
           "type": "identifier",
+          "value": "Reincarnation"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Reincarnation"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Remove Corruption"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Remove Corruption"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Rend"
         }
       ],
@@ -38320,6 +41935,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Repentance"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Ring of Peace"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Ring of Peace"
     },
     {
       "tokens": [
@@ -38547,6 +42183,27 @@
         },
         {
           "type": "identifier",
+          "value": "Soulstone"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Soulstone"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Spell Reflection"
         }
       ],
@@ -38555,6 +42212,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Spell Reflection"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Spellsteal"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Spellsteal"
     },
     {
       "tokens": [
@@ -38803,6 +42481,69 @@
         },
         {
           "type": "identifier",
+          "value": "Tiger's Lust"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Tiger's Lust"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Torment"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Torment"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "Tricks of the Trade"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip Tricks of the Trade"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
           "value": "Turn Evil"
         }
       ],
@@ -38857,6 +42598,27 @@
       "ambiguous": false,
       "grammar": "macro",
       "line": "#showtooltip Wind Shear"
+    },
+    {
+      "tokens": [
+        {
+          "type": "tooltip",
+          "value": "#showtooltip"
+        },
+        {
+          "type": "space",
+          "value": " "
+        },
+        {
+          "type": "identifier",
+          "value": "YourSkill"
+        }
+      ],
+      "parsed": true,
+      "message": "No tokens returned",
+      "ambiguous": false,
+      "grammar": "macro",
+      "line": "#showtooltip YourSkill"
     },
     {
       "tokens": [],
@@ -39175,6 +42937,7 @@
         "/cleartarget",
         "/click",
         "/console",
+        "/dices",
         "/dismount",
         "/drdamage",
         "/equip",
@@ -39184,6 +42947,7 @@
         "/inv",
         "/m",
         "/macro",
+        "/mountspecial",
         "/petaggressive",
         "/petattack",
         "/petautocastoff",
@@ -39321,6 +43085,7 @@
         "SendChatMessage",
         "SetCVar",
         "SetRaidTarget",
+        "SetSpecialization",
         "sfx",
         "t",
         "u",
@@ -39362,6 +43127,7 @@
         "Arald",
         "arathi warsong strand eye",
         "Arcane Blast",
+        "Arcane Missiles",
         "Arcane Power",
         "Arcane Shot",
         "Archaeology",
@@ -39377,21 +43143,29 @@
         "Aspect of the Beast",
         "Aspect of the Cheetah",
         "Aspect of the Dragonhawk",
+        "Aspect of the Turtle",
         "Astral Recall",
         "Atchene",
         "Attack",
         "aury",
+        "autoQuestWatch",
+        "Avatar",
         "Avenging Wrath",
         "Basic Campfire",
+        "Battle Cry",
         "Battle Shout",
         "Battle Stance",
+        "Beacon of Light",
+        "Beacon of Virtue",
         "Benon",
         "Benon HP shout",
         "Berserk",
+        "Berserker Rage",
         "Berserker Stance",
         "bijemy mniej wiecej do",
         "Black Drake",
         "Black Hawkstrider",
+        "Black Ox Statue",
         "Black War Bear",
         "Black War Mammoth",
         "Black War Steed",
@@ -39405,6 +43179,7 @@
         "Blink",
         "Blood of the Mountain",
         "Blood Tap",
+        "Bloodbath",
         "Bloodmaks BoS",
         "Bloodrage",
         "Blue Hawkstrider",
@@ -39427,6 +43202,7 @@
         "Busted",
         "Button",
         "Call of the Wild",
+        "Cat Form",
         "cba",
         "Chains of Ice",
         "characterAmbient",
@@ -39434,25 +43210,32 @@
         "Charger",
         "Chcesz rajdowac z gildia",
         "chcialbym wszystkim zaintersowanym rajdowaniem z gildia przypomniec o wypelnieniu ankiety dostepnej na naszej stronie",
+        "Chi Wave",
+        "Chimaera Shot",
         "Chimera Shot",
         "Cleanse",
         "Cleanse Toxins",
         "Click the portal to get lazy butts over here",
         "co najmniej",
+        "Cobra Shot",
         "Cold Blood",
         "conc",
         "Conc",
+        "Concussive Shot",
         "Conjure Mana Gem",
         "Conjure Refreshment",
         "Conjure Refreshment Table",
         "Conjured Mana Pudding",
         "Conjured Mana Strudel",
+        "Consume Magic",
         "Cooking",
         "Cooking Fire",
         "Core Leather",
+        "Corpse Shield",
         "Corroded Skeleton Key",
         "Corruption",
         "Counterspell",
+        "CounterSpell",
         "Cower",
         "Create Firestone",
         "Create Healthstone",
@@ -39471,6 +43254,7 @@
         "Dalaran Hearthstone",
         "dampen magic",
         "Dancing Rune Weapon",
+        "Dark Transformation",
         "Darnassian Nightsaber",
         "Deadly Gladiator's Plate Gauntlets",
         "Deadly Poison IX",
@@ -39480,20 +43264,25 @@
         "Death Wish",
         "Defensive Stance",
         "Demon Armor",
+        "Demonic Circle",
         "Demonic Circle: Summon",
         "Demonic Circle: Teleport",
         "Demonic Soulstone",
         "Deterrence",
+        "Detox",
         "Devastate",
         "devilsmile",
         "Devo",
         "Devour Magic",
         "Devouring Plague",
+        "Dire Beast",
         "Disarm",
         "Disenchant",
         "Dispel magic",
         "Dispel Magic",
         "Dispersion",
+        "Displacement",
+        "Displacer Beast",
         "Divine Shield",
         "Divine Storm",
         "do",
@@ -39514,12 +43303,12 @@
         "Emiru",
         "Encapsulated Essence of Immerseus",
         "Enchanting",
+        "enemy",
         "Engineering",
         "Enraged Regeneration",
         "Entangling Roots",
         "environmentDetail",
         "Eviscerate",
-        "exact Skeleton",
         "Exorsism",
         "Explosive Shot",
         "extshadowquality",
@@ -39529,10 +43318,12 @@
         "faza polega na zbiciu hp bez odpalania CDs",
         "Fear",
         "Feed Pet",
+        "Feign Death",
         "Fel Armor",
         "Fel Healthstone",
         "Fel HealthstoneFel Healthstone",
         "Felhunter",
+        "Feral Spirit",
         "Ferocious Bite",
         "ffx",
         "Fiery Core",
@@ -39549,8 +43340,6 @@
         "focustarget",
         "Freeze",
         "Frenzied Regeneration",
-        "friend",
-        "friendplayer",
         "frost",
         "Frost",
         "Frost Nova",
@@ -39576,7 +43365,9 @@
         "Green Proto-Drake",
         "groundeffectdist",
         "Grounding Totem",
+        "Growl",
         "guild run",
+        "Gust of Wind",
         "Hammer of Justice",
         "Hammer of the Righteous",
         "Hammer of Wrath",
@@ -39585,6 +43376,7 @@
         "Hand of Protection",
         "Hand of Sacrifice",
         "Haslo",
+        "Havoc",
         "heal",
         "Healing Wave",
         "Heart Strike",
@@ -39640,9 +43432,12 @@
         "kupie",
         "kupie Dark Iron Ore",
         "kupie Golden Rod",
+        "Lacerate",
         "Lake Frog",
         "Lava Core",
+        "Lay on Hands",
         "Leap",
+        "Leap of Faith",
         "Leeka's Shield",
         "Lichborne",
         "Lifeblood",
@@ -39657,6 +43452,7 @@
         "Maraelnesar",
         "marchewka",
         "Mark of Supremacy",
+        "Marked Shot",
         "Martynqa",
         "Mass Resurrection",
         "Master's Call",
@@ -39665,6 +43461,7 @@
         "Mend Pet",
         "Mind Blast",
         "Mind Flay",
+        "Mind Freeze",
         "Mindblowing",
         "Mining Skills",
         "Mirror Image",
@@ -39677,6 +43474,7 @@
         "Morgoph",
         "Mortal Strike",
         "Move on apes",
+        "Multi-Shot",
         "Mutilate",
         "n LF",
         "nadal bijemy z boku",
@@ -39699,6 +43497,7 @@
         "Pack Hobgoblin",
         "Peacekeeper Blade",
         "Pestilence",
+        "Piercing Howl",
         "Pin",
         "Pirzmak BoM",
         "pl",
@@ -39715,10 +43514,13 @@
         "Presence of Mind",
         "Prideful Gladiator's Greatsword",
         "Prospecting",
+        "Protective Bile",
+        "Provoke",
         "Prowl",
         "Psychic Horror",
         "Psychic Scream",
         "Pummel",
+        "Purge",
         "Purple Hawkstrider",
         "pve wedle speca",
         "pvp wedle klasy",
@@ -39738,10 +43540,12 @@
         "Red Skeletal Warhorse",
         "Redemption",
         "Refille",
+        "Reincarnation",
         "Relentless Gladiator's Decapitator",
         "Relentless Gladiator's Dreadplate Gauntlets",
         "reloading UI",
         "reloadui",
+        "Remove Corruption",
         "remove curse",
         "Rend",
         "Renew",
@@ -39754,6 +43558,7 @@
         "Retri",
         "Revive Pet",
         "Rimefang's Claw",
+        "Ring of Peace",
         "Ritual of Summoning",
         "Roar of Recovery",
         "robota Uldu",
@@ -39798,6 +43603,7 @@
         "Silence",
         "Silencing Shot",
         "Sinister Strike",
+        "Skeleton",
         "Skrzypa",
         "skycloudlod",
         "smallcull",
@@ -39805,10 +43611,13 @@
         "Smite",
         "Smoked Talbuk Venison",
         "Socially Awkward",
+        "Soulstone",
         "Soulstones",
         "Sound_,EnableSFX",
         "SPELL",
         "Spell Reflection",
+        "Spellsteal",
+        "Spirit Walk",
         "Star's Sorrow",
         "Starydran",
         "StaticPopup",
@@ -39862,6 +43671,7 @@
         "thangorodrim",
         "Thermal Anvil",
         "Tidal Force",
+        "Tiger's Lust",
         "Time-Lost Proto-Drake",
         "timingmethod",
         "Titansteel Shield Wall",
@@ -39869,8 +43679,10 @@
         "ToC",
         "toggle",
         "Tori",
+        "Torment",
         "tremor totem",
         "Tremor Totem",
+        "Tricks of the Trade",
         "trousi",
         "Trueshot Aura",
         "trzeba uciekac na boki i patrzec",
@@ -39892,6 +43704,7 @@
         "Vampiric Touch",
         "Vanyaelnesar",
         "Velriath BoS",
+        "Victory Rush",
         "Violet Proto-Drake",
         "VoA",
         "Voidwalker",
@@ -39920,6 +43733,7 @@
         "x",
         "Yaxon BoW",
         "You wanna live forever",
+        "YourSkill",
         "za matsy",
         "Zainteresowani",
         "Zapraszamy na strone",
@@ -40225,6 +44039,10 @@
       "values": [
         "/target",
         "/targetenemy",
+        "/targetenemyplayer",
+        "/targetexact",
+        "/targetfriend",
+        "/targetfriendplayer",
         "/targetlasttarget"
       ]
     },

@@ -12962,6 +12962,1163 @@
   },
   {
     "lines": [
+      "/run SetSpecialization(1)"
+    ],
+    "occurences": 13,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Affliction",
+      "Arcane",
+      "Arms",
+      "Assassination",
+      "Balance",
+      "Beast Mastery",
+      "Blood",
+      "Brewmaster",
+      "Discipline",
+      "Elemental",
+      "Havoc",
+      "Holy",
+      "Use talents specialization 1"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetSpecialization(2)"
+    ],
+    "occurences": 13,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Demonology",
+      "Enhancement",
+      "Feral",
+      "Fire",
+      "Frost",
+      "Fury",
+      "Holy",
+      "Marksmanship",
+      "Mistweaver",
+      "Outlaw",
+      "Protection",
+      "Use talents specialization 2",
+      "Vengeance"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Consume Magic",
+      "/stopcasting",
+      "/cast [target=focus,exists]Consume Magic;Consume Magic"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Consume Magic on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Torment",
+      "/stopcasting",
+      "/cast [@mouseover,enemy,nodead]Torment;Torment"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Torment on Mouseover"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetSpecialization(3)"
+    ],
+    "occurences": 12,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Destruction",
+      "Frost",
+      "Guardian",
+      "Protection",
+      "Restoration",
+      "Retribution",
+      "Shadow",
+      "Subtlety",
+      "Survival",
+      "Unholy",
+      "Use talents specialization 3",
+      "Windwalker"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Corpse Shield",
+      "/cast Dark Transformation",
+      "/cast Huddle",
+      "/cast Protective Bile",
+      "/cast Corpse Shield"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "DK live saver"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Mind Freeze",
+      "/stopcasting",
+      "/cast Mind Freeze"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Mind Freeze"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetSpecialization(4)"
+    ],
+    "occurences": 2,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Restoration",
+      "Use talents specialization 4"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Displacer Beast",
+      "/stopcasting",
+      "/cast Displacer Beast",
+      "/cancelaura Cat Form"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Displacer Beast"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Remove Corruption",
+      "/stopcasting",
+      "/cast [target=focus,exists]Remove Corruption;Remove Corruption"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Remove Corruption on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip YourSkill",
+      "/stopcasting",
+      "/cast [target=focus,exists]YourSkill;YourSkill"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Example: Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip YourSkill",
+      "/stopcasting",
+      "/cast [target=mouseover,help,nodead][]YourSkill"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Example: Mouseover"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/mountspecial"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mount special"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/dices"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Roll dice"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/stopcasting",
+      "/use 13",
+      "/use 14"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Trinkets boost"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/console autoQuestWatch 1"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Enable AutoTrack quest"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 1);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Star"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 2);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Circle"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 3);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Diamond"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 4);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Triangle"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 5);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Moon"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 6);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Square"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 7);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Cross"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/run SetRaidTarget(\"target\", 8);"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Mark target with Skull"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Misdirection",
+      "/stopcasting",
+      "/cast [target=focus,exists][target=targettarget,exists]Misdirection"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Auto Misdirection"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Dire Beast",
+      "/cast Dire Beast",
+      "/petattack",
+      "/petattack"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Attack with Dire Beast and pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cancelaura Aspect of the Turtle"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cancel Aspect of the Turtle"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Chimaera Shot",
+      "/petattack",
+      "/cast Chimaera Shot"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Chimaera Shot with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Cobra Shot",
+      "/petattack",
+      "/cast Cobra Shot"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cobra Shot with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Concussive Shot",
+      "/petattack",
+      "/cast Concussive Shot"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Concussive Shot with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Growl",
+      "/petattack",
+      "/cast Growl"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Growl with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Lacerate",
+      "/petattack",
+      "/cast Lacerate"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Lacerate with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Marked Shot",
+      "/petattack",
+      "/cast Marked Shot"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Marked Shot with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Misdirection",
+      "/stopcasting",
+      "/cast [target=focus,exists]Misdirection"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Misdirection on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Multi-Shot",
+      "/petattack",
+      "/cast Multi-Shot"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Multi-Shot with pet"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Kill Command",
+      "/petattack",
+      "/cast Kill Command"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Power up and attack"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Feign Death",
+      "/stopcasting",
+      "/petfollow",
+      "/cast Feign Death"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Feign Death"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cancelaura Ice Block"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cancel Ice Block"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip CounterSpell",
+      "/stopcasting",
+      "/cast [target=focus,exists]CounterSpell;CounterSpell"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "CounterSpell on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Arcane Missiles",
+      "/stopcasting",
+      "/castsequence Displacement, Arcane Missiles"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Distant Missiles"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Freeze",
+      "/cast Freeze"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Freeze"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Ice Block",
+      "/stopcasting",
+      "/cast Ice Block",
+      "/cancelaura Ice Block"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Ice Block (Cancellable)"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Polymorph",
+      "/stopcasting",
+      "/cast [target=focus,exists]Polymorph;Polymorph"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Polymorph on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Blink",
+      "/stopcasting",
+      "/cast Blink"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Blink"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Spellsteal",
+      "/stopcasting",
+      "/cast [target=focus,exists]Spellsteal;Spellsteal"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Spellsteal on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Chi Wave",
+      "/cast [@target,enemy][@player]Chi Wave;Chi Wave"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Auto Chi Wave"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Detox",
+      "/stopcasting",
+      "/cast [target=focus,exists]Detox;Detox"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Detox on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Ring of Peace",
+      "/stopcasting",
+      "/cast [target=focus,exists]Ring of Peace;Ring of Peace"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Ring of Peace on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Provoke",
+      "/target Black Ox Statue",
+      "/cast Provoke",
+      "/targetlasttarget"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Taunt from Statue"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Tiger's Lust",
+      "/stopcasting",
+      "/cast [@mouseover,help,nodead]Tiger's Lust;Tiger's Lust"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Tiger's Lust on Mouseover"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Beacon of Light",
+      "/stopcasting",
+      "/cast [target=focus,exists]Beacon of Light;Beacon of Light"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Beacon of Light on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Beacon of Virtue",
+      "/stopcasting",
+      "/cast [target=focus,exists]Beacon of Virtue;Beacon of Virtue"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Beacon of Virtue on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Blessing of Protection",
+      "/stopcasting",
+      "/cast [target=focus,exists]Blessing of Protection;Blessing of Protection"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Blessing of Protection on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Blessing of Freedom",
+      "/stopcasting",
+      "/cast [target=focus,exists]Blessing of Freedom;Blessing of Freedom"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Blessing of Freedom on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Cleanse",
+      "/stopcasting",
+      "/cast [target=focus,exists]Cleanse;Cleanse"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cleanse on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Cleanse Toxins",
+      "/stopcasting",
+      "/cast [target=focus,exists]Cleanse Toxins;Cleanse Toxins"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cleanse Toxins on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Divine Shield",
+      "/stopcasting",
+      "/cast Divine Shield",
+      "/cancelaura Divine Shield"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Divine Shield (Cancellable)"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Lay on Hands",
+      "/stopcasting",
+      "/cast [target=focus,exists]Lay on Hands;Lay on Hands"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Lay on Hands on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Divine Shield",
+      "/stopcasting",
+      "/cast Divine Shield"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Divine Shield"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Dispersion",
+      "/stopcasting",
+      "/cast Dispersion",
+      "/cancelaura Dispersion"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Dispersion (Cancellable)"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Leap of Faith",
+      "/stopcasting",
+      "/cast [target=focus,exists]Leap of Faith;Leap of Faith"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Leap of Faith on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Tricks of the Trade",
+      "/stopcasting",
+      "/cast [target=focus,exists][target=targettarget,exists]Tricks of the Trade"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Auto Tricks of the Trade"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Tricks of the Trade",
+      "/stopcasting",
+      "/cast [target=focus,exists]Tricks of the Trade"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Tricks of the Trade on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Purge",
+      "/stopcasting",
+      "/cast [target=focus,exists]Purge;Purge"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Purge on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Reincarnation"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Reincarnation"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Gust of Wind",
+      "/stopcasting",
+      "/cast Gust of Wind"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Gust of Wind"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Wind Shear",
+      "/stopcasting",
+      "/cast Wind Shear"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Wind Shear"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Feral Spirit",
+      "/stopcasting",
+      "/cast Feral Spirit",
+      "/cast Spirit Walk"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Shaman boost"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "/cancelaura Demonic Circle"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Cancel Demonic Circle"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Havoc",
+      "/stopcasting",
+      "/cast [target=focus,exists]Havoc"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Havoc on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Demonic Circle",
+      "/stopcasting",
+      "/cast Demonic Circle"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Demonic Circle"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Soulstone",
+      "/stopcasting",
+      "/cast [target=focus,exists]Soulstone;Soulstone"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Soulstone on Focus"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Charge",
+      "/cast Charge",
+      "/cast Victory Rush",
+      "/cast Piercing Howl",
+      "/cast Berserker Rage",
+      "/cast Recklessness",
+      "/cast Bloodbath",
+      "/cast Avatar",
+      "/cast Battle Cry"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Boosted Charge"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Bladestorm",
+      "/stopcasting",
+      "/cast Bladestorm",
+      "/cancelaura Bladestorm"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Bladestorm (Cancellable)"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Pummel",
+      "/stopcasting",
+      "/cast Pummel"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Secure Pummel"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
+      "#showtooltip Piercing Howl",
+      "/cast Piercing Howl",
+      "/cast Berserker Rage",
+      "/cast Recklessness",
+      "/cast Bloodbath",
+      "/cast Avatar",
+      "/cast Battle Cry"
+    ],
+    "occurences": 1,
+    "filename": [],
+    "id": [],
+    "prefix": [],
+    "label": [
+      "Warrior boost"
+    ],
+    "icon": []
+  },
+  {
+    "lines": [
       "/petstay"
     ],
     "occurences": 1,

@@ -51707,6 +51707,5419 @@
   },
   {
     "icon": [],
+    "label": [
+      "Affliction",
+      "Arcane",
+      "Arms",
+      "Assassination",
+      "Balance",
+      "Beast Mastery",
+      "Blood",
+      "Brewmaster",
+      "Discipline",
+      "Elemental",
+      "Havoc",
+      "Holy",
+      "Use talents specialization 1"
+    ],
+    "occurences": 13,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetSpecialization"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Demonology",
+      "Enhancement",
+      "Feral",
+      "Fire",
+      "Frost",
+      "Fury",
+      "Holy",
+      "Marksmanship",
+      "Mistweaver",
+      "Outlaw",
+      "Protection",
+      "Use talents specialization 2",
+      "Vengeance"
+    ],
+    "occurences": 13,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetSpecialization"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Consume Magic on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Consume Magic"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Consume Magic"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Consume Magic"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Torment on Mouseover"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Torment"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "identifier",
+            "value": "enemy"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Torment"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Torment"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      18
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Destruction",
+      "Frost",
+      "Guardian",
+      "Protection",
+      "Restoration",
+      "Retribution",
+      "Shadow",
+      "Subtlety",
+      "Survival",
+      "Unholy",
+      "Use talents specialization 3",
+      "Windwalker"
+    ],
+    "occurences": 12,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetSpecialization"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "3"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "DK live saver"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Corpse Shield"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dark Transformation"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Huddle"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Protective Bile"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Corpse Shield"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      1
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Mind Freeze"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Mind Freeze"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Mind Freeze"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      1
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Restoration",
+      "Use talents specialization 4"
+    ],
+    "occurences": 2,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetSpecialization"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Displacer Beast"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Displacer Beast"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Displacer Beast"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Cat Form"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      2
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Remove Corruption on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Remove Corruption"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Remove Corruption"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Remove Corruption"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      2
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Example: Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "YourSkill"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "YourSkill"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "YourSkill"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Example: Mouseover"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "YourSkill"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "YourSkill"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mount special"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/mountspecial"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Roll dice"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/dices"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Trinkets boost"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "13"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/use"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "14"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      4
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Enable AutoTrack quest"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/console"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "autoQuestWatch"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      14
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Star"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "1"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Circle"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "2"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Diamond"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "3"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Triangle"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "4"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Moon"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "5"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Square"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "6"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Cross"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "7"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Mark target with Skull"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/run"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "id",
+            "value": "SetRaidTarget"
+          },
+          {},
+          {
+            "type": "other",
+            "value": "("
+          },
+          {
+            "type": "string",
+            "value": "\"target\""
+          },
+          {
+            "type": "other",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "number",
+            "value": "8"
+          },
+          {
+            "type": "other",
+            "value": ")"
+          }
+        ],
+        "grammar": "lua"
+      }
+    ],
+    "tags": [
+      14,
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Auto Misdirection"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Misdirection"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "targettarget"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Misdirection"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Attack with Dire Beast and pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dire Beast"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dire Beast"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cancel Aspect of the Turtle"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Aspect of the Turtle"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Chimaera Shot with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Chimaera Shot"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Chimaera Shot"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cobra Shot with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Cobra Shot"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Cobra Shot"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Concussive Shot with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Concussive Shot"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Concussive Shot"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Growl with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Growl"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Growl"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16,
+      2,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Lacerate with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Lacerate"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Lacerate"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      2
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Marked Shot with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Marked Shot"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Marked Shot"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Misdirection on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Misdirection"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Misdirection"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Multi-Shot with pet"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Multi-Shot"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Multi-Shot"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Power up and attack"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Kill Command"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petattack"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Kill Command"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Feign Death"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Feign Death"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/petfollow"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Feign Death"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      5,
+      9
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cancel Ice Block"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Ice Block"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "CounterSpell on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "CounterSpell"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "CounterSpell"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "CounterSpell"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Distant Missiles"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Arcane Missiles"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/castsequence"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {},
+          {
+            "type": "identifier",
+            "value": "Displacement"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Arcane Missiles"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Freeze"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Freeze"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Freeze"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16,
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Ice Block (Cancellable)"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Ice Block"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Ice Block"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Ice Block"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Polymorph on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Polymorph"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Polymorph"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Polymorph"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Blink"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Blink"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Blink"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Spellsteal on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Spellsteal"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Spellsteal"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Spellsteal"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      6
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Auto Chi Wave"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Chi Wave"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "identifier",
+            "value": "enemy"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "player"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Chi Wave"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Chi Wave"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Detox on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Detox"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Detox"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Detox"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Ring of Peace on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Ring of Peace"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Ring of Peace"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Ring of Peace"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Taunt from Statue"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Provoke"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/target"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Black Ox Statue"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Provoke"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/targetlasttarget"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      15
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Tiger's Lust on Mouseover"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Tiger's Lust"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "at",
+            "value": "@"
+          },
+          {
+            "type": "gameTarget",
+            "value": "mouseover"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "help"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "nodead"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Tiger's Lust"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Tiger's Lust"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Beacon of Light on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Light"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Light"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Light"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Beacon of Virtue on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Virtue"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Virtue"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Beacon of Virtue"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Blessing of Protection on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Protection"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Protection"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Protection"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Blessing of Freedom on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Freedom"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Freedom"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Blessing of Freedom"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cleanse on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cleanse Toxins on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse Toxins"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse Toxins"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Cleanse Toxins"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Divine Shield (Cancellable)"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Divine Shield"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Divine Shield"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Divine Shield"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Lay on Hands on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Lay on Hands"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Lay on Hands"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Lay on Hands"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Divine Shield"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Divine Shield"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Divine Shield"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      8
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Dispersion (Cancellable)"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dispersion"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dispersion"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Dispersion"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Leap of Faith on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Leap of Faith"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Leap of Faith"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Leap of Faith"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      10
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Auto Tricks of the Trade"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Tricks of the Trade"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "modifier",
+            "value": "targettarget"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Tricks of the Trade"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      13
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Tricks of the Trade on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Tricks of the Trade"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Tricks of the Trade"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      13
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Purge on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Purge"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Purge"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Purge"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Reincarnation"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Reincarnation"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Gust of Wind"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Gust of Wind"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Gust of Wind"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Wind Shear"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Wind Shear"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Wind Shear"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Shaman boost"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Feral Spirit"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Feral Spirit"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Spirit Walk"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      16,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Cancel Demonic Circle"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Demonic Circle"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Havoc on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Havoc"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Havoc"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Demonic Circle"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Demonic Circle"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Demonic Circle"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Soulstone on Focus"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Soulstone"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "bracketSquareOpen",
+            "value": "["
+          },
+          {
+            "type": "gameTarget",
+            "value": "target"
+          },
+          {
+            "type": "equal",
+            "value": "="
+          },
+          {
+            "type": "gameTarget",
+            "value": "focus"
+          },
+          {
+            "type": "comma",
+            "value": ","
+          },
+          {
+            "type": "modifier",
+            "value": "exists"
+          },
+          {
+            "type": "bracketSquareClose",
+            "value": "]"
+          },
+          {
+            "type": "identifier",
+            "value": "Soulstone"
+          },
+          {
+            "type": "semicolon",
+            "value": ";"
+          },
+          {
+            "type": "identifier",
+            "value": "Soulstone"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Boosted Charge"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Charge"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Charge"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Victory Rush"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Piercing Howl"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Berserker Rage"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Bloodbath"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Avatar"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Battle Cry"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19,
+      2,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Bladestorm (Cancellable)"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Bladestorm"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Bladestorm"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cancelaura"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Bladestorm"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Secure Pummel"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Pummel"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/stopcasting"
+          },
+          {}
+        ],
+        "grammar": "generic"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Pummel"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19,
+      5
+    ]
+  },
+  {
+    "icon": [],
+    "label": [
+      "Warrior boost"
+    ],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "tooltip",
+            "value": "#showtooltip"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Piercing Howl"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Piercing Howl"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Berserker Rage"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Recklessness"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Bloodbath"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Avatar"
+          }
+        ],
+        "grammar": "macro"
+      },
+      {
+        "tokens": [
+          {
+            "type": "command",
+            "value": "/cast"
+          },
+          {
+            "type": "space",
+            "value": " "
+          },
+          {
+            "type": "identifier",
+            "value": "Battle Cry"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      19
+    ]
+  },
+  {
+    "icon": [],
     "label": [],
     "occurences": 1,
     "lines": [
@@ -51874,18 +57287,22 @@
         "tokens": [
           {
             "type": "target",
-            "value": "/target"
+            "value": "/targetexact"
+          },
+          {
+            "type": "space",
+            "value": " "
           },
           {
             "type": "identifier",
-            "value": "exact Skeleton"
+            "value": "Skeleton"
           }
         ],
         "grammar": "macro"
       }
     ],
     "tags": [
-      15
+      20
     ]
   },
   {
@@ -51916,34 +57333,7 @@
         "tokens": [
           {
             "type": "target",
-            "value": "/target"
-          },
-          {
-            "type": "identifier",
-            "value": "friend"
-          }
-        ],
-        "grammar": "macro"
-      }
-    ],
-    "tags": [
-      15
-    ]
-  },
-  {
-    "icon": [],
-    "label": [],
-    "occurences": 1,
-    "lines": [
-      {
-        "tokens": [
-          {
-            "type": "target",
-            "value": "/targetenemy"
-          },
-          {
-            "type": "gameTarget",
-            "value": "player"
+            "value": "/targetfriend"
           }
         ],
         "grammar": "macro"
@@ -51962,18 +57352,33 @@
         "tokens": [
           {
             "type": "target",
-            "value": "/target"
-          },
-          {
-            "type": "identifier",
-            "value": "friendplayer"
+            "value": "/targetenemyplayer"
           }
         ],
         "grammar": "macro"
       }
     ],
     "tags": [
-      15
+      20
+    ]
+  },
+  {
+    "icon": [],
+    "label": [],
+    "occurences": 1,
+    "lines": [
+      {
+        "tokens": [
+          {
+            "type": "target",
+            "value": "/targetfriendplayer"
+          }
+        ],
+        "grammar": "macro"
+      }
+    ],
+    "tags": [
+      20
     ]
   },
   {

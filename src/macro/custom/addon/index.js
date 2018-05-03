@@ -41,4 +41,4 @@ module.exports = () => findFiles(__dirname, '*.lua')
   .map((fileName) => readFile(fileName))
   .map(({ fileContents }) => parseLua(fileContents))
   .then((parsedFiles) => flattenDeep(parsedFiles))
-  .tap((macros) => qbLog.info(macros.length, ' addon macros'));
+  .tap((macros) => qbLog.count('addon', macros.length));

@@ -65,6 +65,7 @@ module.exports = {
   Spell_Shadow_NightOfTheDead: require('./Spell_Shadow_NightOfTheDead.jpg'),
   Spell_Shadow_PainSpike: require('./Spell_Shadow_PainSpike.jpg'),
   Spell_Shadow_Possession: require('./Spell_Shadow_Possession.jpg'),
+  Spell_Shadow_PsychicScream: require('./Spell_Shadow_PsychicScream.jpg'),
   Spell_Shadow_SoulLeech_1: require('./Spell_Shadow_SoulLeech_1.jpg'),
   Spell_Shadow_SoulLeech_2: require('./Spell_Shadow_SoulLeech_2.jpg'),
   Spell_Shadow_Twilight: require('./Spell_Shadow_Twilight.jpg'),

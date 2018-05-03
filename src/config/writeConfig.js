@@ -1,7 +1,7 @@
 const path = require('path');
 const bluebird = require('bluebird');
 const fs = bluebird.promisifyAll(require('fs'));
-const { outputRoot } = require('../../utils');
+const { outputRoot } = require('../utils');
 
 module.exports = function writeConfig(config) {
   const lines = [];
