@@ -3,13 +3,16 @@ import Macros from './macros';
 import HowTo from './howto';
 import Menu from './menu';
 import Resources from './resources';
-import { homepage } from '../package.json';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export default ({ store, state }) => (
   <div className="App">
-    <Router basename={homepage}>
+    <Router
+
+      /* This should be commented for development until fixed. */
+      basename="/wow-macro-tokenizer"
+    >
       <div className="container">
         <Menu />
         <Route exact path="/" render={() => <Macros state={state} store={store} /> } />
