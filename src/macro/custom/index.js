@@ -5,10 +5,10 @@ const Bluebird = require('bluebird');
 
 const customs = [parseAddon, parseRaw];
 
-module.exports = function custom(macros = []) {
+module.exports = function custom() {
   return Bluebird
     .map(customs, (fn) => fn())
-    .then(([addon, raw]) => macros.concat(addon, raw))
+    .then(([addon, raw]) => addon.concat(raw))
     .tap((allMacros) => saveJson(allMacros, 'custom'));
 };
 

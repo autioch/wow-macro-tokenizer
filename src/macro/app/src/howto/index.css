@@ -1,0 +1,26 @@
+.howto {
+  padding: 1em;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.howto__list {
+  margin-top: 4em;
+}
+
+.howto-item__question {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.howto-item__answer {
+
+}
+
+.howto-item__snippet {
+  margin-top: 1em;
+  border: 1px dashed #aaa;
+  border-radius: .25em;
+  padding: .5em;
+}

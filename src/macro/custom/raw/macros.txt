@@ -198,3 +198,5 @@
 /petdefensive
 
 /petpassive
+
+/run SendChatMessage(format("10g per item %s", select(2, GetSpellLink("Tailoring"))), "CHANNEL", nil, GetChannelName("Trade - City"))

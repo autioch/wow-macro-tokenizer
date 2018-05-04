@@ -1,0 +1,15 @@
+.resources {
+  height: 100%;
+  overflow: auto;
+}
+
+.resource-item {
+  margin-bottom: 1em;
+}
+
+.resource-link {
+  color: #c90;
+  text-decoration: none;
+  padding: .25em .5em;
+  border-radius: .25em;
+}

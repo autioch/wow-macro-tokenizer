@@ -1,10 +1,20 @@
 import React from 'react';
-import List from './list';
+import Macros from './macros';
+import HowTo from './howto';
 import Menu from './menu';
+import Resources from './resources';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export default ({ store, state }) => (
   <div className="App">
-    <Menu state={state} store={store} />
-    <List macros={state.visibleMacros} />
+    <Router>
+      <div className="container">
+        <Menu />
+        <Route exact path="/" render={() => <Macros state={state} store={store} /> } />
+        <Route path="/howto" component={HowTo} />
+        <Route path="/resources" component={Resources} />
+      </div>
+    </Router>
   </div>
 );

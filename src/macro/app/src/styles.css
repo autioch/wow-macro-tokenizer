@@ -5,9 +5,10 @@ body {
   font-family: Verdana;
   font-size: 14px;
   background: #212121;
+  color: #aaa;
 }
 
-#root, body, html {
+#root, body, html, .App, .container {
   height: 100%;
   width: 100%;
 }
@@ -16,10 +17,7 @@ body {
   outline: none;
 }
 
-.App {
-  color: #aaa;
-  height: 100%;
-  width: 100%;
+ .container {
   display: flex;
   flex-direction: column;
   overflow: hidden;

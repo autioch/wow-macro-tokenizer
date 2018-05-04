@@ -1,27 +1,11 @@
 import React from 'react';
-import Tags from './tags';
+import { NavLink } from 'react-router-dom';
 import './index.css';
 
-export default ({
-  state: { tags, categories, macros, visibleMacros, filterText },
-  store: { toggleTag, setTextFilter, resetTextFilter }
-}) => (
+export default () => (
   <div className="menu">
-    {categories.map((category) => <div className="category" key={category.id}>
-      <div className="category__label">{category.label}</div>
-      <Tags tags={tags.filter((tag) => tag.category === category.id)} action={toggleTag} />
-    </div>)}
-    <div className="category">
-      <div className="category__label">Search text</div>
-      <input
-        className="menu__input"
-        type="text"
-        value={filterText}
-        onChange={(ev) => setTextFilter(ev.target.value)}
-        onInput={(ev) => setTextFilter(ev.target.value)}
-      />
-      <div className="menu__clear" onClick={resetTextFilter} title="Clear filter">X</div>
-      <div className="menu__text">{visibleMacros.length} / {macros.length} macros</div>
-    </div>
+    <NavLink exact className="menu__link" to="/" activeClassName="menu__link--active">Macro list</NavLink>
+    <NavLink className="menu__link" to="/howto" activeClassName="menu__link--active">How to</NavLink>
+    <NavLink className="menu__link" to="/resources" activeClassName="menu__link--active">Resources</NavLink>
   </div>
 );
