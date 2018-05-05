@@ -1,509 +1,29 @@
 [
   {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run ShowHelm(not ShowingHelm())",
-        "message": "invalid syntax at line 1 col 10:\n\n  ShowHelm(not\n           ^\nUnexpected keyword token: \"not\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(s) then m(\"B \"..i..\": \"..s); end s=UnitDebuff(\"target\", i); if(s) then m(\"D \"..i..\": \"..s); end end",
-        "message": "invalid syntax at line 1 col 94:\n\n  function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(\n                                                                                               ^\nUnexpected other token: \"(\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/script"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))",
-        "message": "invalid syntax at line 1 col 106:\n\n  local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(\n                                                                                                           ^\nUnexpected other token: \"(\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/script local cu = GetMoney(); print(GetCoinTextureString(cu,\"12\"))",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/script"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "local"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "id",
-            "value": "cu"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "equal",
-            "value": "="
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "id",
-            "value": "GetMoney"
-          },
-          {},
-          {
-            "type": "other",
-            "value": "("
-          },
-          {},
-          {
-            "type": "other",
-            "value": ")"
-          },
-          {
-            "type": "other",
-            "value": ";"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "id",
-            "value": "print"
-          },
-          {},
-          {
-            "type": "other",
-            "value": "("
-          },
-          {
-            "type": "id",
-            "value": "GetCoinTextureString"
-          },
-          {},
-          {
-            "type": "other",
-            "value": "("
-          },
-          {
-            "type": "id",
-            "value": "cu"
-          },
-          {
-            "type": "other",
-            "value": ","
-          },
-          {
-            "type": "string",
-            "value": "\"12\""
-          },
-          {
-            "type": "other",
-            "value": ")"
-          },
-          {
-            "type": "other",
-            "value": ")"
-          }
-        ],
-        "grammar": "lua"
-      },
-      {
-        "line": "/stopmacro [btn:1]",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/stopmacro"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "bracketSquareOpen",
-            "value": "["
-          },
-          {
-            "type": "modifier",
-            "value": "btn"
-          },
-          {
-            "type": "colon",
-            "value": ":"
-          },
-          {
-            "type": "number",
-            "value": "1"
-          },
-          {
-            "type": "bracketSquareClose",
-            "value": "]"
-          }
-        ],
-        "grammar": "generic"
-      },
-      {
-        "line": "/script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end",
-        "message": "invalid syntax at line 1 col 35:\n\n  yy = GetNumWatchedTokens(); for xx \n                                    ^\nUnexpected space token: \" \"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/script"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,\"9d9d9d\")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))",
-        "message": "invalid syntax at line 1 col 104:\n\n  local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and\n                                                                                                         ^\nUnexpected keyword token: \"and\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/afk reloading UI",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/afk"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "identifier",
-            "value": "reloading UI"
-          }
-        ],
-        "grammar": "generic"
-      },
-      {
-        "line": "/run SendChatMessage(\"reloading my UI - afk for a sec\", ((UnitInRaid(\"player\")and \"RAID\")or(GetNumPartyMembers()>0 and \"PARTY\")or \"AFK\"))",
-        "message": "invalid syntax at line 1 col 52:\n\n  SendChatMessage(\"reloading my UI - afk for a sec\", (\n                                                     ^\nUnexpected other token: \"(\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      },
-      {
-        "line": "/console reloadui",
-        "message": "No tokens returned",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/console"
-          },
-          {
-            "type": "space",
-            "value": " "
-          },
-          {
-            "type": "identifier",
-            "value": "reloadui"
-          }
-        ],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;print(nfb)",
-        "message": "invalid syntax at line 1 col 195:\n\n  nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \"\n                                                                                                                                                                                                    ^\nUnexpected quote token: \"\\\"\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\")",
-        "message": "invalid syntax at line 1 col 234:\n\n  nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\"\n                                                                                                                                                                                                                                           ^\nUnexpected quote token: \"\\\"\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;print(nf)",
-        "message": "invalid syntax at line 1 col 213:\n\n  nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \"\n                                                                                                                                                                                                                      ^\nUnexpected quote token: \"\\\"\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\")",
-        "message": "invalid syntax at line 1 col 251:\n\n  nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\"\n                                                                                                                                                                                                                                                            ^\nUnexpected quote token: \"\\\"\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b=\"Raid\",r else c,b=\"guild\",g end;SendChatMessage(\"[iBlame]: \"..b..\".\",c)",
-        "message": "invalid syntax at line 1 col 30:\n\n  x=GetNumGuildMembers(1)g=x>0 and\n                               ^\nUnexpected keyword token: \"and\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/run if(ShowingHelm()) then ShowHelm(0) else ShowHelm(1) end",
-        "message": "invalid syntax at line 1 col 3:\n\n  if(\n    ^\nUnexpected other token: \"(\"\n",
-        "tokens": [
-          {
-            "type": "command",
-            "value": "/run"
-          },
-          {
-            "type": "space",
-            "value": " "
-          }
-        ],
-        "grammar": "lua"
-      }
-    ]
-  },
-  {
-    "icon": [
-      ""
-    ],
-    "label": [
-      ""
-    ],
-    "lines": [
-      {
-        "line": "/equipset PvP_Set",
-        "message": "invalid syntax at line 1 col 14:\n\n  /equipset PvP_\n               ^\nUnexpected unknown token: \"_\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Alard\\macros-cache.txt",
     "label": [
       "FRepa"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "#showtoolip",
+      "/cast [target=focus] Repentance"
+    ],
+    "parsedLines": [
       {
-        "line": "#showtoolip",
-        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "#showtoolip"
       },
       {
-        "line": "/cast [target=focus] Repentance",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -542,21 +62,32 @@
             "value": "Repentance"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast [target=focus] Repentance"
       }
-    ]
+    ],
+    "hash": "#showtoolip\n/cast [target=focus] Repentance",
+    "id": 648
   },
   {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Arald\\macros-cache.txt",
     "label": [
       "bak"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end"
+    ],
+    "parsedLines": [
       {
-        "line": "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end",
-        "message": "invalid syntax at line 1 col 106:\n\n  a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(\n                                                                                                           ^\nUnexpected other token: \"(\"\n",
         "tokens": [
           {
             "type": "command",
@@ -567,125 +98,197 @@
             "value": " "
           }
         ],
-        "grammar": "lua"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 106:\n\n  a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(\n                                                                                                           ^\nUnexpected other token: \"(\"\n",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end"
       }
-    ]
+    ],
+    "hash": "/run a=SendChatMessage;b=\"test\";c=\"WG \";d=GetWintergraspWaitTime();e=floor;if d~=nil then f=e(d/3600)..\"h \";g=(e(d/60)%60)..\"m \";h=(d%60)..\"s \";a(c..f..g..h,\"CHANNEL\",nil,GetChannelName(b)) end",
+    "id": 649
   },
   {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Arald\\macros-cache.txt",
     "label": [
       "tabs"
     ],
-    "lines": [
-      {
-        "line": "Darnassus Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected identifier token: \"Darnassus Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Exodar Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected identifier token: \"Exodar Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Gnomeregan Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected identifier token: \"Gnomeregan Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Ironforge Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected identifier token: \"Ironforge Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Silver Covenant Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected identifier token: \"Silver Covenant Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Silverwing Battle Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected identifier token: \"Silverwing Battle Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Stormpike Battle Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected identifier token: \"Stormpike Battle Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Stormwind Tab",
-        "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected identifier token: \"Stormwind Tab\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Brute Force",
-        "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected identifier token: \"Brute Force\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Conquest (Alliance)",
-        "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected identifier token: \"Conquest\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Summer Flames",
-        "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected identifier token: \"Summer Flames\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "the Illidari",
-        "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected identifier token: \"the Illidari\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "the Scarlet Crusade",
-        "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected identifier token: \"the Scarlet Crusade\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
+    "prefix": [
+      ""
+    ],
     "icon": [
       "INV_Misc_QuestionMark"
     ],
+    "rawLines": [
+      "Darnassus Tab",
+      "Exodar Tab",
+      "Gnomeregan Tab",
+      "Ironforge Tab",
+      "Silver Covenant Tab",
+      "Silverwing Battle Tab",
+      "Stormpike Battle Tab",
+      "Stormwind Tab",
+      "Brute Force",
+      "Conquest (Alliance)",
+      "Summer Flames",
+      "the Illidari",
+      "the Scarlet Crusade"
+    ],
+    "parsedLines": [
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Darnassus Tab\n  ^\nUnexpected identifier token: \"Darnassus Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Darnassus Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Exodar Tab\n  ^\nUnexpected identifier token: \"Exodar Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Exodar Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Gnomeregan Tab\n  ^\nUnexpected identifier token: \"Gnomeregan Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Gnomeregan Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Ironforge Tab\n  ^\nUnexpected identifier token: \"Ironforge Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Ironforge Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Silver Covenant Tab\n  ^\nUnexpected identifier token: \"Silver Covenant Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Silver Covenant Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Silverwing Battle Tab\n  ^\nUnexpected identifier token: \"Silverwing Battle Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Silverwing Battle Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormpike Battle Tab\n  ^\nUnexpected identifier token: \"Stormpike Battle Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Stormpike Battle Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Stormwind Tab\n  ^\nUnexpected identifier token: \"Stormwind Tab\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Stormwind Tab"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Brute Force\n  ^\nUnexpected identifier token: \"Brute Force\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Brute Force"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Conquest\n  ^\nUnexpected identifier token: \"Conquest\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Conquest (Alliance)"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Summer Flames\n  ^\nUnexpected identifier token: \"Summer Flames\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Summer Flames"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  the Illidari\n  ^\nUnexpected identifier token: \"the Illidari\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "the Illidari"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  the Scarlet Crusade\n  ^\nUnexpected identifier token: \"the Scarlet Crusade\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "the Scarlet Crusade"
+      }
+    ],
+    "hash": "Darnassus Tab\nExodar Tab\nGnomeregan Tab\nIronforge Tab\nSilver Covenant Tab\nSilverwing Battle Tab\nStormpike Battle Tab\nStormwind Tab\nBrute Force\nConquest (Alliance)\nSummer Flames\nthe Illidari\nthe Scarlet Crusade",
+    "id": 650
+  },
+  {
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Irrissa\\macros-cache.txt",
     "label": [
       "troll"
     ],
-    "lines": [
-      {
-        "line": "haha, mozna sie bylo tego spodziewac po burakach z nii",
-        "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected identifier token: \"haha\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
+    "prefix": [
+      ""
+    ],
     "icon": [
       "INV_Misc_QuestionMark"
     ],
+    "rawLines": [
+      "haha, mozna sie bylo tego spodziewac po burakach z nii"
+    ],
+    "parsedLines": [
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  haha\n  ^\nUnexpected identifier token: \"haha\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "haha, mozna sie bylo tego spodziewac po burakach z nii"
+      }
+    ],
+    "hash": "haha, mozna sie bylo tego spodziewac po burakach z nii",
+    "id": 651
+  },
+  {
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Cleavage\\macros-cache.txt",
     "label": [
       "mount"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
+      "/use [flyable, nomounted] Swift Red Gryphon",
+      "/use [noflyable, nomounted] Black War Tiger",
+      "/dismount [noflying, mounted]]"
+    ],
+    "parsedLines": [
       {
-        "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "tooltip",
@@ -728,11 +331,13 @@
             "value": "Black War Tiger"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger"
       },
       {
-        "line": "/use [flyable, nomounted] Swift Red Gryphon",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -775,11 +380,13 @@
             "value": "Swift Red Gryphon"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/use [flyable, nomounted] Swift Red Gryphon"
       },
       {
-        "line": "/use [noflyable, nomounted] Black War Tiger",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -822,27 +429,41 @@
             "value": "Black War Tiger"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/use [noflyable, nomounted] Black War Tiger"
       },
       {
-        "line": "/dismount [noflying, mounted]]",
-        "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 30:\n\n  /dismount [noflying, mounted]]\n                               ^\nUnexpected bracketSquareClose token: \"]\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "/dismount [noflying, mounted]]"
       }
-    ]
+    ],
+    "hash": "#showtooltip [flyable] Swift Red Gryphon; Black War Tiger\n/use [flyable, nomounted] Swift Red Gryphon\n/use [noflyable, nomounted] Black War Tiger\n/dismount [noflying, mounted]]",
+    "id": 652
   },
   {
-    "icon": [
-      "Spell_Shadow_Possession"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\macros-cache.txt",
     "label": [
       "focus"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "Spell_Shadow_Possession"
+    ],
+    "rawLines": [
+      "/cast Fear",
+      "/"
+    ],
+    "parsedLines": [
       {
-        "line": "/cast Fear",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -857,107 +478,168 @@
             "value": "Fear"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Fear"
       },
       {
-        "line": "/",
-        "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  /\n  ^\nUnexpected slash token: \"/\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "/"
       }
-    ]
+    ],
+    "hash": "/cast Fear\n/",
+    "id": 653
   },
   {
-    "icon": [
-      "Spell_Nature_Rune"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\Feronis\\Irrissa\\macros-cache.txt",
     "label": [
       "Arena"
     ],
-    "lines": [
-      {
-        "line": "Cure Toxins",
-        "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected identifier token: \"Cure Toxins\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Gift of the Naaru",
-        "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected identifier token: \"Gift of the Naaru\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Noggenfogger Elixir",
-        "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected identifier token: \"Noggenfogger Elixir\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Alliance Battle Standard",
-        "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected identifier token: \"Alliance Battle Standard\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Chain Heal",
-        "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected identifier token: \"Chain Heal\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Drums",
-        "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected identifier token: \"Drums\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "Healthstone",
-        "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected identifier token: \"Healthstone\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
+    "prefix": [
+      ""
+    ],
     "icon": [
       "Spell_Nature_Rune"
     ],
+    "rawLines": [
+      "Cure Toxins",
+      "Gift of the Naaru",
+      "Noggenfogger Elixir",
+      "Alliance Battle Standard",
+      "Chain Heal",
+      "Drums",
+      "Healthstone"
+    ],
+    "parsedLines": [
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Cure Toxins\n  ^\nUnexpected identifier token: \"Cure Toxins\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Cure Toxins"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Gift of the Naaru\n  ^\nUnexpected identifier token: \"Gift of the Naaru\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Gift of the Naaru"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Noggenfogger Elixir\n  ^\nUnexpected identifier token: \"Noggenfogger Elixir\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Noggenfogger Elixir"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Alliance Battle Standard\n  ^\nUnexpected identifier token: \"Alliance Battle Standard\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Alliance Battle Standard"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Chain Heal\n  ^\nUnexpected identifier token: \"Chain Heal\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Chain Heal"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Drums\n  ^\nUnexpected identifier token: \"Drums\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Drums"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Healthstone\n  ^\nUnexpected identifier token: \"Healthstone\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Healthstone"
+      }
+    ],
+    "hash": "Cure Toxins\nGift of the Naaru\nNoggenfogger Elixir\nAlliance Battle Standard\nChain Heal\nDrums\nHealthstone",
+    "id": 654
+  },
+  {
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Mindblowing\\macros-cache.txt",
     "label": [
       "Areny"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "Spell_Nature_Rune"
+    ],
+    "rawLines": [
+      "sztandar",
+      "siatka"
+    ],
+    "parsedLines": [
       {
-        "line": "sztandar",
-        "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected identifier token: \"sztandar\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  sztandar\n  ^\nUnexpected identifier token: \"sztandar\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "sztandar"
       },
       {
-        "line": "siatka",
-        "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected identifier token: \"siatka\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  siatka\n  ^\nUnexpected identifier token: \"siatka\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "siatka"
       }
-    ]
+    ],
+    "hash": "sztandar\nsiatka",
+    "id": 655
   },
   {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Irrissa\\macros-cache.txt",
     "label": [
       "IN"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "#showtoolip",
+      "/cast Nature's Swiftness",
+      "/cast Tidal Force",
+      "/cast Healing Wave"
+    ],
+    "parsedLines": [
       {
-        "line": "#showtoolip",
-        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "#showtoolip"
       },
       {
-        "line": "/cast Nature's Swiftness",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -972,11 +654,13 @@
             "value": "Nature's Swiftness"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Nature's Swiftness"
       },
       {
-        "line": "/cast Tidal Force",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -991,11 +675,13 @@
             "value": "Tidal Force"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Tidal Force"
       },
       {
-        "line": "/cast Healing Wave",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1010,37 +696,59 @@
             "value": "Healing Wave"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Healing Wave"
       }
-    ]
+    ],
+    "hash": "#showtoolip\n/cast Nature's Swiftness\n/cast Tidal Force\n/cast Healing Wave",
+    "id": 656
   },
   {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Irrissa\\macros-cache.txt",
     "label": [
       "test"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
+    ],
+    "parsedLines": [
       {
-        "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
-        "message": "invalid syntax at line 1 col 1:\n\n  |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\n  ^\nUnexpected linkProfession token: \"|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  |cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\n  ^\nUnexpected linkProfession token: \"|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
       }
-    ]
+    ],
+    "hash": "|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
+    "id": 657
   },
   {
-    "icon": [
-      "Ability_Hunter_ExplosiveShot"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Irrissa\\macros-cache.txt",
     "label": [
       "WTS new"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "Ability_Hunter_ExplosiveShot"
+    ],
+    "rawLines": [
+      "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
+    ],
+    "parsedLines": [
       {
-        "line": "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
-        "message": "invalid syntax at line 1 col 82:\n\n  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|\n                                                                                   ^\nUnexpected other token: \"|\"\n",
         "tokens": [
           {
             "type": "command",
@@ -1051,95 +759,150 @@
             "value": " "
           }
         ],
-        "grammar": "lua"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 82:\n\n  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|\n                                                                                   ^\nUnexpected other token: \"|\"\n",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r"
       }
-    ]
+    ],
+    "hash": "/run  rz=GetRealZoneText();z=GetZoneText();sz=GetSubZoneText();mz=GetMinimapZoneText();|cffffd000|Htrade:51302:450:450:18F1C7E9:e+///f//////////v//H+f/////P/7/B56d/Pgf+//BwMHAAX4////HAA/x8D4/vK5////////////////////Dw///D|h[Leatherworking]|h|r",
+    "id": 658
   },
   {
-    "icon": [
-      "Ability_Creature_Cursed_04"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2016.01.16\\ARALD\\macros-cache.txt",
     "label": [
       "Rule"
     ],
-    "lines": [
+    "prefix": [
+      "$"
+    ],
+    "icon": [
+      "Ability_Creature_Cursed_04"
+    ],
+    "rawLines": [
+      "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc."
+    ],
+    "parsedLines": [
       {
-        "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
-        "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected identifier token: \"Czesc\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  Czesc\n  ^\nUnexpected identifier token: \"Czesc\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc."
       }
-    ]
+    ],
+    "hash": "Czesc, masz czas dzisiaj o 19 na dokonczenie naszego ICC10? Sindra hc + LK. A jesli nie bedzie dokonczenia, to ja pewnie zbiore jakies icc10 amancikiem, kilka bossow + DB hc.",
+    "id": 659
   },
   {
-    "icon": [
-      "INV_Misc_QuestionMark"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2016.01.16\\KAROLINA\\Feronis\\Rashael\\macros-cache.txt",
     "label": [
       "ROT"
     ],
-    "lines": [
-      {
-        "line": "serpent",
-        "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected identifier token: \"serpent\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "chimera",
-        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "aimed",
-        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "spam steady",
-        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "chimera",
-        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "aimed",
-        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      },
-      {
-        "line": "spam steady",
-        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
-        "tokens": [],
-        "grammar": "generic"
-      }
-    ]
-  },
-  {
+    "prefix": [
+      ""
+    ],
     "icon": [
       "INV_Misc_QuestionMark"
     ],
+    "rawLines": [
+      "serpent",
+      "chimera",
+      "aimed",
+      "spam steady",
+      "chimera",
+      "aimed",
+      "spam steady"
+    ],
+    "parsedLines": [
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  serpent\n  ^\nUnexpected identifier token: \"serpent\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "serpent"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "chimera"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "aimed"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "spam steady"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  chimera\n  ^\nUnexpected identifier token: \"chimera\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "chimera"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  aimed\n  ^\nUnexpected identifier token: \"aimed\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "aimed"
+      },
+      {
+        "tokens": [],
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  spam steady\n  ^\nUnexpected identifier token: \"spam steady\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "spam steady"
+      }
+    ],
+    "hash": "serpent\nchimera\naimed\nspam steady\nchimera\naimed\nspam steady",
+    "id": 660
+  },
+  {
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2016.01.16\\KAROLINA\\Feronis\\Rashael\\macros-cache.txt",
     "label": [
       "Web"
     ],
-    "lines": [
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      "INV_Misc_QuestionMark"
+    ],
+    "rawLines": [
+      "#showooltip Web",
+      "/cast Web",
+      "/cast Pin"
+    ],
+    "parsedLines": [
       {
-        "line": "#showooltip Web",
-        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
         "tokens": [],
-        "grammar": "generic"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 1:\n\n  #\n  ^\nUnexpected unknown token: \"#\"\n",
+        "ambiguous": false,
+        "grammar": "generic",
+        "line": "#showooltip Web"
       },
       {
-        "line": "/cast Web",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1154,11 +917,13 @@
             "value": "Web"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Web"
       },
       {
-        "line": "/cast Pin",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1173,21 +938,37 @@
             "value": "Pin"
           }
         ],
-        "grammar": "macro"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "macro",
+        "line": "/cast Pin"
       }
-    ]
+    ],
+    "hash": "#showooltip Web\n/cast Web\n/cast Pin",
+    "id": 661
   },
   {
-    "icon": [
-      "Spell_Fire_BlueFire"
-    ],
+    "fileName": "e:\\projects\\wow configs\\wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\macros-cache.txt",
     "label": [
       "Icon"
     ],
-    "lines": [
+    "prefix": [
+      "_"
+    ],
+    "icon": [
+      "Spell_Fire_BlueFire"
+    ],
+    "rawLines": [
+      "/script SetRaidTarget(\"player\",1)",
+      "/script SetRaidTarget(\"party1\",4)",
+      "/script SetRaidTarget(\"party2\",3)",
+      "/script SetRaidTarget(\"party3\",2)",
+      "/script SetRaidTarget(\"party4\",5)",
+      "/script SetRaidTarget(\"Shadowfiend\",7); )"
+    ],
+    "parsedLines": [
       {
-        "line": "/script SetRaidTarget(\"player\",1)",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1223,11 +1004,13 @@
             "value": ")"
           }
         ],
-        "grammar": "lua"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"player\",1)"
       },
       {
-        "line": "/script SetRaidTarget(\"party1\",4)",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1263,11 +1046,13 @@
             "value": ")"
           }
         ],
-        "grammar": "lua"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"party1\",4)"
       },
       {
-        "line": "/script SetRaidTarget(\"party2\",3)",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1303,11 +1088,13 @@
             "value": ")"
           }
         ],
-        "grammar": "lua"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"party2\",3)"
       },
       {
-        "line": "/script SetRaidTarget(\"party3\",2)",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1343,11 +1130,13 @@
             "value": ")"
           }
         ],
-        "grammar": "lua"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"party3\",2)"
       },
       {
-        "line": "/script SetRaidTarget(\"party4\",5)",
-        "message": "No tokens returned",
         "tokens": [
           {
             "type": "command",
@@ -1383,11 +1172,13 @@
             "value": ")"
           }
         ],
-        "grammar": "lua"
+        "parsed": true,
+        "message": "No tokens returned",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"party4\",5)"
       },
       {
-        "line": "/script SetRaidTarget(\"Shadowfiend\",7); )",
-        "message": "invalid syntax at line 1 col 33:\n\n  SetRaidTarget(\"Shadowfiend\",7); )\n                                  ^\nUnexpected other token: \")\"\n",
         "tokens": [
           {
             "type": "command",
@@ -1398,8 +1189,14 @@
             "value": " "
           }
         ],
-        "grammar": "lua"
+        "parsed": false,
+        "message": "invalid syntax at line 1 col 33:\n\n  SetRaidTarget(\"Shadowfiend\",7); )\n                                  ^\nUnexpected other token: \")\"\n",
+        "ambiguous": false,
+        "grammar": "lua",
+        "line": "/script SetRaidTarget(\"Shadowfiend\",7); )"
       }
-    ]
+    ],
+    "hash": "/script SetRaidTarget(\"player\",1)\n/script SetRaidTarget(\"party1\",4)\n/script SetRaidTarget(\"party2\",3)\n/script SetRaidTarget(\"party3\",2)\n/script SetRaidTarget(\"party4\",5)\n/script SetRaidTarget(\"Shadowfiend\",7); )",
+    "id": 662
   }
 ]

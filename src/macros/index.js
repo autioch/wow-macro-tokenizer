@@ -22,7 +22,7 @@ module.exports = function getMacros(configDir) {
 
           return Bluebird.all([
             saveJson(tagged, 'macros'),
-            ...downloadMacroIcons(tagged)
+            downloadMacroIcons(tagged)
           ]);
         });
     });

@@ -12,5 +12,5 @@ module.exports = function downloadImage(imageUrl, imageFile) {
       dest: join(outputRoot, imageFile)
     })
     .then(() => qbLog.info('FETCH DONE', imageUrl))
-    .catch((err) => qbLog.error(`FETCH FAIL ${imageUrl}`).empty(err.message));
+    .catch((err) => qbLog.error(`FETCH FAIL ${imageUrl} ${err.message}`));
 };

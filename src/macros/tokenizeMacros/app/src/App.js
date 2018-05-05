@@ -10,13 +10,13 @@ export default class App extends Component {
     ambiguous: lines.filter((line) => line.parsed && line.ambiguous),
     failed: lines.filter((line) => !line.parsed),
     parsed: lines.filter((line) => line.parsed && !line.ambiguous),
-    showSummary: false,
+    showSummary: true,
     showAmbiguous: true,
     showFailed: true,
-    showParsed: false,
+    showParsed: true,
     showLua: true,
-    showMacro: false,
-    showGeneric: false
+    showMacro: true,
+    showGeneric: true
   }
 
   filterLines(linesType) {
