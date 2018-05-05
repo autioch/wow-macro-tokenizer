@@ -1,12 +1,10 @@
-/* eslint no-magic-numbers: 0 */
 /* eslint no-undefined: 0 */
-// const DEFAULT_ICON = 'INV_Misc_QuestionMark';
+const { findFiles, saveJson, readFile } = require('utils');
 
+const MACRO_END = 'END';
 const VER_3_PREFIX = 'VER 3';
-
 const HEADER_VER_1 = /MACRO (.+) "(.+)" (.+)/;
 const HEADER_VER_3 = /VER 3 (.+) "(.+)" (.+)/;
-
 const PREFIXES = ['!', '@', '#', '$', '%', '^', '&', '*', '_', 'x'];
 
 function parseLabel(rawLabel) {
@@ -35,7 +33,7 @@ function parseHeader(headerLine) {
   return details.map((text) => text.replace(/"/g, ''));
 }
 
-module.exports = function parseMacro(lines) {
+function parseMacro(lines) {
   const [, id, rawLabel, icon] = parseHeader(lines[0]);
   const [prefix, label] = parseLabel(rawLabel);
 
@@ -46,4 +44,32 @@ module.exports = function parseMacro(lines) {
     icon,
     lines: lines.slice(1, -1) // remove header line and "END"
   };
+}
+
+function parseFile({ fileName, fileContents }) {
+  const macros = [];
+  let currentMacroLines = [];
+
+  fileContents.split('\n')
+    .map((line) => line.trim())
+    .forEach((line) => {
+      currentMacroLines.push(line);
+      if (line === MACRO_END) {
+        macros.push(currentMacroLines);
+        currentMacroLines = [];
+      }
+    });
+
+  return macros.map((macroLines) => ({
+    fileName,
+    ...parseMacro(macroLines)
+  }));
+}
+
+module.exports = function reader(macroDir) {
+  return findFiles(macroDir, 'macros-cache.txt')
+    .map((fileName) => readFile(fileName))
+    .map((fileInfo) => parseFile(fileInfo))
+    .reduce((arr, macros) => arr.concat(macros), [])
+    .tap((parsedFiles) => saveJson(parsedFiles, 'readMacros'));
 };
