@@ -9,5 +9,6 @@ module.exports = {
   saveFile: require('./saveFile'),
   saveJson: require('./saveJson'),
   setDict: require('./setDict'),
-  singleRun: require('./singleRun')
+  singleRun: require('./singleRun'),
+  waterfall: require('./waterfall')
 };

@@ -1,0 +1,3560 @@
+{
+  "Auctionator": {
+    "e8e8f546fa234d800175c2de7097f973": {
+      "fileSize": 17519,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "72f666e65aee10cb8ee629687613426c": {
+      "fileSize": 331,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "d4981bfe83e732604cba13218cb4dec7": {
+      "fileSize": 331,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Argent Dawn\\Pankanoob\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Aszune\\Berlysucks\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthnoob\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthznoob\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amantka\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Wildhammer\\Heflena\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Froynoob\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Auctionator.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "6e0cbd377304dd05e5397a2267813ce6": {
+      "fileSize": 1223,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "9eda9101ed28647fa7dc0068581fe4aa": {
+      "fileSize": 22538,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "c51b7cdcb99da35e31c96c8bb6736382": {
+      "fileSize": 9017,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Auctionator.lua"
+      ]
+    }
+  },
+  "Blizzard_CombatLog": {
+    "3161a2354f8e5e0bc6275b07c0cac3ae": {
+      "fileSize": 12824,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "30949347c567be6bf918538b1a2e2317": {
+      "fileSize": 12109,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "d8b002fa6c359496d6a4f7e2d08013f8": {
+      "fileSize": 12109,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "2a0278aa613265259265d61bf6e72cfc": {
+      "fileSize": 12824,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "6af3c244d4798d782aa740ec1a7dfc30": {
+      "fileSize": 12824,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "110589e5490767b20a215b54e83aa9a0": {
+      "fileSize": 31031,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "69f234687e8d0c0d12434987eb6d374e": {
+      "fileSize": 31031,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "40e5087c69b995a470ef6ec6c9e600b1": {
+      "fileSize": 11597,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "3281010ae8e612d8a8b139014587bf5a": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "a29cba87e3ea420f9e0412858361c602": {
+      "fileSize": 11597,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "90f88375e1aab248e91320b1a31f8c22": {
+      "fileSize": 25309,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "512597fc150e4608fc9aca8aaf00c949": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "6f40c071a9d5f4cd62f5ef5cf2387b1b": {
+      "fileSize": 31031,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "6d113a20ba6a3d15cb2a3ac3a5d72a1e": {
+      "fileSize": 31031,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "614ef5342012f21d31e30248b4f0f5f5": {
+      "fileSize": 31031,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "0733f2134ce4a636a73d865a84f790a5": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "16b77e05096b6c92dc6dbac41fa176cf": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "e6cfb9ddfd941f8502d531d16c3c7e84": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "49622f25d7cc7112b160edad5b5d0035": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "76a30708f1f7bb8cb1f3989bc3ef122f": {
+      "fileSize": 7757,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "9fcb62f6f25dc0748f7eb2af1215348f": {
+      "fileSize": 7757,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "8f5b5af27490acd1d3d72d04a983dc34": {
+      "fileSize": 7757,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "6e8b4310200708f26b9c6d2b0f210547": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "fd6cb319400c1168ab32835df992136f": {
+      "fileSize": 25308,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    }
+  },
+  "Coordinates": {
+    "ad36fa772ea4457fa097c6e867784f7e": {
+      "fileSize": 69,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Coordinates.lua"
+      ]
+    }
+  },
+  "Dominos": {
+    "616cfb68620f56f5f0767bf9397aaa1f": {
+      "fileSize": 68377,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Dominos.lua"
+      ]
+    },
+    "1850c01db380d2718644759a60b332bc": {
+      "fileSize": 6152,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\Dominos.lua"
+      ]
+    },
+    "03ea6cf75d60094a17df52ee37c37b33": {
+      "fileSize": 71607,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Dominos.lua"
+      ]
+    },
+    "39b24652381da0598d94990b4f94e24a": {
+      "fileSize": 84294,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Dominos.lua"
+      ]
+    }
+  },
+  "Gatherer": {
+    "ca79458de571f5c4fb95b932f3bc941a": {
+      "fileSize": 118561,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "08ca81087c076ef89bed16d4a25ed284": {
+      "fileSize": 74,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "d5e2995017fbd520509ff0e8b82a9f26": {
+      "fileSize": 7529,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\Gatherer.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "0d03e710ee97012717dee160becaa735": {
+      "fileSize": 4355,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "d8732ed3a738ed6e13b0d66347c35555": {
+      "fileSize": 4298,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "d756fb81c8b86929d2a8d5cb3d715d24": {
+      "fileSize": 237089,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "3ee8da72991dccf436e3590ac84b30a4": {
+      "fileSize": 981882,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "3435172517c1695a7a4e603fb426613c": {
+      "fileSize": 980784,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "75f880bdbc6713fdd51c20d16f371019": {
+      "fileSize": 835175,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "9edd9ad18aa0e26f45e04588c708f457": {
+      "fileSize": 964976,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "e03c4228ce2070f6d578a14c4e6339f9": {
+      "fileSize": 4313,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "e6066ef9417f155eefd18df99e7dbd92": {
+      "fileSize": 4313,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "b753845d6004593fe2a88c3c5fedec23": {
+      "fileSize": 983236,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "6b089efc7d7fbd80dfe3d1482c4dd264": {
+      "fileSize": 982824,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "4056c8ee6f593c704f37a28dde8f992f": {
+      "fileSize": 982825,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "1782694e512d65de506eb5c6ee006d64": {
+      "fileSize": 982824,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "313d4ba1040278af9ae4c5d4e43eaa8c": {
+      "fileSize": 985132,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "9feb2236c52cabea2cd303ebe833c92c": {
+      "fileSize": 1125112,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "7e656eaf5471fb7c91ba2afa21afc695": {
+      "fileSize": 982824,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "fe0a6b880a261287edbc7587131ad178": {
+      "fileSize": 985132,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "40590d2f56f193bf9dfd1e81127c5be4": {
+      "fileSize": 1196124,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "daad62b7ef5c095ff1d8199eb884bc15": {
+      "fileSize": 1272768,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "421a00be8dbed6276dc1ec114e5324ca": {
+      "fileSize": 985132,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "b917c688c907739b21f3c77b55ae4afa": {
+      "fileSize": 1295088,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "ea964937b4310017d363dd1fcee9adc4": {
+      "fileSize": 194716,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "76269bf33850cb93f4dfcce2b57422f7": {
+      "fileSize": 293534,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "dd46293185af67710262830df28f2c73": {
+      "fileSize": 293534,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "d806e791062118268a5ecf1053dc0d83": {
+      "fileSize": 617731,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "7c78b98517d51c427c6dbb0ece619c03": {
+      "fileSize": 668910,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\Gatherer.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "4c721b4cbeea062c62594cb58b1f5c1a": {
+      "fileSize": 780063,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "13658a6e960ae00d549ff873c0e6795a": {
+      "fileSize": 293534,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "ae1b1ba22501b5ad9a67474b0cf61aa1": {
+      "fileSize": 4313,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\Gatherer.lua"
+      ]
+    }
+  },
+  "Informant": {
+    "381185b62586f8d12f841c2f4eac2262": {
+      "fileSize": 451,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "eb03a6f6ccfc6a1c2ae4ff7f159b7fef": {
+      "fileSize": 192,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "ae7fe150950af617f32f691f23ba7169": {
+      "fileSize": 191,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "02eaa7612b0ee604ab582cf34dbfd1f8": {
+      "fileSize": 462,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "9bb08b6c7e42ee7179102a469bb51a4b": {
+      "fileSize": 192,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Informant.lua"
+      ]
+    }
+  },
+  "Recount": {
+    "db905e090359b636366ae5536d7e9e10": {
+      "fileSize": 4532,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "10efd6a5bd96adf64a299f09f7fc15f1": {
+      "fileSize": 148,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Recount.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Recount.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Argent Dawn\\Pankanoob\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Aszune\\Berlysucks\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthnoob\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthznoob\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "bf440b1603bb60ae0cd24fe8aa9d2b77": {
+      "fileSize": 679731,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "361be4e4972823216fa555e3230163e7": {
+      "fileSize": 751859,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "8d194f553b7bfa108bc4348f5aaedf7f": {
+      "fileSize": 45574,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "26ecdbb398daeb63e4116700a99dcaf8": {
+      "fileSize": 2953,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "6513e531af2f2ce77dcf0b7deec81c1e": {
+      "fileSize": 452,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\Recount.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "e9848595fd2611dfb3c329d822c63ded": {
+      "fileSize": 7411,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "a1ea6dda3e771f199cb46dfdbad0927b": {
+      "fileSize": 1159705,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amantka\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "e0c81ad4850c95f5df01f9c866fa815c": {
+      "fileSize": 3871,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "995af305e3604620ee8b52bb1186e7cb": {
+      "fileSize": 750476,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "62a4a1cb9317f952c14bac084bd55966": {
+      "fileSize": 2912,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Wildhammer\\Heflena\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "61a3fb1883785ded23394b99c96d1903": {
+      "fileSize": 4441,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "fe31b29887881838b22397f6c96c05e2": {
+      "fileSize": 4378,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "dcefa5d938d1a57c9beedb4c428ec349": {
+      "fileSize": 8666,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "b785494fdc5adf598f6dedd6ad2b0718": {
+      "fileSize": 532,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "86ec036823fae5ce8318ed442941e983": {
+      "fileSize": 8673,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "1d1f4df7de221474720275be22dd2c8d": {
+      "fileSize": 614,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "9ba52a25c878bc2b56d87f581823b941": {
+      "fileSize": 1206,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "be203e8486d75bfd6bd4a317402d50f7": {
+      "fileSize": 551,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "8ef40000c5e8c44913a7b39f314d6e75": {
+      "fileSize": 3117,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "ddd03c7ea912c0236914b91f8671172b": {
+      "fileSize": 3184,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "15af7c72de20a8a9458610d0c7d54063": {
+      "fileSize": 4649,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "b57cac87430a1801b4c1ed9b0cf8b4c9": {
+      "fileSize": 3624,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "44640cfe33d6a2784232d911df62524b": {
+      "fileSize": 3117,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "6245310b20a670e8d467cba59e21062a": {
+      "fileSize": 6146,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "e26edbf75dbec9934679f7f5b942fd41": {
+      "fileSize": 3624,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "2073c32ea189569c128fd4a52452f39f": {
+      "fileSize": 6719,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "2f91034af114023f17eb4167addaa7ef": {
+      "fileSize": 7827,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "ab71c310ba7cd1ab357092ff26d98d72": {
+      "fileSize": 3563,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "1bbb6b503ebe72b26f0a86315faba385": {
+      "fileSize": 7872,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "e662eee30fb184e58415d53cef28bf95": {
+      "fileSize": 621,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "ea58470117c168448c8e677045d0742c": {
+      "fileSize": 2468,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "7bb5d29ff2f2ebffdceb2cad7db63d2c": {
+      "fileSize": 2913,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "fde1e85ade14d8dca34174e8dd9f8844": {
+      "fileSize": 2912,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\Recount.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "fce1b810a34278a884e10851b1419084": {
+      "fileSize": 5263,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "3c8407043c34a6cfec98067e5a74bfb2": {
+      "fileSize": 529,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "602b9acd94c4749c742a618056481cba": {
+      "fileSize": 1173,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\Recount.lua"
+      ]
+    }
+  },
+  "ShadowedUnitFrames": {
+    "3e91080427fa2c8b3892f7bc77ed5513": {
+      "fileSize": 98856,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "6e27d721f5dff111cd80c9b22b10af92": {
+      "fileSize": 98882,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\ShadowedUnitFrames.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "eb5dde780d0d405e473f4823555ea5d8": {
+      "fileSize": 99154,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "f0801913e9e27adee57ef44dae4953fe": {
+      "fileSize": 75028,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "51f770e601d63573ca27f83476268ff6": {
+      "fileSize": 75086,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\ShadowedUnitFrames.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "991fa8bebd34f8e7a1ab8b982d88a066": {
+      "fileSize": 75278,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "e3d3a2d3224538a2509458c8d795c8e9": {
+      "fileSize": 71997,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    }
+  },
+  "SlideBar": {
+    "271f7e9720078c4ac535cf4e610337ad": {
+      "fileSize": 154,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\SlideBar.lua"
+      ]
+    },
+    "a17881908c1797680adefeaa7a5b34e6": {
+      "fileSize": 47,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\SavedVariables\\SlideBar.lua"
+      ]
+    },
+    "601e328a30d65a8353038e9ab6861e57": {
+      "fileSize": 95,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\SlideBar.lua",
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\SlideBar.lua"
+      ]
+    },
+    "8590920b2551eca5057bd4ae09c258f6": {
+      "fileSize": 154,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\SlideBar.lua"
+      ]
+    }
+  },
+  "Stubby": {
+    "96c5b8576af758b0aa1f0903cae8362e": {
+      "fileSize": 2154,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\SavedVariables\\Stubby.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\Stubby.lua"
+      ]
+    },
+    "9236dafce3e1a05f1362aafc4f808f80": {
+      "fileSize": 4245,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Stubby.lua"
+      ]
+    },
+    "96e025cfa368145371c695babb4994c6": {
+      "fileSize": 4245,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Stubby.lua"
+      ]
+    },
+    "2304a05c2a4595ee5855aaf549ec7ee7": {
+      "fileSize": 2154,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\Stubby.lua"
+      ]
+    }
+  },
+  "Blizzard_BattlefieldMinimap": {
+    "50de7af51458318bf56b6514d10f8dd3": {
+      "fileSize": 184,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "aafab0d938da7fe366f7390851b3e429": {
+      "fileSize": 102,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amantka\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "008000296a7fb971926cab247dd2b228": {
+      "fileSize": 118,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "c2dfd7b73a0bdaf9fefc1189ba712ca0": {
+      "fileSize": 118,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "60fe893aa1cea620bf09eb38805cc9f1": {
+      "fileSize": 118,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Emiru\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "5cca49173475750b1651969e0d47dc8b": {
+      "fileSize": 184,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "872af07ad90a0ab831dbbf6db5123e24": {
+      "fileSize": 200,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    }
+  },
+  "Blizzard_ClientSavedVariables": {
+    "e7251dc8c6403a8cb9668c09bcd2962b": {
+      "fileSize": 312,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Argent Dawn\\Pankanoob\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Aszune\\Berlysucks\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthnoob\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Sylvanas\\Korthznoob\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Amantka\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1606220#4\\Wildhammer\\Heflena\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Emiru\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Froynoob\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_ClientSavedVariables.lua",
+        "wow legion\\2017.08.08\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_ClientSavedVariables.lua"
+      ]
+    },
+    "3cb1218ff53293eb70dd64dd2b764226": {
+      "fileSize": 313,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_ClientSavedVariables.lua"
+      ]
+    }
+  },
+  "Blizzard_RaidUI": {
+    "b360aa27bf6d6bed514df7fcf8b06334": {
+      "fileSize": 63,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "e0567aaaca19567ab0fc3d3dd33f8f3f": {
+      "fileSize": 387,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "99c8f0688b5915b3e9d9d74f2466a8ea": {
+      "fileSize": 387,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "67f73b0daeba04b5b3e1f0bdf2654af8": {
+      "fileSize": 386,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "c1881ea64c8abf20f2f120b82f865a34": {
+      "fileSize": 549,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "a8fcfee8d34980d03ad145b23045007e": {
+      "fileSize": 225,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Icecrown PVP RP\\Vanya\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Icecrown PVP RP\\Vanya\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "2a95c0460e74a9b8ba2066ad1c7516a2": {
+      "fileSize": 385,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Sunwell\\Eilan\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Sunwell\\Eilan\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "3c24fb3a839d85af7b35315921388333": {
+      "fileSize": 549,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "ad336777f57deab9f0246a152b03989a": {
+      "fileSize": 385,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Selenya\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "9cd9f7c50cbb6776004d18635755a62a": {
+      "fileSize": 1031,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "e535101b392a8ed77686e9ef8968a522": {
+      "fileSize": 549,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "e7a2155b67a12968f0cabb89800a9d79": {
+      "fileSize": 385,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "e80ab6055a4260bc1d4c160b4ef96863": {
+      "fileSize": 387,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    },
+    "f7fe8df43592b59bc70e0c63abc3750a": {
+      "fileSize": 872,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua"
+      ]
+    }
+  },
+  "Blizzard_TimeManager": {
+    "7ac96f88276fe3633b9bbde206ae1b06": {
+      "fileSize": 35,
+      "files": [
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Brokenclaw\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Irrissa\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Okruszek\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1606220#4\\Tarren Mill\\Shockinghorn\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.01.21\\Account\\1615291#1\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\Blizzard_TimeManager.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\Blizzard_TimeManager.lua"
+      ]
+    }
+  },
+  "_NPCScan": {
+    "e508d56250aed141246478aace44a11f": {
+      "fileSize": 676,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\_NPCScan.lua"
+      ]
+    },
+    "a8d9ddde5d333ba41fa4c3561fac3b32": {
+      "fileSize": 682,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\_NPCScan.lua"
+      ]
+    }
+  },
+  "_NPCScan.Overlay": {
+    "558e48006b7f0b4fa5f182c67f6da3ee": {
+      "fileSize": 10164,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\_NPCScan.Overlay.lua"
+      ]
+    },
+    "d9950fd48b84a303141254e43294e48c": {
+      "fileSize": 10164,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\_NPCScan.Overlay.lua"
+      ]
+    }
+  },
+  "AckisRecipeList": {
+    "e7c0e591c9dd1e9d8909fa555c7970a1": {
+      "fileSize": 397,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "8288165cb69b84aab0b4c48cba7d3222": {
+      "fileSize": 421,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "b9eb64f1bc627f14bc38c2e39892f957": {
+      "fileSize": 2038,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "124bb7c1e7f1b3dfd913dcf33ddbd3fc": {
+      "fileSize": 3144,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1615291#1\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    }
+  },
+  "Auc-Advanced": {
+    "c8780dfb13173a704e1f48f12a4e6630": {
+      "fileSize": 1142,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    },
+    "2d1af160499337a21b8ef9b91576d7ba": {
+      "fileSize": 48,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\Auc-Advanced.lua",
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\Auc-Advanced.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\Auc-Advanced.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    },
+    "e480c92609bcac6fd4f3d1cb7a1b9c60": {
+      "fileSize": 998,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    }
+  },
+  "Auc-Filter-Basic": {
+    "e6378c0dd27f8bdfe2e96507bdd00380": {
+      "fileSize": 94,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Auc-Filter-Basic.lua",
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Filter-Basic.lua"
+      ]
+    }
+  },
+  "Auc-ScanData": {
+    "22a1934a029fd61c1738b32708d66150": {
+      "fileSize": 29334,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Auc-ScanData.lua"
+      ]
+    },
+    "6b09f231d0d66331d9d52f15744f09d9": {
+      "fileSize": 232,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-ScanData.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Simple": {
+    "b3cd6fcda8c7ebadbcafe096821d30e0": {
+      "fileSize": 237,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Auc-Stat-Simple.lua"
+      ]
+    },
+    "da43a0ddb65af4c4c5cc5f68e127e118": {
+      "fileSize": 80,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Stat-Simple.lua"
+      ]
+    }
+  },
+  "Auc-Stat-StdDev": {
+    "d18245929bf1c8e717ed684963698fd6": {
+      "fileSize": 980,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Auc-Stat-StdDev.lua"
+      ]
+    },
+    "e00ddcc8105057f26fa8c2fda94d149e": {
+      "fileSize": 80,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Stat-StdDev.lua"
+      ]
+    }
+  },
+  "Bartender4": {
+    "b4c2e4ab3ba82fc2442e3a2d25a3b364": {
+      "fileSize": 4918,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "bfcd747e0fa98deb93645d039764215a": {
+      "fileSize": 6494,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "2c89c8b762118faa641becfb0f0e52a2": {
+      "fileSize": 25252,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "b448c5770df18e44b01d0c5f72110105": {
+      "fileSize": 25252,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "798dfc9ff920195fe3f96614f7974691": {
+      "fileSize": 39911,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "91b83ca74efa98e35de7a0d9b2cc6ac6": {
+      "fileSize": 2906,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "35e61ef0893a37ab59788bf3138e0f05": {
+      "fileSize": 40841,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "44530c3a3562bb2643accdc0126add2e": {
+      "fileSize": 3144,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "92e44b299b1bdc0400cca7f9ab6e9976": {
+      "fileSize": 12693,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "bb6707e357da9da1ab043c6fd7e3ac43": {
+      "fileSize": 9698,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "bbc9c416fcc020aaa20f778d035cf2b4": {
+      "fileSize": 30468,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "abe9941f7c3452d8fbd4abdddfd9691d": {
+      "fileSize": 30468,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "645688eab4f8a5ff1b274ffb458a5150": {
+      "fileSize": 37508,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "49656ce4bee52e851d09bee4a0bd358e": {
+      "fileSize": 30437,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "527bb40d554c9c0b7c9d56774c4cb9f0": {
+      "fileSize": 30468,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "2d820b116cbc02d682ec252346343738": {
+      "fileSize": 48801,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "f3b7c6b86efe34a45e0eacfd8f63ebb7": {
+      "fileSize": 30437,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "1bb43afcb9563ebf835eb6cc2acb3d83": {
+      "fileSize": 30468,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "c70e2153cecf9384f429c7245afec393": {
+      "fileSize": 51193,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "a7a7f075954890df79ca33718a840650": {
+      "fileSize": 32820,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "e690032c61508f3d6ffa5b0571ed6989": {
+      "fileSize": 58347,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "54b0c044935020dad2eb57c233a7d570": {
+      "fileSize": 8950,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "1ae5b594f36c9115c0469f683f2c1436": {
+      "fileSize": 70132,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "d02a15b5d0bbcc1e8d08f3ed4b802873": {
+      "fileSize": 16641,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "f835e2f2aea009ae90613d77e0c4c321": {
+      "fileSize": 26708,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "7bd0e5f655c393ec6b73abba12349595": {
+      "fileSize": 42590,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "73d9f21e5f4252c0dc2d6381819575b6": {
+      "fileSize": 42590,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "accf2804991fc31abf09acc241bf0871": {
+      "fileSize": 10517,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "75b658cee24686a0b1a0043a61cf9d35": {
+      "fileSize": 10517,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\Bartender4.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "8d83dff60acc43a4774892161be9190f": {
+      "fileSize": 20036,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "394f9022888dae7877f267bfa838887a": {
+      "fileSize": 47382,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "2db4a8bbfdcdcb47653c98e682d19c41": {
+      "fileSize": 7534,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "4c807480217c3b4d1e176ad6e33b7780": {
+      "fileSize": 76485,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\Bartender4.lua"
+      ]
+    }
+  },
+  "DBM-Core": {
+    "22f39adf87c9daa0bb74782eb3cb9f0a": {
+      "fileSize": 7778,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "0d5e4ba7de5329c6fdabc95484c28290": {
+      "fileSize": 89,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Amancik\\SavedVariables\\DBM-Core.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\DBM-Core.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "6563a4199b273ce76ca813fdd7861cf8": {
+      "fileSize": 90,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "0c7b73b71717febbbdfc30e3515d2367": {
+      "fileSize": 7752,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "e9185e22fd5923b48357a32ce3fb9f57": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "047d36d65922842e6361632e07cdc7c2": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "6a318b6ac1b59f5436b36a502447cee5": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "0a79411bf769fcdf2b77806772202237": {
+      "fileSize": 2136,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "9397c5620065b828a1536948c410f8ef": {
+      "fileSize": 2788,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "978738e501e22f7fd613b63b7e9b5133": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "04ce08ef68945ce68e4d8d3892eac851": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "319ccdc4e3080d9f9a34ed8293a67855": {
+      "fileSize": 2035,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\DBM-Core.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "c3f5be41e4adb2cbf9fed58449d8827e": {
+      "fileSize": 2137,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "c976e62b7d4752518a8dddaf9cd9d5cc": {
+      "fileSize": 2337,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "b1fb47e5869d2c0065b1c8fac31f4426": {
+      "fileSize": 2397,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Core.lua"
+      ]
+    }
+  },
+  "DBM-PvP": {
+    "0523fd38b885fac9d0e838fad88c162c": {
+      "fileSize": 3177,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "06948b2f19a259fd45552c1ab91ffd9c": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "85aca4d489f86c59a4960455c33efedf": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-PvP.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "67aa8a896f577a25eca7e8f7736e933c": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "0bcd3190dcdc50caecb89812799a8e06": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "c03ff0f74933c881068adf5c3f5b0ef3": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-PvP.lua"
+      ]
+    },
+    "601d8df4380e85d55de71520380c4e9f": {
+      "fileSize": 1317,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-PvP.lua"
+      ]
+    }
+  },
+  "DBM-StatusBarTimers": {
+    "9801b58125b13f471b0c301ae60cd845": {
+      "fileSize": 283,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\DBM-StatusBarTimers.lua"
+      ]
+    },
+    "d914c071ffa78edcfc3ba2cd279c4cd1": {
+      "fileSize": 79,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\DBM-StatusBarTimers.lua"
+      ]
+    }
+  },
+  "Enchantrix": {
+    "14ee8224a177cf6346361efc2be87d1d": {
+      "fileSize": 182,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\SavedVariables\\Enchantrix.lua",
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "3596b30167336d922c139ce3fdb10e33": {
+      "fileSize": 35,
+      "files": [
+        "wow legion\\2016.03.28\\1606220#0\\Tarren Mill\\Heflena\\SavedVariables\\Enchantrix.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\Enchantrix.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Histogram": {
+    "a63bd2d00a29fdcb2e6088d2b59e15a4": {
+      "fileSize": 98,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Stat-Histogram.lua"
+      ]
+    }
+  },
+  "Auc-Stat-iLevel": {
+    "95d02e8b08ff0a79d827ec48dbb7b544": {
+      "fileSize": 81,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Stat-iLevel.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Purchased": {
+    "b99c51baeb2a651d336aa10be38a3f43": {
+      "fileSize": 83,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\Auc-Stat-Purchased.lua"
+      ]
+    }
+  },
+  "DBM-GarrisonInvasions": {
+    "7616aab4e5e53b70a245589566ec7a03": {
+      "fileSize": 7053,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\DBM-GarrisonInvasions.lua"
+      ]
+    },
+    "1508d1ef1796a7ed250ff581e8b1946d": {
+      "fileSize": 3047,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Mindblowing\\SavedVariables\\DBM-GarrisonInvasions.lua",
+        "wow legion\\2016.03.28\\1615291#0\\Tarren Mill\\Shardless\\SavedVariables\\DBM-GarrisonInvasions.lua"
+      ]
+    }
+  },
+  "RareSpawnOverlay": {
+    "325d83820a8812ca64008e3b0a9e3ee7": {
+      "fileSize": 262,
+      "files": [
+        "wow legion\\2016.03.28\\1615291#0\\SavedVariables\\RareSpawnOverlay.lua"
+      ]
+    },
+    "a1888e08b9822860e0210688cbb03ded": {
+      "fileSize": 262,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\RareSpawnOverlay.lua"
+      ]
+    }
+  },
+  "HandyNotes_LegionTreasures": {
+    "f73df86fa39757422b60827aa87c0e7b": {
+      "fileSize": 647,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\HandyNotes_LegionTreasures.lua"
+      ]
+    }
+  },
+  "HandyNotes": {
+    "2be6c1d0dc32c8280558e25e037d593d": {
+      "fileSize": 1218,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\HandyNotes.lua"
+      ]
+    }
+  },
+  "SilverDragon": {
+    "ac5873910ace1f1993c35b817e6bbc83": {
+      "fileSize": 46125,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\SilverDragon.lua"
+      ]
+    }
+  },
+  "WoWDBProfiler": {
+    "de972aa0090737c50295686824769256": {
+      "fileSize": 741791,
+      "files": [
+        "wow legion\\2017.08.08\\Account\\1606220#4\\SavedVariables\\WoWDBProfiler.lua"
+      ]
+    }
+  },
+  "DCoords": {
+    "3f2b01fa80a3426bcc536417669a6f45": {
+      "fileSize": 206,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Alard\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Arald\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Gaenna\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Irrissa\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Bohemian\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Bohemian\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\EU Arena-tournament.com 3.3.5\\Eilan\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Shameless\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Vanyaelnesar\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "95838ec9e03d8da491658bab9dd4639f": {
+      "fileSize": 206,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "cc55ac7e8889dfeb44d233f11536e2f3": {
+      "fileSize": 207,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Vudu\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Toopally\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\Feronis\\Trolljakuj\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Toopally\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Emiru\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Param\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Shothappens\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Amancik\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Emiru\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Param\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Shothappens\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "f0f7e09605e45b7e90e33a6688410f71": {
+      "fileSize": 217,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Calltoarms\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Calltoarms\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "7ed536e1b1f3e964b7bd46ce58f94ec1": {
+      "fileSize": 219,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "4f40ee0c3c6673f64e22b9d16e20d4ff": {
+      "fileSize": 219,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Poczta\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Poczta\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "0ae3c88b4c52870ab789263bc1454060": {
+      "fileSize": 219,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "7ad561521edd82490bb65d7bbbf74026": {
+      "fileSize": 214,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "b70abbb3686a2a91307c26c9698c3761": {
+      "fileSize": 219,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "6e37d703d2d95408549ce57ff59f4b39": {
+      "fileSize": 206,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Wife\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Rhapsody\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Wife\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "ac5fb59775badc3e276a11fd7817ff97": {
+      "fileSize": 220,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Cleavage\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Cleavage\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "141e1f46c76fe02905b43e5e702c494c": {
+      "fileSize": 218,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilan\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilan\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "99af84baa1974802b7aa5b13043df97a": {
+      "fileSize": 220,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilanka\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilanka\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "583722f7ca0cdba95dd68b2d388ec1a6": {
+      "fileSize": 212,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Goldmoon\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Mindblowing\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "bb909b76f4fbc83af2c4df08d001666e": {
+      "fileSize": 211,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Selenya\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Selenya\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "6b25c0925fc27803e76fc056c17c77f5": {
+      "fileSize": 219,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Icecrown PVP RP\\Vanya\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Icecrown PVP RP\\Vanya\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "367150d70cd0c62db2d210205e993ce8": {
+      "fileSize": 220,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Kastenar\\Eilan\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Kastenar\\Eilan\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "05ef55e091245c4d83e406d0ef5ab480": {
+      "fileSize": 213,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Sunwell\\Eilan\\SavedVariables\\DCoords.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Sunwell\\Eilan\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "ecd4fcb4111d576d7d0e2c9ff00e46f8": {
+      "fileSize": 214,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\DCoords.lua"
+      ]
+    },
+    "369ac4ded6533989ad90ea4a93191fd4": {
+      "fileSize": 212,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Stormrage\\Mindblowing\\SavedVariables\\DCoords.lua"
+      ]
+    }
+  },
+  "PowerAuras": {
+    "be07fd17d85e51399e2bc79c8e8c1cbe": {
+      "fileSize": 175979,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "e2d1010d16aede5ace2333a1d71c9765": {
+      "fileSize": 157968,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9e35929437b0d4d1ffdb237b573437a5": {
+      "fileSize": 227955,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "077ec140cf695573b851c02c264ae68d": {
+      "fileSize": 157729,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "44ac0dc77c50a4c6b70b12483413fa31": {
+      "fileSize": 158238,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Stormrage\\Dustbringer\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ebcdbddfaf59c3ef4fad083bb184816f": {
+      "fileSize": 157998,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\Stormrage\\Dustbronger\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "73e9f342950479947c1ac3a0bce6bfb8": {
+      "fileSize": 231873,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Gaenna\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ae266c0a294c8242cf826e0bd267d4de": {
+      "fileSize": 215007,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Irrissa\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "4dbe59b94f0d54f9dfb993aae3aee047": {
+      "fileSize": 233782,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "84cfcdd444a9c90cd8a102ede172971a": {
+      "fileSize": 210152,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Vudu\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ca4852d2d84947d0378dde38a796680b": {
+      "fileSize": 157760,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "67669849a2135d92bdb56ac76b06abd2": {
+      "fileSize": 18506,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Bohemian\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Bohemian\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "e95130be8f8f9535eedac7d34608e33a": {
+      "fileSize": 48626,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9fcd73c268bee4d9d83cd66351c29c24": {
+      "fileSize": 445,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Poczta\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Poczta\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "d7cea4903a1b18fbcfd3f41a8e9cafbe": {
+      "fileSize": 30454,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Puszek\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "851f13b73431b4ab650b544e96e33c1e": {
+      "fileSize": 45578,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "eff7f7ea3ba5bd83d70c057e894f96cd": {
+      "fileSize": 67142,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "fcf4e04af694c8883d4952e4ca68fce8": {
+      "fileSize": 3105,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9e590e210170fdfa275d827fd43a0b9c": {
+      "fileSize": 3105,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Wife\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Wife\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "0916de692cc6ca69cb1b65d110c013df": {
+      "fileSize": 60664,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Cleavage\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "92531bf651a6e4717cdbf5ac0f7da09f": {
+      "fileSize": 76062,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "5cafd78c656c74f7caf0ef0229be0908": {
+      "fileSize": 48580,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilanka\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilanka\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "79acfea89e18d2817167243e95f4ea55": {
+      "fileSize": 70273,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "bc370cf9feb404cf9b9c5cc1741e243e": {
+      "fileSize": 45578,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "76bed4bf473a834aa2823efaef1b6822": {
+      "fileSize": 45578,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Selenya\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Selenya\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "49c28cbff9b860adb6d535551a7d0974": {
+      "fileSize": 57571,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Toopally\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Toopally\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "360f96c3d6d87b738064d473f4020b59": {
+      "fileSize": 45578,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Blablablabla\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9d2c284db4af90246217470a7f7ffa0f": {
+      "fileSize": 78187,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "b143ec1981acd44b726ea523b08de11a": {
+      "fileSize": 45578,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Tralalala\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "753cb9caa6047901015fe3678edbb1a4": {
+      "fileSize": 48524,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Kastenar\\Eilan\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Kastenar\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "08b5e22744f17e08e2c4ddd6d1b9817c": {
+      "fileSize": 45366,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "c14af6d09e7256d6b2719d25b19176eb": {
+      "fileSize": 3105,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Sunwell\\Eilan\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Sunwell\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "8c4bcfb921320321893f16570a21f5f9": {
+      "fileSize": 476,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\Feronis\\Trolljakuj\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\EU Arena-tournament.com 3.3.5\\Eilan\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Shameless\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "f6e1a18487ef8e1acc610e4df9db4504": {
+      "fileSize": 260,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "10df048c5c326e554ad88af7c38bec2b": {
+      "fileSize": 48571,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "1a34832d969946fc9c201e1a333ba252": {
+      "fileSize": 74660,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "e38f0ad8f33abeccbff6612501ba7e8e": {
+      "fileSize": 63657,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Cleavage\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "60ebb431d7e471578b7480bc2df9fecc": {
+      "fileSize": 80855,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "4169fb63e62a66bb810b6b652cc123bc": {
+      "fileSize": 94889,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a039d7c3ac1ffe23561e72a23e071062": {
+      "fileSize": 48024,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a1083abe2b3f7575bec7f7e897ff11de": {
+      "fileSize": 89204,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "f923ad6545d7a41537e9f4f8a64d8dd6": {
+      "fileSize": 47812,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "d567d36a03f108308dc5c7c3842ebae3": {
+      "fileSize": 48571,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Stormrage\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ae4ea5e8e8204e671e5d3b7012f31a0a": {
+      "fileSize": 476,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "d5432c6a5bbc65188aa980a01defdfc5": {
+      "fileSize": 197649,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a608ae633717700efab63569e6de8571": {
+      "fileSize": 198102,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a0cb5798e0b0c49ed81675976575f1f3": {
+      "fileSize": 197807,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9427ab9fce4f613683f7352d1b2f99e5": {
+      "fileSize": 151506,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ba17931bd211fb737c57f925239358ca": {
+      "fileSize": 151745,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\Feronis\\Gaenna\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "e74308963ed4eec4f822f744fc72b7c6": {
+      "fileSize": 198302,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\Feronis\\Irrissa\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "f646220f30adad3941d891a41ca8437a": {
+      "fileSize": 213128,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a3654247f667a81619d79f12a4ea50c2": {
+      "fileSize": 151744,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\Feronis\\Vudu\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "079c095c6b56cf5fa4cc6463704c3b89": {
+      "fileSize": 162452,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "90e54b3d8f4e7e7d69d01ae953501416": {
+      "fileSize": 197879,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "65468957f89fbf875a6af5f4c1014d0a": {
+      "fileSize": 213816,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "4017e46ac80740799eb96fa31c0499be": {
+      "fileSize": 151903,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "efb2783434c370f22454b223607f908d": {
+      "fileSize": 161581,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "7939021427e4aa74ed3bd241a72d5b48": {
+      "fileSize": 204337,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "823824cb98ab2d54fc9c64ab4339855b": {
+      "fileSize": 151540,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "1b56d02762265723a231a7321a324278": {
+      "fileSize": 195731,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Alard\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "2dbaa26b821727482471bb1b3eb73554": {
+      "fileSize": 197560,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "52246b3e9691f02c6f02094a4bd8e326": {
+      "fileSize": 195716,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Arald\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "6f3d29bc9ec01f6cd1492941dc716f3e": {
+      "fileSize": 151970,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Heflena\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Heflena\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Heflena\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Heflena\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "64b4dba7b8fcab29a056a949a7be39ad": {
+      "fileSize": 149921,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "6662b534755f172891eb1e8035419289": {
+      "fileSize": 212828,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "945eecaf30ba0095693b92476d805ffc": {
+      "fileSize": 207510,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Emiru\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ad38fdf8cff21fb9c4ace05319e49cfe": {
+      "fileSize": 157661,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a3c4835be4969e99da4c33e941b0543f": {
+      "fileSize": 206363,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "78abe0917af8ab39e7b9ae7d018fd151": {
+      "fileSize": 151712,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "4299deecc4c8237fcf9b0669c9945a07": {
+      "fileSize": 157459,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "020e52e50ae81d28959a23e24f19424b": {
+      "fileSize": 203869,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "c7f061e9bdbb48438cc210fce566524c": {
+      "fileSize": 151510,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "ea632257ab06f6fe23721bd3bcffdf21": {
+      "fileSize": 150153,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Thornstar\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "2431f683678695e725e1a416b7ea8e93": {
+      "fileSize": 149921,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "2308c8fbc4193d81201666e91cc9e8e6": {
+      "fileSize": 209617,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9e4daee7838cd48f2ab7f3b5ccf578f6": {
+      "fileSize": 193639,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Emiru\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "93a82fb5413d3b8c4a441f1f25b55cee": {
+      "fileSize": 206755,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "efe831de8180a16ebda1b0df7d8575ac": {
+      "fileSize": 204611,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "b15b1bc06628aa3cf7a62f0fbba56a27": {
+      "fileSize": 154714,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "881c92062c7ea5c913f8b94ddc62fc69": {
+      "fileSize": 154482,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "f8515bb1900d4452ed4c6bcdc6f6b27c": {
+      "fileSize": 150153,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\Feronis\\Dusst\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "b641baaf0ec6f474bee567c33611bc90": {
+      "fileSize": 149921,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "7d707a11b811c1382998a4e309c1a0a3": {
+      "fileSize": 210760,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "70ec88625f6cb5b89ad627243d55adf9": {
+      "fileSize": 194088,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Emiru\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "cf504d665a7ff42544ec1784bb226b4a": {
+      "fileSize": 211148,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "7e34d87d0358004d0059ac2262c63639": {
+      "fileSize": 204619,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9a21f24fc44d49e63b06f39d742a9efc": {
+      "fileSize": 154716,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a25b775a36e1cf0d1865d776230d558f": {
+      "fileSize": 206893,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Shardless\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "9c2ff85c50dedf7a4ccafa3155ab9a21": {
+      "fileSize": 154632,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "f6a713f0b34302448a4aa32e6f24b11d": {
+      "fileSize": 209820,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Eilan\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "a097d3408e61c896a19e46836bafd053": {
+      "fileSize": 193973,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Emiru\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Emiru\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "01e6e103e6bf13ce3ee62ddc74a004b5": {
+      "fileSize": 154829,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "cbd6ad70e109bc4df8669d4c38044e3c": {
+      "fileSize": 211828,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "3525440a73fc8a4d569373985d01b10e": {
+      "fileSize": 203917,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Mindblowing\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "4c3ef3caba6121084b1c308414933a30": {
+      "fileSize": 154848,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Param\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Param\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "8522a9fa1c9a4a92e807612d1764604b": {
+      "fileSize": 154848,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "bf8ccecd7a8bf1f17e1153d3c39a7f2e": {
+      "fileSize": 154845,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "46e6a6a28857c8f1a89a089b53dd2a16": {
+      "fileSize": 206815,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Shardless\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Shardless\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "8389acc0e2bf6edc97ae0a73e88a1129": {
+      "fileSize": 155474,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Shothappens\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Shothappens\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "cc2173a7d18af59ed261ef3733db7a46": {
+      "fileSize": 154614,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\PowerAuras.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\PowerAuras.lua"
+      ]
+    },
+    "7ec5000056cd1a04e607415f5afc1e86": {
+      "fileSize": 9489,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua"
+      ]
+    }
+  },
+  "AtlasLoot": {
+    "efce0b3fc06896e15dc73815ea6047a1": {
+      "fileSize": 18691,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "e17e10ad9ce3d417fe3229a04534d292": {
+      "fileSize": 19159,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "7a0daf723cfbc9b78c06d754594c40a6": {
+      "fileSize": 2790,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "8c9731046e9bf194dc082cf28792a6d7": {
+      "fileSize": 3009,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a31e3c667e68bff60ba108c673ce2c36": {
+      "fileSize": 19868,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "e48da7754837747a65cc13f89c8439d8": {
+      "fileSize": 19868,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "06077b28350d6201c0d82323e9cdbb63": {
+      "fileSize": 20867,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "4a14d224d80557e92fc5a3b4b135a1b4": {
+      "fileSize": 19868,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "608171525a78b768c8d26702f8de7eb7": {
+      "fileSize": 19868,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "351fc0d6992384b82c102cc4a9e785cc": {
+      "fileSize": 3042,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Emiru\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Emiru\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Emiru\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "71c29802e9f85142bff428482d1a7cea": {
+      "fileSize": 30415,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "cf64e58d49882073dd1730055787110c": {
+      "fileSize": 19868,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "8325482e48685da59673e834e1a3b4a3": {
+      "fileSize": 3042,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Emiru\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Emiru\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a6d4ac9ab711657e3100743b44c9f1f5": {
+      "fileSize": 36717,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a51cc9d2d809ed5ac1f323b1372fbed8": {
+      "fileSize": 42835,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "6fdd58a944e59695fa1de90cbd038a60": {
+      "fileSize": 3042,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Icewallow\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "4c4d1a15d6c4088169db69a4d9f08d35": {
+      "fileSize": 44218,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a9552040ea3c141383576ecd835d3c29": {
+      "fileSize": 2747,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "8d93ec13a1a969a6f4f9101afdd3bf28": {
+      "fileSize": 4826,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "4c2093a51ce2dc4602662fbf1971092c": {
+      "fileSize": 4826,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a31f208f7e94a1a551f2c584d535a7cf": {
+      "fileSize": 19132,
+      "files": [
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "160f9eadf7da42cf84051da0dbd65330": {
+      "fileSize": 19132,
+      "files": [
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\AtlasLoot.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "9c533295af426af327921dfeb45dd9bf": {
+      "fileSize": 24259,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "d4a565b91c0962eed6379d46b2569b57": {
+      "fileSize": 5504,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "712ba8478b34e8b63f018540029d2ca6": {
+      "fileSize": 2508,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\AtlasLoot.lua"
+      ]
+    }
+  },
+  "ButtonFacade": {
+    "f0e245cd23228d6faeb0f7749657c5e6": {
+      "fileSize": 1021,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\ButtonFacade.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\ButtonFacade.lua"
+      ]
+    }
+  },
+  "Chatter": {
+    "4a0902256645f865ec939c61eb5b5c27": {
+      "fileSize": 16738,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "115d113ffc1e99a975df13f1c5438099": {
+      "fileSize": 16738,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "0d87cea3367705483f91df1875cea791": {
+      "fileSize": 3450,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "ceb1ec718a86a22a35ebd76d5e2006fd": {
+      "fileSize": 324711,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "cb9f495333ac4b498c032eda2385098c": {
+      "fileSize": 329691,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "3b86c907ab4c43db2f9b602e955b14e9": {
+      "fileSize": 329666,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "0e410e8a54d6fd04ad82f45f251b4fbe": {
+      "fileSize": 320374,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "3f71c2f8fa8dc996362c5076e57c33ad": {
+      "fileSize": 325010,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "29438da761dccffffe4aad26a03669fc": {
+      "fileSize": 633915,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "747af2c7fdd4370aacd2bdb8ec256ea8": {
+      "fileSize": 320374,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "6e0b4b37e9f8483c566ed5c307359b63": {
+      "fileSize": 325630,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "68c201269bbca7c6f0625354962e32ca": {
+      "fileSize": 704258,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "28315218d4ad4299f086b65bb5ab66fc": {
+      "fileSize": 325756,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "4925e6409cc990b3af71ce65cd51a064": {
+      "fileSize": 835981,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "8a7a85dcbd30eb94beac00d5babb128c": {
+      "fileSize": 325789,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Chatter.lua"
+      ]
+    },
+    "957d45871c6c5fa808215442659d68e1": {
+      "fileSize": 932658,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Chatter.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Chatter.lua"
+      ]
+    }
+  },
+  "Gladius": {
+    "5a7a566d7b23ada1a8a973645cba0de4": {
+      "fileSize": 3286,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "d07501c5ad24e2fac60f075eb3327721": {
+      "fileSize": 3286,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "d4bb05d16e5f33d61378215fa2ef4a9a": {
+      "fileSize": 5048,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "acd229ca210547c26e1f1ed94d98de39": {
+      "fileSize": 248,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "2c56fe83e26fdea0535abb8dabbf07f6": {
+      "fileSize": 4715,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "5f82fd8a6ee487b8ef94241cf9cfaa7f": {
+      "fileSize": 276,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "5518700a7d9840bdf4cdebfcbe3f93f3": {
+      "fileSize": 604,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "18f79c239f3bb3460859c6b05a26ba3f": {
+      "fileSize": 174,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "e9f64c9f5f888019be2a1d52c609e85c": {
+      "fileSize": 2073,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "69af5d5c26e0ed4707b9ed18f42fcc48": {
+      "fileSize": 2095,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "8f4527e033a9efa7f7f85cb6be0c5013": {
+      "fileSize": 2215,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "7f9556718c27be45729a6c6aab1d4420": {
+      "fileSize": 2073,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "51fb6080409b449d30a0c762be439786": {
+      "fileSize": 3603,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "d36aa03b051c1af58f9886e5147122a0": {
+      "fileSize": 2073,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "baafb9ed8cc64f9726aafe07c65282c6": {
+      "fileSize": 3816,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "8a8f67e1afb9262d68bfddb27804761f": {
+      "fileSize": 4129,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "ee5bcf5e00fa1a21480d1b92988bd087": {
+      "fileSize": 148,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\Gladius.lua"
+      ]
+    },
+    "9269d85b9489b8626c5644b0933611bc": {
+      "fileSize": 4578,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Gladius.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Gladius.lua"
+      ]
+    }
+  },
+  "MoveAnything": {
+    "4fc2c1e43b2237b08da45a10a835cd5e": {
+      "fileSize": 3325,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\MoveAnything.lua"
+      ]
+    },
+    "895e8b0a74aaf911ea47525e8f8f84fc": {
+      "fileSize": 3325,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\MoveAnything.lua"
+      ]
+    },
+    "009e8d8c4c0c74e2c9c0ddff8c81bf20": {
+      "fileSize": 202,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\MoveAnything.lua"
+      ]
+    },
+    "a74368242365fde065d46f719ea4d072": {
+      "fileSize": 3325,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\MoveAnything.lua"
+      ]
+    },
+    "830fce581f9a16fc27c0f87df4021c8c": {
+      "fileSize": 3325,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\MoveAnything.lua"
+      ]
+    },
+    "2550b20464d381df93794edcab6ca907": {
+      "fileSize": 3325,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\MoveAnything.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\MoveAnything.lua"
+      ]
+    }
+  },
+  "Omen": {
+    "50d33776cfc038c84dbcf084802564d9": {
+      "fileSize": 687,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "847858c9075c7e7c215b36c2c3bb4eb4": {
+      "fileSize": 688,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "65fcd41abbcbd430623707ded92f28c1": {
+      "fileSize": 1165,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "45213bb1c173d11bb74303e4c7168f51": {
+      "fileSize": 239,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "059fb3ed937cc7ccde9a56836a132740": {
+      "fileSize": 1141,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "87f730ac99a53a41bade2ac7408a34cc": {
+      "fileSize": 362,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "18ca1c9c109f690d812d47e017e84669": {
+      "fileSize": 302,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "ce59bfe48999637b6b6c6ef46006ecf8": {
+      "fileSize": 305,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "b4c50c5f21e67b3777b9d86f846508db": {
+      "fileSize": 229,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Omen.lua"
+      ]
+    },
+    "6d13a4a61624f703606d7d139f64c758": {
+      "fileSize": 558,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Omen.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Omen.lua"
+      ]
+    }
+  },
+  "Quartz": {
+    "1b494e793e4b69bc5162f19dfb5eafd9": {
+      "fileSize": 4453,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "1d764cfff736c4fd28ceb0f07df199af": {
+      "fileSize": 5028,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "d486978fd84345c3bb1bfc3b7eb991f8": {
+      "fileSize": 802,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "d99919a9470bce818c87ea4b0c53153f": {
+      "fileSize": 4584,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "51b84131a0e5c691bb471abad40a78e9": {
+      "fileSize": 4584,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "347e986bb0ba969d4d79a999bf58abd0": {
+      "fileSize": 4701,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\Quartz.lua"
+      ]
+    },
+    "9739cc4a3fa66cec926e183ae27133ef": {
+      "fileSize": 4584,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\Quartz.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\Quartz.lua"
+      ]
+    }
+  },
+  "TidyPlates_CleanPlates": {
+    "e0faeab81d857ddbf62477b94a584d33": {
+      "fileSize": 2400,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "ee0f6769600d50c40601c32eac192eb4": {
+      "fileSize": 2400,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "236773d6e2e50f8e0f0da751c12082ee": {
+      "fileSize": 869,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "a575b522abce8b4000c55899adaa8a1c": {
+      "fileSize": 158,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "98ceec2d70d6d7bef2eac10ab75614b0": {
+      "fileSize": 856,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "c7f26f314b79cb114d4264f2b4274438": {
+      "fileSize": 209,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "47c645c0f53dcdb7116d99a31cda4125": {
+      "fileSize": 221,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\RHAPSODY\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "e234bc181dc5db5ca9e8697fd17180a3": {
+      "fileSize": 146,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "56c2a32642cd4900e5ce4f898411979e": {
+      "fileSize": 2661,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "a8069bb0ce79e5098203313ac27a3228": {
+      "fileSize": 2661,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "889eaded7b7e78e388b8ee73a0363a40": {
+      "fileSize": 2919,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "fcb7d4262d92e60223a8da01f4e60725": {
+      "fileSize": 2741,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "634820f4745770effcaf2383d7a45238": {
+      "fileSize": 3082,
+      "files": [
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "4969de850359887a5d7a8b5851d0fd0f": {
+      "fileSize": 3171,
+      "files": [
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "786f39b66c80e87f45afab9af99f9231": {
+      "fileSize": 3361,
+      "files": [
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "59b58303681540f9fbad13ef3dd029e8": {
+      "fileSize": 143,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    },
+    "cd6c0fc4a27303eecdf2e136a11d14e8": {
+      "fileSize": 3702,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\TidyPlates_CleanPlates.lua"
+      ]
+    }
+  },
+  "TipTac": {
+    "1d7a7a4ebb874cf96588d239fce3871d": {
+      "fileSize": 1883,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\ARALD\\SavedVariables\\TipTac.lua"
+      ]
+    },
+    "d11f027ebe3d2e6148bf4dd1cd1967ea": {
+      "fileSize": 1883,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\SavedVariables\\TipTac.lua"
+      ]
+    },
+    "eeebf81843218bcf421b1853c1c44823": {
+      "fileSize": 198,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\TipTac.lua"
+      ]
+    },
+    "5f6e7a609a6bb41379b4b2b1c21a7b58": {
+      "fileSize": 1883,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\TipTac.lua"
+      ]
+    },
+    "f33bb4f2337fda0b5f70afd9ff51a9bd": {
+      "fileSize": 1883,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\TipTac.lua"
+      ]
+    },
+    "1464fcc843a26d885901596afe93d80c": {
+      "fileSize": 1883,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\TipTac.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\TipTac.lua"
+      ]
+    }
+  },
+  "ClassPortraits": {
+    "80f8528dc6a1bec4cccfc4df14a51dee": {
+      "fileSize": 213,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Gaenna\\SavedVariables\\ClassPortraits.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Irrissa\\SavedVariables\\ClassPortraits.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Thornstar\\SavedVariables\\ClassPortraits.lua",
+        "wow wotlk\\WTF\\2012.12.18\\AUTIOCH\\Feronis\\Vudu\\SavedVariables\\ClassPortraits.lua"
+      ]
+    }
+  },
+  "TidyPlates": {
+    "a5998bf0c4028b90460897a0c557e07d": {
+      "fileSize": 106,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Blablablabla\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Gamer-District 7x\\Tralalala\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KAROLINA\\Feronis\\Trolljakuj\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\MINDBLOWING\\EU Arena-tournament.com 3.3.5\\Eilan\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\SOREN619\\Feronis\\Kerlic\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Heflena\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Heflena\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Heflena\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Param\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Heflena\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Fssegfd\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Goldmoon\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Param\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Paramtwo\\SavedVariables\\TidyPlates.lua"
+      ]
+    },
+    "62343fec9c5c8a8f9bf40c02aef96722": {
+      "fileSize": 107,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilan\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Cleavage\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilan\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\Feronis\\Thornstar\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\Feronis\\Thornstar\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\ARALD\\Feronis\\Thornstar\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\ARALD\\Feronis\\Thornstar\\SavedVariables\\TidyPlates.lua"
+      ]
+    },
+    "47706547e1f71e6a044919d008704610": {
+      "fileSize": 102,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\Feronis\\Rhapsody\\SavedVariables\\TidyPlates.lua"
+      ]
+    }
+  },
+  "Necrosis": {
+    "2db8e86d21a53dbccc77d268d3b9ae55": {
+      "fileSize": 4614,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\Necrosis.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyaelnesar\\SavedVariables\\Necrosis.lua"
+      ]
+    },
+    "2a367d83794743dfeb980b254ee838c2": {
+      "fileSize": 4055,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\Necrosis.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Bloodcraft Blizz Clone\\Vanyally\\SavedVariables\\Necrosis.lua"
+      ]
+    },
+    "12246f12779d801cb1cd5efbf024761e": {
+      "fileSize": 4055,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Feronis\\Eilan\\SavedVariables\\Necrosis.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Feronis\\Eilan\\SavedVariables\\Necrosis.lua"
+      ]
+    },
+    "81f26ce8455d187119b833923f46930b": {
+      "fileSize": 4327,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Icecrown PVP RP\\Vanya\\SavedVariables\\Necrosis.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Icecrown PVP RP\\Vanya\\SavedVariables\\Necrosis.lua"
+      ]
+    },
+    "f4c435959b42fa49fe79e6c20483bacd": {
+      "fileSize": 4263,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\Sunwell\\Eilan\\SavedVariables\\Necrosis.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\Sunwell\\Eilan\\SavedVariables\\Necrosis.lua"
+      ]
+    }
+  },
+  "TidyPlates_ThreatPlates": {
+    "2e5f3540430cf9d8853e2912b8a294bf": {
+      "fileSize": 1782,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.18\\EILAN\\SavedVariables\\TidyPlates_ThreatPlates.lua",
+        "wow wotlk\\WTF\\2012.12.18\\KASUMI\\SavedVariables\\TidyPlates_ThreatPlates.lua"
+      ]
+    }
+  },
+  "SnowfallKeyPress": {
+    "248de02a271786d871da0212f52775a7": {
+      "fileSize": 20658,
+      "files": [
+        "wow wotlk\\WTF\\2012.12.20\\ARALD\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2012.12.20\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2012.12.20\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2012.12.20\\SOREN619\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.04.18\\ARALD\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.04.18\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.04.18\\SOREN619\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.06.06\\ARALD\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.06.06\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.06.06\\SOREN619\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.10.06\\ARALD\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KAROLINA\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2013.10.06\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.01.16\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KASUMI\\SavedVariables\\SnowfallKeyPress.lua"
+      ]
+    },
+    "15455920f4742e216b81f8ba94654cf9": {
+      "fileSize": 20414,
+      "files": [
+        "wow wotlk\\WTF\\2016.01.16\\KAROLINA\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.08.09\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.08.20\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2016.11.29\\KAROLINA\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.08.08\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.10.08\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.10.19\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\SnowfallKeyPress.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\SnowfallKeyPress.lua"
+      ]
+    }
+  },
+  "OmniCC": {
+    "4a784c2ef112b4f1ec5bb5d373d0b179": {
+      "fileSize": 117,
+      "files": [
+        "wow wotlk\\WTF\\2016.08.09\\ARALD\\SavedVariables\\OmniCC.lua",
+        "wow wotlk\\WTF\\2016.08.20\\ARALD\\SavedVariables\\OmniCC.lua",
+        "wow wotlk\\WTF\\2017.11.05\\ARALD\\SavedVariables\\OmniCC.lua"
+      ]
+    },
+    "8cb34b933c8d851b3e758efc63d26940": {
+      "fileSize": 56,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\SavedVariables\\OmniCC.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\OmniCC.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\SavedVariables\\OmniCC.lua"
+      ]
+    }
+  },
+  "DBM-Coliseum": {
+    "196c2bb082b0ba43099354ed0022d63f": {
+      "fileSize": 6017,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Coliseum.lua"
+      ]
+    },
+    "7d33865553a33abe67387629d656fd43": {
+      "fileSize": 6016,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Coliseum.lua"
+      ]
+    }
+  },
+  "DBM-Icecrown": {
+    "cc48e0f394f1bdcf5a51690db7624588": {
+      "fileSize": 16998,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Icecrown.lua"
+      ]
+    }
+  },
+  "DBM-Ulduar": {
+    "8014c181ab2e65e139229955f65fcd68": {
+      "fileSize": 12113,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Ulduar.lua"
+      ]
+    }
+  },
+  "DBM-VoA": {
+    "7c98db2df8dc4feafd2d302ce5a00e37": {
+      "fileSize": 1581,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-VoA.lua"
+      ]
+    }
+  },
+  "DBM-WorldEvents": {
+    "5a26315fa2e323e45c4b73008d7bb2ef": {
+      "fileSize": 65,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-WorldEvents.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-WorldEvents.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-WorldEvents.lua"
+      ]
+    }
+  },
+  "Scrap": {
+    "1f74d8934e4c700aa67ffe70066e3c42": {
+      "fileSize": 21,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Scrap.lua",
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Scrap.lua"
+      ]
+    },
+    "f76083c981d904115baf78c9cbfabdf0": {
+      "fileSize": 49,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Scrap.lua"
+      ]
+    },
+    "138d19cbc933a54b0adf103b3ed35def": {
+      "fileSize": 47,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Scrap.lua"
+      ]
+    }
+  },
+  "FishingBuddy": {
+    "b9a36e1ee45b669ebf6dd775cfde2bd7": {
+      "fileSize": 77088,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\FishingBuddy.lua"
+      ]
+    }
+  },
+  "Genie": {
+    "ab5e5b0734b6e6217347435bc77ee4a4": {
+      "fileSize": 11547,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\AUTIOCH\\SavedVariables\\Genie.lua"
+      ]
+    },
+    "fa60b088825ce393bea1748383bdf331": {
+      "fileSize": 3508,
+      "files": [
+        "wow wotlk\\WTF\\2017.11.05\\EMIRU\\SavedVariables\\Genie.lua"
+      ]
+    }
+  }
+}

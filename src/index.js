@@ -1,33 +1,25 @@
-require('app-module-path').addPath('.');
+require('app-module-path').addPath(__dirname);
+require('qb-log')('simple');
 
-const Bluebird = require('bluebird');
-const qbLog = require('qb-log')('simple');
+const tools = ['setup', 'addons', 'config', 'macros'];
 
-// const { join } = require('path');
-// const addon = require('./addon');
-// const config = require('./config');
-// const macro = require('./macro');
+const cliOptions = tools.reduce((obj, tool) => Object.assign(obj, {
+  [tool]: {
+    'default': false,
+    type: 'boolean'
+  }
+}), {
+  dir: {
+    // 'default': '.',
+    'default': require('path').join('e:', 'projects', 'wow configs'),
+    type: 'string'
+  }
+});
 
-// const backupDir = join('e:', 'projects', 'wow configs');
+const { argv } = require('yargs').options(cliOptions);
 
-// macro(backupDir).then(() => config(backupDir)).then(() => addon(backupDir));
-// macro(backupDir);
+const steps = tools
+  .filter((tool) => argv[tool])
+  .map((tool) => () => require(`./${tool}`)(argv.dir));
 
-// config(backupDir);
-
-// addon(backupDir);
-
-const downloadIcons = require('./downloadIcons');
-const downloadSpells = require('./downloadSpells');
-const summarizeAddons = require('./summarizeAddons');
-const summarizeConfig = require('./summarizeConfig');
-
-return [
-  downloadIcons,
-  downloadSpells
-
-  // summarizeAddons,
-  // summarizeConfig
-]
-  .reduce((prevPromise, step) => prevPromise.then(step), Bluebird.resolve())
-  .catch((err) => qbLog.error(err.message));
+require('utils').waterfall(steps);
