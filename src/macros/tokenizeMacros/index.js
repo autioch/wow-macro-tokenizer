@@ -1,9 +1,9 @@
 const parseLine = require('./parseLine');
-const { saveJson } = require('../../utils');
+const { saveJson, outputRoot } = require('utils');
 const { flattenDeep, uniq, pick, uniqBy } = require('lodash');
-const { join } = require('path');
+const { join, relative } = require('path');
 
-const APP_DATA_PATH = join('..', 'src', 'macro', 'tokenize', 'app', 'src');
+const APP_DATA_PATH = join(relative(outputRoot, __dirname), 'app', 'src', 'data');
 
 function tokenizeMacro({ icon, label, occurences, lines }) {
   return {
@@ -81,6 +81,6 @@ module.exports = function tokenize(macros) {
     .then(() => saveJson({
       lines: uniqLines,
       summary: getSummary(uniqLines)
-    }, join(APP_DATA_PATH, 'data')))
+    }, APP_DATA_PATH))
     .then(() => parsed);
 };

@@ -37,6 +37,7 @@ module.exports = function tagger(macros, tags) {
   const tagged = macros.map((macro) => setMacroTags(macro, tags));
   const otherTagId = tags[tags.length - 1].id;
 
+  console.log(Array.isArray(tagged));
   tagged
     .filter((macro) => !macro.tags.length)
     .forEach((macro) => {

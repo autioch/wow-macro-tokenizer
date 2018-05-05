@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-const { findFiles, readFile } = require('utils');
+const { findFiles, readFile, macroFactory } = require('utils');
 const { flattenDeep } = require('lodash');
 const luaParse = require('luaparse');
 
@@ -30,7 +30,7 @@ function parseLua(fileContents) {
 
   return luaParse
     .parse(lines).body[0].init[0].fields
-    .map((field) => ({
+    .map((field) => macroFactory({
       label: parseText(findValue(field, 'name')),
       lines: parseText(findValue(field, 'macro')).split('\n').map((line) => line.trim())
     }));
@@ -38,5 +38,5 @@ function parseLua(fileContents) {
 
 module.exports = () => findFiles(__dirname, '*.lua')
   .map((fileName) => readFile(fileName))
-  .map((fileContents) => parseLua(fileContents))
+  .map(({ fileContents }) => parseLua(fileContents))
   .then((parsedFiles) => flattenDeep(parsedFiles));

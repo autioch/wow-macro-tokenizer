@@ -1,5 +1,5 @@
 /* eslint no-undefined: 0 */
-const { findFiles, saveJson, readFile } = require('utils');
+const { findFiles, readFile, macroFactory } = require('utils');
 
 const MACRO_END = 'END';
 const VER_3_PREFIX = 'VER 3';
@@ -34,16 +34,15 @@ function parseHeader(headerLine) {
 }
 
 function parseMacro(lines) {
-  const [, id, rawLabel, icon] = parseHeader(lines[0]);
+  const [, , rawLabel, icon] = parseHeader(lines[0]);
   const [prefix, label] = parseLabel(rawLabel);
 
-  return {
-    id,
+  return macroFactory({
     prefix,
     label,
     icon,
     lines: lines.slice(1, -1) // remove header line and "END"
-  };
+  });
 }
 
 function parseFile({ fileName, fileContents }) {
@@ -70,6 +69,5 @@ module.exports = function reader(macroDir) {
   return findFiles(macroDir, 'macros-cache.txt')
     .map((fileName) => readFile(fileName))
     .map((fileInfo) => parseFile(fileInfo))
-    .reduce((arr, macros) => arr.concat(macros), [])
-    .then((parsedFiles) => saveJson(parsedFiles, 'readMacros'));
+    .reduce((arr, macros) => arr.concat(macros), []);
 };

@@ -1,4 +1,4 @@
-const { readFile, saveJson } = require('utils');
+const { readFile, saveJson, macroFactory, dedupeMacros } = require('utils');
 const addon = require('./addon');
 
 function extractMacros(fileContents) {
@@ -17,7 +17,7 @@ function extractMacros(fileContents) {
       }
     });
 
-  return macros.map((lines) => ({
+  return macros.map((lines) => macroFactory({
     lines
   }));
 }
@@ -26,6 +26,6 @@ module.exports = function customMacros() {
   return addon()
     .then((addonMacros) => readFile(__dirname, 'macros.txt')
       .then(({ fileContents }) => extractMacros(fileContents))
-      .then((macros) => addonMacros.concat(macros))
-      .then((allMacros) => saveJson(allMacros, 'customMacros')));
+      .then((macros) => dedupeMacros([], addonMacros.concat(macros)))
+      .then((allMacros) => saveJson(allMacros, 'macros')));
 };

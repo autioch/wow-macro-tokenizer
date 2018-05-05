@@ -1,0 +1,2612 @@
+[
+  {
+    "label": [
+      "Affliction",
+      "Arcane",
+      "Arms",
+      "Assassination",
+      "Balance",
+      "Beast Mastery",
+      "Blood",
+      "Brewmaster",
+      "Discipline",
+      "Elemental",
+      "Havoc",
+      "Holy",
+      "Use talents specialization 1"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetSpecialization(1)"
+    ],
+    "hash": "/run SetSpecialization(1)",
+    "id": 1
+  },
+  {
+    "label": [
+      "Demonology",
+      "Enhancement",
+      "Feral",
+      "Fire",
+      "Frost",
+      "Fury",
+      "Holy",
+      "Marksmanship",
+      "Mistweaver",
+      "Outlaw",
+      "Protection",
+      "Use talents specialization 2",
+      "Vengeance"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetSpecialization(2)"
+    ],
+    "hash": "/run SetSpecialization(2)",
+    "id": 2
+  },
+  {
+    "label": [
+      "Consume Magic on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Consume Magic",
+      "/stopcasting",
+      "/cast [target=focus,exists]Consume Magic;Consume Magic"
+    ],
+    "hash": "#showtooltip Consume Magic\n/stopcasting\n/cast [target=focus,exists]Consume Magic;Consume Magic",
+    "id": 3
+  },
+  {
+    "label": [
+      "Torment on Mouseover"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Torment",
+      "/stopcasting",
+      "/cast [@mouseover,enemy,nodead]Torment;Torment"
+    ],
+    "hash": "#showtooltip Torment\n/stopcasting\n/cast [@mouseover,enemy,nodead]Torment;Torment",
+    "id": 4
+  },
+  {
+    "label": [
+      "Destruction",
+      "Frost",
+      "Guardian",
+      "Protection",
+      "Restoration",
+      "Retribution",
+      "Shadow",
+      "Subtlety",
+      "Survival",
+      "Unholy",
+      "Use talents specialization 3",
+      "Windwalker"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetSpecialization(3)"
+    ],
+    "hash": "/run SetSpecialization(3)",
+    "id": 5
+  },
+  {
+    "label": [
+      "DK live saver"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Corpse Shield",
+      "/cast Dark Transformation",
+      "/cast Huddle",
+      "/cast Protective Bile",
+      "/cast Corpse Shield"
+    ],
+    "hash": "#showtooltip Corpse Shield\n/cast Dark Transformation\n/cast Huddle\n/cast Protective Bile\n/cast Corpse Shield",
+    "id": 6
+  },
+  {
+    "label": [
+      "Secure Mind Freeze"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Mind Freeze",
+      "/stopcasting",
+      "/cast Mind Freeze"
+    ],
+    "hash": "#showtooltip Mind Freeze\n/stopcasting\n/cast Mind Freeze",
+    "id": 7
+  },
+  {
+    "label": [
+      "Restoration",
+      "Use talents specialization 4"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetSpecialization(4)"
+    ],
+    "hash": "/run SetSpecialization(4)",
+    "id": 8
+  },
+  {
+    "label": [
+      "Displacer Beast"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Displacer Beast",
+      "/stopcasting",
+      "/cast Displacer Beast",
+      "/cancelaura Cat Form"
+    ],
+    "hash": "#showtooltip Displacer Beast\n/stopcasting\n/cast Displacer Beast\n/cancelaura Cat Form",
+    "id": 9
+  },
+  {
+    "label": [
+      "Remove Corruption on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Remove Corruption",
+      "/stopcasting",
+      "/cast [target=focus,exists]Remove Corruption;Remove Corruption"
+    ],
+    "hash": "#showtooltip Remove Corruption\n/stopcasting\n/cast [target=focus,exists]Remove Corruption;Remove Corruption",
+    "id": 10
+  },
+  {
+    "label": [
+      "Example: Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip YourSkill",
+      "/stopcasting",
+      "/cast [target=focus,exists]YourSkill;YourSkill"
+    ],
+    "hash": "#showtooltip YourSkill\n/stopcasting\n/cast [target=focus,exists]YourSkill;YourSkill",
+    "id": 11
+  },
+  {
+    "label": [
+      "Example: Mouseover"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip YourSkill",
+      "/stopcasting",
+      "/cast [target=mouseover,help,nodead][]YourSkill"
+    ],
+    "hash": "#showtooltip YourSkill\n/stopcasting\n/cast [target=mouseover,help,nodead][]YourSkill",
+    "id": 12
+  },
+  {
+    "label": [
+      "Mount special"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/mountspecial"
+    ],
+    "hash": "/mountspecial",
+    "id": 13
+  },
+  {
+    "label": [
+      "Roll dice"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/dices"
+    ],
+    "hash": "/dices",
+    "id": 14
+  },
+  {
+    "label": [
+      "Trinkets boost"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/stopcasting",
+      "/use 13",
+      "/use 14"
+    ],
+    "hash": "/stopcasting\n/use 13\n/use 14",
+    "id": 15
+  },
+  {
+    "label": [
+      "Enable AutoTrack quest"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/console autoQuestWatch 1"
+    ],
+    "hash": "/console autoQuestWatch 1",
+    "id": 16
+  },
+  {
+    "label": [
+      "Mark target with Star"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 1);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 1);",
+    "id": 17
+  },
+  {
+    "label": [
+      "Mark target with Circle"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 2);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 2);",
+    "id": 18
+  },
+  {
+    "label": [
+      "Mark target with Diamond"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 3);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 3);",
+    "id": 19
+  },
+  {
+    "label": [
+      "Mark target with Triangle"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 4);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 4);",
+    "id": 20
+  },
+  {
+    "label": [
+      "Mark target with Moon"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 5);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 5);",
+    "id": 21
+  },
+  {
+    "label": [
+      "Mark target with Square"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 6);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 6);",
+    "id": 22
+  },
+  {
+    "label": [
+      "Mark target with Cross"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 7);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 7);",
+    "id": 23
+  },
+  {
+    "label": [
+      "Mark target with Skull"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SetRaidTarget(\"target\", 8);"
+    ],
+    "hash": "/run SetRaidTarget(\"target\", 8);",
+    "id": 24
+  },
+  {
+    "label": [
+      "Auto Misdirection"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Misdirection",
+      "/stopcasting",
+      "/cast [target=focus,exists][target=targettarget,exists]Misdirection"
+    ],
+    "hash": "#showtooltip Misdirection\n/stopcasting\n/cast [target=focus,exists][target=targettarget,exists]Misdirection",
+    "id": 25
+  },
+  {
+    "label": [
+      "Attack with Dire Beast and pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Dire Beast",
+      "/cast Dire Beast",
+      "/petattack",
+      "/petattack"
+    ],
+    "hash": "#showtooltip Dire Beast\n/cast Dire Beast\n/petattack\n/petattack",
+    "id": 26
+  },
+  {
+    "label": [
+      "Cancel Aspect of the Turtle"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cancelaura Aspect of the Turtle"
+    ],
+    "hash": "/cancelaura Aspect of the Turtle",
+    "id": 27
+  },
+  {
+    "label": [
+      "Chimaera Shot with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Chimaera Shot",
+      "/petattack",
+      "/cast Chimaera Shot"
+    ],
+    "hash": "#showtooltip Chimaera Shot\n/petattack\n/cast Chimaera Shot",
+    "id": 28
+  },
+  {
+    "label": [
+      "Cobra Shot with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Cobra Shot",
+      "/petattack",
+      "/cast Cobra Shot"
+    ],
+    "hash": "#showtooltip Cobra Shot\n/petattack\n/cast Cobra Shot",
+    "id": 29
+  },
+  {
+    "label": [
+      "Concussive Shot with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Concussive Shot",
+      "/petattack",
+      "/cast Concussive Shot"
+    ],
+    "hash": "#showtooltip Concussive Shot\n/petattack\n/cast Concussive Shot",
+    "id": 30
+  },
+  {
+    "label": [
+      "Growl with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Growl",
+      "/petattack",
+      "/cast Growl"
+    ],
+    "hash": "#showtooltip Growl\n/petattack\n/cast Growl",
+    "id": 31
+  },
+  {
+    "label": [
+      "Lacerate with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Lacerate",
+      "/petattack",
+      "/cast Lacerate"
+    ],
+    "hash": "#showtooltip Lacerate\n/petattack\n/cast Lacerate",
+    "id": 32
+  },
+  {
+    "label": [
+      "Marked Shot with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Marked Shot",
+      "/petattack",
+      "/cast Marked Shot"
+    ],
+    "hash": "#showtooltip Marked Shot\n/petattack\n/cast Marked Shot",
+    "id": 33
+  },
+  {
+    "label": [
+      "Misdirection on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Misdirection",
+      "/stopcasting",
+      "/cast [target=focus,exists]Misdirection"
+    ],
+    "hash": "#showtooltip Misdirection\n/stopcasting\n/cast [target=focus,exists]Misdirection",
+    "id": 34
+  },
+  {
+    "label": [
+      "Multi-Shot with pet"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Multi-Shot",
+      "/petattack",
+      "/cast Multi-Shot"
+    ],
+    "hash": "#showtooltip Multi-Shot\n/petattack\n/cast Multi-Shot",
+    "id": 35
+  },
+  {
+    "label": [
+      "Power up and attack"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Kill Command",
+      "/petattack",
+      "/cast Kill Command"
+    ],
+    "hash": "#showtooltip Kill Command\n/petattack\n/cast Kill Command",
+    "id": 36
+  },
+  {
+    "label": [
+      "Secure Feign Death"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Feign Death",
+      "/stopcasting",
+      "/petfollow",
+      "/cast Feign Death"
+    ],
+    "hash": "#showtooltip Feign Death\n/stopcasting\n/petfollow\n/cast Feign Death",
+    "id": 37
+  },
+  {
+    "label": [
+      "Cancel Ice Block"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cancelaura Ice Block"
+    ],
+    "hash": "/cancelaura Ice Block",
+    "id": 38
+  },
+  {
+    "label": [
+      "CounterSpell on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip CounterSpell",
+      "/stopcasting",
+      "/cast [target=focus,exists]CounterSpell;CounterSpell"
+    ],
+    "hash": "#showtooltip CounterSpell\n/stopcasting\n/cast [target=focus,exists]CounterSpell;CounterSpell",
+    "id": 39
+  },
+  {
+    "label": [
+      "Distant Missiles"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Arcane Missiles",
+      "/stopcasting",
+      "/castsequence Displacement, Arcane Missiles"
+    ],
+    "hash": "#showtooltip Arcane Missiles\n/stopcasting\n/castsequence Displacement, Arcane Missiles",
+    "id": 40
+  },
+  {
+    "label": [
+      "Freeze"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Freeze",
+      "/cast Freeze"
+    ],
+    "hash": "#showtooltip Freeze\n/cast Freeze",
+    "id": 41
+  },
+  {
+    "label": [
+      "Ice Block (Cancellable)"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Ice Block",
+      "/stopcasting",
+      "/cast Ice Block",
+      "/cancelaura Ice Block"
+    ],
+    "hash": "#showtooltip Ice Block\n/stopcasting\n/cast Ice Block\n/cancelaura Ice Block",
+    "id": 42
+  },
+  {
+    "label": [
+      "Polymorph on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Polymorph",
+      "/stopcasting",
+      "/cast [target=focus,exists]Polymorph;Polymorph"
+    ],
+    "hash": "#showtooltip Polymorph\n/stopcasting\n/cast [target=focus,exists]Polymorph;Polymorph",
+    "id": 43
+  },
+  {
+    "label": [
+      "Secure Blink"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Blink",
+      "/stopcasting",
+      "/cast Blink"
+    ],
+    "hash": "#showtooltip Blink\n/stopcasting\n/cast Blink",
+    "id": 44
+  },
+  {
+    "label": [
+      "Spellsteal on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Spellsteal",
+      "/stopcasting",
+      "/cast [target=focus,exists]Spellsteal;Spellsteal"
+    ],
+    "hash": "#showtooltip Spellsteal\n/stopcasting\n/cast [target=focus,exists]Spellsteal;Spellsteal",
+    "id": 45
+  },
+  {
+    "label": [
+      "Auto Chi Wave"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Chi Wave",
+      "/cast [@target,enemy][@player]Chi Wave;Chi Wave"
+    ],
+    "hash": "#showtooltip Chi Wave\n/cast [@target,enemy][@player]Chi Wave;Chi Wave",
+    "id": 46
+  },
+  {
+    "label": [
+      "Detox on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Detox",
+      "/stopcasting",
+      "/cast [target=focus,exists]Detox;Detox"
+    ],
+    "hash": "#showtooltip Detox\n/stopcasting\n/cast [target=focus,exists]Detox;Detox",
+    "id": 47
+  },
+  {
+    "label": [
+      "Ring of Peace on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Ring of Peace",
+      "/stopcasting",
+      "/cast [target=focus,exists]Ring of Peace;Ring of Peace"
+    ],
+    "hash": "#showtooltip Ring of Peace\n/stopcasting\n/cast [target=focus,exists]Ring of Peace;Ring of Peace",
+    "id": 48
+  },
+  {
+    "label": [
+      "Taunt from Statue"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Provoke",
+      "/target Black Ox Statue",
+      "/cast Provoke",
+      "/targetlasttarget"
+    ],
+    "hash": "#showtooltip Provoke\n/target Black Ox Statue\n/cast Provoke\n/targetlasttarget",
+    "id": 49
+  },
+  {
+    "label": [
+      "Tiger's Lust on Mouseover"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Tiger's Lust",
+      "/stopcasting",
+      "/cast [@mouseover,help,nodead]Tiger's Lust;Tiger's Lust"
+    ],
+    "hash": "#showtooltip Tiger's Lust\n/stopcasting\n/cast [@mouseover,help,nodead]Tiger's Lust;Tiger's Lust",
+    "id": 50
+  },
+  {
+    "label": [
+      "Beacon of Light on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Beacon of Light",
+      "/stopcasting",
+      "/cast [target=focus,exists]Beacon of Light;Beacon of Light"
+    ],
+    "hash": "#showtooltip Beacon of Light\n/stopcasting\n/cast [target=focus,exists]Beacon of Light;Beacon of Light",
+    "id": 51
+  },
+  {
+    "label": [
+      "Beacon of Virtue on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Beacon of Virtue",
+      "/stopcasting",
+      "/cast [target=focus,exists]Beacon of Virtue;Beacon of Virtue"
+    ],
+    "hash": "#showtooltip Beacon of Virtue\n/stopcasting\n/cast [target=focus,exists]Beacon of Virtue;Beacon of Virtue",
+    "id": 52
+  },
+  {
+    "label": [
+      "Blessing of Protection on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Blessing of Protection",
+      "/stopcasting",
+      "/cast [target=focus,exists]Blessing of Protection;Blessing of Protection"
+    ],
+    "hash": "#showtooltip Blessing of Protection\n/stopcasting\n/cast [target=focus,exists]Blessing of Protection;Blessing of Protection",
+    "id": 53
+  },
+  {
+    "label": [
+      "Blessing of Freedom on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Blessing of Freedom",
+      "/stopcasting",
+      "/cast [target=focus,exists]Blessing of Freedom;Blessing of Freedom"
+    ],
+    "hash": "#showtooltip Blessing of Freedom\n/stopcasting\n/cast [target=focus,exists]Blessing of Freedom;Blessing of Freedom",
+    "id": 54
+  },
+  {
+    "label": [
+      "Cleanse on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Cleanse",
+      "/stopcasting",
+      "/cast [target=focus,exists]Cleanse;Cleanse"
+    ],
+    "hash": "#showtooltip Cleanse\n/stopcasting\n/cast [target=focus,exists]Cleanse;Cleanse",
+    "id": 55
+  },
+  {
+    "label": [
+      "Cleanse Toxins on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Cleanse Toxins",
+      "/stopcasting",
+      "/cast [target=focus,exists]Cleanse Toxins;Cleanse Toxins"
+    ],
+    "hash": "#showtooltip Cleanse Toxins\n/stopcasting\n/cast [target=focus,exists]Cleanse Toxins;Cleanse Toxins",
+    "id": 56
+  },
+  {
+    "label": [
+      "Divine Shield (Cancellable)"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Divine Shield",
+      "/stopcasting",
+      "/cast Divine Shield",
+      "/cancelaura Divine Shield"
+    ],
+    "hash": "#showtooltip Divine Shield\n/stopcasting\n/cast Divine Shield\n/cancelaura Divine Shield",
+    "id": 57
+  },
+  {
+    "label": [
+      "Lay on Hands on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Lay on Hands",
+      "/stopcasting",
+      "/cast [target=focus,exists]Lay on Hands;Lay on Hands"
+    ],
+    "hash": "#showtooltip Lay on Hands\n/stopcasting\n/cast [target=focus,exists]Lay on Hands;Lay on Hands",
+    "id": 58
+  },
+  {
+    "label": [
+      "Secure Divine Shield"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Divine Shield",
+      "/stopcasting",
+      "/cast Divine Shield"
+    ],
+    "hash": "#showtooltip Divine Shield\n/stopcasting\n/cast Divine Shield",
+    "id": 59
+  },
+  {
+    "label": [
+      "Dispersion (Cancellable)"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Dispersion",
+      "/stopcasting",
+      "/cast Dispersion",
+      "/cancelaura Dispersion"
+    ],
+    "hash": "#showtooltip Dispersion\n/stopcasting\n/cast Dispersion\n/cancelaura Dispersion",
+    "id": 60
+  },
+  {
+    "label": [
+      "Leap of Faith on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Leap of Faith",
+      "/stopcasting",
+      "/cast [target=focus,exists]Leap of Faith;Leap of Faith"
+    ],
+    "hash": "#showtooltip Leap of Faith\n/stopcasting\n/cast [target=focus,exists]Leap of Faith;Leap of Faith",
+    "id": 61
+  },
+  {
+    "label": [
+      "Auto Tricks of the Trade"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Tricks of the Trade",
+      "/stopcasting",
+      "/cast [target=focus,exists][target=targettarget,exists]Tricks of the Trade"
+    ],
+    "hash": "#showtooltip Tricks of the Trade\n/stopcasting\n/cast [target=focus,exists][target=targettarget,exists]Tricks of the Trade",
+    "id": 62
+  },
+  {
+    "label": [
+      "Tricks of the Trade on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Tricks of the Trade",
+      "/stopcasting",
+      "/cast [target=focus,exists]Tricks of the Trade"
+    ],
+    "hash": "#showtooltip Tricks of the Trade\n/stopcasting\n/cast [target=focus,exists]Tricks of the Trade",
+    "id": 63
+  },
+  {
+    "label": [
+      "Purge on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Purge",
+      "/stopcasting",
+      "/cast [target=focus,exists]Purge;Purge"
+    ],
+    "hash": "#showtooltip Purge\n/stopcasting\n/cast [target=focus,exists]Purge;Purge",
+    "id": 64
+  },
+  {
+    "label": [
+      "Reincarnation"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Reincarnation"
+    ],
+    "hash": "#showtooltip Reincarnation",
+    "id": 65
+  },
+  {
+    "label": [
+      "Secure Gust of Wind"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Gust of Wind",
+      "/stopcasting",
+      "/cast Gust of Wind"
+    ],
+    "hash": "#showtooltip Gust of Wind\n/stopcasting\n/cast Gust of Wind",
+    "id": 66
+  },
+  {
+    "label": [
+      "Secure Wind Shear"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Wind Shear",
+      "/stopcasting",
+      "/cast Wind Shear"
+    ],
+    "hash": "#showtooltip Wind Shear\n/stopcasting\n/cast Wind Shear",
+    "id": 67
+  },
+  {
+    "label": [
+      "Shaman boost"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Feral Spirit",
+      "/stopcasting",
+      "/cast Feral Spirit",
+      "/cast Spirit Walk"
+    ],
+    "hash": "#showtooltip Feral Spirit\n/stopcasting\n/cast Feral Spirit\n/cast Spirit Walk",
+    "id": 68
+  },
+  {
+    "label": [
+      "Cancel Demonic Circle"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cancelaura Demonic Circle"
+    ],
+    "hash": "/cancelaura Demonic Circle",
+    "id": 69
+  },
+  {
+    "label": [
+      "Havoc on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Havoc",
+      "/stopcasting",
+      "/cast [target=focus,exists]Havoc"
+    ],
+    "hash": "#showtooltip Havoc\n/stopcasting\n/cast [target=focus,exists]Havoc",
+    "id": 70
+  },
+  {
+    "label": [
+      "Secure Demonic Circle"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Demonic Circle",
+      "/stopcasting",
+      "/cast Demonic Circle"
+    ],
+    "hash": "#showtooltip Demonic Circle\n/stopcasting\n/cast Demonic Circle",
+    "id": 71
+  },
+  {
+    "label": [
+      "Soulstone on Focus"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Soulstone",
+      "/stopcasting",
+      "/cast [target=focus,exists]Soulstone;Soulstone"
+    ],
+    "hash": "#showtooltip Soulstone\n/stopcasting\n/cast [target=focus,exists]Soulstone;Soulstone",
+    "id": 72
+  },
+  {
+    "label": [
+      "Boosted Charge"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Charge",
+      "/cast Charge",
+      "/cast Victory Rush",
+      "/cast Piercing Howl",
+      "/cast Berserker Rage",
+      "/cast Recklessness",
+      "/cast Bloodbath",
+      "/cast Avatar",
+      "/cast Battle Cry"
+    ],
+    "hash": "#showtooltip Charge\n/cast Charge\n/cast Victory Rush\n/cast Piercing Howl\n/cast Berserker Rage\n/cast Recklessness\n/cast Bloodbath\n/cast Avatar\n/cast Battle Cry",
+    "id": 73
+  },
+  {
+    "label": [
+      "Bladestorm (Cancellable)"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Bladestorm",
+      "/stopcasting",
+      "/cast Bladestorm",
+      "/cancelaura Bladestorm"
+    ],
+    "hash": "#showtooltip Bladestorm\n/stopcasting\n/cast Bladestorm\n/cancelaura Bladestorm",
+    "id": 74
+  },
+  {
+    "label": [
+      "Secure Pummel"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Pummel",
+      "/stopcasting",
+      "/cast Pummel"
+    ],
+    "hash": "#showtooltip Pummel\n/stopcasting\n/cast Pummel",
+    "id": 75
+  },
+  {
+    "label": [
+      "Warrior boost"
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Piercing Howl",
+      "/cast Piercing Howl",
+      "/cast Berserker Rage",
+      "/cast Recklessness",
+      "/cast Bloodbath",
+      "/cast Avatar",
+      "/cast Battle Cry"
+    ],
+    "hash": "#showtooltip Piercing Howl\n/cast Piercing Howl\n/cast Berserker Rage\n/cast Recklessness\n/cast Bloodbath\n/cast Avatar\n/cast Battle Cry",
+    "id": 76
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petattack"
+    ],
+    "hash": "/petattack",
+    "id": 77
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petfollow"
+    ],
+    "hash": "/petfollow",
+    "id": 78
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petstay"
+    ],
+    "hash": "/petstay",
+    "id": 79
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petautocastoff"
+    ],
+    "hash": "/petautocastoff",
+    "id": 80
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petautocaston"
+    ],
+    "hash": "/petautocaston",
+    "id": 81
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petautocasttoggle"
+    ],
+    "hash": "/petautocasttoggle",
+    "id": 82
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/startattack"
+    ],
+    "hash": "/startattack",
+    "id": 83
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/stopattack"
+    ],
+    "hash": "/stopattack",
+    "id": 84
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/stopmacro"
+    ],
+    "hash": "/stopmacro",
+    "id": 85
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/stopcasting"
+    ],
+    "hash": "/stopcasting",
+    "id": 86
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetexact Skeleton"
+    ],
+    "hash": "/targetexact Skeleton",
+    "id": 87
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetenemy"
+    ],
+    "hash": "/targetenemy",
+    "id": 88
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetfriend"
+    ],
+    "hash": "/targetfriend",
+    "id": 89
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetenemyplayer"
+    ],
+    "hash": "/targetenemyplayer",
+    "id": 90
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetfriendplayer"
+    ],
+    "hash": "/targetfriendplayer",
+    "id": 91
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetparty"
+    ],
+    "hash": "/targetparty",
+    "id": 92
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetraid"
+    ],
+    "hash": "/targetraid",
+    "id": 93
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/targetlasttarget"
+    ],
+    "hash": "/targetlasttarget",
+    "id": 94
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/usetalents 1"
+    ],
+    "hash": "/usetalents 1",
+    "id": 95
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/userandom"
+    ],
+    "hash": "/userandom",
+    "id": 96
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip",
+      "/console Sound_EnableSFX 0",
+      "/cast Icy Veins",
+      "/console Sound_EnableSFX 1",
+      "/cast Frostbolt",
+      "/run UIErrorsFrame:Clear()"
+    ],
+    "hash": "#showtooltip\n/console Sound_EnableSFX 0\n/cast Icy Veins\n/console Sound_EnableSFX 1\n/cast Frostbolt\n/run UIErrorsFrame:Clear()",
+    "id": 97
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/m"
+    ],
+    "hash": "/m",
+    "id": 98
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/use !Aspect of the Beast",
+      "/use Raptor Strike",
+      "/use Mongoose Bite"
+    ],
+    "hash": "/use !Aspect of the Beast\n/use Raptor Strike\n/use Mongoose Bite",
+    "id": 99
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/equipslot [mod:shift] 16 Nighttime",
+      "/equipslot [nomod] 16 Rimefang's Claw"
+    ],
+    "hash": "/equipslot [mod:shift] 16 Nighttime\n/equipslot [nomod] 16 Rimefang's Claw",
+    "id": 100
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip",
+      "/cast [mod] Shamanistic Rage",
+      "/castsequence [nomod] Windfury Weapon, Flametongue Weapon"
+    ],
+    "hash": "#showtooltip\n/cast [mod] Shamanistic Rage\n/castsequence [nomod] Windfury Weapon, Flametongue Weapon",
+    "id": 101
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run ShowHelm(not ShowingHelm())"
+    ],
+    "hash": "/run ShowHelm(not ShowingHelm())",
+    "id": 102
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/use [mod]Holy Shock;[@mouseover,help][help]Holy Light;[@mouseover,harm][harm]Exorsism;[@player]Holy Light"
+    ],
+    "hash": "/use [mod]Holy Shock;[@mouseover,help][help]Holy Light;[@mouseover,harm][harm]Exorsism;[@player]Holy Light",
+    "id": 103
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/use [mod]Holy Shock;[@mouseover,harm]Exorsism;[@mouseover,help]Holy Light;[harm]Exorsism;[help][@player]Holy Light"
+    ],
+    "hash": "/use [mod]Holy Shock;[@mouseover,harm]Exorsism;[@mouseover,help]Holy Light;[harm]Exorsism;[help][@player]Holy Light",
+    "id": 104
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip",
+      "/use Hunter's Mark",
+      "/use Rapid Fire",
+      "/use 13",
+      "/use 14"
+    ],
+    "hash": "#showtooltip\n/use Hunter's Mark\n/use Rapid Fire\n/use 13\n/use 14",
+    "id": 105
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/console Sound_EnableSFX 0",
+      "/console Sound_EnableSFX 1",
+      "/run UIErrorsFrame:Clear()"
+    ],
+    "hash": "/console Sound_EnableSFX 0\n/console Sound_EnableSFX 1\n/run UIErrorsFrame:Clear()",
+    "id": 106
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/dismount [mounted]",
+      "/use [flyabe] Sandstone Drake",
+      "/stopmacro [flyable]",
+      "/use Swift Spectral Tiger"
+    ],
+    "hash": "/dismount [mounted]\n/use [flyabe] Sandstone Drake\n/stopmacro [flyable]\n/use Swift Spectral Tiger",
+    "id": 107
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/use 13",
+      "/use 14",
+      "/use Arcane Power",
+      "/use Mirror Image"
+    ],
+    "hash": "/use 13\n/use 14\n/use Arcane Power\n/use Mirror Image",
+    "id": 108
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(s) then m(\"B \"..i..\": \"..s); end s=UnitDebuff(\"target\", i); if(s) then m(\"D \"..i..\": \"..s); end end"
+    ],
+    "hash": "/script function m(s) DEFAULT_CHAT_FRAME:AddMessage(s); end for i=1,16 do s=UnitBuff(\"target\", i); if(s) then m(\"B \"..i..\": \"..s); end s=UnitDebuff(\"target\", i); if(s) then m(\"D \"..i..\": \"..s); end end",
+    "id": 109
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run AcceptQuest()",
+      "/run CompleteQuest()",
+      "/run i=GetNumQuestChoices() if i<2 then GetQuestReward(1) end",
+      "/run SelectAvailableQuest(1)",
+      "/run SelectGossipAvailableQuest(1)",
+      "/run SelectActiveQuest(1)",
+      "/run SelectGossipActiveQuest(1)"
+    ],
+    "hash": "/run AcceptQuest()\n/run CompleteQuest()\n/run i=GetNumQuestChoices() if i<2 then GetQuestReward(1) end\n/run SelectAvailableQuest(1)\n/run SelectGossipAvailableQuest(1)\n/run SelectActiveQuest(1)\n/run SelectGossipActiveQuest(1)",
+    "id": 110
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/script if IsShiftKeyDown() then SendChatMessage(\".duel off\") elseif IsAltKeyDown() then SendChatMessage(\".duel off\") elseif IsControlKeyDown() then SendChatMessage(\".duel off\") else SendChatMessage(\".duel on\") end;"
+    ],
+    "hash": "/script if IsShiftKeyDown() then SendChatMessage(\".duel off\") elseif IsAltKeyDown() then SendChatMessage(\".duel off\") elseif IsControlKeyDown() then SendChatMessage(\".duel off\") else SendChatMessage(\".duel on\") end;",
+    "id": 111
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cast Polymorph",
+      "/run for i=1,GetNumRaidMembers()-1 do local u,t=\"raid\"..i,\"target\"if UnitIsUnit(u..t,t)then SendChatMessage(\"Change targets! Trying to sheep...\",\"WHISPER\",nil,UnitName(u))end end"
+    ],
+    "hash": "/cast Polymorph\n/run for i=1,GetNumRaidMembers()-1 do local u,t=\"raid\"..i,\"target\"if UnitIsUnit(u..t,t)then SendChatMessage(\"Change targets! Trying to sheep...\",\"WHISPER\",nil,UnitName(u))end end",
+    "id": 112
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cast [help] Renew; [harm] Shadow Word: Pain"
+    ],
+    "hash": "/cast [help] Renew; [harm] Shadow Word: Pain",
+    "id": 113
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip",
+      "/cast [mod:ctrl, target=focus, help] Renew else",
+      "/cast [mod:ctrl, target=focus, harm] Shadow Word: Pain else",
+      "/cast [harm] Shadow Word: Pain; [help] Renew else",
+      "/cast [@player] Renew"
+    ],
+    "hash": "#showtooltip\n/cast [mod:ctrl, target=focus, help] Renew else\n/cast [mod:ctrl, target=focus, harm] Shadow Word: Pain else\n/cast [harm] Shadow Word: Pain; [help] Renew else\n/cast [@player] Renew",
+    "id": 114
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip [equipped:Shields] Shield Bash; Pummel",
+      "/cast [equipped:Shields,stance:1/2] Shield Bash; [equipped:Shields] Defensive Stance; [stance:3] Pummel; Berserker Stance"
+    ],
+    "hash": "#showtooltip [equipped:Shields] Shield Bash; Pummel\n/cast [equipped:Shields,stance:1/2] Shield Bash; [equipped:Shields] Defensive Stance; [stance:3] Pummel; Berserker Stance",
+    "id": 115
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/script print(UnitCreatureFamily(\"pet\"))"
+    ],
+    "hash": "/script print(UnitCreatureFamily(\"pet\"))",
+    "id": 116
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cast [pet] Freeze; Frost Nova"
+    ],
+    "hash": "/cast [pet] Freeze; Frost Nova",
+    "id": 117
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Recklessness",
+      "/cast Recklessness",
+      "/cast Inner Rage",
+      "/cast Shield Block",
+      "/use 13"
+    ],
+    "hash": "#showtooltip Recklessness\n/cast Recklessness\n/cast Inner Rage\n/cast Shield Block\n/use 13",
+    "id": 118
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Recklessness",
+      "/cast Recklessness",
+      "/cast Death Wish",
+      "/cast Inner Rage",
+      "/use 13"
+    ],
+    "hash": "#showtooltip Recklessness\n/cast Recklessness\n/cast Death Wish\n/cast Inner Rage\n/use 13",
+    "id": 119
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run px,py=GetPlayerMapPosition(\"player\"); DEFAULT_CHAT_FRAME:AddMessage(format(\"You are at: %s (%0.1f, %0.1f)\",GetZoneText(),px*100,py*100));"
+    ],
+    "hash": "/run px,py=GetPlayerMapPosition(\"player\"); DEFAULT_CHAT_FRAME:AddMessage(format(\"You are at: %s (%0.1f, %0.1f)\",GetZoneText(),px*100,py*100));",
+    "id": 120
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run sfx=GetCVar(\"Sound_EnableSFX\");",
+      "/console Sound_EnableSFX 0",
+      "/use 13",
+      "/run UIErrorsFrame:Clear()",
+      "/run SetCVar(\"Sound_EnableSFX\",sfx)"
+    ],
+    "hash": "/run sfx=GetCVar(\"Sound_EnableSFX\");\n/console Sound_EnableSFX 0\n/use 13\n/run UIErrorsFrame:Clear()\n/run SetCVar(\"Sound_EnableSFX\",sfx)",
+    "id": 121
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))"
+    ],
+    "hash": "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))",
+    "id": 122
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/script local cu = GetMoney(); print(GetCoinTextureString(cu,\"12\"))",
+      "/stopmacro [btn:1]",
+      "/script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end"
+    ],
+    "hash": "/script local cu = GetMoney(); print(GetCoinTextureString(cu,\"12\"))\n/stopmacro [btn:1]\n/script yy = GetNumWatchedTokens(); for xx = 1, yy,1 do aa, bb, cc, dd, ee = GetBackpackCurrencyInfo(xx); print(bb, aa) end",
+    "id": 123
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,\"9d9d9d\")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))"
+    ],
+    "hash": "/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,\"9d9d9d\")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))",
+    "id": 124
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/script CastSpellByName(\"Engineering\");SendChatMessage(\"I'll create items against mats, look out: \"..GetTradeSkillListLink(),\"CHANNEL\",nil,GetChannelName(\"Trade - City\"));CloseTradeSkill();"
+    ],
+    "hash": "/script CastSpellByName(\"Engineering\");SendChatMessage(\"I'll create items against mats, look out: \"..GetTradeSkillListLink(),\"CHANNEL\",nil,GetChannelName(\"Trade - City\"));CloseTradeSkill();",
+    "id": 125
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run DoTradeSkill(GetTradeSkillSelectionIndex());",
+      "/run for i=0,4,1 do for l=1,GetContainerNumSlots(i),1 do if GetContainerItemID(i,l)==38682 then UseContainerItem(i,l);end;end;end;",
+      "/run ReplaceEnchant();",
+      "/run ClearCursor();"
+    ],
+    "hash": "/run DoTradeSkill(GetTradeSkillSelectionIndex());\n/run for i=0,4,1 do for l=1,GetContainerNumSlots(i),1 do if GetContainerItemID(i,l)==38682 then UseContainerItem(i,l);end;end;end;\n/run ReplaceEnchant();\n/run ClearCursor();",
+    "id": 126
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run local a,b,c,d,t,h,r,l,z;a,b=UnitClass(\"player\");c=UnitLevel(\"player\");l,t,h,d=GetLFGRoles();r=\"\";if d then r=r..\"DPS \" end;if t then r=r..\"TANK \" end;if h then r=r..\"HEALER\" end;z= a..\" LEVEL \"..c..\" LFG RDF \"..r;SendChatMessage(z,\"CHANNEL\",nil,4)"
+    ],
+    "hash": "/run local a,b,c,d,t,h,r,l,z;a,b=UnitClass(\"player\");c=UnitLevel(\"player\");l,t,h,d=GetLFGRoles();r=\"\";if d then r=r..\"DPS \" end;if t then r=r..\"TANK \" end;if h then r=r..\"HEALER\" end;z= a..\" LEVEL \"..c..\" LFG RDF \"..r;SendChatMessage(z,\"CHANNEL\",nil,4)",
+    "id": 127
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/afk reloading UI",
+      "/run SendChatMessage(\"reloading my UI - afk for a sec\", ((UnitInRaid(\"player\")and \"RAID\")or(GetNumPartyMembers()>0 and \"PARTY\")or \"AFK\"));",
+      "/console reloadui"
+    ],
+    "hash": "/afk reloading UI\n/run SendChatMessage(\"reloading my UI - afk for a sec\", ((UnitInRaid(\"player\")and \"RAID\")or(GetNumPartyMembers()>0 and \"PARTY\")or \"AFK\"));\n/console reloadui",
+    "id": 128
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/target [@focustarget, harm, nodead]"
+    ],
+    "hash": "/target [@focustarget, harm, nodead]",
+    "id": 129
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip Attack",
+      "/target [@focustarget, harm, nodead]",
+      "/startattack"
+    ],
+    "hash": "#showtooltip Attack\n/target [@focustarget, harm, nodead]\n/startattack",
+    "id": 130
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;print(nfb);"
+    ],
+    "hash": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;print(nfb);",
+    "id": 131
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\");"
+    ],
+    "hash": "/run nfb=\"[Eat!]: \";for i=1,GetNumGroupMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua==\"Well Fed\"or ua==\"Food\"then break;elseif b==40 and ua~=\"Well Fed\"then nfb=nfb..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nfb,\"raid\");",
+    "id": 132
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;print(nf);"
+    ],
+    "hash": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;print(nf);",
+    "id": 133
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\");"
+    ],
+    "hash": "/run nf=\"[Flask!]: \";for i=1,GetNumGroupMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,\"Flask\")or strfind(ufl,\"Distilled\")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i)..\" \";end;end;end;SendChatMessage(nf,\"raid\");",
+    "id": 134
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b=\"Raid\",r else c,b=\"guild\",g end;SendChatMessage(\"[iBlame]: \"..b..\".\",c);"
+    ],
+    "hash": "/run x=GetNumGuildMembers(1)g=x>0 and GetGuildRosterInfo(random(1,x))or 0;y=GetNumRaidMembers()r=y>0 and GetUnitName('raid'..random(1,y))or 0;if IsShiftKeyDown()then c,b=\"Raid\",r else c,b=\"guild\",g end;SendChatMessage(\"[iBlame]: \"..b..\".\",c);",
+    "id": 135
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run print(\"Reloading UI...\")",
+      "/reload"
+    ],
+    "hash": "/run print(\"Reloading UI...\")\n/reload",
+    "id": 136
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/use [harm][@targettarget]Smite"
+    ],
+    "hash": "/use [harm][@targettarget]Smite",
+    "id": 137
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "#showtooltip",
+      "/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help] [] SPELL"
+    ],
+    "hash": "#showtooltip\n/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help] [] SPELL",
+    "id": 138
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cast [harm,nodead] Smite; [help,nodead][@player] Renew"
+    ],
+    "hash": "/cast [harm,nodead] Smite; [help,nodead][@player] Renew",
+    "id": 139
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cast [mod:shift,@mouseover] Power Word: Shield; [@mouseover] Renew"
+    ],
+    "hash": "/cast [mod:shift,@mouseover] Power Word: Shield; [@mouseover] Renew",
+    "id": 140
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run if(ShowingHelm()) then ShowHelm(0) else ShowHelm(1) end"
+    ],
+    "hash": "/run if(ShowingHelm()) then ShowHelm(0) else ShowHelm(1) end",
+    "id": 141
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/assist"
+    ],
+    "hash": "/assist",
+    "id": 142
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/cancelform"
+    ],
+    "hash": "/cancelform",
+    "id": 143
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/changeactionbar 1"
+    ],
+    "hash": "/changeactionbar 1",
+    "id": 144
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/equipset PvP_Set"
+    ],
+    "hash": "/equipset PvP_Set",
+    "id": 145
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petaggressive"
+    ],
+    "hash": "/petaggressive",
+    "id": 146
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petdefensive"
+    ],
+    "hash": "/petdefensive",
+    "id": 147
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/petpassive"
+    ],
+    "hash": "/petpassive",
+    "id": 148
+  },
+  {
+    "label": [
+      ""
+    ],
+    "prefix": [
+      ""
+    ],
+    "icon": [
+      ""
+    ],
+    "lines": [
+      "/run SendChatMessage(format(\"10g per item %s\", select(2, GetSpellLink(\"Tailoring\"))), \"CHANNEL\", nil, GetChannelName(\"Trade - City\"))"
+    ],
+    "hash": "/run SendChatMessage(format(\"10g per item %s\", select(2, GetSpellLink(\"Tailoring\"))), \"CHANNEL\", nil, GetChannelName(\"Trade - City\"))",
+    "id": 149
+  }
+]
