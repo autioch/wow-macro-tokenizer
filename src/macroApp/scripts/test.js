@@ -1,9 +1,4 @@
 /* eslint-disable no-magic-numbers */
-/* eslint-disable no-process-env */
-/* eslint-disable no-process-exit */
-/* eslint-disable no-console */
-/* eslint-disable no-sync */
-/* eslint-disable max-len */
 
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'test';
