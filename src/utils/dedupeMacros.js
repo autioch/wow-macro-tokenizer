@@ -25,7 +25,7 @@ module.exports = function dedupeMacros(existingMacros, newMacros) {
 
   return Object.values(dict).map((macro) => {
     PROPS.forEach((prop) => {
-      macro[prop] = uniq(macro[prop]).sort((a, b) => a.localeCompare(b));
+      macro[prop] = uniq(macro[prop]).filter((val) => !!val).sort((a, b) => a.localeCompare(b));
     });
 
     return macro;

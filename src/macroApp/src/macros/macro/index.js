@@ -29,6 +29,6 @@ export default ({ macro, style }) => (
       </div>
       <ul className="macro__tags">{macro.tags.map((tag, index2) => <Tag key={index2} tag={tag}/>)}</ul>
     </div>
-    <div className="macro__lines">{macro.lines.map((line, index2) => <Line key={index2} line={line}/>)}</div>
+    <div className="macro__lines">{macro.parsedLines.map((line, index2) => <Line key={index2} line={line}/>)}</div>
   </div>
 );

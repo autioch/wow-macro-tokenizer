@@ -76,15 +76,19 @@ function setData({ store, data: { tags, icons, macros, categories } }) {
         id: index,
         ...macro,
         labels: macro.label,
-        tokens: flattenDeep(macro.lines.map((line) => line.tokens)).filter((token) => !!token.value).map((token) => ({
-          ...token,
-          value: token.value.toLowerCase()
-        })),
+        tokens: flattenDeep(macro.parsedLines.map((line) => line.tokens))
+          .filter((token) => !!token.value)
+          .map((token) => ({
+            ...token,
+            value: token.value.toLowerCase()
+          })),
         tags: macro.tags.map((tagId) => tagIdDict[tagId]),
-        icons: macro.icon.map((icon) => ({
-          label: icon,
-          src: lowCaseIcons[icon.toLowerCase()]
-        }))
+        icons: macro.icon
+          .filter((icon) => !!icon)
+          .map((icon) => ({
+            label: icon,
+            src: lowCaseIcons[icon.toLowerCase()]
+          }))
       })),
       categories: Object.entries(categories).map(([label, id]) => ({
         id,
